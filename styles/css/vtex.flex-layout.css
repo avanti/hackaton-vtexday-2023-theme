@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 40em) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -11,6 +12,7 @@
 }
 
 @media screen and (min-width: 80rem) {
+
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
@@ -18,8 +20,17 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
+  background-color: #25282A;
+  color: #B1B3B3;
+  width: 100%;
+  height: 32px;
+  padding-left: 334px;
+  padding-right: 332px;
+}
+
+.flexRowContent--menu-link--menu-frete {
+
+
 }
 
 .flexRowContent--main-header {
@@ -33,8 +44,8 @@
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
-  font-size: 14px;
+  color: #B1B3B3;
+  font-size: 12px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {

@@ -1,13 +1,13 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#promo"
     ]
   },
-  "menu-item#shop": {
+  "menu-item#promo": {
     "props": {
-      "id": "menu-item-shop",
+      "blockClass": "menu-frente",
+      "id": "menu-item-promo",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -15,17 +15,19 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "promo",
+        "text": "Frete grátis acima de R$299,00 para Região Sudeste"
       }
     }
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
+      "menu-item#vtex-dealer",
+      "rich-text#barra",
+      "menu-item#vtex-representative"
     ]
   },
-  "menu-item#vtex-website": {
+  "menu-item#vtex-dealer": {
     "props": {
       "id": "menu-item-vtex-website",
       "type": "custom",
@@ -33,10 +35,30 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "seja um revendedor",
+        "text": "SEJA UM REVENDEDOR"
+      }
+    }
+  },
+  "rich-text#barra": {
+    "props": {
+      "text": "|"
+    }
+  },
+  "menu-item#vtex-representative": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "seja um representante",
+        "text": "SEJA UM REPRESENTANTE"
       }
     }
   }
