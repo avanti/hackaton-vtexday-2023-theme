@@ -1,3 +1,27 @@
+.logoContainer {
+  padding: 0;
+  margin: 0;
+
+}
+
+.logoImage {
+  vertical-align: sub;
+}
+
+.searchBarContainer {
+  width: 721px;
+  padding-top: 15px;
+}
+
+.noAppearance {
+  height: 40px;
+  border-radius: 50px;
+}
+
+.autoCompleteOuterContainer {
+
+}
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;

@@ -22,17 +22,25 @@
   
   "flex-layout.row#3-desktop": {
     "props": {
-      "blockClass": "menu-link",
+      "blockClass": ["menu-link"],
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      // "vtex.menu@2.x:menu#websites"
+      "rich-text#offers"
+      // "flex-layout.col#spacer",
+      // "vtex.menu@2.x:menu#institutional"
     ]
+  },
+  "rich-text#offers": {
+    "props": {
+      "blockClass": ["menu-link, text-offers"],
+      "text": "[Confira as ofertas do mês de abril](/)"
+
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -43,7 +51,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -55,11 +65,24 @@
       "fullWidth": true
     },
     "children": [
+      "flex-layout.row#search-desktop",
+      "flex-layout.row#category-menu"
+      // "flex-layout.col#spacer"
+      ]
+  },
+  "flex-layout.row#search-desktop": {
+    "props": {
+      "blockClass": "main-header-search",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
+      // "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -70,8 +93,9 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#category-menu": {
+  "flex-layout.row#category-menu": {
     "props": {
+      "blockClass": "menu-categories",
       "verticalAlign": "middle"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
@@ -80,9 +104,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "assets/img/avanti.svg",
+      "width": "152.7",
+      "height": "27.08"
     }
   },
   "header-layout.mobile": {
