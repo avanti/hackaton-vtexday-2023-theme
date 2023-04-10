@@ -87,6 +87,50 @@
       "minicart.v2"
     ]
   },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxTopSearches": "5",
+      "maxHistory": "5",
+      "maxSuggestedProducts": "3"
+
+    }
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -136,9 +180,14 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#all-categories",
+      "menu-item#category-one",
+      "menu-item#category-second",
+      "menu-item#category-third",
+      "menu-item#category-fourth",
+      "menu-item#category-fifth",
+      "menu-item#category-sixth",
+      "menu-item#category-seventh"
     ],
     "props": {
       "orientation": "vertical"
@@ -153,5 +202,98 @@
       "width": "77.5",
       "height": "27.5"
     }
-  }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Entrar"
+    }
+  },
+  "minicart.v2": {
+    "props": {
+      "quantityDisplay": "not-empty",
+      "MinicartIcon": "image#minicart-icon",
+      "blockClass": "carrinho"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "image#minicart-icon": {
+    "props": {
+      "size": 24,
+      "src": "assets/cart.svg"
+    }
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  "minicart-checkout-button": {
+    "props": {
+      "blockClass": "carrinhoButton",
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 64,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Your cart is empty."
+    }
+  }  
 }

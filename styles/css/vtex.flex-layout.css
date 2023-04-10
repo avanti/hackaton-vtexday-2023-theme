@@ -39,16 +39,14 @@
   height: 144px;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
+  padding-left: 334px;
+  padding-right: 334px;
   border: 0;
 }
 
-.flexRow--main-header-search {
-  padding-left: 334px;
-  padding-right: 334px;
+/* .flexRow--main-header-search {
   margin: 0;
-}
+} */
 
 .flexCol {
   justify-content: flex-start;
@@ -125,4 +123,9 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--menu-categories {
+  margin: 0;
+  padding: 0;
 }

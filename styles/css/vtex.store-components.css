@@ -18,8 +18,15 @@
   border-radius: 50px;
 }
 
-.autoCompleteOuterContainer {
-
+.searchBarIcon {
+  color: transparent;
+  background-image: url('assets/img/search.svg');
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat; 
+  padding: 0;
+  margin-top: 7px;
+  margin-left: 20px;
 }
 
 .notificationBarContainer {
@@ -42,6 +49,8 @@
   max-width: 1528px;
   margin: 0 auto;
 }
+
+
 
 .newsletter .container {
   padding: 60px 10px;
