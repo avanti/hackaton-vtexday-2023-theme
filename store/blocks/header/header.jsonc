@@ -29,10 +29,7 @@
       "fullWidth": true
     },
     "children": [
-      // "vtex.menu@2.x:menu#websites"
       "rich-text#offers"
-      // "flex-layout.col#spacer",
-      // "vtex.menu@2.x:menu#institutional"
     ]
   },
   "rich-text#offers": {
@@ -225,7 +222,7 @@
   "image#minicart-icon": {
     "props": {
       "size": 24,
-      "src": "assets/cart.svg"
+      "src": "assets/img/cart.svg"
     }
   },
   "minicart-base-content": {

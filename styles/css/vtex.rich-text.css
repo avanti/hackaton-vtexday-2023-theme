@@ -1,15 +1,15 @@
 .paragraph {
   text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-  padding-top: 3px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 30px;
 }
 
 .link {
   text-decoration: none;
   color: #FFF;
   font-size: 12px;
-
 }
 
 .wrapper {
