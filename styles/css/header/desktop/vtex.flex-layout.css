@@ -11,8 +11,11 @@
     height: 144px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .stretchChildrenWidth :global(.vtex-flex-layout-0-x-flexCol) {
     width: 100%;
 }
+
+

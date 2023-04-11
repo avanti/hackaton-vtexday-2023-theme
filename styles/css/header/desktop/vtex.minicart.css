@@ -2,6 +2,15 @@
     background-color: #005CFF;
 }
 
+.openIconContainer {
+    padding: 0;
+}
+
+.openIconContainer--carrinho, .minicartWrapperContainer--carrinho, .openIconContainer {
+    width: 25px;
+    height: 24px;
+}
+
 .closeIconContainer::after {
     content: "Meu carrinho";
     color: #FFF;

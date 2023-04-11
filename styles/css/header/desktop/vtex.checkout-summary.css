@@ -1,4 +1,5 @@
-.price, .summaryItemLabel {
+.price,
+.summaryItemLabel {
     font-size: 14px;
 }
 
@@ -6,7 +7,7 @@
     display: none;
 }
 
-/* .summaryItemContainer:last-child {
-    
-} */
-
+.summaryItemContainer:last-child .summaryItemLabel,
+.summaryItemContainer:last-child .price {
+    font-weight: bold;
+}
