@@ -30,11 +30,6 @@
   margin: 0;
 } */
 
-.flexCol {
-  justify-content: flex-start;
-  padding-top: 21px;
-  padding-right: 113.43px;
-}
 
 .flexRowContent--main-header-mobile {
   align-items: center;

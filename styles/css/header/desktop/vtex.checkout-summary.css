@@ -1,0 +1,12 @@
+.price, .summaryItemLabel {
+    font-size: 14px;
+}
+
+.summarySmallDisclaimer {
+    display: none;
+}
+
+/* .summaryItemContainer:last-child {
+    
+} */
+
