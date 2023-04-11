@@ -61,6 +61,12 @@
   align-items: center;
 }
 
+.stretchChildrenWidth .flexCol {
+  width: 89px;
+  padding: 0;
+  margin: 0;
+}
+
 .flexRow--deals .flexCol {
   align-items: center;
   margin-bottom: 5px;

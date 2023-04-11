@@ -1,0 +1,14 @@
+.closeIconContainer {
+    background-color: #005CFF;
+}
+
+.closeIcon {
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+/* .minicartProductListContainer {
+    height: 90px;
+} */

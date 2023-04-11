@@ -92,7 +92,7 @@
       "maxTopSearches": "5",
       "maxHistory": "5",
       "maxSuggestedProducts": "3",
-      "placeholder": "Digite aqui o que você procura",
+      "placeholder": "Digite aqui o que você procura"
     }
   },
   "search-result-layout.desktop": {
@@ -218,7 +218,6 @@
   },
   "minicart.v2": {
     "props": {
-      "quantityDisplay": "not-empty",
       "MinicartIcon": "image#minicart-icon",
       "blockClass": "carrinho"
     },
