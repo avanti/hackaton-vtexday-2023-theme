@@ -1,0 +1,23 @@
+.styledLinkContent--text-offers {
+    text-transform: uppercase;
+
+}
+
+.styledLinkContainer--text-offers {
+
+}
+.menuItem {
+    height: 30px;
+
+
+}
+.menuItem--text-offers {
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContainer {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}

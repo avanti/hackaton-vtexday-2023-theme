@@ -20,25 +20,10 @@
   }
 }
 
-.flexRowContent--menu-link {
-  background-color: #005CFF;
-  color: #B1B3B3;
-  display: flex;
-  width: 100%;
-
-}
-
 .flexrow {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-.flexRowContent--main-header {
-  background-color: #f0f0f0;
-  height: 144px;
-  display: flex;
-  flex-direction: column;
 }
 
 /* .flexRow--main-header-search {

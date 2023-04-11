@@ -16,6 +16,7 @@
   },
   "menu-item#all-categories": {
     "props": {
+      "blockClass": "all-categories",
       "id": "menu-item-all-categories",
       "type": "custom",
       "iconId": null,

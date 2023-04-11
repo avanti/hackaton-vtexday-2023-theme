@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px) {
+    
+    .minicartWrapperContainer {
+        margin: 0;
+        justify-content: flex-end;
+    }
+}

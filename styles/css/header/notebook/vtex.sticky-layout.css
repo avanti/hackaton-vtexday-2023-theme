@@ -1,0 +1,8 @@
+@media screen and (min-width: 1024px) {
+
+    .wrapper {
+        padding-left: 178px;
+        padding-right: 178px;
+        width: 100%;
+    }
+}

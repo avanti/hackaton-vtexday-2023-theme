@@ -87,11 +87,12 @@
   "search-bar": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
+      "blockClass": "input-color",
       "openAutocompleteOnFocus": true,
       "maxTopSearches": "5",
       "maxHistory": "5",
-      "maxSuggestedProducts": "3"
-
+      "maxSuggestedProducts": "3",
+      "placeholder": "Digite aqui o que você procura",
     }
   },
   "search-result-layout.desktop": {
@@ -137,7 +138,11 @@
   "flex-layout.row#category-menu": {
     "props": {
       "blockClass": "menu-categories",
-      "verticalAlign": "middle"
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
