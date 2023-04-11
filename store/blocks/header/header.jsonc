@@ -36,7 +36,6 @@
     "props": {
       "blockClass": ["menu-link, text-offers"],
       "text": "[Confira as ofertas do mês de abril](/)"
-
     }
   },
   "flex-layout.col#spacer": {

@@ -1,0 +1,20 @@
+.socialNetworkImage--facebook {
+    color: transparent;
+    background-image: url('assets/img/facebook.svg');
+}
+
+.socialNetworkImage--instagram {
+    color: transparent;
+    background-image: url('assets/img/instagram.svg');
+}
+
+.socialNetworkImage--twitter {
+    color: transparent;
+    background-image: url('assets/img/twitter.svg');
+}
+
+.socialNetworkImage--linkedin {
+    color: transparent;
+    background-image: url('assets/img/linkedin.svg');
+}
+

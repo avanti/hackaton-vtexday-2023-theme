@@ -18,4 +18,35 @@
     width: 100%;
 }
 
+.flexRow--menu-row {
+    background-color: #F2F2F2;
+    height: 254px;
+    padding-left: 363px;
+    padding-right: 362px;
+}
+
+.flexRowContent--menu-row:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.stretchChildrenWidth {
+    width: 100%!important;
+}
+
+.flexRow-payment-methods {
+    align-items: center;
+    text-align: center;
+}
+
+.flexRow--credits {
+    margin-top: 36px;
+    margin-bottom: 29px;
+    height: 59px;
+}
+
+.flexRow--brands-footer {
+    padding-bottom: 34px;
+    justify-content: center;
+}
 

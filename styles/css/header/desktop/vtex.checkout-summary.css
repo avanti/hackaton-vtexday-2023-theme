@@ -10,4 +10,5 @@
 .summaryItemContainer:last-child .summaryItemLabel,
 .summaryItemContainer:last-child .price {
     font-weight: bold;
+    font-size: 16px;
 }
