@@ -65,6 +65,14 @@
     flex-direction: column;
 }
 
-.flexRowContent--social-media-line {
-    text-align: left;
+.flexRow--social-media-line {
+    margin-top: 0.52vw;
+}
+
+.flexRowContent--payment-line {
+    margin-top: 1vw;
+}
+
+.flexRowContent--payment-line:first-child {
+    margin-top: 1vw;
 }

@@ -4,11 +4,21 @@
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#teste",
       "menu-item#news",
       "menu-item#blackfriday",
       "menu-item#sale",
       "menu-item#personalization"
     ]
+  },
+
+  "rich-text#teste": {
+    "props": {
+      "blockClass": [
+        "footer-spipe"
+      ],
+      "text": "aloka"
+    }
   },
   "menu-item#news": {
     "props": {

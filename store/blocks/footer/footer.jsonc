@@ -62,7 +62,8 @@
 
 "flex-layout.row#social-media-line": {
   "props": {
-    "blockClass": "social-media-line"
+    "blockClass": "social-media-line",
+    "preventHorizontalStretch": true
   },
   "children": [
     "image#facebook",
@@ -74,46 +75,123 @@
 
 "image#facebook": {
   "props": {
+    "blockClass": "image-media",
     "src": "assets/img/facebook.svg",
     "maxHeight": 24
   }
 },
 "image#instagram": {
   "props": {
+    "blockClass": "image-media",
     "src": "assets/img/instagram.svg",
     "maxHeight": 24
   }
 },
 "image#linkedin": {
   "props": {
-    "src": "assets/img/twitter.svg",
+    "blockClass": "image-media",
+    "src": "assets/img/linkedin.svg",
     "maxHeight": 24
   }
 },
 "image#twitter": {
   "props": {
-    "src": "assets/img/linkedin.svg",
+    "blockClass": "image-media",
+    "src": "assets/img/twitter.svg",
     "maxHeight": 24
   }
 },
+
 "flex-layout.row#footer-2-desktop": {
   "children": [
-    "accepted-payment-methods"
+    "flex-layout.row#payment-methods"
   ],
   "props": {
     "blockClass": "payment-methods"
   }
 },
-"accepted-payment-methods": {
+
+"flex-layout.row#payment-methods": {
   "props": {
-    "paymentMethods": [
-      "Amex",
-      "MasterCard",
-      "Visa",
-      "Diners Club"
-    ]
+    "blockClass": "payment-line",
+    "preventHorizontalStretch": true,
+    "horizontalAlign": "center"
+  },
+  "children": [
+    "image#amex",
+    "image#mastercard",
+    "image#visa",
+    "image#hipercard",
+    "image#elo",
+    "image#diners",
+    "image#paypal",
+    "image#pix",
+    "image#boleto"
+  ]
+},
+
+"image#amex": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/amex.svg",
+    "maxHeight": 24
   }
 },
+"image#mastercard": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/mastercard.svg",
+    "maxHeight": 24
+  }
+},
+"image#visa": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/visa.svg",
+    "maxHeight": 24
+  }
+},
+"image#hipercard": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/hipercard.svg",
+    "maxHeight": 24
+  }
+},"image#elo": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/elo.svg",
+    "maxHeight": 24
+  }
+},
+"image#diners": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/diners.svg",
+    "maxHeight": 24
+  }
+},"image#paypal": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/paypal.svg",
+    "maxHeight": 24
+  }
+},
+"image#pix": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/pix.svg",
+    "maxHeight": 24
+  }
+},"image#boleto": {
+  "props": {
+    "blockClass": "image-payment",
+    "src": "assets/img/boleto.svg",
+    "maxHeight": 24
+  }
+},
+
+
 "flex-layout.row#footer-3-desktop": {
   "children": [
     "rich-text#footer"

@@ -33,3 +33,12 @@
     border-radius: 10px;
     border: 1px solid black;
 }
+
+.imageElement--image-media {
+    margin-right: 0.78vw;
+    border-radius: 3px;
+}
+
+.imageElement--image-payment {
+    margin-right: 1.77vw;
+}
