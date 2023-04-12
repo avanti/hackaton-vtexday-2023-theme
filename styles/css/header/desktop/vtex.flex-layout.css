@@ -3,7 +3,6 @@
     color: #B1B3B3;
     display: flex;
     width: 100%;
-
 }
 
 .flexRowContent--main-header {
@@ -11,7 +10,16 @@
     height: 144px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+}
+
+.flexRowContent--main-header:first-child {
+    align-items: center;
+}
+
+.flexRow--menu-categories {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 .stretchChildrenWidth :global(.vtex-flex-layout-0-x-flexCol) {
@@ -21,8 +29,8 @@
 .flexRow--menu-row {
     background-color: #F2F2F2;
     height: 254px;
-    padding-left: 363px;
-    padding-right: 362px;
+    padding-left: 18.75vw;
+    padding-right: 18.75vw;  
 }
 
 .flexRowContent--menu-row:first-child {
@@ -31,7 +39,7 @@
 }
 
 .stretchChildrenWidth {
-    width: 100%!important;
+    width: 100% !important;
 }
 
 .flexRow-payment-methods {
@@ -40,13 +48,23 @@
 }
 
 .flexRow--credits {
-    margin-top: 36px;
-    margin-bottom: 29px;
+    margin-top: 1.85vw;
+    margin-bottom: 1.5vw;
     height: 59px;
+    padding-left: 23.69vw;   
+    padding-right: 18.85vw; 
 }
 
 .flexRow--brands-footer {
-    padding-bottom: 34px;
+    padding-bottom: 1.77vw;
     justify-content: center;
 }
 
+.flexRowContent--social-media-network {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--social-media-line {
+    text-align: left;
+}

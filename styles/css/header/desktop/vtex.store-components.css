@@ -1,17 +1,16 @@
 .logoContainer {
-
-    align-items: flex-start;
+    padding: 0;
 }
 
-.logoImage, .logoLink {
+/* .logoImage, .logoLink {
     height: 27.08px;
     width: 152.57px;
-}
+} */
 
 .searchBarContainer {
-    width: 721px;
+    width: 37.55vw;
     padding-top: 15px;
-    margin-left: 132.43px;
+    padding-left: 6.89vw;
 }
 
 .noAppearance {

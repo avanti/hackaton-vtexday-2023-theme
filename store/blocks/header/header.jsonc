@@ -91,6 +91,7 @@
       "maxTopSearches": "5",
       "maxHistory": "5",
       "maxSuggestedProducts": "3",
+      "containerMode": "container",
       "placeholder": "Digite aqui o que você procura"
     }
   },
@@ -150,8 +151,7 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/img/avanti.svg",
-      "width": "152.7",
-      "height": "27.08"
+      "showLabel": false
     }
   },
   "header-layout.mobile": {

@@ -7,3 +7,7 @@
 .container--footer-pipe::before {
     width: min-content;
 }
+
+.paragraph--social-media-text {
+    font-size: 14px;
+}

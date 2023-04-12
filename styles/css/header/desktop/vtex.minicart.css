@@ -2,6 +2,10 @@
     height: 100%;
 }
 
+.minicartWrapperContainer {
+    margin-left: 2.03vw;
+}
+
 .cartIcon {
     color: transparent;
     background-image: url('assets/img/cart.svg');

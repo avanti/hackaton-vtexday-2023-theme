@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "blockClass": "space-categories"
     },
     "children": [
       "menu-item#all-categories",
@@ -163,6 +164,7 @@
   },
   "menu-item#seventh": {
     "props": {
+      "blockClass": "seventh-item",
       "id": "menu-item-first",
       "type": "custom",
       "iconId": null,
