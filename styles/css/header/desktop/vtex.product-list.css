@@ -25,3 +25,43 @@
     height: 25px;
     background-repeat: no-repeat;
 }
+
+.quantitySelectorDecrease, 
+.quantitySelectorIncrease {
+    background-color: white;
+    border: 0;
+    color: black;
+    height: 22px;
+    width: 25px;
+}
+
+.quantitySelectorButton{
+    height: 30px;
+    width: 30px;
+}
+
+.quantitySelectorWrapper {
+    border: 1px solid darkgrey;
+    border-radius: 10%;
+    height: 36px;
+    width: 100px;
+}
+
+.inputContainer {
+    padding-right: 0;
+    padding-left: 0;
+    height: 30px;
+    width: 30px;
+}
+
+/* .price{
+    margin-left: 74px;
+    margin-top: -26px;
+    font-weight: bold;
+} 
+
+.productPriceCurrency{
+    display: none;
+}
+
+*/

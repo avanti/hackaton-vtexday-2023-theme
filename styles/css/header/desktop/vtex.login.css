@@ -3,7 +3,7 @@
     background-image: url('assets/img/user.svg');
     height: 24px;
     width: 25px;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -15,4 +15,32 @@
     padding: 0;
     font-size: 20px;
     color: black;
+}
+
+.options {
+    min-width: 0;
+}
+
+.content--loginOptions {
+    padding: 0.8rem;
+}
+
+.content--loginOptions,
+.contentFormVisible,
+.loginOptionsContainer,
+.contentContainer {
+    border-radius: 10px;
+}
+
+.content--loginOptions :global(.vtex-login-2-x-formTitle) {
+    visibility: hidden;
+    font-size: 0;
+    margin-top: 1rem;
+}
+
+.content--loginOptions :global(.vtex-login-2-x-formTitle)::before {
+    visibility: visible;
+    content: "Escolha como entrar";
+    font-size: 14px;
+    font-weight: bold;
 }
