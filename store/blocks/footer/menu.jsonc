@@ -1,6 +1,7 @@
 {
   "vtex.menu@2.x:menu#Products": {
     "props": {
+      "blockClass": "menu-blocks",
       "orientation": "vertical"
     },
     "children": [
@@ -68,6 +69,7 @@
   },
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
+      "blockClass": "menu-blocks",
       "orientation": "vertical"
     },
     "children": [
@@ -200,7 +202,8 @@
 
   "flex-layout.row#office-information": {
   "props": {
-    "orientation": "vertical"
+    "orientation": "vertical",
+    "preventHorizontalStretch": true
   },
   "children": [
     "flex-layout.row#office-hour",
@@ -281,6 +284,7 @@
   },
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
+      "blockClass": "menu-blocks",
       "orientation": "vertical"
     },
     "children": [

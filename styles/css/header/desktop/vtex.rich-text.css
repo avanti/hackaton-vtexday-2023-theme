@@ -4,23 +4,33 @@
     text-align: center;
 }
 
-.container--footer-pipe::before {
-    width: min-content;
+.container--footer-pipe {
+    margin-right: 1.71vw;
 }
 
-.paragraph--social-media-text {
-    font-size: 14px;
+.paragraph--footer-pipe {
+    color: lightgray;
+    font-size: 20px;
 }
 
-.wrapper--top-information {
+.flexRowContent--social-media-network:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 20.52vw;
+}
+
+.paragraph--social-media-text, .wrapper--top-information, .wrapper--menu-item-service-information:first-child {
     font-size: 14px;
+    color: black;
 
 }
 
 .wrapper--menu-item-service-information:first-child {
-    font-size: 14px;
+    font-weight: normal;
 }
 
 .paragraph--menu-item-service-information {
     text-transform: none;
+}
+
+.container--menu-item-service-information {
+    height: 20px;
 }

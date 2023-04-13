@@ -20,7 +20,9 @@
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 3,
+      "fullWidth": true,
+      "colSizing": "auto"
     }
   },
   "flex-layout.row#first-line": {
@@ -32,7 +34,8 @@
       "vtex.menu@2.x:menu#footer-bags"
     ],
     "props": {
-      "blockClass": "first-line"
+      "blockClass": "first-line",
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#second-line": {
@@ -45,253 +48,261 @@
   },
   "flex-layout.row#social-media": {
     "props": {
-      "blockClass": "social-media-network"
+      "blockClass": "social-media-network",
+      "colSizing": "auto"
     },
     "children": [
       "rich-text#social-media",
       "flex-layout.row#social-media-line"
     ]
   },
-
-"rich-text#social-media": {
-  "props": {
-    "blockClass": "social-media-text",
-    "text": "Siga nossas redes sociais"
-  }
-},
-
-"flex-layout.row#social-media-line": {
-  "props": {
-    "blockClass": "social-media-line",
-    "preventHorizontalStretch": true
+  "rich-text#social-media": {
+    "props": {
+      "blockClass": "social-media-text",
+      "text": "Siga nossas redes sociais"
+    }
   },
-  "children": [
-    "image#facebook",
-    "image#instagram",
-    "image#linkedin",
-    "image#twitter"
-  ]
-},
-
-"image#facebook": {
-  "props": {
-    "blockClass": "image-media",
-    "src": "assets/img/facebook.svg",
-    "maxHeight": 24
-  }
-},
-"image#instagram": {
-  "props": {
-    "blockClass": "image-media",
-    "src": "assets/img/instagram.svg",
-    "maxHeight": 24
-  }
-},
-"image#linkedin": {
-  "props": {
-    "blockClass": "image-media",
-    "src": "assets/img/linkedin.svg",
-    "maxHeight": 24
-  }
-},
-"image#twitter": {
-  "props": {
-    "blockClass": "image-media",
-    "src": "assets/img/twitter.svg",
-    "maxHeight": 24
-  }
-},
-
-"flex-layout.row#footer-2-desktop": {
-  "children": [
-    "flex-layout.row#payment-methods"
-  ],
-  "props": {
-    "blockClass": "payment-methods"
-  }
-},
-
-"flex-layout.row#payment-methods": {
-  "props": {
-    "blockClass": "payment-line",
-    "preventHorizontalStretch": true,
-    "horizontalAlign": "center"
+  "flex-layout.row#social-media-line": {
+    "props": {
+      "blockClass": "social-media-line",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#linkedin",
+      "image#twitter"
+    ]
   },
-  "children": [
-    "image#amex",
-    "image#mastercard",
-    "image#visa",
-    "image#hipercard",
-    "image#elo",
-    "image#diners",
-    "image#paypal",
-    "image#pix",
-    "image#boleto"
-  ]
-},
-
-"image#amex": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/amex.svg",
-    "maxHeight": 24
-  }
-},
-"image#mastercard": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/mastercard.svg",
-    "maxHeight": 24
-  }
-},
-"image#visa": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/visa.svg",
-    "maxHeight": 24
-  }
-},
-"image#hipercard": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/hipercard.svg",
-    "maxHeight": 24
-  }
-},"image#elo": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/elo.svg",
-    "maxHeight": 24
-  }
-},
-"image#diners": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/diners.svg",
-    "maxHeight": 24
-  }
-},"image#paypal": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/paypal.svg",
-    "maxHeight": 24
-  }
-},
-"image#pix": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/pix.svg",
-    "maxHeight": 24
-  }
-},"image#boleto": {
-  "props": {
-    "blockClass": "image-payment",
-    "src": "assets/img/boleto.svg",
-    "maxHeight": 24
-  }
-},
-
-
-"flex-layout.row#footer-3-desktop": {
-  "children": [
-    "rich-text#footer"
-  ],
-  "props": {
-    "blockClass": "credits"
-  }
-},
-"rich-text#footer": {
-  "props": {
-    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Selecione par",
-    "blockClass": "footer"
-  }
-},
-"flex-layout.row#footer-4-desktop": {
-  "children": [
-    "image#brands-1",
-    "image#brands-2",
-    "rich-text#pipe-footer",
-    "image#brands-3",
-    "image#brands-4"
-  ],
-  "props": {
-    "blockClass": "brands-footer"
-  }
-},
-"image#brands-1": {
-  "props": {
-    "src": "assets/img/let-s-encrypt-seeklogo.com.svg",
-    "maxHeight": 24
-  }
-},
-"image#brands-2": {
-  "props": {
-    "src": "assets/img/pci-certified.png",
-    "maxHeight": 24
-  }
-},
-"image#brands-3": {
-  "props": {
-    "src": "assets/img/avanti.svg",
-    "maxHeight": 24
-  }
-},
-"image#brands-4": {
-  "props": {
-    "src": "assets/img/VTEX.svg",
-    "maxHeight": 24
-  }
-},
-"rich-text#pipe-footer": {
-  "props": {
-    "blockClass": [
-      "footer-pipe"
+  "image#facebook": {
+    "props": {
+      "blockClass": "image-media",
+      "src": "assets/img/facebook.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "blockClass": "image-media",
+      "src": "assets/img/instagram.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#linkedin": {
+    "props": {
+      "blockClass": "image-media",
+      "src": "assets/img/linkedin.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#twitter": {
+    "props": {
+      "blockClass": "image-media",
+      "src": "assets/img/twitter.svg",
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.row#payment-methods"
     ],
-    "text": "|"
-  }
-},
-"footer-layout.mobile": {
-  "children": [
-    "flex-layout.row#1-footer-mobile",
-    "flex-layout.row#2-footer-mobile"
-  ]
-},
-"flex-layout.row#2-footer-mobile": {
-  "children": [
-    "flex-layout.col#footer-1-mobile"
-  ],
-  "props": {
-    "blockClass": "payment-methods",
-    "paddingTop": 4,
-    "paddingBottom": 4
-  }
-},
-"flex-layout.col#footer-1-mobile": {
-  "children": [
-    "accepted-payment-methods",
-    "social-networks",
-    "rich-text#footer-mobile"
-  ],
-  "props": {
-    "blockClass": "payment-methods",
-    "paddingTop": 4,
-    "paddingBottom": 4,
-    "rowGap": 4
-  }
-},
-"flex-layout.row#1-footer-mobile": {
-  "props": {
-    "paddingTop": 4,
-    "paddingBottom": 4
+    "props": {
+      "blockClass": "payment-methods",
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "fullWidth": true
+    }
   },
-  "children": [
-    "vtex.menu@2.x:menu#footer-mobile"
-  ]
-},
-"rich-text#footer-mobile": {
-  "props": {
-    "text": "All stock and product photos are from photos.icons8.com",
-    "blockClass": "footer"
+  "flex-layout.row#payment-methods": {
+    "props": {
+      "blockClass": "payment-line",
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#amex",
+      "image#mastercard",
+      "image#visa",
+      "image#hipercard",
+      "image#elo",
+      "image#diners",
+      "image#paypal",
+      "image#pix",
+      "image#boleto"
+    ]
+  },
+  "image#amex": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/amex.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#mastercard": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/mastercard.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#visa": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/visa.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#hipercard": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/hipercard.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#elo": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/elo.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#diners": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/diners.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#paypal": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/paypal.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#pix": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/pix.svg",
+      "maxHeight": 24
+    }
+  },
+  "image#boleto": {
+    "props": {
+      "blockClass": "image-payment",
+      "src": "assets/img/boleto.svg",
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Selecione par",
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.row#footer-4-desktop": {
+    "children": [
+      "image#brands-1",
+      "image#brands-2",
+      "rich-text#pipe-footer",
+      "image#brands-3",
+      "image#brands-4"
+    ],
+    "props": {
+      "blockClass": "brands-footer",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#brands-1": {
+    "props": {
+      "blockClass": "brands-footer-image",
+      "src": "assets/img/let-s-encrypt-seeklogo.com.svg",
+      "maxHeight": 30,
+      "maxWidth": 39
+    }
+  },
+  "image#brands-2": {
+    "props": {
+      "blockClass": "brands-footer-image",
+      "src": "assets/img/pci-certified.png",
+      "maxHeight": 32,
+      "maxWidth": 50.79
+    }
+  },
+  "image#brands-3": {
+    "props": {
+      "blockClass": "brands-footer-image",
+      "src": "assets/img/avanti.svg",
+      "maxHeight": 10.18,
+      "maxWidth": 57.38
+    }
+  },
+  "image#brands-4": {
+    "props": {
+      "blockClass": "brands-footer-image",
+      "src": "assets/img/VTEX.svg",
+      "maxHeight": 36,
+      "maxWidth": 70
+    }
+  },
+  "rich-text#pipe-footer": {
+    "props": {
+      "blockClass": "footer-pipe",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "|"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
   }
-}
 }

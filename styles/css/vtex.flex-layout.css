@@ -108,3 +108,6 @@
   padding-bottom: 1rem;
 }
 
+.stretchChildrenWidth {
+  justify-content: flex-start;
+}

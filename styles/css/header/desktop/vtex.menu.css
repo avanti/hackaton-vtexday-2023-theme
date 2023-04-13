@@ -34,19 +34,11 @@
 }
 
 .styledLinkContent--menu-item-institutional,
-.styledLinkContent--menu-item-help-center,
-.paragraph--second-information {
+.styledLinkContent--menu-item-help-center {
     font-size: 14px;
+    color: #000000;
 }
 
-.paragraph--second-information {
-    font-size: 52px;
+.menuItem--menu-item-help-center, .menuItem--menu-item-institutional {
+    height: 20px;
 }
-
-.menuItem--menu-item-institutional {
-    margin: 0;
-}
-
-/* .menuContainer {
-    width: 8.02vw;
-} */

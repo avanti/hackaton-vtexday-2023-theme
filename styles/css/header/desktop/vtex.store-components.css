@@ -43,6 +43,10 @@
     margin-right: 1.77vw;
 }
 
+.imageElement--brands-footer-image {
+    margin-right: 1.71vw;
+}
+
 @media screen and (max-width: 40em) {
 
     .searchBarContainer {
