@@ -32,3 +32,21 @@
 .styledLinkContent--all-categories {
     font-weight: bold;
 }
+
+.styledLinkContent--menu-item-institutional,
+.styledLinkContent--menu-item-help-center,
+.paragraph--second-information {
+    font-size: 14px;
+}
+
+.paragraph--second-information {
+    font-size: 52px;
+}
+
+.menuItem--menu-item-institutional {
+    margin: 0;
+}
+
+/* .menuContainer {
+    width: 8.02vw;
+} */

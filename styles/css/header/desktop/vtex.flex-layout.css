@@ -60,6 +60,12 @@
     justify-content: center;
 }
 
+/* .flexRow--social-media-network::before {
+    width: 8.02px;
+} */
+
+/* .flexRowContent--first-line  */
+
 .flexRowContent--social-media-network {
     display: flex;
     flex-direction: column;
@@ -76,6 +82,17 @@
 .flexRowContent--payment-line:first-child {
     margin-top: 1vw;
 }
+
+.flexRowContent--office-hour, .flexRowContent--office-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .flexRowContent--first-line:global(.flexRow--social-media-network) {
+    width: 200px;
+}
+    */
+
 
 /* MOBILE */
 

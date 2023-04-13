@@ -11,3 +11,16 @@
 .paragraph--social-media-text {
     font-size: 14px;
 }
+
+.wrapper--top-information {
+    font-size: 14px;
+
+}
+
+.wrapper--menu-item-service-information:first-child {
+    font-size: 14px;
+}
+
+.paragraph--menu-item-service-information {
+    text-transform: none;
+}

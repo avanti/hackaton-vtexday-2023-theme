@@ -21,6 +21,7 @@
   "menu-item#about-us2": {
     "props": {
       "id": "menu-item-news",
+      "blockClass": "menu-item-institutional",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -36,6 +37,7 @@
   "menu-item#privace-security": {
     "props": {
       "id": "menu-item-black-friday",
+      "blockClass": "menu-item-institutional",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -51,6 +53,7 @@
   "menu-item#terms-condition": {
     "props": {
       "id": "menu-item-sale",
+      "blockClass": "menu-item-institutional",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -68,10 +71,12 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#service",
-      "rich-text#office-hour",
-      "rich-text#office-weekdays",
-      "rich-text#office-hour-weekend"
+      "rich-text#help-center",
+      "menu-item#talk-us",
+      "menu-item#delivery",
+      "menu-item#returns",
+      "menu-item#payments",
+      "menu-item#FAQ"
     ]
   },
   "rich-text#service": {
@@ -84,31 +89,27 @@
   },
   "rich-text#office-hour": {
     "props": {
-      "blockClass": [
-        "second-information"
-      ],
+      "blockClass": "menu-item-service-information",
       "text": "Horário de Atendimento:"
     }
   },
   "rich-text#office-weekdays": {
     "props": {
-      "blockClass": [
-        "second-information"
-      ],
+      "blockClass": "menu-item-service-information",
       "text": "Segunda a Sábado: 07h00 às 23h00"
     }
   },
   "rich-text#office-hour-weekend": {
     "props": {
-      "blockClass": [
-        "second-information"
-      ],
+      "blockClass": "menu-item-service-information",
       "text": "Domingos e Feriados: 07h00 às 21h00"
     }
   },
-  "menu-item#smartphones": {
+
+  "menu-item#talk-us": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "menu-item-talk-us",
+      "blockClass": "menu-item-help-center",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -116,14 +117,15 @@
         "type": "internal",
         "href": "/decoration/smartphones",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
       }
     }
   },
-  "menu-item#videogames": {
+  "menu-item#delivery": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "menu-item-delivery",
+      "blockClass": "menu-item-help-center",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -131,14 +133,15 @@
         "type": "internal",
         "href": "/decoration/videogames",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Frete e Entrega",
+        "text": "Frete e Entrega"
       }
     }
   },
-  "menu-item#tvs": {
+  "menu-item#returns": {
     "props": {
-      "id": "menu-item-tvs",
+      "id": "menu-item-returns",
+      "blockClass": "menu-item-help-center",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -146,23 +149,91 @@
         "type": "internal",
         "href": "/decoration/tvs",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+  "menu-item#payments": {
+    "props": {
+      "id": "menu-item-payments",
+      "blockClass": "menu-item-help-center",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "Pagamentos",
+        "text": "Pagamentos"
+      }
+    }
+  },
+  "menu-item#FAQ": {
+    "props": {
+      "id": "menu-item-FAQ",
+      "blockClass": "menu-item-help-center",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
       }
     }
   },
 
   
-  "vtex.menu@2.x:menu#footer-bags": {
+  "vtex.menu@2.x:menu#footer-bags": { //ATENDIMENTO
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "rich-text#service",
+      "flex-layout.row#office-information"
     ]
   },
+
+  "flex-layout.row#office-information": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "flex-layout.row#office-hour",
+    "flex-layout.row#contact"
+  ]
+},
+
+  "flex-layout.row#office-hour": {
+    "props": {
+      "blockClass": "office-hour"
+    },
+    "children": [
+      "rich-text#office-hour",
+      "rich-text#office-weekdays",
+      "rich-text#office-hour-weekend"
+    ]
+  },
+
+  "flex-layout.row#contact": {
+    "props": {
+    "blockClass": "office-contact"
+  },
+  "children": [
+    "rich-text#office-hour",
+    "rich-text#office-weekdays",
+    "rich-text#office-hour-weekend"
+    // "rich-text#office-hour",
+    // "rich-text#office-weekdays",
+    // "rich-text#office-hour-weekend"
+
+  ]
+},
+
   "menu-item#bags": {
     "props": {
       "id": "menu-item-bags",
@@ -213,13 +284,16 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#help-center",
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "rich-text#institutional",
+      "menu-item#about-us2",
+      "menu-item#privace-security",
+      "menu-item#terms-condition"
+      // "menu-item#clothing",
+      // "menu-item#shorts",
+      // "menu-item#tank-tops",
+      // "menu-item#shirts",
+      // "menu-item#sweatshirt",
+      // "menu-item#cropped"
     ]
   },
   "rich-text#help-center": {
@@ -237,10 +311,10 @@
     "children": [
       "menu-item#clothing-mobile",
       "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "menu-item#atendimento-mobile"
     ]
   },
-  "menu-item#clothing-mobile": {
+  "menu-item#clothing-mobile": { //clothing
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -251,7 +325,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "ALoka"
+        "text": "Institucional"
       }
     },
     "blocks": [
@@ -268,18 +342,21 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#about-us2",
+      "menu-item#privace-security",
+      "menu-item#terms-condition"
+      // "menu-item#shorts",
+      // "menu-item#tank-tops",
+      // "menu-item#shirts",
+      // "menu-item#sweatshirt",
+      // "menu-item#cropped"
     ]
   },
   "menu-item#decoration-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "Central de Ajuda",
+        "text": "Central de Ajuda"
       }
     },
     "blocks": [
@@ -296,35 +373,39 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      
+      // "menu-item#smartphones",
+      // "menu-item#videogames",
+      // "menu-item#tvs"
     ]
   },
-  "menu-item#sale-mobile": {
+  "menu-item#atendimento-mobile": { //sales
     "props": {
       "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#sale"
+      "vtex.menu@2.x:submenu.accordion#atendimento"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#sale": {
+  "vtex.menu@2.x:submenu.accordion#atendimento": {
     "children": [
-      "vtex.menu@2.x:menu#footer-sale-mobile"
+      "vtex.menu@2.x:menu#footer-atendimento-mobile"
     ]
   },
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
+  "vtex.menu@2.x:menu#footer-atendimento-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "rich-text#office-hour",
+      "rich-text#office-weekdays",
+      "rich-text#office-hour-weekend"
+      // "menu-item#smartphones",
+      // "menu-item#videogames",
+      // "menu-item#tvs"
     ]
   },
   "menu-item#clothing": {
