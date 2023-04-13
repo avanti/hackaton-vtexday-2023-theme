@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -12,17 +18,19 @@
       "sticky-layout#4-desktop"
     ]
   },
-
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
+    "children": [
+      "telemarketing"
+    ],
     "props": {
       "fullWidth": true
     }
   },
-  
   "flex-layout.row#3-desktop": {
     "props": {
-      "blockClass": ["menu-link"],
+      "blockClass": [
+        "menu-link"
+      ],
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -34,7 +42,9 @@
   },
   "rich-text#offers": {
     "props": {
-      "blockClass": ["menu-link, text-offers"],
+      "blockClass": [
+        "menu-link, text-offers"
+      ],
       "text": "[Confira as ofertas do mês de abril](/)"
     }
   },
@@ -64,7 +74,7 @@
       "flex-layout.row#search-desktop",
       "flex-layout.row#category-menu"
       // "flex-layout.col#spacer"
-      ]
+    ]
   },
   "flex-layout.row#search-desktop": {
     "props": {
@@ -84,7 +94,9 @@
     ]
   },
   "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
     "props": {
       "blockClass": "input-color",
       "openAutocompleteOnFocus": true,
@@ -111,17 +123,21 @@
       }
     }
   },
-
   "flex-layout.row#did-you-mean": {
-    "children": ["did-you-mean"]
+    "children": [
+      "did-you-mean"
+    ]
   },
   "flex-layout.row#suggestion": {
-    "children": ["search-suggestions"]
+    "children": [
+      "search-suggestions"
+    ]
   },
   "flex-layout.row#banner-one": {
-    "children": ["search-banner#one"]
+    "children": [
+      "search-banner#one"
+    ]
   },
-
   "search-banner#one": {
     "props": {
       "area": "one",
@@ -133,7 +149,9 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "flex-layout.row#category-menu": {
     "props": {
@@ -144,7 +162,9 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
   "logo#desktop": {
     "props": {
@@ -155,17 +175,79 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "flex-layout.row#3-mobile",
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "flex-layout.row#3-mobile": {
+    "props": {
+      "blockClass": [
+        "menu-link"
+      ],
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#offers"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#4-mobile"
+    ]
   },
+  "flex-layout.row#4-mobile": {
+    "props": {
+      "blockClass": "main-header-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#search-mobile"
+    ]
+  },
+
+  "flex-layout.row#search-mobile": {
+    "props": {
+      "blockClass": "main-header-search-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "blockClass": "input-searchbar-mobile",
+      "openAutocompleteOnFocus": true,
+      "maxTopSearches": "5",
+      "maxHistory": "5",
+      "maxSuggestedProducts": "3",
+      "containerMode": "container",
+      "placeholder": "Digite aqui o que você procura"
+    }
+  },
+
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
+      // "flex-layout.col#spacer",
+      // "login",
       "minicart.v2"
     ],
     "props": {
@@ -176,9 +258,10 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#all-categories",
@@ -194,25 +277,25 @@
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/img/avanti.svg",
+      "width": "185.93",
+      "height": "33"
     }
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "iconLabel": "Entrar"
-    }
-  }  
+  }
+  // ,
+  // "login": {
+  //   "props": {
+  //     "emailAndPasswordTitle": "LOG-IN",
+  //     "accessCodeTitle": "Acess Code LOG-IN",
+  //     "emailPlaceholder": "e-mail",
+  //     "passwordPlaceholder": "password",
+  //     "showPasswordVerificationIntoTooltip": true,
+  //     "showIconProfile": true,
+  //     "iconLabel": "Entrar"
+  //   }
+  // }
 }

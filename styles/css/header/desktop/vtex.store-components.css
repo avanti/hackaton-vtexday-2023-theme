@@ -42,3 +42,30 @@
 .imageElement--image-payment {
     margin-right: 1.77vw;
 }
+
+@media screen and (max-width: 40em) {
+
+    .searchBarContainer {
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+    }
+
+    .searchBarContainer:first-child {
+        margin: 0;
+        padding: 0;
+        margin-left: 5.14vw;
+    }
+
+    .autoCompleteOuterContainer:first-child {
+        width: 89.71vw;
+        /* padding-top: 15px;
+        padding-left: 6.89vw; */
+    }
+
+    /* .searchBarInnerContainer::after {
+        width: 100px;
+    } */
+
+}

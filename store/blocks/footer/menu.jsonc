@@ -4,23 +4,21 @@
       "orientation": "vertical"
     },
     "children": [
-      "rich-text#teste",
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "rich-text#institutional",
+      "menu-item#about-us2",
+      "menu-item#privace-security",
+      "menu-item#terms-condition"
     ]
   },
-
-  "rich-text#teste": {
+  "rich-text#institutional": {
     "props": {
       "blockClass": [
-        "footer-spipe"
+        "top-information"
       ],
-      "text": "aloka"
+      "text": "Institucional"
     }
   },
-  "menu-item#news": {
+  "menu-item#about-us2": {
     "props": {
       "id": "menu-item-news",
       "type": "custom",
@@ -30,12 +28,12 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Sobre Nós",
+        "text": "Sobre Nós"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#privace-security": {
     "props": {
       "id": "menu-item-black-friday",
       "type": "custom",
@@ -45,12 +43,12 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Privacidade e Segurança",
+        "text": "Privacidade e Segurança"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#terms-condition": {
     "props": {
       "id": "menu-item-sale",
       "type": "custom",
@@ -60,38 +58,54 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Termos e Confições",
+        "text": "Termos e Condições"
       }
     }
   },
-  "menu-item#personalization": {
-    "props": {
-      "id": "menu-item-personalization",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
-      }
-    }
-  },
-
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "rich-text#service",
+      "rich-text#office-hour",
+      "rich-text#office-weekdays",
+      "rich-text#office-hour-weekend"
     ]
   },
-
+  "rich-text#service": {
+    "props": {
+      "blockClass": [
+        "top-information"
+      ],
+      "text": "Atendimento"
+    }
+  },
+  "rich-text#office-hour": {
+    "props": {
+      "blockClass": [
+        "second-information"
+      ],
+      "text": "Horário de Atendimento:"
+    }
+  },
+  "rich-text#office-weekdays": {
+    "props": {
+      "blockClass": [
+        "second-information"
+      ],
+      "text": "Segunda a Sábado: 07h00 às 23h00"
+    }
+  },
+  "rich-text#office-hour-weekend": {
+    "props": {
+      "blockClass": [
+        "second-information"
+      ],
+      "text": "Domingos e Feriados: 07h00 às 21h00"
+    }
+  },
   "menu-item#smartphones": {
     "props": {
       "id": "menu-item-smartphones",
@@ -107,7 +121,6 @@
       }
     }
   },
-
   "menu-item#videogames": {
     "props": {
       "id": "menu-item-videogames",
@@ -123,7 +136,6 @@
       }
     }
   },
-
   "menu-item#tvs": {
     "props": {
       "id": "menu-item-tvs",
@@ -140,6 +152,7 @@
     }
   },
 
+  
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
@@ -150,7 +163,6 @@
       "menu-item#necessaire"
     ]
   },
-
   "menu-item#bags": {
     "props": {
       "id": "menu-item-bags",
@@ -166,7 +178,6 @@
       }
     }
   },
-
   "menu-item#backpacks": {
     "props": {
       "id": "menu-item-backpacks",
@@ -182,7 +193,6 @@
       }
     }
   },
-
   "menu-item#necessaire": {
     "props": {
       "id": "menu-item-necessaire",
@@ -198,12 +208,12 @@
       }
     }
   },
-
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
+      "rich-text#help-center",
       "menu-item#clothing",
       "menu-item#shorts",
       "menu-item#tank-tops",
@@ -212,7 +222,14 @@
       "menu-item#cropped"
     ]
   },
-
+  "rich-text#help-center": {
+    "props": {
+      "blockClass": [
+        "top-information"
+      ],
+      "text": "Central de Ajuda"
+    }
+  },
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
@@ -223,7 +240,6 @@
       "menu-item#sale-mobile"
     ]
   },
-
   "menu-item#clothing-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -235,15 +251,18 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "ALoka"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#clothing"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
+    "children": [
+      "vtex.menu@2.x:menu#clothing-accordion"
+    ]
   },
-
   "vtex.menu@2.x:menu#clothing-accordion": {
     "props": {
       "orientation": "vertical"
@@ -256,7 +275,6 @@
       "menu-item#cropped"
     ]
   },
-
   "menu-item#decoration-mobile": {
     "props": {
       "itemProps": {
@@ -264,12 +282,15 @@
         "text": "Decoration"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#decoration"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-decoration-mobile"
+    ]
   },
-
   "vtex.menu@2.x:menu#footer-decoration-mobile": {
     "props": {
       "orientation": "vertical"
@@ -280,7 +301,6 @@
       "menu-item#tvs"
     ]
   },
-
   "menu-item#sale-mobile": {
     "props": {
       "itemProps": {
@@ -288,12 +308,15 @@
         "text": "Sale"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sale"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-sale-mobile"
+    ]
   },
-
   "vtex.menu@2.x:menu#footer-sale-mobile": {
     "props": {
       "orientation": "vertical"
@@ -304,7 +327,6 @@
       "menu-item#tvs"
     ]
   },
-
   "menu-item#clothing": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -320,7 +342,6 @@
       }
     }
   },
-
   "menu-item#shorts": {
     "props": {
       "id": "menu-item-shorts",
@@ -336,7 +357,6 @@
       }
     }
   },
-
   "menu-item#tank-tops": {
     "props": {
       "id": "menu-item-tank-tops",
@@ -352,7 +372,6 @@
       }
     }
   },
-
   "menu-item#shirts": {
     "props": {
       "id": "menu-item-shirts",
@@ -368,7 +387,6 @@
       }
     }
   },
-
   "menu-item#sweatshirt": {
     "props": {
       "id": "menu-item-sweat-shirts",
@@ -384,7 +402,6 @@
       }
     }
   },
-
   "menu-item#cropped": {
     "props": {
       "id": "menu-item-cropped",

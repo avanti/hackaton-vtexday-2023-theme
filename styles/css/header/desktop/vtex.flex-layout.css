@@ -76,3 +76,28 @@
 .flexRowContent--payment-line:first-child {
     margin-top: 1vw;
 }
+
+/* MOBILE */
+
+
+@media screen and (max-width: 40em) {
+
+    /* .flexRow--menu-link {
+        visibility: visible;
+        
+    } */
+
+    .flexRowContent--main-header-mobile {
+        /*
+        height: 126px;
+        */
+        width: 100vw; 
+        padding: 0%;
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    
+    .flexRow--main-header-::before {
+        height: 126px;
+    }
+}

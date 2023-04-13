@@ -61,3 +61,16 @@
     color: #FFF;
 }
 
+@media screen and (max-width: 40em) {
+
+    .openIconContainer {
+        padding: 0;
+        /* margin-left: 5.14vw; */
+        margin-left: 17.30vw;
+    }
+
+    .cartIcon {
+        height: 24px;
+        width: 25px;
+    }
+}

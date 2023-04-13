@@ -1,0 +1,13 @@
+@media screen and (max-width: 40em) {
+
+    .openIconContainer {
+        padding: 0;
+        margin-left: 5.14vw;
+        margin-right: 17.58vw;
+    }
+
+    .menuIcon:first-child {
+        width: 40.28px;
+    
+    }
+}
