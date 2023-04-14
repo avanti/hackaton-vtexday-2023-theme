@@ -44,3 +44,75 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+.accessCodeOptionBtn :global(.vtex-button__label span) {
+    display: none;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label span) {
+    display: none;
+}
+
+.accessCodeOptionBtn  :global(.vtex-button__label)::before {
+    content: "Código de acesso por e-mail";
+    text-transform: lowercase;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+.emailPasswordOptionBtn  :global(.vtex-button__label)::before {
+    content: "entrar com e-mail e senha";
+    text-transform: lowercase;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+.customOAuthOptionBtn {
+    display: none;
+}
+
+.optionsListItem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .optionsListItem .emailPasswordOptionBtn,
+.optionsListItem .accessCodeOptionBtn,
+.optionsListItem .googleOptionBtn,
+.optionsListItem .facebookOptionBtn {
+  width: 90%;
+}
+
+.optionsListItem .emailPasswordOptionBtn span,
+.optionsListItem .accessCodeOptionBtn span,
+.optionsListItem .googleOptionBtn span,
+.optionsListItem .facebookOptionBtn span {
+  font-size: 12px;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.optionsListItem .emailPasswordOptionBtn button,
+.optionsListItem .accessCodeOptionBtn button,
+.optionsListItem .googleOptionBtn button,
+.optionsListItem .facebookOptionBtn button {
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  height: 50px;
+}
+
+.optionsListItem .emailPasswordOptionBtn button,
+.optionsListItem .accessCodeOptionBtn button,
+.optionsListItem .googleOptionBtn button {
+  margin-bottom: 0.5rem
+}
+
+.profileIcon {
+    background-image: url("assets/img/user.svg");
+    color: transparent;
+    width: 25px;
+    height: 25px;
+  }
