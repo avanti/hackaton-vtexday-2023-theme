@@ -81,33 +81,6 @@
       "menu-item#FAQ"
     ]
   },
-  "rich-text#service": {
-    "props": {
-      "blockClass": [
-        "top-information"
-      ],
-      "text": "Atendimento"
-    }
-  },
-  "rich-text#office-hour": {
-    "props": {
-      "blockClass": "menu-item-service-information",
-      "text": "Horário de Atendimento:"
-    }
-  },
-  "rich-text#office-weekdays": {
-    "props": {
-      "blockClass": "menu-item-service-information",
-      "text": "Segunda a Sábado: 07h00 às 23h00"
-    }
-  },
-  "rich-text#office-hour-weekend": {
-    "props": {
-      "blockClass": "menu-item-service-information",
-      "text": "Domingos e Feriados: 07h00 às 21h00"
-    }
-  },
-
   "menu-item#talk-us": {
     "props": {
       "id": "menu-item-talk-us",
@@ -188,8 +161,6 @@
       }
     }
   },
-
-  
   "vtex.menu@2.x:menu#footer-bags": { //ATENDIMENTO
     "props": {
       "orientation": "vertical"
@@ -199,21 +170,29 @@
       "flex-layout.row#office-information"
     ]
   },
-
-  "flex-layout.row#office-information": {
-  "props": {
-    "orientation": "vertical",
-    "preventHorizontalStretch": true
+  "rich-text#service": {
+    "props": {
+      "blockClass": [
+        "top-information"
+      ],
+      "text": "Atendimento"
+    }
   },
-  "children": [
-    "flex-layout.row#office-hour",
-    "flex-layout.row#contact"
-  ]
-},
-
+  "flex-layout.row#office-information": {
+    "props": {
+      "orientation": "vertical",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#office-hour",
+      "flex-layout.row#contact"
+    ]
+  },
   "flex-layout.row#office-hour": {
     "props": {
-      "blockClass": "office-hour"
+      "blockClass": "office-hour",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     },
     "children": [
       "rich-text#office-hour",
@@ -221,22 +200,47 @@
       "rich-text#office-hour-weekend"
     ]
   },
-
+  "rich-text#office-hour": {
+    "props": {
+      "blockClass": "menu-item-service-information",
+      "text": "**Horário de Atendimento:**"
+    }
+  },
+  "rich-text#office-weekdays": {
+    "props": {
+      "blockClass": "menu-item-service-information",
+      "text": "Segunda a Sábado: 07h00 às 23h00"
+    }
+  },
+  "rich-text#office-hour-weekend": {
+    "props": {
+      "blockClass": "menu-item-service-information",
+      "text": "Domingos e Feriados: 07h00 às 21h00"
+    }
+  },
   "flex-layout.row#contact": {
     "props": {
-    "blockClass": "office-contact"
+      "blockClass": "office-contact",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#office-phone",
+      "rich-text#office-email"
+    ]
   },
-  "children": [
-    "rich-text#office-hour",
-    "rich-text#office-weekdays",
-    "rich-text#office-hour-weekend"
-    // "rich-text#office-hour",
-    // "rich-text#office-weekdays",
-    // "rich-text#office-hour-weekend"
-
-  ]
-},
-
+  "rich-text#office-phone": {
+    "props": {
+      "blockClass": "menu-item-service-contatc",
+      "text": "**Telefone:**&nbsp;(00)1234-5678"
+    }
+  },
+  "rich-text#office-email": {
+    "props": {
+      "blockClass": "menu-item-service-contatc",
+      "text": "**E-mail:**&nbsp;exemplo@exemplo.com.br"
+    }
+  },
   "menu-item#bags": {
     "props": {
       "id": "menu-item-bags",
@@ -377,7 +381,6 @@
       "orientation": "vertical"
     },
     "children": [
-      
       // "menu-item#smartphones",
       // "menu-item#videogames",
       // "menu-item#tvs"

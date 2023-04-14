@@ -6,7 +6,7 @@
 }
 
 .flexRowContent--main-header {
-    background-color: #f0f0f0;
+    background-color: white;
     height: 144px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 .flexRow--menu-row {
-    background-color: #F2F2F2;
+    background-color: white;
     height: 254px;
     padding-left: 18.75vw;
     padding-right: 18.75vw;
@@ -37,12 +37,6 @@
     display: flex;
     flex-direction: column;
 }
-
-
-.flexRowContent--social-media-network:first-child {
-    width: 100% !important;
-}
-
 
 .flexRow-payment-methods {
     align-items: center;
@@ -62,6 +56,7 @@
     padding-right: 40.98vw;
     padding-bottom: 1.77vw;
     justify-content: center;
+    height: auto;
 }
 
 .flexRowContent--brands-footer {
@@ -70,14 +65,13 @@
 }
 
 .flexRow--social-media-network {
-    width: 10.52vw
+    margin-right: 2.5vw;
 }
 
 
 .flexRowContent--social-media-network {
     display: flex;
     flex-direction: column;
-    /* width: 10.52vw; */
 }
 
 .flexRow--social-media-line {
@@ -109,16 +103,21 @@
 }
 
 .flexRowContent--office-hour:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 100%;
+    width: 100px;
 }
 
-.stretchChildrenWidth {
+
+/* .stretchChildrenWidth {
     width: 100%!important;
-}
+} */
 
 .flexRow--office-contact {
-    margin-left: 3.1vw;
+    margin-left: 2.5vw;
 }
+
+/* .flexRowContent--first-line {
+    justify-content: space-between;
+} */
 
 /* MOBILE */
 

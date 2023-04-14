@@ -2,12 +2,13 @@
     text-transform: uppercase;
 }
 
-.menuItem {
+
+.styledLinkContent--menu-item-side-categories, .styledLinkContent--all-categories  {
     height: 30px;
     margin-right: 3.75vw;
 }
 
-.menuItem:last-child {
+.menu-item-last-category {
     margin-right: 0;
 }
 
@@ -41,4 +42,8 @@
 
 .menuItem--menu-item-help-center, .menuItem--menu-item-institutional {
     height: 20px;
+}
+
+.menuContainerNav--menu-blocks {
+    margin-right: 3.12vw;
 }

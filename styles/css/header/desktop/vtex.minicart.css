@@ -1,5 +1,11 @@
-.openIconContainer {
-    height: 100%;
+.closeIconContainer {
+    background-color: blue;
+    height: auto;
+}
+
+.openIconContainer :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    background-color: #005cff;
+    color: white;
 }
 
 .minicartWrapperContainer {
@@ -35,8 +41,16 @@
     color: #FFF;
     width: 20px;
     height: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
+
+.closeIconContainer::after {
+    content: "meu carrinho";
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+  }
 
 .minicartTitle {
     display: none;
@@ -64,6 +78,13 @@
     content: "finalizar pedido";
     color: #FFF;
 }
+
+/* .minicartProductListContainer {
+    padding: 0;
+    padding-left: 1.40vw;
+    padding-right: 1.40vw;
+} */
+
 
 @media screen and (max-width: 40em) {
 

@@ -3,6 +3,11 @@
     padding-right: 18.75vw;
 }
 
+.wrapper--sticky-header, .container--sticky-header {
+    background-color: white;
+    backdrop-filter: blur(none);
+}
+
 @media screen and (max-width: 40em) {
 
     .wrapper {

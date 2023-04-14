@@ -38,6 +38,7 @@
       "preventHorizontalStretch": true
     }
   },
+
   "flex-layout.row#second-line": {
     "children": [
       "flex-layout.row#footer-2-desktop"

@@ -2,6 +2,7 @@
     font-size: 12px;
     text-transform: lowercase;
     text-align: center;
+    height: auto;
 }
 
 .container--footer-pipe {
@@ -17,20 +18,37 @@
     width: 20.52vw;
 }
 
-.paragraph--social-media-text, .wrapper--top-information, .wrapper--menu-item-service-information:first-child {
+.paragraph--social-media-text,
+.wrapper--top-information,
+.wrapper--menu-item-service-information:first-child,
+.paragraph--menu-item-service-contatc {
     font-size: 14px;
     color: black;
+}
 
+.paragraph--top-information {
+    width: 100%;
 }
 
 .wrapper--menu-item-service-information:first-child {
     font-weight: normal;
 }
 
-.paragraph--menu-item-service-information {
+.paragraph--menu-item-service-information,
+.paragraph--menu-item-service-contatc {
     text-transform: none;
 }
 
-.container--menu-item-service-information {
+.container--menu-item-service-information,
+.container--menu-item-service-contatc {
     height: 20px;
+}
+
+.link--menu-item-service-contatc {
+    color: black;
+    font-size: 14px;
+}
+
+.paragraph--minicart-empty {
+    text-transform: none;
 }

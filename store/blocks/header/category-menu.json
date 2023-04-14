@@ -261,6 +261,7 @@
   },
   "menu-item#category-one": {
     "props": {
+      "blockClass": "menu-item-side-categories",
       "id": "menu-item-categoria-1",
       "type": "custom",
       "iconId": null,
@@ -276,6 +277,7 @@
   },
   "menu-item#category-second": {
     "props": {
+      "blockClass": "menu-item-side-categories",
       "id": "menu-item-categoria-2",
       "type": "custom",
       "iconId": null,
@@ -291,6 +293,7 @@
   },
   "menu-item#category-third": {
     "props": {
+      "blockClass": "menu-item-side-categories",
       "id": "menu-item-categoria-3",
       "type": "custom",
       "iconId": null,
@@ -306,6 +309,7 @@
   },
   "menu-item#category-fourth": {
     "props": {
+      "blockClass": "menu-item-side-categories",
       "id": "menu-item-categoria-4",
       "type": "custom",
       "iconId": null,
@@ -321,6 +325,7 @@
   },
   "menu-item#category-fifth": {
     "props": {
+      "blockClass": "menu-item-side-categories",
       "id": "menu-item-categoria-5",
       "type": "custom",
       "iconId": null,
@@ -336,6 +341,7 @@
   },
   "menu-item#category-sixth": {
     "props": {
+      "blockClass": "menu-item-side-categories",
       "id": "menu-item-categoria-6",
       "type": "custom",
       "iconId": null,
@@ -351,6 +357,7 @@
   },
   "menu-item#category-seventh": {
     "props": {
+      "blockClass": "menu-item-last-category",
       "id": "menu-item-categoria-7",
       "type": "custom",
       "iconId": null,

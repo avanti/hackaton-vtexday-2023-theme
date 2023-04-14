@@ -1,7 +1,83 @@
-.productImage {
+/* .productPriceCurrency {
+    display: none;
+} */
+
+.deleteIcon {
+    background-image: url("assets/img/close.svg");
+    color: transparent;
+    width: 9.7px;
+    height: 9.7px;
+    background-repeat: no-repeat;
+}
+
+.productBrandName {
+    display: none;
+}
+
+.inputContainer {
+    padding: 0;
+    width: 2.2rem;
+}
+
+.quantitySelectorIncrease {
+    border-left: none;
+    border-width: 1px;
+    border-radius: 0 10px 10px 0;
+    color: #454545;
+}
+
+.quantitySelectorDecrease {
+    border-right: none;
+    background: #ffffff;
+    color: #454545;
+    border-width: 1px;
+    border-radius: 10px 0 0 10px;
+}
+
+.inputContainer {
+    padding-right: 0;
+    padding-left: 0;
+    width: 2.5rem;
+}
+
+.price {
+    margin-top: -26px;
+    text-align: end;
+    font-weight: 800;
+
+    margin-left: 3.3rem;
+}
+
+.productPrice {
+    font-size: 16px;
+}
+
+.quantitySelectorButton:first-child {
+    width: 33px;
+}
+
+.quantitySelectorButton:nth-child(even) {
+    width: 36px;
+}
+
+/* .productImage {
     width: 89px;
     height: 89px;
+} */
+
+
+/* .deleteIcon {
+    background-image: url("assets/img/close.svg");
+    color: transparent;
+    width: 9.7px;
+    height: 9.7px;
+    background-repeat: no-repeat;
 }
+
+.productBrandName {
+    display: none;
+}
+
 
 .quantitySelectorContainer {
     height: 35px;
@@ -15,7 +91,7 @@
     width: 10px;
 }
 
-.deleteIcon{
+.deleteIcon {
     background-image: url("assets/img/close.svg");
     color: transparent;
     display: flex;
@@ -26,7 +102,7 @@
     background-repeat: no-repeat;
 }
 
-.quantitySelectorDecrease, 
+.quantitySelectorDecrease,
 .quantitySelectorIncrease {
     background-color: white;
     border: 0;
@@ -35,7 +111,7 @@
     width: 25px;
 }
 
-.quantitySelectorButton{
+.quantitySelectorButton {
     height: 30px;
     width: 30px;
 }
@@ -52,7 +128,7 @@
     padding-left: 0;
     height: 30px;
     width: 30px;
-}
+} */
 
 /* .price{
     margin-left: 74px;

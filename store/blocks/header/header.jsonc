@@ -286,16 +286,16 @@
       "height": "33"
     }
   }
-  // ,
-  // "login": {
-  //   "props": {
-  //     "emailAndPasswordTitle": "LOG-IN",
-  //     "accessCodeTitle": "Acess Code LOG-IN",
-  //     "emailPlaceholder": "e-mail",
-  //     "passwordPlaceholder": "password",
-  //     "showPasswordVerificationIntoTooltip": true,
-  //     "showIconProfile": true,
-  //     "iconLabel": "Entrar"
-  //   }
-  // }
+  ,
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Entrar"
+    }
+  }
 }
