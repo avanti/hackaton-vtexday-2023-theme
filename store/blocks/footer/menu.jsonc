@@ -314,7 +314,8 @@
   },
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "information-line"
     },
     "children": [
       "menu-item#clothing-mobile",
@@ -347,7 +348,8 @@
   },
   "vtex.menu@2.x:menu#clothing-accordion": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobile-institutional"
     },
     "children": [
       "menu-item#about-us2",
@@ -378,9 +380,15 @@
   },
   "vtex.menu@2.x:menu#footer-decoration-mobile": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobile-help-center"
     },
     "children": [
+      "menu-item#talk-us",
+      "menu-item#delivery",
+      "menu-item#returns",
+      "menu-item#payments",
+      "menu-item#FAQ"
       // "menu-item#smartphones",
       // "menu-item#videogames",
       // "menu-item#tvs"
@@ -404,12 +412,15 @@
   },
   "vtex.menu@2.x:menu#footer-atendimento-mobile": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobile-atendimento"
     },
     "children": [
-      "rich-text#office-hour",
-      "rich-text#office-weekdays",
-      "rich-text#office-hour-weekend"
+      "flex-layout.row#office-hour",
+      "flex-layout.row#contact"
+      // "rich-text#office-hour",
+      // "rich-text#office-weekdays",
+      // "rich-text#office-hour-weekend"
       // "menu-item#smartphones",
       // "menu-item#videogames",
       // "menu-item#tvs"

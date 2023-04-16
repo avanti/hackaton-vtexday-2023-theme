@@ -1,20 +1,8 @@
-/* .socialNetworkImage--facebook {
-    color: transparent;
-    background-image: url('assets/img/facebook.svg');
-}
+@media screen and (max-width: 40em) {
+/* 
+    .footerLayout--container-footer {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    } */
 
-.socialNetworkImage--instagram {
-    color: transparent;
-    background-image: url('assets/img/instagram.svg');
 }
-
-.socialNetworkImage--twitter {
-    color: transparent;
-    background-image: url('assets/img/twitter.svg');
-}
-
-.socialNetworkImage--linkedin {
-    color: transparent;
-    background-image: url('assets/img/linkedin.svg');
-}
- */

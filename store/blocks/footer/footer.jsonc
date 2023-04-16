@@ -263,38 +263,112 @@
     }
   },
   "footer-layout.mobile": {
+    "props": {
+      "blockClass": "container-footer"
+    },
     "children": [
+      "flex-layout.row#social-media-mobile",
       "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#payment-methods-line-mobile",
+      "flex-layout.row#footer-text-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
+
+  "flex-layout.row#social-media-mobile": {
+    "props": {
+      "blockClass": "social-media-network-mobile",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
     "children": [
-      "flex-layout.col#footer-1-mobile"
+      "rich-text#social-media",
+      "image#facebook",
+      "image#instagram",
+      "image#linkedin",
+      "image#twitter"
+      // "flex-layout.row#social-media-line"
+    ]
+  },
+
+  "flex-layout.row#payment-methods-line-mobile": {
+    "props": {
+      "blockClass": "payment-methods-line-mobile"
+    },
+    "children": [
+      "flex-layout.row#payment-methods-line-one",
+      "flex-layout.row#payment-methods-line-two"
+    ]
+  },
+
+  "flex-layout.row#payment-methods-line-one": {
+    "props": {
+      "blockClass": "payment-methods-line-one",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#amex",
+      "image#mastercard",
+      "image#visa",
+      "image#hipercard",
+      "image#elo"
+    ]
+  },
+
+  "flex-layout.row#payment-methods-line-two": {
+    "props": {
+      "blockClass": "payment-methods-line-two",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#diners",
+      "image#paypal",
+      "image#pix",
+      "image#boleto"
+    ]
+  },
+
+  "flex-layout.row#footer-text-mobile": {
+    "children": [
+      "rich-text#footer"
     ],
     "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
+      "blockClass": "footer-text-mobile"
+    }
+  },
+
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "image#brands-1",
+      "image#brands-2",
+      "rich-text#pipe-footer",
+      "image#brands-3",
+      "image#brands-4"
+      // "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "sponsors-line",
+      "preventHorizontalStretch": true
+      // "paddingTop": 4,
+      // "paddingBottom": 4
     }
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks",
       "rich-text#footer-mobile"
     ],
     "props": {
       "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
+      // "paddingTop": 4,
+      // "paddingBottom": 4,
       "rowGap": 4
     }
   },
   "flex-layout.row#1-footer-mobile": {
     "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
+      // "paddingTop": 4,
+      // "paddingBottom": 4,
+      "blockClass": "inormation-container-footer"
     },
     "children": [
       "vtex.menu@2.x:menu#footer-mobile"

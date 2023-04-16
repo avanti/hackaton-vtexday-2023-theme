@@ -195,6 +195,14 @@
     ]
   },
   "sticky-layout#1-mobile": {
+    "props": {
+      "blockClass": "main-header-mobile-all"
+      // "horizontalAlign": "center",
+      // "verticalAlign": "center",
+      // "preventHorizontalStretch": true,
+      // "preventVerticalStretch": true,
+      // "fullWidth": true
+    },
     "children": [
       "flex-layout.row#4-mobile"
     ]
@@ -251,7 +259,7 @@
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "main-header-mobile-first-line",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true

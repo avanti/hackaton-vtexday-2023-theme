@@ -1,6 +1,5 @@
-.wrapper {
-    padding-left: 18.75vw;
-    padding-right: 18.75vw;
+.wrapper--main-header-mobile-all {
+    padding: 0!important;
 }
 
 .wrapper--sticky-header, .container--sticky-header {
@@ -22,4 +21,21 @@
         width: 100vw;
         padding: 0;
     }
+}
+
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+    .wrapper {
+        /* padding-left: 18.75vw;
+        padding-right: 18.75vw; */
+        height: 126px;
+
+    }
+
+    .container {
+        margin-left: 0;
+        width: 100vw;
+        padding: 0;
+    }
+
 }
