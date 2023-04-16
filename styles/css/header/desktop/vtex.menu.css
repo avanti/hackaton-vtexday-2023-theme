@@ -75,6 +75,10 @@
         margin-right: 0;
     }
 
+    .menuContainerNav--mobile-drawer {
+        padding-left: 4vw;
+    }
+
 }
 
 @media screen and (min-width: 40em) and (max-width: 64em) {
@@ -101,6 +105,10 @@
 
     .menuItemInnerDiv:global(.vtex-menu-2-x-styledLinkContent) {
         margin-right: 0;
+    }
+
+    .menuContainerNav--mobile-drawer {
+        padding-left: 4vw;
     }
 
 }

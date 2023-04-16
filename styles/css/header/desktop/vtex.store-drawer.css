@@ -10,6 +10,32 @@
         width: 40.28px;
     
     }
+
+    .closeIconButton--drawer-class {
+        color: white;
+    }
+
+    .closeIconContainer--drawer-class {
+        background-color: #005CFF;
+        height: 50px;
+    }
+
+    .closeIcon--drawer-class {
+        height: 22px;
+        width: 22px;
+        color: #FFF;
+        /* padding-left: 70vw; */
+    }
+
+    .closeIconContainer--drawer-class::before {
+        content: "Menu";
+        color: #FFF;
+        margin: auto;
+        margin-left: 36vw;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (min-width: 40em) and (max-width: 64em) {
@@ -24,5 +50,34 @@
         width: 40.28px;
     
     }
+
+    .closeIconButton--drawer-class {
+        color: transparent;
+    }
+
+    .closeIconContainer--drawer-class {
+        background-color: #005CFF;
+    }
+
+    .closeIconContainer--drawer-class {
+        background-color: #005CFF;
+        height: 50px;
+    }
+
+    .closeIcon--drawer-class {
+        height: 22px;
+        width: 22px;
+        color: #FFF;
+    }
+
+    .closeIconContainer--drawer-class::before {
+        content: "Menu";
+        color: #FFF;
+        margin: auto;
+        margin-left: 20vw;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
 
 }

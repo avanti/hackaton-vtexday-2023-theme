@@ -267,9 +267,38 @@
   },
   "drawer": {
     "children": [
-      "menu#drawer"
-    ]
+      "flex-layout.row#menu-mobile-vertical"
+    ],
+    "props": {
+      "blockClass": "drawer-class"
+    }
   },
+
+  "flex-layout.row#menu-mobile-vertical": {
+    "children": [
+      "flex-layout.row#login-mobile",
+      "menu#drawer"
+    ],
+    "props": {
+      "blockClass": "menu-mobile-vertical-first-line",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#login-mobile": {
+    "children": [
+      "login#mobile"
+    ],
+    "props": {
+      "blockClass": "menu-mobile-vertical-login",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
   "menu#drawer": {
     "children": [
       "menu-item#all-categories",
@@ -282,7 +311,8 @@
       "menu-item#category-seventh"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobile-drawer"
     }
   },
   "logo#mobile": {
@@ -304,6 +334,18 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "iconLabel": "Entrar"
+    }
+  },
+  "login#mobile": {
+    "props": {
+      "blockClass": "login-mobile",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Minha Conta"
     }
   }
 }

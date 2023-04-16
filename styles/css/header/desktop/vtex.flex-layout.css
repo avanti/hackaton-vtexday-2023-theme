@@ -198,6 +198,19 @@
         padding-left: 2vw;
         padding-right: 2vw;
     } 
+
+    .flexRowContent--menu-mobile-vertical-first-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--menu-mobile-vertical-login {
+        background-color: #EDEDED;
+        display: flex;
+        flex-direction: row;
+    }
+
+
 }
 
 @media screen and (min-width: 40em) and (max-width: 64em) {
@@ -280,5 +293,17 @@
         padding-left: 2vw;
         padding-right: 2vw;
     } 
+
+    .flexRowContent--menu-mobile-vertical-first-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--menu-mobile-vertical-login {
+        background-color: #EDEDED;
+        display: flex;
+        flex-direction: row;
+    }
+
 
 }
