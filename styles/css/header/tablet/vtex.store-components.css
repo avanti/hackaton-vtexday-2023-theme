@@ -1,0 +1,36 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+    .searchBarContainer {
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+        /* width: 100px; */
+    }
+
+    .searchBarContainer:first-child {
+        margin: 0;
+        padding: 0;
+        /* margin-left: 5.14vw; */
+    }
+
+    .autoCompleteOuterContainer:first-child {
+        width: 40vw;
+
+    }
+
+    /* .searchBarInnerContainer::after {
+        width: 100px;
+    } */
+
+    .imageElement--image-media {
+        margin-top: 22px;
+        margin-left: 1vw; 
+        height: 36px;
+        width: 36px;
+        border-radius: 2px;
+    }
+
+    .imageElement--image-payment {
+        margin-right: 0vw;
+    }
+
+}

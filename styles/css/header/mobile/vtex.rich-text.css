@@ -1,0 +1,15 @@
+@media screen and (max-width: 40em) {
+
+    .paragraph--social-media-text {
+        font-size: 12px;
+        color: black;
+        margin-right: 5vw;
+        margin-top: 19px;
+    }
+
+    .paragraph--footer {
+        font-size: 12px;
+        color: black;
+    }
+
+}

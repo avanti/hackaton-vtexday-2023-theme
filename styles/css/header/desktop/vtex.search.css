@@ -6,16 +6,3 @@
 .biggy-autocomplete {
     border-radius: 0 0 10px 10px;
 }
-
-@media screen and (max-width: 40em) {
-
-    /* .biggy-autocomplete-wrapper {
-        width: 20vw;
-        height: 243px;
-    }
-
-    .biggy-autocomplete-wrapper:last-child {
-        width: 20vw;
-    } */
-
-}
