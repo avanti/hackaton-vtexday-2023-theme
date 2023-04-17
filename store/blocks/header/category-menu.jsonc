@@ -46,16 +46,27 @@
 
   "flex-layout.col#menu-all-categories": {
     "children": [
-      "flex-layout.col#menu-all-categories-1"
+      "vtex.menu@2.x:menu#submenu-menu-all-categories"
     ]
   },
 
-  "flex-layout.row#menu-all-categories": {
+  "vtex.menu@2.x:menu#submenu-menu-all-categories": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"submever_categorias"
+    },
     "children": [
-      "flex-layout.col#menu-all-categories-1",
-      "flex-layout.col#menu-more-2"
+      "menu-item#first",
+      "menu-item#second",
+      "menu-item#third",
+      "menu-item#fourth",
+      "menu-item#fifth",
+      "menu-item#sixth",
+      "menu-item#seventh"
     ]
   },
+
+
   "flex-layout.col#menu-all-categories-1": {
     "children": [
       "vtex.menu@2.x:menu#all-categories"
@@ -108,8 +119,18 @@
         "tagTitle": "Lorem Ipsum",
         "text": "Lorem Ipsum"
       }
-    }
+    },
+    "children" :[
+      "flex-layout.row#item-menu-first"
+    ]
   },
+
+  "flex-layout.row#item-menu-first": {
+    "children": [
+      "vtex.menu@2.x:menu#all-categories"
+    ]
+  },
+
   "menu-item#second": {
     "props": {
       "id": "menu-item-first",
