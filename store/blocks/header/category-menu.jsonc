@@ -36,7 +36,8 @@
   },
   "vtex.menu@2.x:submenu#all-categories": {
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "submenu-all-categories"
     },
     "children": [
       "flex-layout.row#menu-all-categories"
@@ -58,6 +59,22 @@
       "info-card#home"
     ]
   },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "blockClass": "info-card-home-mais",
+      // "isFullModeStyle": false,
+      // "textPosition": "left",
+      "imageUrl": "assets/img/mug.png"
+      // "headline": "Clearance Sale",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      // "blockClass": "info-card-example",
+      // "textAlignment": "center"
+    }
+  },
+
   "vtex.menu@2.x:menu#all-categories": {
     "props": {
       "orientation": "vertical"

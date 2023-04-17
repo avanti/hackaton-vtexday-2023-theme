@@ -46,3 +46,23 @@
 .imageElement--brands-footer-image {
     margin-right: 1.71vw;
 }
+
+.infoCardImage--info-card-home {
+    width: 15.52vw;
+    height: 258px;
+    background-image: url('assets/img/user.svg');
+    border-radius: 10px;
+}
+
+.infoCardImage--info-card-home {
+    background-image: url('assets/img/mug.svg');
+    /* border-radius: 10px; */
+}
+
+.infoCardCallActionContainer--info-card-home {
+    display: none;
+}
+
+.infoCardTextContainer--info-card-home {
+    background-color: aqua;
+}

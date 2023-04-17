@@ -82,6 +82,8 @@
     .flexRowContent--menu-mobile-vertical-first-line {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        height: 50px;
     }
 
     .flexRowContent--menu-mobile-vertical-login {
