@@ -5,7 +5,11 @@
 
 .styledLinkContent--menu-item-side-categories, .styledLinkContent--all-categories  {
     height: 30px;
-    margin-right: 3.75vw;
+    margin-right: 4.35vw;
+}
+
+.menuContainerNav--space-categories {
+    justify-content: space-around;
 }
 
 .menu-item-last-category {
@@ -46,4 +50,12 @@
 
 .menuContainerNav--menu-blocks {
     margin-right: 3.12vw;
+}
+
+.submenuWrapper--submenu-all-categories {
+    width: 32vw;
+}
+
+.submenuWrapper--submenu-all-categories--isOpen {
+    padding-left: 17.39vw;
 }

@@ -48,11 +48,7 @@
       "text": "[Confira as ofertas do mês de abril](/)"
     }
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
+
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"

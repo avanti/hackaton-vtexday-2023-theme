@@ -10,12 +10,14 @@
     height: 144px;
     display: flex;
     flex-direction: column;
-    padding-left: 18.75vw;
-    padding-right: 18.75vw;
+    padding-left: 17.39vw;
+    padding-right: 17.39vw;
 }
 
-.flexRowContent--main-header:first-child {
-    align-items: center;
+.flexRowContent--main-header-search:first-child, .flexRowContent--menu-categories {
+    /* align-items: center; */
+    width: 65.20vw;
+    justify-content: space-between;
 }
 
 .flexRow--menu-categories {

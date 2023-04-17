@@ -40,9 +40,16 @@
       "blockClass": "submenu-all-categories"
     },
     "children": [
-      "flex-layout.row#menu-all-categories"
+      "flex-layout.col#menu-all-categories"
     ]
   },
+
+  "flex-layout.col#menu-all-categories": {
+    "children": [
+      "flex-layout.col#menu-all-categories-1"
+    ]
+  },
+
   "flex-layout.row#menu-all-categories": {
     "children": [
       "flex-layout.col#menu-all-categories-1",
@@ -66,12 +73,11 @@
       "blockClass": "info-card-home-mais",
       // "isFullModeStyle": false,
       // "textPosition": "left",
-      "imageUrl": "assets/img/mug.png"
-      // "headline": "Clearance Sale",
-      // "callToActionText": "DISCOVER",
-      // "callToActionUrl": "/sale/d",
-      // "blockClass": "info-card-example",
-      // "textAlignment": "center"
+      "imageUrl": "assets/img/mug.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "Aloka",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
     }
   },
 
