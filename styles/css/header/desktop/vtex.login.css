@@ -6,15 +6,22 @@
   background-repeat: no-repeat;
 }
 
-.container {
-  padding-left: 4.32vw;
+:global(.vtex-login-2-x-container) {
+  margin-right: 2.03vw;
 }
 
-.label {
-  text-transform: none;
-  padding: 0;
-  font-size: 20px;
-  color: black;
+:global(.vtex-login-2-x-container) {
+    padding: 0;
+    width: 6.09vw;
+}
+
+:global(.vtex-login-2-x-label){
+  font-family: "Nunito Sans";
+  padding: 0 !important;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+  justify-content: center;
 }
 
 .options {

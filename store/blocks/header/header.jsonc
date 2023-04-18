@@ -89,20 +89,7 @@
       "minicart.v2"
     ]
   },
-  "search-bar": {
-    "blocks": [
-      "autocomplete-result-list.v2"
-    ],
-    "props": {
-      "blockClass": "input-color",
-      "openAutocompleteOnFocus": true,
-      "maxTopSearches": "5",
-      "maxHistory": "5",
-      "maxSuggestedProducts": "3",
-      "containerMode": "container",
-      "placeholder": "Digite aqui o que você procura"
-    }
-  },
+
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#did-you-mean",
@@ -232,20 +219,6 @@
       "search-bar#mobile"
     ]
   },
-  "search-bar#mobile": {
-    "blocks": [
-      "autocomplete-result-list.v2"
-    ],
-    "props": {
-      "blockClass": "input-searchbar-mobile",
-      "openAutocompleteOnFocus": true,
-      "maxTopSearches": "5",
-      "maxHistory": "5",
-      "maxSuggestedProducts": "3",
-      "containerMode": "container",
-      "placeholder": "Digite aqui o que você procura"
-    }
-  },
 
   "flex-layout.row#1-mobile": {
     "children": [
@@ -324,6 +297,7 @@
   ,
   "login": {
     "props": {
+      "blockClass": "login-desktop",
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",

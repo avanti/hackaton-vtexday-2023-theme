@@ -1,22 +1,25 @@
 .logoContainer {
     padding: 0;
+    /* margin-right: 5.90vw; */
 }
 
-/* .logoImage, .logoLink {
+.logoImage {
     height: 27.08px;
-    width: 152.57px;
-} */
+    width: 7.946vw;
+    margin-right: 5.90vw;
+
+}
 
 .searchBarContainer {
     width: 37.55vw;
     padding-top: 15px;
-    padding-left: 6.89vw;
+    margin-right: 4.32vw;
 }
 
-.noAppearance {
+/* .noAppearance {
     height: 40px;
     border-radius: 50px;
-}
+} */
 
 .searchBarIcon {
     color: transparent;
@@ -31,7 +34,29 @@
 
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     border-radius: 10px;
-    border: 1px solid black;
+    border: 0;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+.searchBarInnerContainer--input-search-bar-header .autoCompleteOuterContainer {
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.searchBarInnerContainer--input-search-bar-header--opened .autoCompleteOuterContainer {
+    border-bottom: none !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.imageElement--wrapper-cart-icon {
+    width: 24px;
+    height: 24px;
 }
 
 .imageElement--image-media {
@@ -52,16 +77,3 @@
     height: 258px;
     border-radius: 10px;
 }
-/*
-.infoCardImage--info-card-home {
-    background-image: url('assets/img/mug.svg');
-    border-radius: 10px;
-}
-
-.infoCardCallActionContainer--info-card-home {
-    display: none;
-}
-
-.infoCardTextContainer--info-card-home {
-    background-color: aqua;
-} */

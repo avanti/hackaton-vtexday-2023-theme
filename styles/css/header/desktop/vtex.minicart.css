@@ -1,6 +1,7 @@
 .closeIconContainer {
-    background-color: blue;
+    background-color: #005CFF;
     height: auto;
+    margin: auto;
 }
 
 .openIconContainer :global(.vtex-minicart-2-x-minicartQuantityBadge) {
@@ -8,40 +9,34 @@
     color: white;
 }
 
-.minicartWrapperContainer {
-    margin-left: 2.03vw;
-}
-
-.cartIcon {
-    color: transparent;
-    background-image: url('assets/img/cart.svg');
-    height: 24px;
-    width: 25px;
-    background-repeat: no-repeat; 
-}
-
-.minicartQuantityBadge {
-    background-color: #005CFF;
-}
-
-.openIconContainer {
+:global(.vtex-minicart-2-x-openIconContainer) {
     padding: 0;
 }
 
+:global(.vtex-button__label) {
+    padding: 0!important;
+}
+
+/* .minicartWrapperContainer {
+    padding-left: 2.03vw;
+} */
+
 .closeIconContainer::after {
-    content: "Meu carrinho";
-    color: #FFF;
-    margin: auto;
-    margin-left: 90px;
+    content: "meu carrinho";
+    justify-content: center;
+    color: white;
     text-transform: uppercase;
+    display: flex;
+    margin: auto;
+    margin-left: 5.5rem;
     font-size: 14px;
 }
 
 .closeIcon {
-    color: #FFF;
+    color: white;
     width: 20px;
     height: 20px;
-    margin-left: 10px;
+    font-size: 12px;
 }
 
 .closeIconContainer::after {
@@ -50,6 +45,8 @@
     color: white;
     text-transform: uppercase;
     display: flex;
+    margin: auto;
+    margin-left: 5.5rem;
   }
 
 .minicartTitle {
@@ -78,9 +75,3 @@
     content: "finalizar pedido";
     color: #FFF;
 }
-
-/* .minicartProductListContainer {
-    padding: 0;
-    padding-left: 1.40vw;
-    padding-right: 1.40vw;
-} */

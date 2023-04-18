@@ -110,7 +110,10 @@
       "flex-layout.row#subcategory-loremipsom-image"
     ],
     "props": {
-      "blockClass": "all-category-items"
+      "blockClass": "all-category-items",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
     }
   },
   "flex-layout.row#see-all-link": {
@@ -130,16 +133,17 @@
   },
   "flex-layout.row#subcategory-loremipsom-image": {
     "children": [
-      "flex-layout.col#subcategoruy-items-lorem-ipson",
-      "flex-layout.col#subcategoruy-items-lorem-ipson",
-      "flex-layout.col#subcategoruy-items-lorem-ipson",
+      "flex-layout.col#subcategoruy-items-lorem-ipson-first-collumn",
+      "flex-layout.col#subcategoruy-items-lorem-ipson-second-collumn",
+      "flex-layout.col#subcategoruy-items-lorem-ipson-third-collumn",
       "image#image-subcategory"
     ],
     "props": {
-      "blockClass": "subcategory-loremipson"
+      "blockClass": "subcategory-loremipson",
+      "preventHorizontalStretch":true
     }
   },
-  "flex-layout.col#subcategoruy-items-lorem-ipson": {
+  "flex-layout.col#subcategoruy-items-lorem-ipson-first-collumn": {
     "children": [
       "menu-item#sub-categoria",
       "menu-item#sub-categoria",
@@ -150,7 +154,36 @@
       "menu-item#sub-categoria"
     ],
     "props": {
-      "blockClass": "subcategory-items"
+      "blockClass": ["subcategory-items", "subcategory-items-first-collumn"]
+      // "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#subcategoruy-items-lorem-ipson-second-collumn": {
+    "children": [
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria"
+    ],
+    "props": {
+      "blockClass": ["subcategory-items", "subcategory-items-second-collumn"]
+    }
+  },
+  "flex-layout.col#subcategoruy-items-lorem-ipson-third-collumn": {
+    "children": [
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria"
+    ],
+    "props": {
+      "blockClass": ["subcategory-items", "subcategory-items-third-collumn"]
     }
   },
   // "flex-layout.col#itens_subcategoria-ipsom": {
@@ -170,7 +203,7 @@
   "menu-item#sub-categoria": {
     "props": {
       "blockClass": [
-        "sub_categoria",
+        "sub-categoria",
         "subcategoria1"
       ],
       "id": "Categoria_2",

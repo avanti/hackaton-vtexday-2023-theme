@@ -1,6 +1,11 @@
-/* .productPriceCurrency {
+.productPriceCurrency {
     display: none;
-} */
+}
+
+.inputContainer :first-child{
+    font-family: "Heebo";
+    font-weight: 700;
+  }
 
 .deleteIcon {
     background-image: url("assets/img/close.svg");
@@ -20,124 +25,51 @@
 }
 
 .quantitySelectorIncrease {
+    border: 1px solid #454545;
     border-left: none;
-    border-width: 1px;
     border-radius: 0 10px 10px 0;
+    padding: 7px 13px 7px 0;
     color: #454545;
 }
 
 .quantitySelectorDecrease {
-    border-right: none;
     background: #ffffff;
-    color: #454545;
-    border-width: 1px;
+    border: 1px solid #454545;
+    border-right: none;
     border-radius: 10px 0 0 10px;
+    padding: 7px 0 7px 13px;
+    color: #454545;
 }
 
-.inputContainer {
-    padding-right: 0;
-    padding-left: 0;
-    width: 2.5rem;
-}
+.quantitySelectorIncrease :first-child {
+    width: 6px !important;
+    color: #000000;
+  }
+  
+  .quantitySelectorDecrease :first-child {
+    width: 6px !important;
+    color: #000000;
+  }
+
+  .inputContainer {
+    padding: 0 !important;
+    width: 50px;
+    border: 1px solid #454545;
+    border-left: none;
+    border-right: none;
+  }
 
 .price {
-    margin-top: -26px;
+    font-family: "Roboto";
     text-align: end;
     font-weight: 800;
-
-    margin-left: 3.3rem;
 }
 
 .productPrice {
     font-size: 16px;
 }
 
-.quantitySelectorButton:first-child {
-    width: 33px;
+
+.productImage::before {
+    margin-right: 0.78vw;
 }
-
-.quantitySelectorButton:nth-child(even) {
-    width: 36px;
-}
-
-/* .productImage {
-    width: 89px;
-    height: 89px;
-} */
-
-
-/* .deleteIcon {
-    background-image: url("assets/img/close.svg");
-    color: transparent;
-    width: 9.7px;
-    height: 9.7px;
-    background-repeat: no-repeat;
-}
-
-.productBrandName {
-    display: none;
-}
-
-
-.quantitySelectorContainer {
-    height: 35px;
-}
-
-.quantityStepper {
-    width: 100px;
-}
-
-.quantitySelectorWrapper {
-    width: 10px;
-}
-
-.deleteIcon {
-    background-image: url("assets/img/close.svg");
-    color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 25px;
-    background-repeat: no-repeat;
-}
-
-.quantitySelectorDecrease,
-.quantitySelectorIncrease {
-    background-color: white;
-    border: 0;
-    color: black;
-    height: 22px;
-    width: 25px;
-}
-
-.quantitySelectorButton {
-    height: 30px;
-    width: 30px;
-}
-
-.quantitySelectorWrapper {
-    border: 1px solid darkgrey;
-    border-radius: 10%;
-    height: 36px;
-    width: 100px;
-}
-
-.inputContainer {
-    padding-right: 0;
-    padding-left: 0;
-    height: 30px;
-    width: 30px;
-} */
-
-/* .price{
-    margin-left: 74px;
-    margin-top: -26px;
-    font-weight: bold;
-} 
-
-.productPriceCurrency{
-    display: none;
-}
-
-*/

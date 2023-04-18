@@ -74,3 +74,20 @@
     font-family: "Open Sans";
     src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/fonts/Roboto/Roboto-Black.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url("assets/fonts/Heebo/Heebo-Bold.ttf");
+    font-weight: 700;
+}

@@ -40,6 +40,7 @@
 
 .styledLinkContent--all-all-categories {
     font-weight: bold;
+    font-size: 14px;
 }
 
 .styledLinkContent--menu-item-institutional,
@@ -65,20 +66,32 @@
 
 .menuContainer--main-col-category{
     display: flex;
-    height: 100%;
-    gap: 1rem;
+    height: 350px;
+    /* gap: 0.4rem; */
     padding-left: 17.39vw;
+    padding-top: 23px;
+    padding-bottom: 29px
 }
 
 .submenuWrapper--container-submenu{
     padding: 0;
-    left: 14.7vw;
-    top: -27.5px;
-    width: 67.91vw;
-    height: 311px;
+    left: 14.6vw;
+    top: -49.1px;
+    width: 67.9vw;
+    height: 352.1px;
     background: #F6F6F6;
 }
 
-.submenuContainer--container-submenu {
-    height: 350px;
+.styledLinkContent--category-all-sub {
+    font-size: 13px;
+}
+
+.styledLinkContainer--sub-categoria {
+    margin: 0;
+}
+
+.styledLinkContent--sub-categoria {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
 }

@@ -8,13 +8,16 @@
 
   "minicart.v2": {
     "props": {
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button",
+      "MinicartIcon": "image#minicart-icon",
+      "fullWidth": true
     },
     "children": ["minicart-base-content"]
   },
   "image#minicart-icon": {
       "props": {
           "size": 24,
+          "blockClass":"wrapper-cart-icon",
           "src": "assets/img/cart.svg"
       }
   },
@@ -48,7 +51,7 @@
   },
   "product-list#minicart": {
       "blocks": [
-          "product-list-content-desktop",
+        //   "product-list-content-desktop",
           "product-list-content-mobile"
       ]
   },
