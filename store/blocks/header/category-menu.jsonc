@@ -1,433 +1,711 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  //   // "vtex.menu@2.x:menu#category-menu"
+  "flex-layout.row#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true,
-      "blockClass": "space-categories"
+      "blockClass": "menu-categories",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
     },
     "children": [
       "menu-item#all-categories",
-      "menu-item#category-one",
-      "menu-item#category-second",
-      "menu-item#category-third",
-      "menu-item#category-fourth",
-      "menu-item#category-fifth",
-      "menu-item#category-sixth",
-      "menu-item#category-seventh"
+      "menu-item#first-category",
+      "menu-item#second-category",
+      "menu-item#third-category",
+      "menu-item#fourth-category",
+      "menu-item#fifth-category",
+      "menu-item#sixth-category",
+      "menu-item#seventh-category"
+      // "flex-layout.row#category-submenu"
+      // "vtex.menu@2.x:menu#category-menu"
     ]
   },
   "menu-item#all-categories": {
     "props": {
-      "blockClass": "all-categories",
-      "id": "menu-item-all-categories",
+      "id": "category_all",
       "type": "custom",
+      "blockClass": "all-all-categories",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
-        "noFollow": true,
+        "noFollow": false,
         "tagTitle": "Ver Todas As Categorias",
         "text": "Ver Todas As Categorias"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#all-categories"
+      "vtex.menu@2.x:submenu#all-col-category"
     ]
   },
-  "vtex.menu@2.x:submenu#all-categories": {
+  "vtex.menu@2.x:submenu#all-col-category": {
     "props": {
-      "width": "100%",
-      "blockClass": "submenu-all-categories"
+      "width": "auto",
+      "blockClass": "all-col-category"
     },
     "children": [
-      "flex-layout.col#menu-all-categories"
+      "flex-layout.col#categoria_menu"
     ]
   },
-
-  "flex-layout.col#menu-all-categories": {
+  "flex-layout.col#categoria_menu": {
     "children": [
-      "vtex.menu@2.x:menu#submenu-menu-all-categories"
-    ]
+      "vtex.menu@2.x:menu#submever_categorias"
+    ],
+    "props": {
+      "blockClass": "list-col-categoria"
+    }
   },
-
-  "vtex.menu@2.x:menu#submenu-menu-all-categories": {
+  "vtex.menu@2.x:menu#submever_categorias": {
     "props": {
       "orientation": "vertical",
-      "blockClass":"submever_categorias"
+      "blockClass": "main-col-category"
     },
     "children": [
-      "menu-item#first",
-      "menu-item#second",
-      "menu-item#third",
-      "menu-item#fourth",
-      "menu-item#fifth",
-      "menu-item#sixth",
-      "menu-item#seventh"
+      "menu-item#first-category",
+      "menu-item#second-category",
+      "menu-item#third-category",
+      "menu-item#fourth-category",
+      "menu-item#fifth-category",
+      "menu-item#sixth-category",
+      "menu-item#seventh-category",
+      "menu-item#eighth-category"
     ]
   },
-
-
-  "flex-layout.col#menu-all-categories-1": {
-    "children": [
-      "vtex.menu@2.x:menu#all-categories"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-
-  "info-card#home": {
+  //CATEGORAIS DA BARRA DE MENU
+  "menu-item#first-category": {
     "props": {
-      "id": "info-card-home",
-      "blockClass": "info-card-home-mais",
-      // "isFullModeStyle": false,
-      // "textPosition": "left",
-      "imageUrl": "assets/img/mug.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "Aloka",
-      "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
-    }
-  },
-
-  "vtex.menu@2.x:menu#all-categories": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#first",
-      "menu-item#second",
-      "menu-item#third",
-      "menu-item#fourth",
-      "menu-item#fifth",
-      "menu-item#sixth",
-      "menu-item#seventh"
-    ]
-  },
-  "menu-item#first": {
-    "props": {
-      "id": "menu-item-first",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-one"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "/first",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    },
-    "children" :[
-      "flex-layout.row#item-menu-first"
-    ]
-  },
-
-  "flex-layout.row#item-menu-first": {
-    "children": [
-      "vtex.menu@2.x:menu#all-categories"
-    ]
-  },
-
-  "menu-item#second": {
-    "props": {
-      "id": "menu-item-first",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/second",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    }
-  },
-  "menu-item#third": {
-    "props": {
-      "id": "menu-item-first",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/third",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    }
-  },
-  "menu-item#fourth": {
-    "props": {
-      "id": "menu-item-first",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fourth",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    }
-  },
-  "menu-item#fifth": {
-    "props": {
-      "id": "menu-item-first",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fifth",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    }
-  },
-  "menu-item#sixth": {
-    "props": {
-      "id": "menu-item-first",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sixth",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    }
-  },
-  "menu-item#seventh": {
-    "props": {
-      "blockClass": "seventh-item",
-      "id": "menu-item-first",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/seventh",
-        "noFollow": true,
-        "tagTitle": "Lorem Ipsum",
-        "text": "Lorem Ipsum"
-      }
-    }
-  },
-    "menu-item#all-category1": {
-    "props": {
-      "id": "menu-item-all-category1",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Ver Todas As Categorias",
-        "text": "Ver Todas As Categorias"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#all-more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#all-more": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#all-more"
-    ]
-  },
-  "vtex.menu@2.x:menu#all-more": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
-  },
-  "menu-item#category-one": {
-    "props": {
-      "blockClass": "menu-item-side-categories",
-      "id": "menu-item-categoria-1",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
         "noFollow": false,
         "tagTitle": "Categoria 1",
         "text": "Categoria 1"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.0:submenu#subcategory-container"
+    ]
+  },
+  "vtex.menu@2.0:submenu#subcategory-container": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-submenu"
+    },
+    "children": [
+      "flex-layout.row#subcategory-items"
+    ]
+  },
+  "flex-layout.row#subcategory-items": {
+    "children": [
+      "flex-layout.row#see-all-link",
+      "flex-layout.row#subcategory-loremipsom-image"
+    ],
+    "props": {
+      "blockClass": "all-category-items"
     }
   },
-  "menu-item#category-second": {
+  "flex-layout.row#see-all-link": {
+    "children": [
+      "link.product#see-all"
+    ],
     "props": {
-      "blockClass": "menu-item-side-categories",
-      "id": "menu-item-categoria-2",
+      "blockClass": "see-all-link"
+    }
+  },
+  "link.product#see-all": {
+    "props": {
+      "blockClass": "link-see-all",
+      "href": "/",
+      "label": "Ver Tudo"
+    }
+  },
+  "flex-layout.row#subcategory-loremipsom-image": {
+    "children": [
+      "flex-layout.col#subcategoruy-items-lorem-ipson",
+      "flex-layout.col#subcategoruy-items-lorem-ipson",
+      "flex-layout.col#subcategoruy-items-lorem-ipson",
+      "image#image-subcategory"
+    ],
+    "props": {
+      "blockClass": "subcategory-loremipson"
+    }
+  },
+  "flex-layout.col#subcategoruy-items-lorem-ipson": {
+    "children": [
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria"
+    ],
+    "props": {
+      "blockClass": "subcategory-items"
+    }
+  },
+  // "flex-layout.col#itens_subcategoria-ipsom": {
+  //   "children": [
+  //     "menu-item#sub-categoria_1",
+  //     "menu-item#sub-categoria_2",
+  //     "menu-item#sub-categoria_3",
+  //     "menu-item#sub-categoria_4",
+  //     "menu-item#sub-categoria_5",
+  //     "menu-item#sub-categoria_6",
+  //     "menu-item#sub-categoria_7"
+  //   ],
+  //   "props": {
+  //     "blockClass": "SubmenuCategoria-1"
+  //   }
+  // },
+  "menu-item#sub-categoria": {
+    "props": {
+      "blockClass": [
+        "sub_categoria",
+        "subcategoria1"
+      ],
+      "id": "Categoria_2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lorem Ipsum",
+        "text": "Lorem Ipsum"
+      }
+    }
+  },
+  "menu-item#second-category": {
+    "props": {
+      "id": "menu-item-side-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-one"
+      ], //categoria-g e 1
+      "itemProps": {
+        "type": "internal",
         "noFollow": false,
         "tagTitle": "Categoria 2",
         "text": "Categoria 2"
       }
     }
   },
-  "menu-item#category-third": {
+  "menu-item#third-category": {
     "props": {
-      "blockClass": "menu-item-side-categories",
-      "id": "menu-item-categoria-3",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-one"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "#",
         "noFollow": false,
         "tagTitle": "Categoria 3",
         "text": "Categoria 3"
       }
     }
   },
-  "menu-item#category-fourth": {
+  "menu-item#fourth-category": {
     "props": {
-      "blockClass": "menu-item-side-categories",
-      "id": "menu-item-categoria-4",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-fourth"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "#",
         "noFollow": false,
         "tagTitle": "Categoria 4",
         "text": "Categoria 4"
       }
     }
   },
-  "menu-item#category-fifth": {
+  "menu-item#fifth-category": {
     "props": {
-      "blockClass": "menu-item-side-categories",
-      "id": "menu-item-categoria-5",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-fifth"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "#",
         "noFollow": false,
         "tagTitle": "Categoria 5",
         "text": "Categoria 5"
       }
     }
   },
-  "menu-item#category-sixth": {
+  "menu-item#sixth-category": {
     "props": {
-      "blockClass": "menu-item-side-categories",
-      "id": "menu-item-categoria-6",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-sixth"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "#",
         "noFollow": false,
         "tagTitle": "Categoria 6",
         "text": "Categoria 6"
       }
     }
   },
-  "menu-item#category-seventh": {
+  "menu-item#seventh-category": {
     "props": {
-      "blockClass": "menu-item-last-category",
-      "id": "menu-item-categoria-7",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-seventh"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "#",
         "noFollow": false,
         "tagTitle": "Categoria 7",
         "text": "Categoria 7"
       }
     }
   },
-    "menu-item#contact-us": {
+  "menu-item#eighth-category": {
     "props": {
-      "id": "menu-item-contact-us",
+      "id": "menu-item-side-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": [
+        "category-all-sub",
+        "category-eighth"
+      ], //categoria-g e 1
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "noFollow": false,
+        "tagTitle": "Categoria 8",
+        "text": "Categoria 8"
+      }
+    }
+  },
+  "image#image-subcategory": {
+    "props": {
+      "src": "assets/img/desktop/banner-menu-completo.png",
+      "blockClass": "subcategoria-image",
+      "link": {
+        "newTab": true,
+        "url": "/"
       }
     }
   }
 }
+//   "vtex.menu@2.x:submenu#all-categories-collumn": {
+//     "props": {
+//       "width": "100%",
+//       "blockClass": "submenu-all-categories"
+//     },
+//     "children": [
+//       "flex-layout.col#menu-all-categories"
+//     ]
+//   },
+//   "flex-layout.col#menu-all-categories": {
+//     "children": [
+//       "vtex.menu@2.x:menu#submever_categorias"
+//     ]
+//   },
+//   "vtex.menu@2.x:menu#submever_categorias": {
+//     "props": {
+//       "orientation": "vertical",
+//       "blockClass":"submever_categorias"
+//     },
+//     "children": [
+//       "menu-item#first",
+//       "menu-item#second",
+//       "menu-item#third",
+//       "menu-item#fourth",
+//       "menu-item#fifth",
+//       "menu-item#sixth",
+//       "menu-item#seventh"
+//     ]
+//   },
+//   // "vtex.menu@2.x:menu#submenu-menu-all-categories": {
+//   //   "props": {
+//   //     "orientation": "vertical",
+//   //     "blockClass":"submever_categorias"
+//   //   },
+//   //   "children": [
+//   //     "menu-item#first",
+//   //     "menu-item#second",
+//   //     "menu-item#third",
+//   //     "menu-item#fourth",
+//   //     "menu-item#fifth",
+//   //     "menu-item#sixth",
+//   //     "menu-item#seventh"
+//   //   ]
+//   // },
+//   "flex-layout.col#menu-all-categories-1": {
+//     "children": [
+//       "vtex.menu@2.x:menu#all-categories"
+//     ]
+//   },
+//   "flex-layout.col#menu-more-2": {
+//     "children": [
+//       "info-card#home"
+//     ]
+//   },
+//   "info-card#home": {
+//     "props": {
+//       "id": "info-card-home",
+//       "blockClass": "info-card-home-mais",
+//       // "isFullModeStyle": false,
+//       // "textPosition": "left",
+//       "imageUrl": "assets/img/mug.png",
+//       "headline": "Clearance Sale",
+//       "callToActionText": "Aloka",
+//       "callToActionUrl": "/sale/d",
+//       "textAlignment": "center"
+//     }
+//   },
+//   "vtex.menu@2.x:menu#all-categories": {
+//     "props": {
+//       "orientation": "vertical"
+//     },
+//     "children": [
+//       "menu-item#first",
+//       "menu-item#second",
+//       "menu-item#third",
+//       "menu-item#fourth",
+//       "menu-item#fifth",
+//       "menu-item#sixth",
+//       "menu-item#seventh"
+//     ]
+//   },
+//   "menu-item#first": {
+//     "props": {
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/first",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     },
+//     "children" :[
+//       "flex-layout.row#item-menu-first"
+//     ]
+//   },
+//   "flex-layout.row#item-menu-first": {
+//     "children": [
+//       "vtex.menu@2.x:menu#all-categories"
+//     ]
+//   },
+//   "menu-item#second": {
+//     "props": {
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/second",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     }
+//   },
+//   "menu-item#third": {
+//     "props": {
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/third",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     }
+//   },
+//   "menu-item#fourth": {
+//     "props": {
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/fourth",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     }
+//   },
+//   "menu-item#fifth": {
+//     "props": {
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/fifth",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     }
+//   },
+//   "menu-item#sixth": {
+//     "props": {
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/sixth",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     }
+//   },
+//   "menu-item#seventh": {
+//     "props": {
+//       "blockClass": "seventh-item",
+//       "id": "menu-item-first",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/seventh",
+//         "noFollow": true,
+//         "tagTitle": "Lorem Ipsum",
+//         "text": "Lorem Ipsum"
+//       }
+//     }
+//   },
+//     "menu-item#all-category1": {
+//     "props": {
+//       "id": "menu-item-all-category1",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Ver Todas As Categorias",
+//         "text": "Ver Todas As Categorias"
+//       }
+//     },
+//     "blocks": [
+//       "vtex.menu@2.x:submenu#all-more"
+//     ]
+//   },
+//   "vtex.menu@2.x:submenu#all-more": {
+//     "props": {
+//       "width": "auto"
+//     },
+//     "children": [
+//       "vtex.menu@2.x:menu#all-more"
+//     ]
+//   },
+//   "vtex.menu@2.x:menu#all-more": {
+//     "props": {
+//       "orientation": "vertical"
+//     },
+//     "children": [
+//       "menu-item#category-apparel-clothing",
+//       "menu-item#category-apparel-accessories",
+//       "menu-item#category-apparel-eyeglasses"
+//     ]
+//   },
+//   "menu-item#category-apparel-clothing": {
+//     "props": {
+//       "id": "menu-item-category-apparel-clothing",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/apparel---accessories/clothing/",
+//         "noFollow": false,
+//         "tagTitle": "Clothing",
+//         "text": "Clothing"
+//       }
+//     }
+//   },
+//   "menu-item#category-apparel-accessories": {
+//     "props": {
+//       "id": "menu-item-category-apparel-accessories",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/apparel---accessories/accessories/",
+//         "noFollow": false,
+//         "tagTitle": "Accessories",
+//         "text": "Accessories"
+//       }
+//     }
+//   },
+//   "menu-item#category-apparel-eyeglasses": {
+//     "props": {
+//       "id": "menu-item-category-apparel-eyeglasses",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/apparel---accessories/eyeglasses/",
+//         "noFollow": false,
+//         "tagTitle": "Eyeglasses",
+//         "text": "Eyeglasses"
+//       }
+//     }
+//   },
+//   "menu-item#category-second": {
+//     "props": {
+//       "blockClass": "menu-item-side-categories",
+//       "id": "menu-item-categoria-2",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Categoria 2",
+//         "text": "Categoria 2"
+//       }
+//     }
+//   },
+//   "menu-item#category-third": {
+//     "props": {
+//       "blockClass": "menu-item-side-categories",
+//       "id": "menu-item-categoria-3",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Categoria 3",
+//         "text": "Categoria 3"
+//       }
+//     }
+//   },
+//   "menu-item#category-fourth": {
+//     "props": {
+//       "blockClass": "menu-item-side-categories",
+//       "id": "menu-item-categoria-4",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Categoria 4",
+//         "text": "Categoria 4"
+//       }
+//     }
+//   },
+//   "menu-item#category-fifth": {
+//     "props": {
+//       "blockClass": "menu-item-side-categories",
+//       "id": "menu-item-categoria-5",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Categoria 5",
+//         "text": "Categoria 5"
+//       }
+//     }
+//   },
+//   "menu-item#category-sixth": {
+//     "props": {
+//       "blockClass": "menu-item-side-categories",
+//       "id": "menu-item-categoria-6",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Categoria 6",
+//         "text": "Categoria 6"
+//       }
+//     }
+//   },
+//   "menu-item#category-seventh": {
+//     "props": {
+//       "blockClass": "menu-item-last-category",
+//       "id": "menu-item-categoria-7",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "#",
+//         "noFollow": false,
+//         "tagTitle": "Categoria 7",
+//         "text": "Categoria 7"
+//       }
+//     }
+//   },
+//     "menu-item#contact-us": {
+//     "props": {
+//       "id": "menu-item-contact-us",
+//       "type": "custom",
+//       "iconId": null,
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/contact-us",
+//         "noFollow": true,
+//         "tagTitle": "Contact Us",
+//         "text": "Contact Us"
+//       }
+//     }
+//   }

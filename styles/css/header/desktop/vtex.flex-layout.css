@@ -14,16 +14,27 @@
     padding-right: 17.39vw;
 }
 
-.flexRowContent--main-header-search:first-child, .flexRowContent--menu-categories {
+.flexRowContent--main-header-search:first-child {
     /* align-items: center; */
     width: 65.20vw;
     justify-content: space-between;
 }
 
-.flexRow--menu-categories {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
+
+.flexRowContent--menu-categories {
+    width: 65.20vw;
+    justify-content: space-between;
+}
+
+.flexRowContent--all-category-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.flexRowContent--see-all-link {
+    padding-left: 1.40vw;
+    padding-top: 25px;
 }
 
 .stretchChildrenWidth :global(.vtex-flex-layout-0-x-flexCol) {
