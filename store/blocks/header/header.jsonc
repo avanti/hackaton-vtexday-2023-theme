@@ -287,11 +287,13 @@
   },
   "logo#mobile": {
     "props": {
+      "blockClass": "image-logo-mobile",
       "title": "Logo",
       "href": "/",
       "url": "assets/img/avanti.svg",
-      "width": "185.93",
-      "height": "33"
+      "showLabel": false,
+      "width": "185.93"
+      // "height": "33"
     }
   }
   ,

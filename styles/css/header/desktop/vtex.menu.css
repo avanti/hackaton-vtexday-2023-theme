@@ -24,9 +24,9 @@
     align-items: center;
 }
 
-.styledLinkContainer {
+/* .styledLinkContainer {
     text-align: right;
-}
+} */
 
 .styledLinkContainer--all-all-categories, .styledLinkContainer--category-all-sub {
     margin: 0;
@@ -38,9 +38,16 @@
     width: auto;
 }
 
+.styledLinkContent--all-all-categories, .styledLinkContent--category-all-sub {
+    font-size: 14px;
+}
+
 .styledLinkContent--all-all-categories {
     font-weight: bold;
-    font-size: 14px;
+}
+
+.styledLinkContainer--menu-item-institutional, .styledLinkContainer--menu-item-help-center {
+    margin-left: 0;
 }
 
 .styledLinkContent--menu-item-institutional,
@@ -80,10 +87,6 @@
     width: 67.9vw;
     height: 352.1px;
     background: #F6F6F6;
-}
-
-.styledLinkContent--category-all-sub {
-    font-size: 13px;
 }
 
 .styledLinkContainer--sub-categoria {

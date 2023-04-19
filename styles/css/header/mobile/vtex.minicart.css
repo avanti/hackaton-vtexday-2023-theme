@@ -2,13 +2,12 @@
 
     .openIconContainer {
         padding: 0;
-        /* margin-left: 5.14vw; */
-        margin-left: 17.30vw;
-        margin-right: 1.14vw;
+        /* margin-left: 17.30vw; */
+        width: 6.7vw;
     }
 
     .cartIcon {
-        height: 24px;
+        height: 100%;
         width: 25px;
     }
 }

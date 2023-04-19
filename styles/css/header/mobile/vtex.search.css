@@ -1,0 +1,59 @@
+@media screen and (max-width: 40em) {
+
+    .biggy-autocomplete {
+        border: 1px solid #000000;
+        border-top: 0;
+        border-radius: 0 0 10px 10px;
+        box-shadow: none;
+        padding: 0;
+        justify-content: center;
+        width: 89.71vw!important;
+    }
+
+    .history-and-top-wrapper {
+        max-width: 89.71vw!important;
+        width: 100%;
+        border-top: 1px solid #D1D1D1;
+        padding: 26px 0 63px;
+    }
+
+    .history-and-top-wrapper:global(.vtex-search-2-x-itemListTitle) {
+        font-size: 14px;
+        color: red;
+        font-weight: 600;
+        text-transform: unset;
+        margin: 0 0 12px;
+    }
+    
+    .itemListPrefix {
+        font-size: 13px;
+        color: #000000;
+        font-weight: 800;
+    }
+    
+    .itemListLinkTitle {
+        font-size: 13px;
+        color: #2A2A2A;
+        font-weight: normal;
+    }
+    
+    .itemList--history .itemListLink {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+    }
+    
+    .itemListIcon {
+        width: 16px;
+        height: 16px;
+        display: flex;
+    }
+    
+    .itemListIcon :first-child {
+        color: #005CFF;
+    }
+
+}
+
+
+

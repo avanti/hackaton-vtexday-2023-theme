@@ -2,8 +2,17 @@
 
     .openIconContainer {
         padding: 0;
-        margin-left: 2.14vw;
+    }
+
+    .openIconContainer--drawer-class {
+        display: flex;
+        align-items: center;
+        width: 5.54vw;
         margin-right: 17.58vw;
+    }
+
+    .menuIcon--drawer-class {
+        height: 21.38px;
     }
 
     .menuIcon:first-child {

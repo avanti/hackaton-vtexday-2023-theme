@@ -11,6 +11,7 @@
         "flex-layout.col#main-container.desktop"
       ],
       "props": {
+        "blockClass": "col-prices",
         "fullWidth": true,
         "paddingBottom": "7",
         "paddingTop": "6",
@@ -141,6 +142,7 @@
     "flex-layout.col#image.mobile": {
       "children": ["product-list-image"],
       "props": {
+        "blockClass": "image-list-product",
         "marginRight": "5"
       }
     },

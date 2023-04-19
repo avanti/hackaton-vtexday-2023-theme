@@ -35,7 +35,8 @@
     ],
     "props": {
       "blockClass": "first-line",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "colJustify": "between"
     }
   },
 

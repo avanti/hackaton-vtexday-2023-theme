@@ -4,10 +4,16 @@
 }
 
 .logoImage {
-    height: 27.08px;
+    height: 100%;
     width: 7.946vw;
     margin-right: 5.90vw;
+    /* display: flex; */
+}
 
+:global(.vtex-store-components-3-x-logoLink) {
+    display: block!important;
+    transition: none!important;
+    transform: none!important;
 }
 
 .searchBarContainer {
