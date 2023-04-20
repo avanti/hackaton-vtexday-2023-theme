@@ -1,13 +1,51 @@
 @media screen and (max-width: 40em) {
 
+    .closeIconContainer {
+        height: auto;
+        margin: auto;
+    }
+
+    .closeIcon {
+        padding-right: 1.2vw;
+    }
+
+    /* .closeIconButton {
+        padding: 0;
+    } */
+
+    .closeIconContainer::after {
+        display: none;
+    }
+
+    .closeIconContainer::before {
+        content: "meu carrinho";
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        margin: auto;
+        margin-left: 37.38vw;
+        font-size: 14px;
+    }
+
     .openIconContainer {
         padding: 0;
-        /* margin-left: 17.30vw; */
         width: 6.7vw;
     }
 
     .cartIcon {
         height: 100%;
         width: 25px;
+    }
+
+    :global(.vtex-minicart-2-x-opened) {
+        max-width: 428vw!important;
+        width: 100%!important;
+    }
+
+    .minicartProductListContainer {
+        padding: 0;
+        padding-right: 5.14vw;
+        padding-left: 4.90vw;
     }
 }

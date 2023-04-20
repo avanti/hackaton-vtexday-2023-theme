@@ -17,10 +17,6 @@
     padding: 0!important;
 }
 
-/* .minicartWrapperContainer {
-    padding-left: 2.03vw;
-} */
-
 .closeIconContainer::after {
     content: "meu carrinho";
     justify-content: center;

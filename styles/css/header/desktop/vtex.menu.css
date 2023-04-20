@@ -83,9 +83,9 @@
 .submenuWrapper--container-submenu{
     padding: 0;
     left: 14.6vw;
-    top: -49.1px;
+    top: -50.99px;
     width: 67.9vw;
-    height: 352.1px;
+    height: 352.5px;
     background: #F6F6F6;
 }
 
@@ -97,4 +97,9 @@
     margin: 0;
     padding: 0;
     font-size: 13px;
+}
+
+.styledLinkIcon--category-all-sub {
+    margin: 0;
+    padding-right: 1.27vw;
 }
