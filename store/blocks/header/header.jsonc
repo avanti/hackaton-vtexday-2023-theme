@@ -181,11 +181,6 @@
   "sticky-layout#1-mobile": {
     "props": {
       "blockClass": "main-header-mobile-all"
-      // "horizontalAlign": "center",
-      // "verticalAlign": "center",
-      // "preventHorizontalStretch": true,
-      // "preventVerticalStretch": true,
-      // "fullWidth": true
     },
     "children": [
       "flex-layout.row#4-mobile"
@@ -283,10 +278,19 @@
   "flex-layout.row#acordion": {
     "props": {
       "blockClass": "drawer-acordion",
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preventVerticalStretch": true
     },
-    "children": ["menu-item#lorem1-mobile"]
+    "children": [
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile",
+      "menu-item#lorem1-mobile"
+    ]
   },
 
 
@@ -323,7 +327,7 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Minha Conta",
+      "iconLabel": "Entrar",
       "hidenIconLabel": false
     }
   },
@@ -335,12 +339,12 @@
       "type": "custom",
       "iconId": null,
       "highlight": true,
-      // "iconPosition": "right",
-      // "iconProps": {
-      //   "id": "nav-caret--down",
-      //   "size": 12,
-      //   "activeClassName": "black"
-      // },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 12,
+        "activeClassName": "black"
+      },
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -364,11 +368,54 @@
       "blockClass": "mobile-lorem1-sub-menu"
     },
     "children": [
-      "menu-item#sub-categoria",
-      "menu-item#sub-categoria",
-      "menu-item#sub-categoria",
-      "menu-item#sub-categoria",
-      "menu-item#sub-categoria"
+      "menu-item#sub-categoria-mobile",
+      "menu-item#sub-categoria-mobile",
+      "menu-item#sub-categoria-mobile",
+      "menu-item#sub-categoria-mobile",
+      "menu-item#sub-categoria-mobile",
+      "menu-item#sub-categoria-mobile",
+      "menu-item#last-sub-category-mobile"
     ]
+  },
+
+  "menu-item#sub-categoria-mobile": {
+    "props": {
+      "blockClass": [
+        "sub-categoria",
+        "subcategoria1",
+        "sub-categoria-mobile"
+      ],
+      "id": "Categoria-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Lorem Ipsum",
+        "text": "Lorem Ipsum"
+      }
+    }
+  },
+
+  "menu-item#last-sub-category-mobile": {
+    "props": {
+      "blockClass": [
+        "sub-categoria",
+        "subcategoria1",
+        "sub-categoria-mobile",
+        "last-sub-categoria-mobile"
+      ],
+      "id": "Categoria-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Lorem Ipsum",
+        "text": "Lorem Ipsum"
+      }
+    }
   }
 }

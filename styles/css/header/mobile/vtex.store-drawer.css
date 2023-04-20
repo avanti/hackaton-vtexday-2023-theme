@@ -14,6 +14,7 @@
         align-items: center;
         width: 5.54vw;
         margin-right: 17.58vw;
+        margin-left: 5.14vw;
     }
 
     .menuIcon--drawer-class {
@@ -51,6 +52,10 @@
 
     .menuContainerNav--mobile-drawer {
         width: 428vw;
+    }
+
+    :global(.vtex-store-components-3-x-container) {
+        padding: 0;
     }
 
 }

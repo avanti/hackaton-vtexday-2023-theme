@@ -5,11 +5,14 @@
         color: black;
         margin-right: 5vw;
         margin-top: 19px;
+        padding-left: 5.14vw;
     }
 
     .paragraph--footer {
         font-size: 12px;
         color: black;
+        padding-left: 5.14vw;
+        padding-right: 5.14vw;
     }
 
 }

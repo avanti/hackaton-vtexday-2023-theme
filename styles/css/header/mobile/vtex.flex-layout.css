@@ -26,6 +26,10 @@
         background-color: #F2F2F2;
     }
 
+    .flexRow--inormation-container-footer:global(.vtex-store-components-3-x-container) {
+        padding: 0!important;
+    }
+
     .flexRowContent--social-media-network-mobile {
         display: flex;
         flex-direction: row;
@@ -35,10 +39,20 @@
         background-color: #F2F2F2;
     }
 
+    .flexRow--payment-methods-line-one {
+        padding-left: 17.52vw;
+        padding-right: 16.26vw;
+    }
+
+    .flexRow--payment-methods-line-two {
+        padding-left: 23vw;
+        padding-right: 23vw;
+    }
+
     .flexRowContent--payment-methods-line-mobile {
         padding-top: 33px;
-        padding-left: 3.64vw;
-        padding-right: 3.64vw;
+        /* padding-left: 3.64vw;
+        padding-right: 3.64vw; */
     }
 
     .flexRowContent--payment-methods-line-one,
@@ -65,6 +79,8 @@
         justify-content: space-around;
         margin-bottom: 29.72px;
         align-items: center;
+        padding-left: 9.57vw;
+        padding-right: 9.34vw;
     }
 
     .flexRow--office-contact {
@@ -95,22 +111,14 @@
         height: 50px;
     }
 
-    .flexRow--menu-mobile-vertical-login {
-        display: flex;
-        flex-direction: column;
+     .flexRowContent--main-header-mobile-first-line {
+        margin-right: 0;
     }
 
-    .flexRow--main-header-mobile-first-line {
-        display: flex;
-        justify-content: center;
-
+    .flexRowContent--drawer-acordion::after {
+        width: 100vw;
     }
 
-    .flexRowContent--main-header-mobile-first-line {
-        display: flex;
-        justify-content: space-between;
-        width: 89.71vw;
-    }
 
 
 }

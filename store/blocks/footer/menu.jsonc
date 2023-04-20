@@ -325,6 +325,7 @@
   },
   "menu-item#clothing-mobile": { //clothing
     "props": {
+      "blockClass": "mobile-footer-menu",
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
@@ -364,6 +365,7 @@
   },
   "menu-item#decoration-mobile": {
     "props": {
+      "blockClass": "mobile-footer-menu",
       "itemProps": {
         "tagTitle": "Central de Ajuda",
         "text": "Central de Ajuda"
@@ -396,6 +398,7 @@
   },
   "menu-item#atendimento-mobile": { //sales
     "props": {
+      "blockClass": "mobile-footer-menu",
       "itemProps": {
         "tagTitle": "Atendimento",
         "text": "Atendimento"
