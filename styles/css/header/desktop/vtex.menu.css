@@ -65,17 +65,15 @@
 }
 
 .submenuWrapper--all-col-category{
-    width: 32.08vw;
+    width: 14.68vw;
     height: auto;
-    left: -18.59vw;
-    /* left: -356.9px; */
+    margin-left: 0;
+
 }
 
 .menuContainer--main-col-category{
     display: flex;
     height: 350px;
-    /* gap: 0.4rem; */
-    padding-left: 17.39vw;
     padding-top: 23px;
     padding-bottom: 29px
 }
@@ -84,7 +82,7 @@
     padding: 0;
     left: 14.6vw;
     top: -50.99px;
-    width: 67.9vw;
+    width: 50.52vw;
     height: 352.5px;
     background: #F6F6F6;
 }
@@ -99,7 +97,10 @@
     font-size: 13px;
 }
 
-.styledLinkIcon--category-all-sub {
-    margin: 0;
+.styledLinkContent--category-sub-menu {
+    padding-left: 1.27vw;
+}
+
+.styledLinkIcon--category-sub-menu {
     padding-right: 1.27vw;
 }

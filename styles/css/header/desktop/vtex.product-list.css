@@ -73,3 +73,8 @@
 .productImage::before {
     margin-right: 0.78vw;
 }
+
+
+.unitPriceContainer, .productVariationsContainer {
+    display: none;
+}

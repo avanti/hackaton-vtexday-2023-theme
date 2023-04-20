@@ -52,13 +52,13 @@
 .minicartCheckoutButton {
     width: 352px;
     margin: auto;
+    padding-bottom: 56px;
 }
 
 .minicartCheckoutButton :global(.vtex-button){
     background-color: #005CFF;
     border: none;
     border-radius: 10px;
-
 }
 
 .minicartCheckoutButton :global(.vtex-button__label){

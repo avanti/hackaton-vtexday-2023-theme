@@ -237,27 +237,25 @@
   },
   "drawer": {
     "children": [
-      "flex-layout.row#menu-mobile-vertical"
+      "menu#drawer"
     ],
     "props": {
       "blockClass": "drawer-class"
     }
   },
 
-  "flex-layout.row#menu-mobile-vertical": {
+  "menu#drawer": {
     "children": [
-      "flex-layout.row#login-mobile",
-      "menu#drawer"
+      "flex-layout.row#login-mobile", 
+      "flex-layout.row#acordion"
     ],
     "props": {
-      "blockClass": "menu-mobile-vertical-first-line",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "orientation": "vertical",
+      "blockClass": "mobile-drawer"
     }
   },
 
-  "flex-layout.row#login-mobile": {
+    "flex-layout.row#login-mobile": {
     "children": [
       "login#mobile"
     ],
@@ -269,22 +267,29 @@
     }
   },
 
-  "menu#drawer": {
+  "flex-layout.row#menu-mobile-vertical": {
     "children": [
-      "menu-item#all-categories",
-      "menu-item#first-category",
-      "menu-item#second-category",
-      "menu-item#third-category",
-      "menu-item#fourth-category",
-      "menu-item#fifth-category",
-      "menu-item#sixth-category",
-      "menu-item#seventh-category"
+      "flex-layout.row#login-mobile"
+      
     ],
     "props": {
-      "orientation": "vertical",
-      "blockClass": "mobile-drawer"
+      "blockClass": "menu-mobile-vertical-first-line",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
     }
   },
+
+  "flex-layout.row#acordion": {
+    "props": {
+      "blockClass": "drawer-acordion",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": ["menu-item#lorem1-mobile"]
+  },
+
+
   "logo#mobile": {
     "props": {
       "blockClass": "image-logo-mobile",
@@ -318,7 +323,52 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Minha Conta"
+      "iconLabel": "Minha Conta",
+      "hidenIconLabel": false
     }
+  },
+
+  "menu-item#lorem1-mobile": {
+    "props": {
+      "id": "mobile-lorem1",
+      "blockClass": "mobile-lorem1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      // "iconPosition": "right",
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 12,
+      //   "activeClassName": "black"
+      // },
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "LOREM IPSUM",
+        "text": "Lorem Ipsum"
+      },
+      "iconToTheRight": true
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#loremIpsum"]
+  },
+  "vtex.menu@2.x:submenu.accordion#loremIpsum": {
+    "props": {
+      "blockClass": "submenu-acordion-loremIpsum"
+    },
+    "children": ["vtex.menu@2.x:menu#loremIpsum-mobile"]
+  },
+  "vtex.menu@2.x:menu#loremIpsum-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-lorem1-sub-menu"
+    },
+    "children": [
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria",
+      "menu-item#sub-categoria"
+    ]
   }
 }

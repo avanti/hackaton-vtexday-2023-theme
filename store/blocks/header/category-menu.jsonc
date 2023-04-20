@@ -81,8 +81,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-one"
-      ], //categoria-g e 1
+        "category-one",
+        "category-sub-menu"
+      ], 
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -218,7 +219,8 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-one"
+        "category-one",
+        "category-sub-menu"
       ], 
       "itemProps": {
         "type": "internal",
@@ -242,8 +244,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-one"
-      ], //categoria-g e 1
+        "category-one",
+        "category-sub-menu"
+      ], 
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -266,8 +269,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-fourth"
-      ], //categoria-g e 1
+        "category-fourth",
+        "category-sub-menu"
+      ], 
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -290,8 +294,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-fifth"
-      ], //categoria-g e 1
+        "category-fifth",
+        "category-sub-menu"
+      ], 
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -314,8 +319,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-sixth"
-      ], //categoria-g e 1
+        "category-sixth",
+        "category-sub-menu"
+      ],
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -338,8 +344,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-seventh"
-      ], //categoria-g e 1
+        "category-seventh",
+        "category-sub-menu"
+      ],       
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -362,8 +369,9 @@
       "highlight": false,
       "blockClass": [
         "category-all-sub",
-        "category-eighth"
-      ], //categoria-g e 1
+        "category-eighth",
+        "category-sub-menu"
+      ],
       "itemProps": {
         "type": "internal",
         "noFollow": false,
