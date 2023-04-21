@@ -17,6 +17,20 @@
     padding: 0!important;
 }
 
+:global(.vtex-minicart-2-x-drawerContent), 
+:global(.vtex-minicart-2-x-childrenContainer) {
+    height: 100%;
+}
+
+:global(.vtex-minicart-2-x-minicartSideBarContentWrapper) {
+    height: 100%!important;
+}
+
+/* .minicartSideBarContentWrapper {
+    display: flex;
+    justify-content: space-between;
+} */
+
 .closeIconContainer::after {
     content: "meu carrinho";
     justify-content: center;

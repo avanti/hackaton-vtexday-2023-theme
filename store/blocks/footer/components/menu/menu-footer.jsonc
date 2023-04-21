@@ -1,0 +1,135 @@
+{
+    "vtex.menu@2.x:menu#footer-institutional": {
+        "props": {
+            "blockClass": "menu-blocks",
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#institutional",
+            "menu-item#about-us2",
+            "menu-item#privace-security",
+            "menu-item#terms-condition"
+        ]
+    },
+    "rich-text#institutional": {
+        "props": {
+            "blockClass": [
+                "top-information"
+            ],
+            "text": "Institucional"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-help-center": {
+        "props": {
+            "blockClass": "menu-blocks",
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#help-center",
+            "menu-item#talk-us",
+            "menu-item#delivery",
+            "menu-item#returns",
+            "menu-item#payments",
+            "menu-item#FAQ"
+        ]
+    },
+    "rich-text#help-center": {
+        "props": {
+            "blockClass": [
+                "top-information"
+            ],
+            "text": "Central de Ajuda"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-services": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#service",
+            "flex-layout.row#office-information"
+        ]
+    },
+    "rich-text#service": {
+        "props": {
+            "blockClass": [
+                "top-information"
+            ],
+            "text": "Atendimento"
+        }
+    },
+    "flex-layout.row#office-information": {
+        "props": {
+            "orientation": "vertical",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "flex-layout.row#office-hour",
+            "flex-layout.row#contact"
+        ]
+    },
+    "flex-layout.row#office-hour": {
+        "props": {
+            "blockClass": "office-hour",
+            "fullWidth": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "rich-text#office-hour",
+            "rich-text#office-weekdays",
+            "rich-text#office-hour-weekend"
+        ]
+    },
+    "rich-text#office-hour": {
+        "props": {
+            "blockClass": "menu-item-service-information",
+            "text": "**Horário de Atendimento:**"
+        }
+    },
+    "rich-text#office-weekdays": {
+        "props": {
+            "blockClass": "menu-item-service-information",
+            "text": "Segunda a Sábado: 07h00 às 23h00"
+        }
+    },
+    "rich-text#office-hour-weekend": {
+        "props": {
+            "blockClass": "menu-item-service-information",
+            "text": "Domingos e Feriados: 07h00 às 21h00"
+        }
+    },
+    "flex-layout.row#contact": {
+        "props": {
+            "blockClass": "office-contact",
+            "fullWidth": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "rich-text#office-phone",
+            "rich-text#office-email"
+        ]
+    },
+    "rich-text#office-phone": {
+        "props": {
+            "blockClass": "menu-item-service-contatc",
+            "text": "**Telefone:**&nbsp;(00)1234-5678"
+        }
+    },
+    "rich-text#office-email": {
+        "props": {
+            "blockClass": "menu-item-service-contatc",
+            "text": "**E-mail:**&nbsp;exemplo@exemplo.com.br"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-mobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "information-line"
+        },
+        "children": [
+            "menu-item#footer-institutional-mobile",
+            "menu-item#footer-help-center-mobile",
+            "menu-item#footer-service-mobile"
+        ]
+    }
+}

@@ -1,10 +1,10 @@
 @media screen and (max-width: 40em) {
 
     .paragraph--social-media-text {
-        font-size: 12px;
+        font-size: 100px;
         color: black;
-        margin-right: 5vw;
-        margin-top: 19px;
+        margin: 0!important;
+        margin-top: 5px;
         padding-left: 5.14vw;
     }
 

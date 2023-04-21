@@ -69,7 +69,6 @@
     "children": [
       "flex-layout.row#search-desktop",
       "flex-layout.row#category-menu"
-      // "flex-layout.col#spacer"
     ]
   },
   "flex-layout.row#search-desktop": {
@@ -83,7 +82,6 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      // "flex-layout.col#spacer",
       "search-bar",
       "login",
       "minicart.v2"
@@ -135,28 +133,6 @@
     "children": [
       "logo#desktop"
     ]
-  },
-  // "flex-layout.row#category-menu": {
-  //   "props": {
-  //     "blockClass": "menu-categories",
-  //     "horizontalAlign": "center",
-  //     "verticalAlign": "center",
-  //     "preventHorizontalStretch": true,
-  //     "preventVerticalStretch": true,
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "flex-layout.row#category-submenu"
-  //     // "vtex.menu@2.x:menu#category-menu"
-  //   ]
-  // },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/avanti.svg",
-      "showLabel": false
-    }
   },
   "header-layout.mobile": {
     "children": [
@@ -219,8 +195,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      // "flex-layout.col#spacer",
-      // "login",
       "minicart.v2"
     ],
     "props": {
@@ -339,12 +313,12 @@
       "type": "custom",
       "iconId": null,
       "highlight": true,
-      "iconPosition": "right",
-      "iconProps": {
-        "id": "nav-caret--down",
-        "size": 12,
-        "activeClassName": "black"
-      },
+      // "iconPosition": "right",
+      // "iconProps": {
+      //   "id": "nav-caret--down",
+      //   "size": 12,
+      //   "activeClassName": "black"
+      // },
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -416,6 +390,14 @@
         "tagTitle": "Lorem Ipsum",
         "text": "Lorem Ipsum"
       }
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/avanti.svg",
+      "showLabel": false
     }
   }
 }

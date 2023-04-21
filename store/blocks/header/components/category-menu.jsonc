@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#category-menu": {
+    "props": {
+      "blockClass": "menu-categories",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "menu-item#all-categories",
+      "menu-item#first-category-top-menu",
+      "menu-item#second-category-top-menu",
+      "menu-item#third-category-top-menu",
+      "menu-item#fourth-category-top-menu",
+      "menu-item#fifth-category-top-menu",
+      "menu-item#sixth-category-top-menu",
+      "menu-item#seventh-category-top-menu"
+    ]
+  },
+  "image#image-subcategory": {
+    "props": {
+      "src": "assets/img/desktop/banner-menu-completo.png",
+      "blockClass": "subcategoria-image",
+      "link": {
+        "newTab": true,
+        "url": "/"
+      }
+    }
+  }
+}

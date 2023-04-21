@@ -1,0 +1,369 @@
+{ //CATEGORAIS DA BARRA DE MENU
+    "menu-item#all-categories": {
+        "props": {
+            "id": "category_all",
+            "type": "custom",
+            "blockClass": "all-all-categories",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Ver Todas As Categorias",
+                "text": "Ver Todas As Categorias"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#all-col-category"
+        ]
+    },
+    "menu-item#first-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 1",
+                "text": "Categoria 1"
+            }
+        }
+    },
+    "menu-item#second-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 2",
+                "text": "Categoria 2"
+            }
+        }
+    },
+    "menu-item#third-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 3",
+                "text": "Categoria 3"
+            }
+        }
+    },
+    "menu-item#fourth-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 4",
+                "text": "Categoria 4"
+            }
+        }
+    },
+    "menu-item#fifth-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 5",
+                "text": "Categoria 5"
+            }
+        }
+    },
+    "menu-item#sixth-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 6",
+                "text": "Categoria 6"
+            }
+        }
+    },
+    "menu-item#seventh-category-top-menu": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 7",
+                "text": "Categoria 7"
+            }
+        }
+    },
+    //CATEGORAIS DA BARRA DE SUBMENU
+    "menu-item#first-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 1",
+                "text": "Categoria 1"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.0:submenu#subcategory-container"
+        ]
+    },
+    "menu-item#second-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 2",
+                "text": "Categoria 2"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    "menu-item#third-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-one",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 3",
+                "text": "Categoria 3"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    "menu-item#fourth-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-fourth",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 4",
+                "text": "Categoria 4"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    "menu-item#fifth-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-fifth",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 5",
+                "text": "Categoria 5"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    "menu-item#sixth-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-sixth",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 6",
+                "text": "Categoria 6"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    "menu-item#seventh-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-seventh",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 7",
+                "text": "Categoria 7"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    "menu-item#eighth-category": {
+        "props": {
+            "id": "menu-item-side-categories",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": [
+                "category-all-sub",
+                "category-eighth",
+                "category-sub-menu"
+            ],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Categoria 8",
+                "text": "Categoria 8"
+            },
+            "iconPosition": "right",
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 8,
+                "activeClassName": "black"
+            }
+        }
+    },
+    //ITENS SUBMENU
+    "menu-item#sub-categoria": {
+        "props": {
+            "blockClass": [
+                "sub-categoria",
+                "subcategoria1"
+            ],
+            "id": "Categoria_2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "Lorem Ipsum",
+                "text": "Lorem Ipsum"
+            }
+        }
+    }
+}

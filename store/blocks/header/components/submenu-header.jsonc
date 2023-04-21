@@ -1,0 +1,134 @@
+{
+    "vtex.menu@2.x:submenu#all-col-category": {
+        "props": {
+            "width": "auto",
+            "blockClass": "all-col-category"
+        },
+        "children": [
+            "flex-layout.col#categoria_menu"
+        ]
+    },
+    "flex-layout.col#categoria_menu": {
+        "children": [
+            "vtex.menu@2.x:menu#submever_categorias"
+        ],
+        "props": {
+            "blockClass": "list-col-categoria"
+        }
+    },
+    "vtex.menu@2.x:menu#submever_categorias": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "main-col-category"
+        },
+        "children": [
+            "menu-item#first-category",
+            "menu-item#second-category",
+            "menu-item#third-category",
+            "menu-item#fourth-category",
+            "menu-item#fifth-category",
+            "menu-item#sixth-category",
+            "menu-item#seventh-category",
+            "menu-item#eighth-category"
+        ]
+    },
+    "vtex.menu@2.0:submenu#subcategory-container": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "container-submenu"
+        },
+        "children": [
+            "flex-layout.row#subcategory-items"
+        ]
+    },
+    "flex-layout.row#subcategory-items": {
+        "children": [
+            "flex-layout.row#see-all-link",
+            "flex-layout.row#subcategory-loremipsom-image"
+        ],
+        "props": {
+            "blockClass": "all-category-items",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        }
+    },
+    "flex-layout.row#see-all-link": {
+        "children": [
+            "link.product#see-all"
+        ],
+        "props": {
+            "blockClass": "see-all-link"
+        }
+    },
+    "link.product#see-all": {
+        "props": {
+            "blockClass": "link-see-all",
+            "href": "/",
+            "label": "Ver Tudo"
+        }
+    },
+    "flex-layout.row#subcategory-loremipsom-image": {
+        "children": [
+            "flex-layout.col#subcategoruy-items-lorem-ipson-first-collumn",
+            "flex-layout.col#subcategoruy-items-lorem-ipson-second-collumn",
+            "flex-layout.col#subcategoruy-items-lorem-ipson-third-collumn",
+            "image#image-subcategory"
+        ],
+        "props": {
+            "blockClass": "subcategory-loremipson",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#subcategoruy-items-lorem-ipson-first-collumn": {
+        "children": [
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria"
+        ],
+        "props": {
+            "blockClass": [
+                "subcategory-items",
+                "subcategory-items-first-collumn"
+            ]
+        }
+    },
+    "flex-layout.col#subcategoruy-items-lorem-ipson-second-collumn": {
+        "children": [
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria"
+        ],
+        "props": {
+            "blockClass": [
+                "subcategory-items",
+                "subcategory-items-second-collumn"
+            ]
+        }
+    },
+    "flex-layout.col#subcategoruy-items-lorem-ipson-third-collumn": {
+        "children": [
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria",
+            "menu-item#sub-categoria"
+        ],
+        "props": {
+            "blockClass": [
+                "subcategory-items",
+                "subcategory-items-third-collumn"
+            ]
+        }
+    }
+}

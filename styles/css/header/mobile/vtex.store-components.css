@@ -44,11 +44,15 @@
     }
 
      .imageElement--image-media {
-        margin-top: 22px;
-        margin-left: 1vw; 
         height: 36px;
         width: 36px;
-        border-radius: 2px;
+        /* border-radius: 5px!important; */
+        margin-left: 2.3vw;
+        margin-right: 0!important;
+    }
+
+    .imageElement--facebook-class {
+        margin-left: 7.7vw;
     }
 
     .imageElement--image-payment {
@@ -57,39 +61,3 @@
 }
 
 
-
-
-
-.searchBarInnerContainer--input-search-bar-header .autoCompleteOuterContainer {
-    border: 1px solid #000000;
-    border-radius: 10px;
-}
-
-.searchBarInnerContainer--input-search-bar-header--opened .autoCompleteOuterContainer {
-    border-bottom: none !important;
-    border-radius: 10px 10px 0 0 !important;
-}
-
-.imageElement--wrapper-cart-icon {
-    width: 24px;
-    height: 24px;
-}
-
-.imageElement--image-media {
-    margin-right: 0.78vw;
-    border-radius: 3px;
-}
-
-.imageElement--image-payment {
-    margin-right: 1.77vw;
-}
-
-.imageElement--brands-footer-image {
-    margin-right: 1.71vw;
-}
-
-.infoCardImage--info-card-home {
-    width: 15.52vw;
-    height: 258px;
-    border-radius: 10px;
-}

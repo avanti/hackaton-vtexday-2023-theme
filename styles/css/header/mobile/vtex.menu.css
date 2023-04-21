@@ -9,6 +9,15 @@
         background-repeat: no-repeat;
     }
 
+    .accordionIcon--isOpen {
+        color: transparent;
+        background-image: url('assets/img/blue-arrow.svg');
+        width: 10.8px;
+        height: 7.75px;
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+    }
+
     .menuContainerNav--mobile-drawer {
         width: 428vw;
     }
@@ -55,7 +64,20 @@
     }
 
     .accordionIcon--mobile-lorem1 {
-        display: none;
+        margin-right: 5.14vw;
+        width: 2.80vw;
+    }
+
+    .accordionIcon--mobile-lorem1--isClosed {
+        color: transparent;
+        background-image: url('assets/img/arrow.svg');
+        background-repeat: no-repeat;
+    }
+
+    .accordionIcon--mobile-lorem1--isOpen {
+        color: transparent;
+        background-image: url('assets/img/arrow.svg');
+        background-repeat: no-repeat;
     }
 
     .styledLinkIcon--mobile-lorem1 {
@@ -91,6 +113,8 @@
 
     .styledLinkContent--mobile-footer-menu {
         margin-left: 5.14vw;
+        font-size: 12px;
+        text-transform: uppercase;
     }
 
     .styledLinkContainer--mobile-footer-menu, .styledLinkContainer--menu-item-institutional {

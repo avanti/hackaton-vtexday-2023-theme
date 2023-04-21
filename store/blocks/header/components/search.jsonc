@@ -10,7 +10,6 @@
             "maxHistory": "5",
             "maxSuggestedProducts": "3",
             "autocompleteAlignment": "center",
-            // "maxWidth": "721",
             "placeholder": "Digite aqui o que você procura",
             "containerMode": "container"
         }
@@ -25,8 +24,7 @@
             "maxHistory": 5
         }
     },
-
-      "search-bar#mobile": {
+    "search-bar#mobile": {
         "blocks": [
             "autocomplete-result-list.v2"
         ],

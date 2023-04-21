@@ -1,0 +1,51 @@
+{
+    "vtex.menu@2.x:submenu.accordion#footer-institutional-mobile": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-institutional-mobile-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-institutional-mobile-accordion": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobile-institutional"
+        },
+        "children": [
+            "menu-item#about-us2",
+            "menu-item#privace-security",
+            "menu-item#terms-condition"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-help-center-mobile": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-help-center-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-help-center-mobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobile-help-center"
+        },
+        "children": [
+            "menu-item#talk-us",
+            "menu-item#delivery",
+            "menu-item#returns",
+            "menu-item#payments",
+            "menu-item#FAQ"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-service-mobile": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-service-mobile"
+        ]
+    },
+    "vtex.menu@2.x:menu#footer-service-mobile": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobile-atendimento"
+        },
+        "children": [
+            "flex-layout.row#office-hour",
+            "flex-layout.row#contact"
+        ]
+    }
+}

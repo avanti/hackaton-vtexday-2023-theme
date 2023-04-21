@@ -1,0 +1,173 @@
+{
+    "menu-item#about-us2": {
+        "props": {
+            "id": "menu-item-about-us",
+            "blockClass": "menu-item-institutional",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Sobre Nós",
+                "text": "Sobre Nós"
+            }
+        }
+    },
+    "menu-item#privace-security": {
+        "props": {
+            "id": "menu-item-securitu",
+            "blockClass": "menu-item-institutional",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Privacidade e Segurança",
+                "text": "Privacidade e Segurança"
+            }
+        }
+    },
+    "menu-item#terms-condition": {
+        "props": {
+            "id": "menu-item-condition",
+            "blockClass": "menu-item-institutional",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Termos e Confições",
+                "text": "Termos e Condições"
+            }
+        }
+    },
+    "menu-item#talk-us": {
+        "props": {
+            "id": "menu-item-talk-us",
+            "blockClass": "menu-item-help-center",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Fale Conosco",
+                "text": "Fale Conosco"
+            }
+        }
+    },
+    "menu-item#delivery": {
+        "props": {
+            "id": "menu-item-delivery",
+            "blockClass": "menu-item-help-center",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Frete e Entrega",
+                "text": "Frete e Entrega"
+            }
+        }
+    },
+    "menu-item#returns": {
+        "props": {
+            "id": "menu-item-returns",
+            "blockClass": "menu-item-help-center",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Trocas e Devoluções",
+                "text": "Trocas e Devoluções"
+            }
+        }
+    },
+    "menu-item#payments": {
+        "props": {
+            "id": "menu-item-payments",
+            "blockClass": "menu-item-help-center",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Pagamentos",
+                "text": "Pagamentos"
+            }
+        }
+    },
+    "menu-item#FAQ": {
+        "props": {
+            "id": "menu-item-FAQ",
+            "blockClass": "menu-item-help-center",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "FAQ",
+                "text": "FAQ"
+            }
+        }
+    },
+    "menu-item#footer-institutional-mobile": {
+        "props": {
+            "blockClass": "mobile-footer-menu",
+            "id": "menu-item-category-footer-institutional",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Institucional",
+                "text": "Institucional"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-institutional-mobile"
+        ]
+    },
+    "menu-item#footer-help-center-mobile": {
+        "props": {
+            "blockClass": "mobile-footer-menu",
+            "itemProps": {
+                "tagTitle": "Central de Ajuda",
+                "text": "Central de Ajuda"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-help-center-mobile"
+        ]
+    },
+    "menu-item#footer-service-mobile": {
+        "props": {
+            "blockClass": "mobile-footer-menu",
+            "itemProps": {
+                "tagTitle": "Atendimento",
+                "text": "Atendimento"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-service-mobile"
+        ]
+    }
+}
