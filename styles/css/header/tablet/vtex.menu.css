@@ -8,24 +8,126 @@
         background-repeat: no-repeat;
     }
 
+    .accordionIcon--isOpen {
+        color: transparent;
+        background-image: url('assets/img/blue-arrow.svg');
+        width: 10.8px;
+        height: 7.75px;
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+    }
+
+    .menuContainerNav--mobile-drawer {
+        width: 428vw;
+    }
+
     .menuContainerNav--mobile-institutional {
         height: 75px;
+        margin-left: 7.47vw;
     }
 
     .menuContainerNav--mobile-help-center {
         height: 120px;
+        margin-left: 7.47vw;
     }
 
     .menuContainerNav--mobile-atendimento {
-        height: 200px;
+        height: 140px;
+        margin-left: 7.47vw;
     }
 
     .menuItemInnerDiv:global(.vtex-menu-2-x-styledLinkContent) {
         margin-right: 0;
     }
 
-    .menuContainerNav--mobile-drawer {
-        padding-left: 4vw;
+    .menuItem--mobile-lorem1 {
+        height: auto;
+        justify-content: center;
     }
+
+    .styledLinkContent--mobile-lorem1 {
+        margin: 0!important;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .styledLinkContainer--mobile-lorem1 {
+        margin: 0!important;
+        padding-left: 5.14vw;
+    }
+
+    .menuItemInnerDiv--mobile-lorem1 {
+        border-top: 0.5px solid white;
+    }
+
+    .accordionIcon--mobile-lorem1 {
+        margin-right: 5.14vw;
+        width: 2.80vw;
+    }
+
+    .accordionIcon--mobile-lorem1--isClosed {
+        color: transparent;
+        background-image: url('assets/img/arrow.svg');
+        background-repeat: no-repeat;
+    }
+
+    .accordionIcon--mobile-lorem1--isOpen {
+        color: transparent;
+        background-image: url('assets/img/arrow.svg');
+        background-repeat: no-repeat;
+    }
+
+    .styledLinkIcon--mobile-lorem1 {
+        margin-left: 67.28vw;
+        margin-right: 5.14vw;
+    }
+
+    .styledLinkContent--subcategoria1, .styledLinkContainer--subcategoria1, .submenuAccordion--submenu-acordion-loremIpsum   {
+        margin: 0!important;
+        padding: 0;
+    }
+
+    .menuContainer--mobile-lorem1-sub-menu  {
+        width: 100vw;
+    }
+
+    .styledLinkContent--subcategoria1 {
+        padding-left: 7.47vw;
+        /* padding-right: 73.59vw; */
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #F6F6F6;
+        border-bottom: 0.5px solid #878888;
+    }
+
+    .styledLinkContent--last-sub-categoria-mobile {
+        border-bottom: none;
+    }
+
+    :global(.vtex-menu-2-x-styledLinkContainer) {
+        margin: 0!important;
+    }
+
+    .styledLinkContent--mobile-footer-menu {
+        margin-left: 5.14vw;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .styledLinkContainer--mobile-footer-menu, .styledLinkContainer--menu-item-institutional {
+        padding: 0;
+    }
+
+    .menuItem--mobile-footer-menu {
+        padding-bottom: 15px;
+        border-bottom: 0.5px solid #878888;
+    }
+
+    :global(.vtex-menu-2-x-submenuAccordion) {
+        padding: 0;
+    }
+
 
 }

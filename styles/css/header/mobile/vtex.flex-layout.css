@@ -9,6 +9,7 @@
 
     .flexRow--main-header-mobile {
         height: 126px;
+        width: 100%;
     }
 
     .flexRowContent--main-header-search-mobile{
@@ -52,8 +53,6 @@
 
     .flexRowContent--payment-methods-line-mobile {
         padding-top: 33px;
-        /* padding-left: 3.64vw;
-        padding-right: 3.64vw; */
     }
 
     .flexRowContent--payment-methods-line-one,
@@ -87,16 +86,6 @@
     .flexRow--office-contact {
         margin-left: 0;
         margin-top: 10px;
-    }
-
-
-    .flexRowContent--social-media-network-mobile,
-    .flexRowContent--payment-methods-line-mobile,
-    .flexRowContent--inormation-container-footer,
-    .flexRowContent--footer-text-mobile,
-    .flexRowContent--sponsors-line {
-        /* padding-left: 2vw;
-        padding-right: 2vw; */
     }
 
     .flexRowContent--menu-mobile-vertical-first-line {
