@@ -25,3 +25,18 @@
 :global(.vtex-minicart-2-x-minicartSideBarContentWrapper) {
     height: 100%!important;
 }
+
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #005CFF;
+    border: transparent;
+    border-radius: 12px;
+  }
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+    display: none;
+  }
+  
+  .minicartCheckoutButton :global(.vtex-button)::before {
+    content: "FINALIZAR PEDIDO";
+    font-size: 14px;
+  }
