@@ -7,17 +7,17 @@
         box-shadow: none;
         padding: 0;
         justify-content: center;
-        width: 89.71vw!important;
+        width: 89.6vw!important;
     }
 
     .history-and-top-wrapper {
-        max-width: 89.71vw!important;
+        max-width: 89.6vw!important;
         width: 100%;
         border-top: 1px solid #D1D1D1;
         padding: 26px 0 63px;
     }
 
-    .history-and-top-wrapper:global(.vtex-search-2-x-itemListTitle) {
+    .temListTitle {
         font-size: 14px;
         color: red;
         font-weight: 600;

@@ -15,8 +15,6 @@
 }
 
 .flexRow--main-header-search, .flexRow--menu-categories {
-    /* display: flex;
-    justify-content: space-between; */
     width: 65.20vw;
 }
 
@@ -48,12 +46,6 @@
     flex-wrap: wrap;
     align-content: space-between;
 }
-
-/* .flexCol--subcategory-items-first-collumn {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-} */
 
 .flexColChild--subcategory-items-second-collumn {
     padding-right: 7.34vw;
@@ -156,11 +148,6 @@
 .flexRowContent--office-hour:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 100px;
 }
-
-
-/* .stretchChildrenWidth {
-    width: 100%!important;
-} */
 
 .flexRow--office-contact {
     margin-left: 2.5vw;
