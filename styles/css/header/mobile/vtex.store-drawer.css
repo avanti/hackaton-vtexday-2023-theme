@@ -1,9 +1,19 @@
 @media screen and (max-width: 40em) {
 
+    :global(.vtex-store-drawer-0-x-opened--drawer-class) {
+        max-width: 640vw!important;
+        width: 100%!important;
+    }
+
     .openIconContainer {
         padding: 0;
         margin-left: 2.14vw;
         margin-right: 17.58vw;
+    }
+
+    .menuIcon--drawer-class {
+        margin-top: 5.81px;
+        height: 21.28px;
     }
 
     .menuIcon:first-child {
