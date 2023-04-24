@@ -3,7 +3,7 @@
         margin-left: 0;
         margin: 0;
         padding: 0;
-        /* width: 100px; */
+        width: 89.6vw;
     }
 
     .searchBarContainer:first-child {
@@ -12,7 +12,7 @@
     }
 
     .autoCompleteOuterContainer:first-child {
-        width: 40vw;
+        width: 89.6vw;
     }
 
     .imageElement--image-media {
@@ -30,7 +30,7 @@
     }
 
     .searchBarInnerContainer--input-searchbar-mobile {
-        /* width: 89.6vw; */
+        width: 89.6vw;
     }
 
     .searchBarInnerContainer--input-searchbar-mobile :global(.vtex-input) {
