@@ -2,7 +2,7 @@
 
     .flexRowContent--main-header-mobile {
         background-color: white;
-        width: 100vw;
+        /* width: 100vw; */
         padding: 0%;
         padding-top: 19px;
     }
@@ -106,7 +106,7 @@
     }
 
     .flexRowContent--drawer-acordion::after {
-        width: 100vw;
+        /* width: 100vw; */
     }
 
 

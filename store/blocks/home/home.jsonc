@@ -8,10 +8,10 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "info-card#home"
+      // "rich-text#question",
+      // "rich-text#link",
+      // "newsletter"
     ]
   },
 

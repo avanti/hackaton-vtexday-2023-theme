@@ -9,16 +9,11 @@
     .searchBarContainer:first-child {
         margin: 0;
         padding: 0;
-        /* margin-left: 5.14vw; */
     }
 
     .autoCompleteOuterContainer:first-child {
         width: 40vw;
     }
-
-    /* .searchBarInnerContainer::after {
-        width: 100px;
-    } */
 
     .imageElement--image-media {
         margin-top: 22px;
@@ -32,4 +27,7 @@
         margin-right: 0vw;
     }
 
+    :global(.vtex-store-components-3-x-container) {
+        padding: 0 !important;
+    }
 }

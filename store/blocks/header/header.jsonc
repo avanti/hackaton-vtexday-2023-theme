@@ -216,7 +216,7 @@
   "menu#drawer": {
     "children": [
       "flex-layout.row#login-mobile", 
-      "flex-layout.row#acordion"
+      "flex-layout.col#acordion"
     ],
     "props": {
       "orientation": "vertical",
@@ -249,7 +249,7 @@
     }
   },
 
-  "flex-layout.row#acordion": {
+  "flex-layout.col#acordion": {
     "props": {
       "blockClass": "drawer-acordion",
       "preventHorizontalStretch": false,

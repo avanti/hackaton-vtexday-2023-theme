@@ -76,7 +76,7 @@
 
 .container--link .link {
   text-decoration: none;
-  font-size: 36px;
+  /* font-size: 36px; */
   font-weight: 300;
   color: #03034E;
 }

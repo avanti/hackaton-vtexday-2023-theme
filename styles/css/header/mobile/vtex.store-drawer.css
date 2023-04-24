@@ -1,7 +1,7 @@
 @media screen and (max-width: 40em) {
 
     :global(.vtex-store-drawer-0-x-opened--drawer-class) {
-        max-width: 640vw!important;
+        max-width: 100vw!important;
         width: 100%!important;
     }
 
@@ -27,11 +27,8 @@
 
     .closeIconContainer--drawer-class {
         background-color: #005CFF;
-    }
-
-    .closeIconContainer--drawer-class {
-        background-color: #005CFF;
         height: 50px;
+        width: 100vw;
     }
 
     .closeIcon--drawer-class {

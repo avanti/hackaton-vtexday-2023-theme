@@ -46,6 +46,10 @@
         justify-content: center;
     }
 
+    .menuContainer--mobile-drawer {
+        width: 100vw;
+    }
+
     .styledLinkContent--mobile-lorem1 {
         margin: 0!important;
         font-size: 14px;
@@ -60,7 +64,9 @@
     }
 
     .menuItemInnerDiv--mobile-lorem1 {
-        border-top: 0.5px solid white;
+        /* border-top: 0.5px solid white; */
+        width: 100vw;
+
     }
 
     .accordionIcon--mobile-lorem1 {

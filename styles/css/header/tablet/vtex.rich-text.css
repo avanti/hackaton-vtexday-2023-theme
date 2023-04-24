@@ -1,31 +1,18 @@
-@media screen and (max-width: 40em) {
-
-    .paragraph--social-media-text {
-        font-size: 12px;
-        color: black;
-        margin-right: 5vw;
-        margin-top: 19px;
-    }
-
-    .paragraph--footer {
-        font-size: 12px;
-        color: black;
-    }
-
-}
-
 @media screen and (min-width: 40em) and (max-width: 64em) {
 
     .paragraph--social-media-text {
-        font-size: 13px;
+        font-size: 12px;
         color: black;
-        margin-right: 52.1vw;
-        margin-top: 19px;
+        margin: 0!important;
+        margin-top: 5px;
+        padding-left: 5.14vw;
     }
 
     .paragraph--footer {
         font-size: 12px;
         color: black;
+        padding-left: 5.14vw;
+        padding-right: 5.14vw;
     }
 
 
