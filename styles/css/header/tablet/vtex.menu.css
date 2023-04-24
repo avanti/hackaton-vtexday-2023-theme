@@ -1,5 +1,6 @@
 @media screen and (min-width: 40em) and (max-width: 64em) {
 
+
     .accordionIcon--isClosed {
         color: transparent;
         background-image: url('assets/img/blue-arrow.svg');
@@ -18,7 +19,7 @@
     }
 
     .menuContainerNav--mobile-drawer {
-        width: 428vw;
+        width: 41.79vw;
     }
 
     .menuContainerNav--mobile-institutional {
@@ -45,6 +46,10 @@
         justify-content: center;
     }
 
+    .menuContainer--mobile-drawer {
+        width: 41.79vw;
+    }
+
     .styledLinkContent--mobile-lorem1 {
         margin: 0!important;
         font-size: 14px;
@@ -56,15 +61,12 @@
     .styledLinkContainer--mobile-lorem1 {
         margin: 0!important;
         padding-left: 5.14vw;
-    }
-
-    .menuItemInnerDiv--mobile-lorem1 {
-        border-top: 0.5px solid white;
+        width: 41.79vw;
     }
 
     .accordionIcon--mobile-lorem1 {
         margin-right: 5.14vw;
-        width: 2.80vw;
+        width: 2.9vw;
     }
 
     .accordionIcon--mobile-lorem1--isClosed {
@@ -128,6 +130,5 @@
     :global(.vtex-menu-2-x-submenuAccordion) {
         padding: 0;
     }
-
 
 }

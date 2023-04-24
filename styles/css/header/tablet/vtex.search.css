@@ -1,0 +1,68 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+    .biggy-autocomplete {
+        border: 1px solid #000000;
+        border-top: none;
+        box-shadow: none;
+        padding: 0;
+        justify-content: flex-start!important;
+        width: 89.6vw!important;
+        max-width: 428vw!important;
+        display: flex;
+        align-items: center;
+    }
+
+    .history-and-top-wrapper {
+        max-width: 89.6vw!important;
+        border-top: 1px solid #D1D1D1;
+        max-width: unset;
+        width: 92%;
+        display: flex;
+        text-align: left;
+    }
+
+
+    .itemListTitle {
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        text-transform: unset;
+        margin: 0 0 12px;
+     }
+   
+    .itemListTitle, .itemListLink {
+        padding-left: 0!important;
+    }
+
+    .itemListPrefix {
+        font-size: 13px;
+        color: #000000;
+        font-weight: 800;
+    }
+    
+    .itemListLinkTitle {
+        font-size: 13px;
+        color: #2A2A2A;
+        font-weight: normal;
+    }
+    
+    .itemList--history .itemListLink {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+    }
+    
+    .itemListIcon {
+        width: 16px;
+        height: 16px;
+        display: flex;
+    }
+    
+    .itemListIcon :first-child {
+        color: #005CFF;
+    }
+
+}
+
+
+

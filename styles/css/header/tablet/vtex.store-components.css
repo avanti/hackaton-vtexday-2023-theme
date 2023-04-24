@@ -18,7 +18,7 @@
     .imageElement--image-media {
         height: 36px;
         width: 36px;
-        /* margin-left: 2.3vw; */
+        margin-left: 0.95vw;
     }
 
     .imageElement--image-payment {
@@ -27,5 +27,24 @@
 
     :global(.vtex-store-components-3-x-container) {
         padding: 0 !important;
+    }
+
+    .searchBarInnerContainer--input-searchbar-mobile {
+        /* width: 89.6vw; */
+    }
+
+    .searchBarInnerContainer--input-searchbar-mobile :global(.vtex-input) {
+        border: 1px solid #000000;
+        border-radius: 10px;
+    }
+
+    .searchBarInnerContainer--input-searchbar-mobile--opened :global(.vtex-input) {
+        border-radius: 10px 10px 0px 0px !important;
+        border-bottom: none!important;
+    }
+
+    .autoCompleteOuterContainer--input-searchbar-mobile :global(.vtex-input-prefix__group) {
+        border-radius: 10px;
+        border: 0;
     }
 }

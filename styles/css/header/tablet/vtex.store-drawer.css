@@ -1,5 +1,10 @@
 @media screen and (min-width: 40em) and (max-width: 64em) {
 
+    :global(.vtex-store-drawer-0-x-opened--drawer-class) {
+        max-width: 41.79vw!important;
+        width: 100%!important;
+    }
+
     .openIconContainer {
         padding: 0;
         margin-left: 2.14vw;
