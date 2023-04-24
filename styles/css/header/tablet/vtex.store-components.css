@@ -16,11 +16,9 @@
     }
 
     .imageElement--image-media {
-        margin-top: 22px;
-        margin-left: 1vw; 
         height: 36px;
         width: 36px;
-        border-radius: 2px;
+        /* margin-left: 2.3vw; */
     }
 
     .imageElement--image-payment {
