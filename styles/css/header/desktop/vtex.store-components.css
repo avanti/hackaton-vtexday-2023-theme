@@ -78,8 +78,8 @@
     margin-right: 1.71vw;
 }
 
-.infoCardImage--info-card-home {
+.imageElement--subcategoria-image {
     width: 15.52vw;
-    height: 258px;
+    height: auto;
     border-radius: 10px;
 }

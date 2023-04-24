@@ -14,11 +14,13 @@
     padding-right: 17.39vw;
 }
 
-.flexRow--main-header-search, .flexRow--menu-categories {
+.flexRow--main-header-search,
+.flexRow--menu-categories {
     width: 65.20vw;
 }
 
-.flexRowContent--main-header-search, .flexRowContent--menu-categories {
+.flexRowContent--main-header-search,
+.flexRowContent--menu-categories {
     display: flex;
     justify-content: space-between;
 }
@@ -37,22 +39,13 @@
 .flexRowContent--subcategory-loremipson {
     height: 258px;
     width: 50.52vw;
+    gap: 6vw;
 }
 
-.flexColChild--subcategory-items-first-collumn {
-    padding-left: 27px;
-    padding-right: 7.39vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
-
-.flexColChild--subcategory-items-second-collumn {
-    padding-right: 7.34vw;
-}
-
-.flexColChild--subcategory-items-third-collumn {
-    padding-right: 7.13vw;
+.flexRow--subcategory-loremipson {
+    margin-left: 1.40vw;
+    margin-right: 1.40vw;
+    width: 50.52vw;
 }
 
 .stretchChildrenWidth :global(.vtex-flex-layout-0-x-flexCol) {
@@ -60,7 +53,7 @@
 }
 
 .flexCol--image-list-product {
-    margin-right: 1rem!important;
+    margin-right: 1rem !important;
 
 }
 

@@ -9,10 +9,6 @@
         padding-right: 1.2vw;
     }
 
-    /* .closeIconButton {
-        padding: 0;
-    } */
-
     .closeIconContainer::after {
         display: none;
     }

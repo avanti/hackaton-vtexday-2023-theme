@@ -10,11 +10,9 @@
         width: 43.44px;
     }
 
-    .searchBarContainer {
-        margin-left: 0;
-        margin: 0;
-        padding: 0;
-        width: 100px;
+    .searchBarInnerContainer--input-searchbar-mobile--opened :global(.vtex-input) {
+        border-radius: 10px 10px 0px 0px !important;
+        border-bottom: none!important;
     }
 
     .searchBarContainer:first-child {
@@ -25,9 +23,11 @@
         /* margin-left: 5.14vw; */
     }
 
+    .searchBarInnerContainer--input-searchbar-mobile {
+        width: 89.6vw;
+    }
 
-    .searchBarInnerContainer--input-searchbar-mobile{
-        width: 89.71vw;
+    .searchBarInnerContainer--input-searchbar-mobile :global(.vtex-input) {
         border: 1px solid #000000;
         border-radius: 10px;
     }
@@ -36,18 +36,18 @@
         border-radius: 10px;
         border: 0;
     }
-    
+
     .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
         font-size: 14px;
         font-weight: 600;
         color: #000000;
     }
 
-     .imageElement--image-media {
+    .imageElement--image-media {
         height: 36px;
         width: 36px;
         margin-left: 2.3vw;
-        margin-right: 0!important;
+        margin-right: 0 !important;
     }
 
     .imageElement--facebook-class {
@@ -58,9 +58,7 @@
         margin-right: 0vw;
     }
 
-    :global(.vtex-store-components-3-x-container ) {
-        padding: 0!important;
+    :global(.vtex-store-components-3-x-container) {
+        padding: 0 !important;
     }
 }
-
-

@@ -13,6 +13,8 @@
     width: 100%;
     border-top: 1px solid #D1D1D1;
     padding: 26px 0 63px;
+    display: flex;
+    justify-content: center;
 }
 
 .itemListTitle {
@@ -20,7 +22,8 @@
     color: #000000;
     font-weight: 600;
     text-transform: unset;
-    margin: 0 0 12px;
+    padding-bottom: 6px;
+    /* margin: 0 0 12px; */
 }
 
 .itemListPrefix {

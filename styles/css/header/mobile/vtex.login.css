@@ -9,17 +9,13 @@
     padding-left: 5.14vw;
   }
 
-    .profileIcon {
-    background-image: url("assets/img/user.svg");
+  .profileIcon {
+    background-image: url("assets/img/user-mobile.svg");
     color: transparent;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    width: 20x;
-    height: 25px;
-    scale: 70%;
-    /* transform: translateY(3px); */
-    background-repeat: no-repeat;
+    width: 3.47vw;
+    height: auto;
+    margin-top: 10px;
   }
 
   .label {
@@ -28,5 +24,6 @@
     font-weight: 600;
     transform: translateY(5px);
     font-size: 14px;
+    margin-top: 2.5px;
   }
 }

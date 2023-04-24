@@ -1,13 +1,40 @@
+.vtex-minicart-2-x-drawer {
+    height: auto;
+}
+
+
 .closeIconContainer {
     background-color: #005CFF;
     height: auto;
     margin: auto;
 }
 
-.openIconContainer :global(.vtex-minicart-2-x-minicartQuantityBadge) {
+.minicartQuantityBadgeDefault {
     background-color: #005CFF;
+}
+
+:global(.vtex-minicart-2-x-closeIconButton) {
     color: white;
 }
+
+.minicartTitle {
+    display: none;
+}
+
+.closeIcon {
+    width: 17px;
+    height: auto;
+}
+
+
+.drawer :global(.vtex-minicart-2-x-closeIconContainer)::after {
+    content: "meu carrinho";
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-left: 5.83vw;
+    color: white;
+    font-size: 14px;
+  }
 
 :global(.vtex-minicart-2-x-openIconContainer) {
     padding: 0;
@@ -17,14 +44,14 @@
     padding: 0!important;
 }
 
-:global(.vtex-minicart-2-x-drawerContent), 
+/* :global(.vtex-minicart-2-x-drawerContent), 
 :global(.vtex-minicart-2-x-childrenContainer) {
     height: 100%;
-}
+} */
 
-:global(.vtex-minicart-2-x-minicartSideBarContentWrapper) {
+/* :global(.vtex-minicart-2-x-minicartSideBarContentWrapper) {
     height: 100%!important;
-}
+} */
 
 .minicartCheckoutButton :global(.vtex-button){
     background-color: #005CFF;

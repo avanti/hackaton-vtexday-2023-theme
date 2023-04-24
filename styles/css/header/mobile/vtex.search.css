@@ -2,29 +2,38 @@
 
     .biggy-autocomplete {
         border: 1px solid #000000;
-        border-top: 0;
-        border-radius: 0 0 10px 10px;
+        border-top: none;
         box-shadow: none;
         padding: 0;
-        justify-content: center;
+        justify-content: flex-start!important;
         width: 89.6vw!important;
+        max-width: 428vw!important;
+        display: flex;
+        align-items: center;
     }
 
     .history-and-top-wrapper {
         max-width: 89.6vw!important;
-        width: 100%;
         border-top: 1px solid #D1D1D1;
-        padding: 26px 0 63px;
+        max-width: unset;
+        width: 92%;
+        display: flex;
+        text-align: left;
     }
 
-    .temListTitle {
+
+    .itemListTitle {
         font-size: 14px;
-        color: red;
+        color: black;
         font-weight: 600;
         text-transform: unset;
         margin: 0 0 12px;
+     }
+   
+    .itemListTitle, .itemListLink {
+        padding-left: 0!important;
     }
-    
+
     .itemListPrefix {
         font-size: 13px;
         color: #000000;
