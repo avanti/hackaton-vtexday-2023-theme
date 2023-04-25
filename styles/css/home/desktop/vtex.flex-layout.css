@@ -1,0 +1,36 @@
+.flexRowContent--home-first-line {
+  /* display: flex;
+  flex-direction: row; */
+  height: 500px;
+}
+  
+.flexCol--image-home-first-line {
+  width: 50.62vw;
+  /* background-color: #f5f6f6; */
+}
+
+.flexRow--home-first-line {
+    display: flex;
+    justify-content: flex-start;
+}
+  
+.flexRowContent--home-first-line {
+  width: 100vw;
+}
+
+  /* 
+
+
+  .flexCol--information-home-first-line {
+    background-color: #f5f6f6;
+  }
+
+  .flexColChild--information-home-first-line:first-child {
+    height: 46px !important;
+    padding-top: 16px;
+  }
+
+  /* .flexColChild--information-home-first-line:last-child {
+  height: 103px!important;
+  padding-top: 16px;
+} */ 

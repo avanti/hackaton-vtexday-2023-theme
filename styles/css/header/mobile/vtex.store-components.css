@@ -18,8 +18,8 @@
     .searchBarContainer:first-child {
         margin: 0;
         padding: 0;
-        padding-top: 19px;
-        padding-bottom: 15px;
+        /* padding-top: 19px;
+        padding-bottom: 15px; */
         /* margin-left: 5.14vw; */
     }
 

@@ -1,0 +1,28 @@
+@media screen and (max-width: 40em) {
+
+  .flexRowContent--home-first-line {
+    display: flex;
+    flex-direction: row;
+    height: 222px;
+  }
+
+  .flexCol--image-home-first-line {
+    width: 42.52vw;
+    background-color: #f5f6f6;
+  }
+
+  .flexCol--information-home-first-line {
+    background-color: #f5f6f6;
+  }
+
+  .flexColChild--information-home-first-line:first-child {
+    height: 46px !important;
+    padding-top: 16px;
+  }
+
+  /* .flexColChild--information-home-first-line:last-child {
+  height: 103px!important;
+  padding-top: 16px;
+} */
+
+}
