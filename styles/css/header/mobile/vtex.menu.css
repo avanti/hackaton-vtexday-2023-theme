@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 40em) {
 
     .accordionIcon--isClosed {
@@ -22,18 +21,33 @@
         width: 428vw;
     }
 
-    .menuContainerNav--mobile-institutional {
-        height: 75px;
-        margin-left: 7.47vw;
-    }
-
-    .menuContainerNav--mobile-help-center {
+    .menuContainerNav--mobile-institutional,
+    .menuContainer--mobile-institutional {
         height: 120px;
+    }
+
+    .menuContainerNav--mobile-help-center,
+    .menuContainer--mobile-help-center {
+        height: 200px;
+    }
+
+
+    .menuContainerNav--mobile-atendimento,
+    .menuContainer--mobile-atendimento {
+        height: 170px;
+    }
+
+    .menuItem--menu-item-institutional,
+    .menuItem--menu-item-help-center,
+    .menuContainer--mobile-atendimento {
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
         margin-left: 7.47vw;
     }
 
-    .menuContainerNav--mobile-atendimento {
-        height: 140px;
+    .menuItem--menu-item-institutional {
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
         margin-left: 7.47vw;
     }
 
@@ -51,7 +65,7 @@
     }
 
     .styledLinkContent--mobile-lorem1 {
-        margin: 0!important;
+        margin: 0 !important;
         font-size: 14px;
         font-weight: bold;
         padding-top: 15px;
@@ -59,11 +73,11 @@
     }
 
     .styledLinkContainer--mobile-lorem1 {
-        margin: 0!important;
+        margin: 0 !important;
         padding-left: 5.14vw;
     }
 
-    .menuItemInnerDiv--mobile-lorem1 { 
+    .menuItemInnerDiv--mobile-lorem1 {
         width: 100vw;
 
     }
@@ -90,12 +104,14 @@
         margin-right: 5.14vw;
     }
 
-    .styledLinkContent--subcategoria1, .styledLinkContainer--subcategoria1, .submenuAccordion--submenu-acordion-loremIpsum   {
-        margin: 0!important;
+    .styledLinkContent--subcategoria1,
+    .styledLinkContainer--subcategoria1,
+    .submenuAccordion--submenu-acordion-loremIpsum {
+        margin: 0 !important;
         padding: 0;
     }
 
-    .menuContainer--mobile-lorem1-sub-menu  {
+    .menuContainer--mobile-lorem1-sub-menu {
         width: 100vw;
     }
 
@@ -105,7 +121,7 @@
         padding-top: 15px;
         padding-bottom: 15px;
         background-color: #F6F6F6;
-        border-bottom: 0.5px solid #878888;
+        border-bottom: 0.5px solid #DEDEDE;
     }
 
     .styledLinkContent--last-sub-categoria-mobile {
@@ -113,7 +129,7 @@
     }
 
     :global(.vtex-menu-2-x-styledLinkContainer) {
-        margin: 0!important;
+        margin: 0 !important;
     }
 
     .styledLinkContent--mobile-footer-menu {
@@ -122,7 +138,8 @@
         text-transform: uppercase;
     }
 
-    .styledLinkContainer--mobile-footer-menu, .styledLinkContainer--menu-item-institutional {
+    .styledLinkContainer--mobile-footer-menu,
+    .styledLinkContainer--menu-item-institutional {
         padding: 0;
     }
 
