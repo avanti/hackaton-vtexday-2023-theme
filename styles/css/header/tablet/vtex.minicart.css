@@ -7,15 +7,28 @@
 
     .openIconContainer {
         padding: 0;
-        /* margin-left: 5.14vw; */
         margin-left: 17.30vw;
-        /* margin-right: 1.14vw; */
         margin-right: 5.2vw;
     }
 
     .cartIcon {
         height: 24px;
         width: 25px;
+    }
+
+    .closeIconContainer::after {
+        display: none;
+    }
+
+    .closeIconContainer::before {
+        content: "meu carrinho";
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        margin: auto;
+        margin-left: 16vw;
+        font-size: 14px;
     }
 
 

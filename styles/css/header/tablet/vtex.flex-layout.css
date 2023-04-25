@@ -25,13 +25,12 @@
         width: 89.6vw;
     }
 
-    .flexRowContent--main-header-search-mobile {
+     .flexRowContent--main-header-search-mobile {
         /* width: 100%; */
         width: 100vw;
         display: flex;
         justify-content: flex-start;
         padding-left: 0!important;
-        margin-left: 10.5vw;
     }
 
     .flexRowContent--main-header-search-mobile:first-child{
