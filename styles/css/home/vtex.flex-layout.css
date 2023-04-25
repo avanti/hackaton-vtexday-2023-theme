@@ -1,0 +1,5 @@
+.flexRowContent--home-first-line {
+  display: flex;
+  flex-direction: row;
+  height: 257px;
+}

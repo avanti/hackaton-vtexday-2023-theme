@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#home-first-line",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -14,6 +15,81 @@
       // "newsletter"
     ]
   },
+
+  "flex-layout.row#home-first-line": {
+    "props": {
+      "blockClass": [
+        "home-first-line"
+      ]
+      // "horizontalAlign": "center",
+      // "preventHorizontalStretch": true,
+      // "preventVerticalStretch": true,
+      // "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#image-home-first-line",
+      "flex-layout.col#information-home-first-line"
+    ]
+  },
+
+  "flex-layout.col#image-home-first-line": {
+    "props": {
+      "blockClass": [
+        "image-home-first-line"
+      ]
+    },
+    "children": [
+      "image#image-banner-home"
+    ]
+  },
+
+  "image#image-banner-home": {
+    "props": {
+      "src": "assets/img/home-banner.png",
+      "blockClass": "home-banner"
+      // "link": {
+      //   "newTab": true,
+      //   "url": "/"
+      // }
+    }
+  },
+
+  "flex-layout.col#information-home-first-line": {
+    "props": {
+      "blockClass": [
+        "information-home-first-line"
+      ],
+      // "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+      // "fullWidth": true
+    },
+    "children": [
+      "rich-text#home-banner-title",
+      "rich-text#home-banner-text"
+    ]
+  },
+
+
+  "rich-text#home-banner-title": {
+    "props": {
+      "blockClass": [
+        "home-banner-title"
+      ],
+      "text": "Lorem Ipson"
+    }
+  },
+  "rich-text#home-banner-text": {
+    "props": {
+      "blockClass": [
+        "home-banner-text"
+      ],
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea"
+    }
+  },
+
+
+
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
