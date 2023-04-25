@@ -44,5 +44,16 @@
         font-size: 14px;
     }
 
+    .menuIcon--drawer-class {
+        margin-top: 5.81px;
+        margin-left: 5.2vw;
+        height: 40px;
+        /* height: 21.28px; */
+    }
+
+    .openIconContainer--drawer-class {
+        margin-left: 0;
+    }
+
 
 }
