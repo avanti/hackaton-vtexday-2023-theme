@@ -6,6 +6,13 @@
         padding-top: 19px;
     }
 
+    .flexRowContent--main-header-mobile-first-line {
+        /* width: 100vw; */
+        /* display: flex;
+        justify-content: space-between; */
+        height: 50px;
+    }
+
     .flexRow--main-header-mobile {
         height: 126px;
         width: 100%;
