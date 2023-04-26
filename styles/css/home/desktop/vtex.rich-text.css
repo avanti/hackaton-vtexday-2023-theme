@@ -1,6 +1,15 @@
 @media screen and (min-width: 80em) {
 
-/* FIRST LINE */
+  /* FIRST LINE */
+
+  .paragraph--home-banner-title {
+    text-align: left;
+    font: normal normal bold 40px/55px Open Sans;
+    letter-spacing: 12px;
+    color: #005CFF;
+    text-transform: uppercase;
+    opacity: 1;
+  }
 
   .paragraph--home-banner-text {
     text-align: left;
@@ -25,8 +34,8 @@
 
   .paragraph--home-banner-button {
     margin: 0;
-    padding-left: 2.96vw!important;
+    padding-left: 2.96vw !important;
   }
 
-  
+
 }
