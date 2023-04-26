@@ -1,0 +1,12 @@
+@media screen and (min-width: 80em) {
+
+/* FIRST LINE */
+
+  .imageElement--home-banner-desktop {
+    height: 500px;
+    width: auto;
+    /* object-fit: cover;
+    object-position: 98%; */
+  }
+
+}

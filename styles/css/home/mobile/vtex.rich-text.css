@@ -1,4 +1,4 @@
-@media screen and (max-width: 40em) {
+/* FIRST LINE */
 
   .paragraph--home-banner-title {
     color: #005CFF;
@@ -8,39 +8,30 @@
     letter-spacing: 2.2px;
     text-transform: uppercase;
     opacity: 1;
-    padding-left: 4.2vw;
   }
 
   .paragraph--home-banner-text {
-    text-align: left;
     font: normal normal normal 12px/16px Nunito Sans;
     letter-spacing: 0px;
     color: #5F5F5F;
     opacity: 1;
     text-transform: none;
-    padding-left: 4.2vw;
     padding-right: 4.90vw;
-    padding-top: 16px;
-  }
-
-  .container--home-banner-text {
-    /* float: left; */
     padding-top: 16px;
     overflow: hidden;
     text-overflow: clip;
+    display: block;
   }
 
   .container--home-banner-text,
   .paragraph--home-banner-text,
   .wrapper--home-banner-text {
-    height: 103px;
+    height: 110px;
   }
-
 
   .container--home-banner-button {
     height: 38px;
     margin-top: 20px;
-    padding-left: 4.2vw;
   }
 
   .wrapper--home-banner-button {
@@ -48,6 +39,8 @@
     height: 38px;
     border: 1px solid black;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
   }
 
   .paragraph--home-banner-button {
@@ -56,13 +49,13 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
     opacity: 1;
-    margin-top: 12px;
     padding-left: 5.37vw;
     height: 16px;
   }
 
   .link--home-banner-button {
     color: #000000;
+ 
   }
 
   .paragraph--home-banner-button::after {
@@ -72,5 +65,3 @@
     font-size: 20px;
     font-weight: bold;
   }
-
-}

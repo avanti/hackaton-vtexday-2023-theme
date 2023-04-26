@@ -1,0 +1,31 @@
+@media screen and (min-width: 80em) {
+
+/* FIRST LINE */
+
+  .paragraph--home-banner-text {
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #B1B3B3;
+    opacity: 1;
+    display: block;
+  }
+
+  .container--home-banner-text,
+  .paragraph--home-banner-text,
+  .wrapper--home-banner-text {
+    height: 119px;
+    width: 24.68vw;
+  }
+
+  .container--home-banner-button {
+    width: 13.07vw;
+  }
+
+  .paragraph--home-banner-button {
+    margin: 0;
+    padding-left: 2.96vw!important;
+  }
+
+  
+}

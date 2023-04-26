@@ -1,13 +1,7 @@
-@media screen and (max-width: 40em) {
+/* FIRST LINE */
 
-  .imageElement--home-banner {
-    /* object-position: center; */
-    /* background-origin: content-box;
-  height: 257px; */
-    /* width: 600px; */
-    height: 190px;
+  .imageElement--home-banner-mobile {
+    height: 220px;
     object-fit: cover;
-    object-position: 90%;
+    object-position: 98%;
   }
-
-}

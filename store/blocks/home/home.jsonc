@@ -1,18 +1,35 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#home-first-line",
-      "list-context.image-list#demo",
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+      // "flex-layout.row#home-first-line",
+      // "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home"
+      // "flex-layout.row#deals",
+      // "__fold__",
+      // "rich-text#shelf-title",
+      // "flex-layout.row#shelf",
+      // "info-card#home"
       // "rich-text#question",
       // "rich-text#link",
       // "newsletter"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#home-first-line-desktop"
+    ]
+  },
+  "responsive-layout.tablet": {
+    "children": [
+    ]
+  },
+  "responsive-layout.phone": {
+    "children": [
+      "flex-layout.row#home-first-line"
     ]
   },
 
@@ -22,7 +39,7 @@
         "home-first-line"
       ],
       // "horizontalAlign": "center",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": false
       // "preventVerticalStretch": true,
       // "fullWidth": true
     },
@@ -31,7 +48,6 @@
       "flex-layout.col#information-home-first-line"
     ]
   },
-
   "flex-layout.col#image-home-first-line": {
     "props": {
       "blockClass": [
@@ -39,21 +55,9 @@
       ]
     },
     "children": [
-      "image#image-banner-home"
+      "image#image-banner-home-mobile"
     ]
   },
-
-  "image#image-banner-home": {
-    "props": {
-      "src": "assets/img/home-banner.png",
-      "blockClass": "home-banner"
-      // "link": {
-      //   "newTab": true,
-      //   "url": "/"
-      // }
-    }
-  },
-
   "flex-layout.col#information-home-first-line": {
     "props": {
       "blockClass": [
@@ -70,7 +74,8 @@
       "rich-text#home-banner-button"
     ]
   },
-
+  
+//-----------------------------------------------------------
 
   "rich-text#home-banner-title": {
     "props": {
@@ -98,11 +103,12 @@
     }
   },
 
-
-
+  //-------------------------------------------------------------------
 
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 570,
       "preload": true,
@@ -130,7 +136,6 @@
       "blockClass": "carousel"
     }
   },
-
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",
@@ -138,11 +143,17 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -159,7 +170,6 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -173,14 +183,12 @@
       "textAlignment": "center"
     }
   },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",

@@ -1,4 +1,4 @@
-@media screen and (max-width: 40em) {
+/* FIRST LINE */
 
   .flexRowContent--home-first-line {
     display: flex;
@@ -7,7 +7,7 @@
   }
 
   .flexCol--image-home-first-line {
-    width: 42.52vw;
+    width: 46.72vw;
     background-color: #f5f6f6;
   }
 
@@ -16,13 +16,6 @@
   }
 
   .flexColChild--information-home-first-line:first-child {
-    height: 46px !important;
+    height: 41px !important;
     padding-top: 16px;
   }
-
-  /* .flexColChild--information-home-first-line:last-child {
-  height: 103px!important;
-  padding-top: 16px;
-} */
-
-}

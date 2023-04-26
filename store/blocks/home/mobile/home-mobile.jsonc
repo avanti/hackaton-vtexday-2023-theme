@@ -1,0 +1,12 @@
+{
+    "image#image-banner-home-mobile": {
+        "props": {
+            "src": "assets/img/home-banner-mobile.png",
+            "blockClass": "home-banner-mobile"
+            // "link": {
+            //   "newTab": true,
+            //   "url": "/"
+            // }
+        }
+    }
+}

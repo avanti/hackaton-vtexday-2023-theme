@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#home-first-line-desktop": {
+    "props": {
+      "blockClass": [
+        "home-first-line-desktop"
+      ],
+      // "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+      // "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#image-home-first-line-desktop",
+      "flex-layout.col#information-home-first-line"
+    ]
+  },
+  "flex-layout.col#image-home-first-line-desktop": {
+    "props": {
+      "fullWidth": true, 
+      "blockClass": [
+        "image-home-first-line"
+      ]
+    },
+    "children": [
+      "image#image-banner-home-desktop"
+    ]
+  },
+  "image#image-banner-home-desktop": {
+    "props": {
+      "src": "assets/img/home-banner.png",
+      "blockClass": "home-banner-desktop"
+      // "link": {
+      //   "newTab": true,
+      //   "url": "/"
+      // }
+    }
+  }
+
+}
