@@ -18,7 +18,7 @@
     "props": {
       "fullWidth": true, 
       "blockClass": [
-        "image-home-first-line"
+        "image-home-first-line-desktop"
       ]
     },
     "children": [

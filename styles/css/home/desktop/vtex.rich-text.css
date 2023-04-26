@@ -4,7 +4,7 @@
 
   .paragraph--home-banner-text {
     text-align: left;
-    font: normal normal normal 12px/17px Open Sans;
+    font: normal normal normal 12px Open Sans;
     letter-spacing: 0px;
     color: #B1B3B3;
     opacity: 1;
@@ -16,6 +16,7 @@
   .wrapper--home-banner-text {
     height: 119px;
     width: 24.68vw;
+    /* margin-right: 17.39vw; */
   }
 
   .container--home-banner-button {

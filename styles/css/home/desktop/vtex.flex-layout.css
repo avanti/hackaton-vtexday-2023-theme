@@ -6,10 +6,13 @@
     height: 500px;
   }
 
-  .flexCol--image-home-first-line, .flexColChild--image-home-first-line {
-    /* width: 57.91vw; */
-    /* background-color: #f5f6f6; */
-    width: 70vw;
+  .flexCol--image-home-first-line-desktop {
+    background-color: #f5f5f5;
+    width: 57.91vw;
+  }
+
+  .flexCol--information-home-first-line {
+    width: 42.08vw;
   }
 
   .flexRow--home-first-line-desktop {
