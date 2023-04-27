@@ -1,4 +1,6 @@
-/* FIRST LINE */
+@media screen and (max-width: 40em) {
+
+  /* FIRST LINE */
 
   .paragraph--home-banner-title {
     color: #005CFF;
@@ -55,7 +57,7 @@
 
   .link--home-banner-button {
     color: #000000;
- 
+
   }
 
   .paragraph--home-banner-button::after {
@@ -65,3 +67,32 @@
     font-size: 20px;
     font-weight: bold;
   }
+
+  /* LAUNCH PRODUCT LNE */
+
+  .paragraph--lanch-product-text {
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal bold 18px/22px Nunito Sans;
+    letter-spacing: 0.54px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .container--lanch-product-text {
+    padding-left: 2.80vw;
+  }
+
+  .link--lanch-product-see-more {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 13px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-right: 5.84vw;
+  }
+
+}

@@ -1,7 +1,15 @@
-/* FIRST LINE */
+@media screen and (max-width: 40em) {
+  
+  /* FIRST LINE */
 
   .imageElement--home-banner-mobile {
     height: 220px;
     object-fit: cover;
     object-position: 98%;
   }
+
+  .imageElement--carousel-offers {
+    height: 20.712rem;
+  }
+
+}

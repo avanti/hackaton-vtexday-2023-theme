@@ -1,0 +1,53 @@
+@media screen and (max-width: 40em) {
+
+  /* SLIDER OFFERS */
+
+  .sliderLayoutContainer--carousel-offers {
+    /* background-color: #F0F0F0; */
+    min-height: 22.375rem;
+    margin-top: 2.399rem;
+    align-items: start;
+  }
+
+  .slide--carousel-offers {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slideChildrenContainer--carousel-offers {
+    width: 43.53vw;
+  }
+
+  .sliderLayoutContainer--carousel-offers {
+    padding: 0 !important;
+  }
+
+  .sliderTrackContainer--carousel-offers,
+  .sliderTrack--carousel-offers {
+    min-height: 20.706rem;
+  }
+
+  .paginationDotsContainer--carousel-offers {
+    margin-top: 0.649rem;
+  }
+
+  .paginationDot--carousel-offers--isActive {
+    background-color: #005CFF;
+  }
+
+  /* LAUNCH PRODUCT LNE */
+
+  .sliderLayoutContainer--shelf-product-line {
+    padding: 0!important;
+    width: 43.53vw;
+  }
+
+  .sliderTrack--shelf-product-line {
+    width: 43.53vw;
+  }
+
+  .slideChildrenContainer--carousel-offers {
+
+  }
+
+}

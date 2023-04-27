@@ -1,3 +1,5 @@
+@media screen and (max-width: 40em) {
+
 /* FIRST LINE */
 
   .flexRowContent--home-first-line {
@@ -19,3 +21,15 @@
     height: 41px !important;
     padding-top: 16px;
   }
+
+    /* LAUNCH PRODUCT LNE */
+
+    .flexRowContent--lanch-product-line {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3.288rem;
+      margin-bottom: 0.813rem;
+    }
+  
+
+}

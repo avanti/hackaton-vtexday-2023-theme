@@ -24,24 +24,25 @@
     ]
   },
   "responsive-layout.tablet": {
-    "children": [
-    ]
+    "children": []
   },
   "responsive-layout.phone": {
     "children": [
-      "flex-layout.row#home-first-line"
+      "flex-layout.row#home-first-line",
+      "list-context.image-list#first-slider-offers",
+      "flex-layout.row#lanch-product-line",
+      "flex-layout.row#slider-products-line"
     ]
   },
+
+  // FIRST BANNER 
 
   "flex-layout.row#home-first-line": {
     "props": {
       "blockClass": [
         "home-first-line"
       ],
-      // "horizontalAlign": "center",
       "preventHorizontalStretch": false
-      // "preventVerticalStretch": true,
-      // "fullWidth": true
     },
     "children": [
       "flex-layout.col#image-home-first-line",
@@ -63,7 +64,6 @@
       "blockClass": [
         "information-home-first-line"
       ],
-      // "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
@@ -74,9 +74,6 @@
       "rich-text#home-banner-button"
     ]
   },
-  
-//-----------------------------------------------------------
-
   "rich-text#home-banner-title": {
     "props": {
       "blockClass": [
@@ -102,74 +99,102 @@
       "textColor": "c-on-emphasis"
     }
   },
+  
+  // "slider-layout#text-test": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 5,
+  //       "tablet": 1,
+  //       "phone": 2.5
+  //     },
+  //     "infinite": true,
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "carousel"
+  //   },
+  //   "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
+  // },
+  // "rich-text#1": {
+  //   "props": {
+  //     "text": "Test1"
+  //   }
+  // },
+  // "rich-text#2": {
+  //   "props": {
+  //     "text": "Test2"
+  //   }
+  // },
+  // "rich-text#3": {
+  //   "props": {
+  //     "text": "Test3"
+  //   }
+  // },
+  // --------------------------------------
+  // "list-context.image-list#demo": {
+  //   "children": [
+  //     "slider-layout#demo-images"
+  //   ],
+  //   "props": {
+  //     "height": 570,
+  //     "preload": true,
+  //     "images": [
+  //       {
+  //         "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+  //         "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+  //       },
+  //       {
+  //         "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+  //         "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+  //       }
+  //     ]
+  //   }
+  // },
+  // "slider-layout#demo-images": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 1,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "infinite": true,
+  //     "showNavigationArrows": "desktopOnly",
+  //     "blockClass": "carousel"
+  //   }
+  // },
 
-  //-------------------------------------------------------------------
 
-  "list-context.image-list#demo": {
+  
+  // PRODUCT LIST LANCH
+
+  "flex-layout.row#lanch-product-line": {
     "children": [
-      "slider-layout#demo-images"
+      "rich-text#lanch-product",
+      "rich-text#lanch-product-see-more"
     ],
     "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
+      "blockClass": "lanch-product-line",
+      "preventHorizontalStretch": true
     }
   },
-  "slider-layout#demo-images": {
+
+
+  "rich-text#lanch-product": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "text": "Lançamentos",
+      "blockClass": "lanch-product-text"
     }
   },
-  "rich-text#shelf-title": {
+  "rich-text#lanch-product-see-more": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "text": "[Ver mais](/)",
+      "blockClass": "lanch-product-see-more"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": [
-      "list-context.product-list#demo1"
-    ]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-products"
-    ],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
+
+
+
+
+  //------------------------------------------------
+  
   "info-card#home": {
     "props": {
       "id": "info-card-home",

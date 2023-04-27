@@ -1,0 +1,51 @@
+{
+    // SLIDER 1 - SECOND LINE
+  "list-context.image-list#first-slider-offers": {
+    "children": [
+      "slider-layout#first-slider-offers"
+    ],
+    "props": {
+      "height": 331,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/weekly-offer-1.png",
+          "mobileImage": "assets/img/weekly-offer-1.png",
+          "link": {"url":"#"}
+        },
+        {
+          "image": "assets/img/weekly-offer-2.png",
+          "mobileImage": "assets/img/weekly-offer-2.png",
+          "link": {"url":"#"}
+        },
+        {
+          "image": "assets/img/weekly-offer-1.png",
+          "mobileImage": "assets/img/weekly-offer-1.png",
+          "link": {"url":"#"}
+        },        {
+          "image": "assets/img/weekly-offer-2.png",
+          "mobileImage": "assets/img/weekly-offer-2.png",
+          "link": {"url":"#"}
+        },
+        {
+          "image": "assets/img/weekly-offer-1.png",
+          "mobileImage": "assets/img/weekly-offer-1.png",
+          "link": {"url":"#"}
+        }
+      ]
+    }
+  },
+  "slider-layout#first-slider-offers": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-offers",
+      "fullWidth": false
+    }
+  }
+}
