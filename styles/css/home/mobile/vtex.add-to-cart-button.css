@@ -1,0 +1,32 @@
+@media screen and (max-width: 40em) {
+
+    /* LAUNCH PRODUCT LNE */
+
+    .buttonText {
+        display: none;
+        text-align: left;
+        font: normal normal bold 14px/20px Nunito Sans;
+        letter-spacing: 0.7px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        opacity: 1;
+    }
+
+    .buttonDataContainer::before {
+        background-color: red;
+    }
+/* 
+    :global(.vtex-button__label)::after {
+        content: "Comprar";
+        text-align: left;
+        font: normal normal bold 14px/20px Nunito Sans;
+        letter-spacing: 0.7px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        opacity: 1;
+    } */
+
+    /* :global(.vtex-button) {
+        background-color: red;
+    } */
+}

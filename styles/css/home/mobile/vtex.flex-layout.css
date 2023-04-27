@@ -30,6 +30,9 @@
       margin-top: 3.288rem;
       margin-bottom: 0.813rem;
     }
-  
+
+    .flexCol--productRating {
+      margin: 0.438rem;
+    }
 
 }

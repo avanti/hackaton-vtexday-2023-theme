@@ -3,7 +3,6 @@
   /* SLIDER OFFERS */
 
   .sliderLayoutContainer--carousel-offers {
-    /* background-color: #F0F0F0; */
     min-height: 22.375rem;
     margin-top: 2.399rem;
     align-items: start;
@@ -31,7 +30,7 @@
     margin-top: 0.649rem;
   }
 
-  .paginationDot--carousel-offers--isActive {
+  .paginationDot--carousel-offers--isActive, .paginationDot--shelf-product-line--isActive {
     background-color: #005CFF;
   }
 
@@ -39,15 +38,30 @@
 
   .sliderLayoutContainer--shelf-product-line {
     padding: 0!important;
-    width: 43.53vw;
+    /* width: 43.53vw; */
   }
 
-  .sliderTrack--shelf-product-line {
-    width: 43.53vw;
+  .sliderTrackContainer--shelf-product-line {
+    height: 22.688rem;
+    width: 100vw;
   }
 
-  .slideChildrenContainer--carousel-offers {
+  .sliderTrack--shelf-product-line, .slideChildrenContainer--shelf-product-line {
+    width: 43.45vw;
+  }
 
+  .slideChildrenContainer--shelf-product-line {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+  }
+
+  .slide--shelf-product-line {
+    display: flex;
+    justify-content: center;
+  }
+
+  .paginationDotsContainer--shelf-product-line {
+    margin-top: 0.625rem;
   }
 
 }
