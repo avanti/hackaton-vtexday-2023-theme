@@ -20,7 +20,10 @@
   },
   "responsive-layout.desktop": {
     "children": [
-      "flex-layout.row#home-first-line-desktop"
+      "flex-layout.row#home-first-line-desktop",
+      "list-context.image-list#first-slider-offers",
+      "flex-layout.row#lanch-product-line",
+      "flex-layout.row#slider-products-line"
     ]
   },
   "responsive-layout.tablet": {
