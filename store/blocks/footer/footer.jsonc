@@ -251,7 +251,8 @@
         "facebook-class"
       ],
       "src": "assets/img/facebook.svg",
-      "maxHeight": 36
+      "maxHeight": 36,
+      "link": {"url":"#"}
     }
   },
   "image#instagram": {
@@ -261,7 +262,8 @@
         "instagram-class"
       ],
       "src": "assets/img/instagram.svg",
-      "maxHeight": 36
+      "maxHeight": 36,
+      "link": {"url":"#"}
     }
   },
   "image#linkedin": {
@@ -271,7 +273,8 @@
         "linkedin-class"
       ],
       "src": "assets/img/linkedin.svg",
-      "maxHeight": 36
+      "maxHeight": 36,
+      "link": {"url":"#"}
     }
   },
   "image#twitter": {
@@ -281,7 +284,8 @@
         "twitter-class"
       ],
       "src": "assets/img/twitter.svg",
-      "maxHeight": 36
+      "maxHeight": 36,
+      "link": {"url":"#"}
     }
   },
   "image#amex": {

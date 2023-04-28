@@ -1,0 +1,22 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+/* .productHighlightWrapper--collection::after {
+  content: "Novo";
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00264E;
+  color: #FFFFFF;
+  padding: 5px 6px 3px 5px;
+}
+
+.productHighlightText {
+  background: #6220C1;
+  padding: 5px 10px;
+  display: none
+} */

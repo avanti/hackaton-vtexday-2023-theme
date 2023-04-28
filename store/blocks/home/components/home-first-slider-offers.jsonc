@@ -47,5 +47,78 @@
       "blockClass": "carousel-offers",
       "fullWidth": false
     }
-  }
+  },
+
+  // SLIDER 2 
+
+     // SLIDER 1 - SECOND LINE
+     "list-context.image-list#second-slider-offers": {
+      "children": [
+        "slider-layout#second-slider-offers"
+      ],
+      "props": {
+        // "height": 331,
+        "preload": true,
+        "images": [
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          },
+          {
+            "image": "assets/img/avanti.svg",
+            "mobileImage": "assets/img/avanti.svg",
+            "link": {"url":"#"}
+          }
+        ]
+      }
+    },
+    "slider-layout#second-slider-offers": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 7,
+          "tablet": 1,
+          "phone": 3
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "second-carousel-offers",
+        "fullWidth": false
+      }
+    }
 }

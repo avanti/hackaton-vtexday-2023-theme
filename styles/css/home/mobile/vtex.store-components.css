@@ -12,4 +12,26 @@
     height: 20.712rem;
   }
 
+  /* BANNERS */
+
+  .imageElement--image-banner-home {
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    width: 89.71vw;
+  }
+
+  .imageElement--big-banner {
+    height: 15.584rem;
+  }
+
+  .imageElement--medium-banner, .imageElement--small-banner {
+    height: 7.403rem;
+  }
+
+  /* SECONDE SLIDER */
+
+  .imageElementLink--second-carousel-offers {
+   width: 60%;
+  }
+
 }

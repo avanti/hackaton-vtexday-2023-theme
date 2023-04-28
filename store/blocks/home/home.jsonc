@@ -34,6 +34,13 @@
       "flex-layout.row#home-first-line",
       "list-context.image-list#first-slider-offers",
       "flex-layout.row#lanch-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#banners-sales-line",
+      "flex-layout.row#offers-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#offers-product-line",
+      "list-context.image-list#second-slider-offers",
+      "flex-layout.row#offers-product-line",
       "flex-layout.row#slider-products-line"
     ]
   },
@@ -103,69 +110,6 @@
     }
   },
   
-  // "slider-layout#text-test": {
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 5,
-  //       "tablet": 1,
-  //       "phone": 2.5
-  //     },
-  //     "infinite": true,
-  //     "showNavigationArrows": "desktopOnly",
-  //     "blockClass": "carousel"
-  //   },
-  //   "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
-  // },
-  // "rich-text#1": {
-  //   "props": {
-  //     "text": "Test1"
-  //   }
-  // },
-  // "rich-text#2": {
-  //   "props": {
-  //     "text": "Test2"
-  //   }
-  // },
-  // "rich-text#3": {
-  //   "props": {
-  //     "text": "Test3"
-  //   }
-  // },
-  // --------------------------------------
-  // "list-context.image-list#demo": {
-  //   "children": [
-  //     "slider-layout#demo-images"
-  //   ],
-  //   "props": {
-  //     "height": 570,
-  //     "preload": true,
-  //     "images": [
-  //       {
-  //         "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-  //         "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-  //       },
-  //       {
-  //         "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-  //         "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-  //       }
-  //     ]
-  //   }
-  // },
-  // "slider-layout#demo-images": {
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 1,
-  //       "tablet": 1,
-  //       "phone": 1
-  //     },
-  //     "infinite": true,
-  //     "showNavigationArrows": "desktopOnly",
-  //     "blockClass": "carousel"
-  //   }
-  // },
-
-
-  
   // PRODUCT LIST LANCH
 
   "flex-layout.row#lanch-product-line": {
@@ -179,7 +123,6 @@
     }
   },
 
-
   "rich-text#lanch-product": {
     "props": {
       "text": "Lançamentos",
@@ -190,6 +133,33 @@
     "props": {
       "text": "[Ver mais](/)",
       "blockClass": "lanch-product-see-more"
+    }
+  },
+
+
+  // SECOND BANNER 
+
+  "flex-layout.row#offers-product-line": {
+    "children": [
+      "rich-text#offers-product",
+      "rich-text#offers-product-see-more"
+    ],
+    "props": {
+      "blockClass": ["lanch-product-line", "offers-product-line"],
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "rich-text#offers-product": {
+    "props": {
+      "text": "Ofertas Imperdíveis",
+      "blockClass": ["lanch-product-text", "offers-product-text"]
+    }
+  },
+  "rich-text#offers-product-see-more": {
+    "props": {
+      "text": "[Ver mais](/)",
+      "blockClass": ["lanch-product-see-more", "offers-product-see-more"]
     }
   },
 

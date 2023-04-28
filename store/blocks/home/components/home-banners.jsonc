@@ -1,0 +1,82 @@
+{
+    "flex-layout.row#banners-sales-line": {
+        "children": [
+            "flex-layout.row#banners-sales-first-line",
+            "flex-layout.row#banners-sales-second-line"
+        ],
+        "props": {
+            "blockClass": "banners-sales-line",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#banners-sales-first-line": {
+        "children": [
+            "image#big-banner"
+        ],
+        "props": {
+            "blockClass": "banners-sales-first-line",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#banners-sales-second-line": {
+        "children": [
+            "flex-layout.row#banners-sales-second-line-banner-1",
+            "flex-layout.row#banners-sales-second-line-banner-2"
+        ],
+        "props": {
+            "blockClass": "banners-sales-second-line",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#banners-sales-second-line-banner-1": {
+        "children": [
+            "image#medium-banner"
+        ],
+        "props": {
+            "blockClass": "banners-sales-second-line-banner-1",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#banners-sales-second-line-banner-2": {
+        "children": [
+            "image#small-banner"
+        ],
+        "props": {
+            "blockClass": "banners-sales-second-line-banner-2",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#big-banner": {
+        "props": {
+            "blockClass": [
+                "image-banner-home",
+                "big-banner"
+            ],
+            "src": "assets/img/mobile/banner-1.png",
+            "maxHeight": 250,
+            "link": {"url":"#"}
+        }
+    },
+    "image#medium-banner": {
+        "props": {
+            "blockClass": [
+                "image-banner-home",
+                "medium-banner"
+            ],
+            "src": "assets/img/mobile/banner-2.png",
+            "maxHeight": 120,
+            "link": {"url":"#"}
+        }
+    },
+    "image#small-banner": {
+        "props": {
+            "blockClass": [
+                "image-banner-home",
+                "small-banner"
+            ],
+            "src": "assets/img/mobile/banner-3.png",
+            "maxHeight": 120,
+            "link": {"url":"#"}
+        }
+    }
+}

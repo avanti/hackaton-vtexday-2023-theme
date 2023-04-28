@@ -30,9 +30,51 @@
       margin-top: 3.288rem;
       margin-bottom: 0.813rem;
     }
-
+ 
     .flexCol--productRating {
       margin: 0.438rem;
     }
 
+
+    /* SHELF */
+
+    .flexRow--add-to-cart-button-home {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .flexRowContent--add-to-cart-button-home {
+      display: flex;
+      justify-content: center;
+      width: 39.48vw;
+      height: 2.5rem;
+    }
+
+    .flexRowContent--add-to-cart-button-home :global(.vtex-button) {
+      display: contents;
+    }
+
+    .flexRowContent--add-to-cart-button-home :global(.vtex-button__label) {
+      background-color: #005CFF;
+      width: 39.48vw;
+      height: 2.5rem;
+      border-radius: 10px;
+    }
+
+    /* BANNERS */
+
+    .flexRow--banners-sales-line {
+      margin-top: 3.101rem;
+    }
+
+    .flexRow--banners-sales-first-line, .flexRow--banners-sales-second-line-banner-1 {
+      margin-bottom: 0.846rem;
+    }
+
+    /* SLIDER OFFERS */
+
+    /* .flexRowContent--offers-product-line-end {
+      margin-bottom: 0;
+    } */
 }
