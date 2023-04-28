@@ -1,18 +1,32 @@
 @media screen and (min-width: 64em) {
 
+  /* SLIDER OFFERS */
 
-.sliderLayoutContainer--carousel-offers {
+  .sliderLayoutContainer--carousel-offers {
     min-height: 22.375rem;
-    margin-top: 2.399rem;
+    margin-top: 2.813rem;
     align-items: start;
-    padding: 0!important;
+    padding: 0 !important;
+  }
+
+  .sliderTrackContainer--carousel-offers {
     padding-left: 17.39vw;
     padding-right: 17.39vw;
   }
 
+  .sliderLayoutContainer--shelf-product-line {
+    width: 12.41vw;
+  }
 
-  /* SLIDER OFFERS */
-/*
+  .sliderTrackContainer--carousel-offers,
+  .sliderTrack--carousel-offers {
+    min-height: 25rem;
+  }
+
+
+
+
+  /*
   .slide--carousel-offers {
     display: flex;
     justify-content: center;
@@ -41,7 +55,7 @@
 
   /* .sliderLayoutContainer--shelf-product-line {
     padding: 0!important; */
-    /* width: 43.53vw; */
+  /* width: 43.53vw; */
   /* }
 
   .sliderTrackContainer--shelf-product-line {

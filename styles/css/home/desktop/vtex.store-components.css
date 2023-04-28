@@ -10,6 +10,17 @@
     object-position: 98%; */
   }
 
+  /* SLIDER OFFERS */
+
+  .imageElementLink--carousel-offers {
+    width: 12.41vw;
+    height: 25rem;
+  }
+
+  .imageElement--carousel-offers {
+
+  }
+
 }
 
 

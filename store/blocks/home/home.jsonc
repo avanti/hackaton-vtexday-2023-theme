@@ -23,11 +23,30 @@
       "flex-layout.row#home-first-line-desktop",
       "list-context.image-list#first-slider-offers",
       "flex-layout.row#lanch-product-line",
-      "flex-layout.row#slider-products-line"
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#banners-sales-line",
+      "flex-layout.row#offers-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#offers-product-line",
+      "list-context.image-list#second-slider-offers",
+      "flex-layout.row#offers-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#pre-footer"
     ]
   },
   "responsive-layout.tablet": {
-    "children": []
+    "children": [      "flex-layout.row#home-first-line",
+    "list-context.image-list#first-slider-offers",
+    "flex-layout.row#lanch-product-line",
+    "flex-layout.row#slider-products-line",
+    "flex-layout.row#banners-sales-line",
+    "flex-layout.row#offers-product-line",
+    "flex-layout.row#slider-products-line",
+    "flex-layout.row#offers-product-line",
+    "list-context.image-list#second-slider-offers",
+    "flex-layout.row#offers-product-line",
+    "flex-layout.row#slider-products-line",
+    "flex-layout.row#pre-footer"]
   },
   "responsive-layout.phone": {
     "children": [
@@ -41,7 +60,8 @@
       "flex-layout.row#offers-product-line",
       "list-context.image-list#second-slider-offers",
       "flex-layout.row#offers-product-line",
-      "flex-layout.row#slider-products-line"
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#pre-footer"
     ]
   },
 
@@ -163,7 +183,31 @@
     }
   },
 
+  // PRE FOOTER
 
+  "flex-layout.row#pre-footer": {
+    "children": [
+      "rich-text#pre-footer-title",
+      "rich-text#pre-footer-text"
+    ],
+    "props": {
+      "blockClass": ["pre-footer"],
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "rich-text#pre-footer-title": {
+    "props": {
+      "text": "Lorem Ipsum dolor sit amer",
+      "blockClass": "pre-footer-title"
+    }
+  },
+  "rich-text#pre-footer-text": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt tempor leo a eleifend. Aenean eget lacus convallis, vehicula nulla non, feugiat elit. Vivamus aliquam, nulla et vestibulum tincidunt, diam tellus aliquam dui, quis consectetur purus risus vitae justo. Duis arcu risus, vulputate sed nisl nec, mollis ultrices risus. Curabitur eget iaculis ante, et lacinia est. Duis ac libero eget enim rhoncus feugiat. Donec auctor odio mauris, in sagittis tortor condimentum condimentum.",
+      "blockClass": "pre-footer-text"
+    }
+  },
 
 
   //------------------------------------------------

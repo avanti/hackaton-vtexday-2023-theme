@@ -28,5 +28,27 @@
     padding: 0;
   }
 
+  /* SLIDER OFFERS */
+
+
+  /* LAUNCH PRODUCT LINE */
+
+  .flexRowContent--lanch-product-line {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 3.288rem;
+  }
+
+  .flexCol--productRating {
+    margin: 0.438rem;
+  }
+
+  .flexRow--lanch-product-line :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    /* width: 100vw!important; */
+    padding: 0;
+  }
+
+
 
 }

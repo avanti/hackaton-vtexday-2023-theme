@@ -46,6 +46,7 @@
   .sliderTrackContainer--shelf-product-line {
     height: 22.688rem;
     width: 100vw;
+    margin-top: 0.813rem;
   }
 
   .sliderTrack--shelf-product-line,
@@ -79,13 +80,7 @@
 
   .sliderTrackContainer--second-carousel-offers,
   .sliderTrack--second-carousel-offers {
-    height: 2.75rem;
-    /* display: flex; */
-    /* justify-content: center; */
-  }
-
-  .sliderTrack--second-carousel-offers {
-    width: 28.27vw;
+    height: 2.75rem; 
   }
 
 }

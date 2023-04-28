@@ -22,13 +22,13 @@
     padding-top: 16px;
   }
 
-    /* LAUNCH PRODUCT LNE */
+    /* LAUNCH PRODUCT LINE */
 
     .flexRowContent--lanch-product-line {
       display: flex;
       justify-content: space-between;
       margin-top: 3.288rem;
-      margin-bottom: 0.813rem;
+      /* margin-bottom: 0.813rem; */
     }
  
     .flexCol--productRating {
@@ -74,7 +74,13 @@
 
     /* SLIDER OFFERS */
 
-    /* .flexRowContent--offers-product-line-end {
-      margin-bottom: 0;
-    } */
+
+    /* PRE FOOTER */
+
+    .flexRow--pre-footer {
+      margin-top: 3.563rem;
+      padding-left: 9.81vw;
+      padding-right: 9.81vw;
+    }
+
 }

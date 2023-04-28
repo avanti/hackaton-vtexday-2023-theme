@@ -78,4 +78,30 @@
     font-weight: bold;
   }
 
+  /* LAUNCH PRODUCT LNE */
+
+  .paragraph--lanch-product-text {
+    text-align: left;
+    font: normal normal bold 18px/22px Nunito Sans;
+    letter-spacing: 0.54px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .container--lanch-product-text {
+    padding-left: 17.39vw;
+  }
+
+  .link--lanch-product-see-more {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 13px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-left: 55.15vw;
+  }
+
 }

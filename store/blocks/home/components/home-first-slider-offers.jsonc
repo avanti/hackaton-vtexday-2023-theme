@@ -5,7 +5,7 @@
       "slider-layout#first-slider-offers"
     ],
     "props": {
-      "height": 331,
+      "height": 500,
       "preload": true,
       "images": [
         {
