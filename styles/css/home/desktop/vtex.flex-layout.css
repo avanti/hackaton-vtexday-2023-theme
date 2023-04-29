@@ -33,22 +33,99 @@
 
   /* LAUNCH PRODUCT LINE */
 
-  .flexRowContent--lanch-product-line {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    margin-top: 3.288rem;
-  }
-
-  .flexCol--productRating {
-    margin: 0.438rem;
-  }
-
   .flexRow--lanch-product-line :global(.vtex-store-components-3-x-container) {
     margin: 0;
-    /* width: 100vw!important; */
     padding: 0;
+    max-width: 100vw;
+  }
+
+  .flexRowContent--lanch-product-line {
+    margin-top: 3.288rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* SHELF */
+
+  .flexRow--slider-products-line :global(.vtex-store-components-3-x-container),
+  .flexRowContent--slider-products-line {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
   }
 
 
+  /* 
+  .flexRow--add-to-cart-button-home {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .flexRowContent--add-to-cart-button-home {
+    display: flex;
+    justify-content: center;
+    width: 39.48vw;
+    height: 2.5rem;
+  }
+
+  .flexRowContent--add-to-cart-button-home :global(.vtex-button) {
+    display: contents;
+  }
+
+  .flexRowContent--add-to-cart-button-home :global(.vtex-button__label) {
+    background-color: #005CFF;
+    width: 39.48vw;
+    height: 2.5rem;
+    border-radius: 10px;
+  } */
+
+  /* BANNERS */
+
+  .flexRow--banners-sales-line :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+  }
+
+  .flexRowContent--banners-sales-second-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .flexRowContent--banners-sales-second-line-banner-2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  /* SLIDER OFFERS AVANTI */
+
+  .sliderLayoutContainer--second-carousel-offers {
+    margin-top: 1.188rem;
+    height: 4.375rem !important;
+    padding: 0 !important;
+  }
+
+  .sliderTrackContainer--second-carousel-offers,
+  .sliderTrack--second-carousel-offers {
+    height: 2.75rem;
+  }
+
+  /* PRE FOOTER */
+
+  .flexRow--pre-footer :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+  }
+
+  .flexRowContent--pre-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 }

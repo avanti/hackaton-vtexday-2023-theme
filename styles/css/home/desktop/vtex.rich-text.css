@@ -72,7 +72,6 @@
 
   .paragraph--home-banner-button::after {
     content: "→";
-    /* padding-left: 1.30vw; */
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -101,7 +100,45 @@
     color: #000000;
     text-transform: capitalize;
     opacity: 1;
-    padding-left: 55.15vw;
+    padding-right: 17.39vw;
+  }
+
+   /* PRE FOOTER */
+
+   .container--pre-footer-title {
+    /* padding-left: 16.58vw;
+    margin-bottom: 1.25rem; */
+    justify-content: center!important;
+  }
+
+  .paragraph--pre-footer-title {
+    text-align: center;
+    font: normal normal bold 16px/30px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    text-transform: none;
+  }
+
+  .container--pre-footer-text::before {
+    /* margin-top: 1.25rem; */
+  }
+
+  .container--pre-footer-text {
+    /* height: 12.188rem; */
+  }
+
+  .wrapper--pre-footer-text, .paragraph--pre-footer-text {
+    /* height: 12.188rem; */
+  }
+
+  .paragraph--pre-footer-text {
+    text-transform: none;
+    text-align: center;
+    font: normal normal normal 13px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
   }
 
 }

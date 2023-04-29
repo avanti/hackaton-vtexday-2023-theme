@@ -40,7 +40,6 @@
 
   .sliderLayoutContainer--shelf-product-line {
     padding: 0 !important;
-    /* width: 43.53vw; */
   }
 
   .sliderTrackContainer--shelf-product-line {
@@ -69,9 +68,7 @@
     margin-top: 0.625rem;
   }
 
-  /* SLIDER OFFERS */
-
-
+  /* SLIDER OFFERS AVANTI */
 
   .sliderLayoutContainer--second-carousel-offers {
     height: 4.652rem;

@@ -117,6 +117,7 @@
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
+        "arrowSize": 30,
         "blockClass": "second-carousel-offers",
         "fullWidth": false
       }

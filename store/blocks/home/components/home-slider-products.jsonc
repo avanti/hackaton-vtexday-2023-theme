@@ -4,7 +4,8 @@
             "list-context.product-list#slider-products-line"
         ],
         "props": {
-            "preventHorizontalStretch": true
+            "preventHorizontalStretch": true,
+            "blockClass": "slider-products-line"
         }
     },
     "list-context.product-list#slider-products-line": {

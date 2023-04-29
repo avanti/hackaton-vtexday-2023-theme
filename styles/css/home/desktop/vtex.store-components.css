@@ -20,6 +20,25 @@
   .imageElement--carousel-offers {
 
   }
+  
+ /* BANNERS */
+
+ .imageElement--image-banner-home {
+  /* padding-left: 5.14vw;
+  padding-right: 5.14vw; */
+  width: 32.08vw;
+}
+
+.imageElement--big-banner {
+  height: 25rem;
+  padding-left: 17.39vw;
+  margin-right: 1.04vw;
+}
+
+.imageElement--medium-banner, .imageElement--small-banner {
+  height: 12rem;
+  padding-right: 17.39vw;
+}
 
 }
 

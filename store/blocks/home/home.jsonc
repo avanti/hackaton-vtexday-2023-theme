@@ -35,18 +35,20 @@
     ]
   },
   "responsive-layout.tablet": {
-    "children": [      "flex-layout.row#home-first-line",
-    "list-context.image-list#first-slider-offers",
-    "flex-layout.row#lanch-product-line",
-    "flex-layout.row#slider-products-line",
-    "flex-layout.row#banners-sales-line",
-    "flex-layout.row#offers-product-line",
-    "flex-layout.row#slider-products-line",
-    "flex-layout.row#offers-product-line",
-    "list-context.image-list#second-slider-offers",
-    "flex-layout.row#offers-product-line",
-    "flex-layout.row#slider-products-line",
-    "flex-layout.row#pre-footer"]
+    "children": [
+      "flex-layout.row#home-first-line",
+      "list-context.image-list#first-slider-offers",
+      "flex-layout.row#lanch-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#banners-sales-line",
+      "flex-layout.row#offers-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#offers-product-line",
+      "list-context.image-list#second-slider-offers",
+      "flex-layout.row#offers-product-line",
+      "flex-layout.row#slider-products-line",
+      "flex-layout.row#pre-footer"
+    ]
   },
   "responsive-layout.phone": {
     "children": [
@@ -64,9 +66,7 @@
       "flex-layout.row#pre-footer"
     ]
   },
-
   // FIRST BANNER 
-
   "flex-layout.row#home-first-line": {
     "props": {
       "blockClass": [
@@ -129,9 +129,7 @@
       "textColor": "c-on-emphasis"
     }
   },
-  
   // PRODUCT LIST LANCH
-
   "flex-layout.row#lanch-product-line": {
     "children": [
       "rich-text#lanch-product",
@@ -142,7 +140,6 @@
       "preventHorizontalStretch": true
     }
   },
-
   "rich-text#lanch-product": {
     "props": {
       "text": "Lançamentos",
@@ -155,47 +152,51 @@
       "blockClass": "lanch-product-see-more"
     }
   },
-
-
   // SECOND BANNER 
-
   "flex-layout.row#offers-product-line": {
     "children": [
       "rich-text#offers-product",
       "rich-text#offers-product-see-more"
     ],
     "props": {
-      "blockClass": ["lanch-product-line", "offers-product-line"],
+      "blockClass": [
+        "lanch-product-line",
+        "offers-product-line"
+      ],
       "preventHorizontalStretch": true
     }
   },
-
   "rich-text#offers-product": {
     "props": {
       "text": "Ofertas Imperdíveis",
-      "blockClass": ["lanch-product-text", "offers-product-text"]
+      "blockClass": [
+        "lanch-product-text",
+        "offers-product-text"
+      ]
     }
   },
   "rich-text#offers-product-see-more": {
     "props": {
       "text": "[Ver mais](/)",
-      "blockClass": ["lanch-product-see-more", "offers-product-see-more"]
+      "blockClass": [
+        "lanch-product-see-more",
+        "offers-product-see-more"
+      ]
     }
   },
-
   // PRE FOOTER
-
   "flex-layout.row#pre-footer": {
     "children": [
       "rich-text#pre-footer-title",
       "rich-text#pre-footer-text"
     ],
     "props": {
-      "blockClass": ["pre-footer"],
+      "blockClass": [
+        "pre-footer"
+      ],
       "preventHorizontalStretch": true
     }
   },
-
   "rich-text#pre-footer-title": {
     "props": {
       "text": "Lorem Ipsum dolor sit amer",
@@ -208,10 +209,7 @@
       "blockClass": "pre-footer-text"
     }
   },
-
-
   //------------------------------------------------
-  
   "info-card#home": {
     "props": {
       "id": "info-card-home",

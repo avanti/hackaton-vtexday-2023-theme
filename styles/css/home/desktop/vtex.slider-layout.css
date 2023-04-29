@@ -24,6 +24,24 @@
   }
 
 
+  /* SLIDER OFFERS AVANTI */
+
+  .caretIcon--second-carousel-offers {
+    color: transparent;
+    background-color: black;
+    border-radius: 50px;
+    background-image: url('assets/img/arrow-slider.svg');
+    /* height: 30px;
+    width: 30px; */
+    background-repeat: no-repeat;
+  }
+
+  .sliderLeftArrow--second-carousel-offers {
+    transform: rotate(180deg);
+    margin: 0;
+    padding: 0;
+  }
+
 
 
   /*
