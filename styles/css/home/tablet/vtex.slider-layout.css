@@ -1,0 +1,106 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+  /* FIRST LINE */
+
+  .sliderLayoutContainer--carousel-offers {
+    margin-top: 2.399rem;
+    height: 26.625rem;
+  }
+
+  .sliderTrackContainer--carousel-offers {
+    height: 26.625rem;
+  }
+
+  .paginationDotsContainer--carousel-offers {
+    margin-top: 1.649rem;
+  }
+
+  .paginationDot--carousel-offers--isActive,
+  .paginationDot--shelf-product-line--isActive,
+  .paginationDot--second-carousel-offers--isActive {
+    background-color: #005CFF;
+  }
+
+  /* SLIDER OFFERS AVANTI */
+
+  .sliderLayoutContainer--second-carousel-offers {
+    margin-top: 1rem;
+    /* height: 4.652rem; */
+    padding: 0 !important;
+  }
+
+  .sliderTrackContainer--second-carousel-offers,
+  .sliderTrack--second-carousel-offers {
+    height: 5.75rem; 
+  }
+
+  .paginationDotsContainer--shelf-product-line,
+  .paginationDotsContainer--second-carousel-offers {
+    margin-top: 0.625rem;
+  }
+
+  /* SHELF */
+
+  .sliderLayoutContainer--shelf-product-line {
+    padding: 0 !important;
+  }
+
+  .sliderTrackContainer--shelf-product-line {
+    height: 31.688rem;
+    /* width: 100vw; */
+    margin-top: 0.813rem;
+  }
+
+  .sliderTrack--shelf-product-line,
+  .slideChildrenContainer--shelf-product-line {
+    /* width: 43.45vw; */
+  }
+
+  .slideChildrenContainer--shelf-product-line {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+  }
+
+  .slide--shelf-product-line {
+    display: flex;
+    justify-content: center;
+  }
+
+ }
+
+ /*  SLIDER OFFERS
+
+
+
+  .slide--carousel-offers {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slideChildrenContainer--carousel-offers {
+    width: 43.53vw;
+  }
+
+  .sliderLayoutContainer--carousel-offers {
+    padding: 0 !important;
+  }
+
+  .sliderTrackContainer--carousel-offers,
+  .sliderTrack--carousel-offers {
+    min-height: 20.706rem;
+  }
+
+
+
+  LAUNCH PRODUCT LINE
+
+  
+
+  .paginationDotsContainer--shelf-product-line,
+  .paginationDotsContainer--second-carousel-offers {
+    margin-top: 0.625rem;
+  }
+
+
+
+} */

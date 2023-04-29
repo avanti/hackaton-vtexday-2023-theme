@@ -1,46 +1,46 @@
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) and (max-width: 64em) {
 
   /* FIRST LINE */
 
-  .paragraph--home-banner-title {
-    text-align: left;
-    font: normal normal bold 40px/55px Open Sans;
-    letter-spacing: 12px;
-    color: #005CFF;
-    text-transform: uppercase;
-    opacity: 1;
-    margin-top: 6.188rem;
+  .container--home-banner-title,
+  .paragraph--home-banner-title,
+  .wrapper--home-banner-title {
+    height: 3rem;
   }
 
-  .container--home-banner-title {
-    height: 9.625rem;
+  .paragraph--home-banner-title {
+    color: #005CFF;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 1.2rem;
   }
 
   .paragraph--home-banner-text {
-    text-align: left;
-    font: normal normal normal 12px/17px Open Sans;
+    font: normal normal normal 12px/16px Nunito Sans;
     letter-spacing: 0px;
-    color: #B1B3B3;
+    color: #5F5F5F;
     opacity: 1;
     text-transform: none;
-    align-items: flex-start;
+    padding-right: 4.90vw;
+    padding-top: 1.5rem;
     overflow: hidden;
+    text-overflow: clip;
+    display: block;
   }
 
   .container--home-banner-text,
   .paragraph--home-banner-text,
   .wrapper--home-banner-text {
-    height: 7.438rem;
-    width: 24.68vw;
-  }
-
-  .container--home-banner-text {
-    margin-top: 2.5rem;
+    height: 10rem;
   }
 
   .container--home-banner-button {
-    width: 13.07vw;
-    margin-top: 2.5rem;
+    height: 38px;
+    margin-top: 20px;
   }
 
   .wrapper--home-banner-button {
@@ -58,20 +58,18 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
     opacity: 1;
-    /* padding-left: 2.96vw; */
-    height: 17px;
-    width: 7.13vw;
-    display: flex;
-    justify-content: space-between;
+    padding-left: 5.37vw;
+    height: 16px;
   }
 
   .link--home-banner-button {
     color: #000000;
- 
+
   }
 
   .paragraph--home-banner-button::after {
     content: "→";
+    padding-left: 7.24vw;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -80,16 +78,13 @@
   /* LAUNCH PRODUCT LNE */
 
   .paragraph--lanch-product-text {
+    color: var(--unnamed-color-000000);
     text-align: left;
     font: normal normal bold 18px/22px Nunito Sans;
     letter-spacing: 0.54px;
     color: #000000;
     text-transform: uppercase;
     opacity: 1;
-  }
-
-  .container--lanch-product-text {
-    padding-left: 17.39vw;
   }
 
   .link--lanch-product-see-more {
@@ -100,12 +95,22 @@
     color: #000000;
     text-transform: capitalize;
     opacity: 1;
-    padding-right: 17.39vw;
   }
 
-   /* PRE FOOTER */
+}
 
-   .paragraph--pre-footer-title {
+
+
+/* @media screen and (max-width: 40em) {
+
+  PRE FOOTER
+
+  .container--pre-footer-title {
+    padding-left: 16.58vw;
+    margin-bottom: 1.25rem;
+  }
+
+  .paragraph--pre-footer-title {
     text-align: center;
     font: normal normal bold 16px/30px Nunito Sans;
     letter-spacing: 0px;
@@ -114,13 +119,16 @@
     text-transform: none;
   }
 
-  .container--pre-footer-text {
-    height: 3.938rem;
+  .container--pre-footer-text::before {
     margin-top: 1.25rem;
   }
 
+  .container--pre-footer-text {
+    height: 12.188rem;
+  }
+
   .wrapper--pre-footer-text, .paragraph--pre-footer-text {
-    height: 3.938rem;
+    height: 12.188rem;
   }
 
   .paragraph--pre-footer-text {
@@ -131,5 +139,4 @@
     color: #000000;
     opacity: 1;
   }
-
-}
+} */

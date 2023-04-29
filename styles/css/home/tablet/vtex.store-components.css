@@ -1,0 +1,38 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+  /* FIRST LINE */
+
+  .imageElement--home-banner-mobile {
+    height: 18.75rem;
+    object-fit: cover;
+  }
+
+
+ }
+
+
+/* 
+
+  BANNERS
+
+  .imageElement--image-banner-home {
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    width: 89.71vw;
+  }
+
+  .imageElement--big-banner {
+    height: 15.584rem;
+  }
+
+  .imageElement--medium-banner, .imageElement--small-banner {
+    height: 7.403rem;
+  }
+
+  SECONDE SLIDER
+
+  .imageElementLink--second-carousel-offers {
+   width: 60%;
+  }
+
+} */

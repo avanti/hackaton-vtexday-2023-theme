@@ -39,7 +39,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 1,
+        "tablet": 3,
         "phone": 2
       },
       "infinite": true,
@@ -112,11 +112,12 @@
       "props": {
         "itemsPerPage": {
           "desktop": 7,
-          "tablet": 1,
+          "tablet": 3,
           "phone": 3
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "mobileOnly",
         "arrowSize": 30,
         "blockClass": "second-carousel-offers",
         "fullWidth": false

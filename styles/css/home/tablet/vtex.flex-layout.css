@@ -1,0 +1,99 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+  /* FIRST LINE */
+
+  .flexRowContent--home-first-line {
+    background-color: #f5f5f5;
+    height: 18.75rem;
+  }
+
+  /* LAUNCH PRODUCT LINE */
+
+  .flexRowContent--lanch-product-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.288rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+  }
+
+  /* SHELF */
+
+  .flexRowContent--lanch-product-line {
+    display: flex;
+    justify-content: space-between;
+    }
+
+  .flexCol--productRating {
+    margin: 0.438rem;
+  }
+
+  .flexRow--add-to-cart-button-home {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .flexRowContent--add-to-cart-button-home {
+    display: flex;
+    justify-content: center;
+    width: 39.48vw;
+    height: 2.5rem;
+  }
+
+  .flexRowContent--add-to-cart-button-home :global(.vtex-button) {
+    display: contents;
+  }
+
+  .flexRowContent--add-to-cart-button-home :global(.vtex-button__label) {
+    background-color: #005CFF;
+    width: 39.48vw;
+    height: 2.5rem;
+    border-radius: 10px;
+  }
+
+  /* BANNERS */
+
+  .flexRow--banners-sales-line {
+    margin-top: 3.101rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--banners-sales-line, .flexRowContent--banners-sales-second-line {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRow--banners-sales-first-line,
+  .flexRow--banners-sales-second-line-banner-1 {
+    margin-bottom: 0.846rem;
+  }
+  
+  /* PRE FOOTER */
+
+  .flexRow--pre-footer {
+    margin-top: 3.563rem;
+    padding-left: 9.81vw;
+    padding-right: 9.81vw;
+  }
+
+}
+
+
+
+/*  
+
+  LAUNCH PRODUCT LINE
+
+
+
+
+  
+
+  SLIDER OFFERS
+
+
+
+
+} */

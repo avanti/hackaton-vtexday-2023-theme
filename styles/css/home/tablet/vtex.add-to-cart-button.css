@@ -1,4 +1,4 @@
-@media screen and (max-width: 40em) {
+@media screen and (min-width: 40em) and (max-width: 64em) {
 
     /* LAUNCH PRODUCT LINE */
     /* SHELF */
