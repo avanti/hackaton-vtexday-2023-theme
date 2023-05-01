@@ -29,6 +29,7 @@
                 "tablet": 3,
                 "phone": 2
             },
+            "height": 500,
             "infinite": true,
             "showNavigationArrows": "never",
             "fullWidth": false,

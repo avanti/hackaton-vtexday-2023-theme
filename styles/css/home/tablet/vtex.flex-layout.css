@@ -19,6 +19,12 @@
 
   /* SHELF */
 
+  .flexRowContent--slider-products-line {
+    display: flex;
+    justify-content: center;
+    height: 25.188rem;
+  }
+
   .flexRowContent--lanch-product-line {
     display: flex;
     justify-content: space-between;
@@ -37,7 +43,7 @@
   .flexRowContent--add-to-cart-button-home {
     display: flex;
     justify-content: center;
-    width: 39.48vw;
+    width: 20.41vw;
     height: 2.5rem;
   }
 

@@ -4,10 +4,11 @@
     padding: 0;
   }
 
-  /* .imageContainer {
-    width: 42.28vw;
-    height: 11.313rem;
-  } */
+  .imageContainer {
+    width: 22.07vw;
+    height: 13.125rem;
+    padding-top: 0.5rem;
+  }
 
   .nameContainer {
     padding: 0;
