@@ -153,3 +153,35 @@
     justify-content: space-between;
     margin-top: 12px;
 }
+
+
+@media screen and (max-width: 115em) {
+    .flexRowContent--office-information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--office-contact {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 87em) {
+
+    .flexRowContent--main-header {
+        padding-left: 8.69vw;
+        padding-right: 8.69vw;
+    }
+
+    .flexRow--main-header-search,
+    .flexRow--menu-categories {
+        width: 100vw;
+    }
+
+    .flexRow--menu-row {
+        padding-left: 8.69vw;
+        padding-right: 8.69vw;
+    }
+
+}

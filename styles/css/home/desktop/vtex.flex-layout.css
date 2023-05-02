@@ -80,7 +80,6 @@
 
   .flexRowContent--add-to-cart-button-home :global(.vtex-button__label) {
     background-color: #005CFF;
-
     height: 2.5rem;
     border-radius: 10px;
   }

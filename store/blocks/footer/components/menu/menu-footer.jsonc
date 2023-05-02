@@ -61,7 +61,8 @@
     "flex-layout.row#office-information": {
         "props": {
             "orientation": "vertical",
-            "preventHorizontalStretch": true
+            "preventHorizontalStretch": true,
+            "blockClass": "office-information"
         },
         "children": [
             "flex-layout.row#office-hour",

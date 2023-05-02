@@ -28,7 +28,7 @@
   .slideChildrenContainer--shelf-product-line {
     width: 12.40vw;
   }
-
+ 
   .slideChildrenContainer--shelf-product-line {
     border: 1px solid #DDDDDD;
     border-radius: 10px;
@@ -72,6 +72,7 @@
     border-radius: 50px;
     background-image: url('assets/img/arrow-slider.svg');
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   .sliderLeftArrow--second-carousel-offers,
