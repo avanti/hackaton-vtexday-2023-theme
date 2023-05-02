@@ -56,6 +56,9 @@
     margin-bottom: 2.688rem;
   }
 
+  .flexRowContent--product-price-shelf {
+    justify-content: center;
+  }
 
   .flexCol--productRating {
     margin: 0.438rem;

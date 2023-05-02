@@ -42,11 +42,6 @@
  
   }
 
-  .flexRowContent--shelf-highlight:first-child {
-    background-color: red;
- 
-  }
-
   .flexRowContent--product-price-shelf {
     justify-content: center;
   }
