@@ -4,18 +4,6 @@
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.phone"
-      // "flex-layout.row#home-first-line",
-      // "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      // "flex-layout.row#deals",
-      // "__fold__",
-      // "rich-text#shelf-title",
-      // "flex-layout.row#shelf",
-      // "info-card#home"
-      // "rich-text#question",
-      // "rich-text#link",
-      // "newsletter"
     ]
   },
   "responsive-layout.desktop": {
@@ -208,31 +196,8 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt tempor leo a eleifend. Aenean eget lacus convallis, vehicula nulla non, feugiat elit. Vivamus aliquam, nulla et vestibulum tincidunt, diam tellus aliquam dui, quis consectetur purus risus vitae justo. Duis arcu risus, vulputate sed nisl nec, mollis ultrices risus. Curabitur eget iaculis ante, et lacinia est. Duis ac libero eget enim rhoncus feugiat. Donec auctor odio mauris, in sagittis tortor condimentum condimentum.",
       "blockClass": "pre-footer-text"
     }
-  },
-  //------------------------------------------------
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
   }
+
+  //------------------------------------------------
+
 }

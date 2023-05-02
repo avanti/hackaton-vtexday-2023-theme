@@ -6,8 +6,6 @@
     height: 500px;
     width: auto;
     object-fit: cover;
-    /*
-    object-position: 98%; */
   }
 
   /* SLIDER OFFERS */
@@ -16,16 +14,10 @@
     width: 12.41vw;
     height: 25rem;
   }
-
-  .imageElement--carousel-offers {
-
-  }
   
  /* BANNERS */
 
  .imageElement--image-banner-home {
-  /* padding-left: 5.14vw;
-  padding-right: 5.14vw; */
   width: 32.08vw;
 }
 
@@ -40,6 +32,12 @@
   padding-right: 17.39vw;
 }
 
+
+  /* SECONDE SLIDER */
+
+  .imageElementLink--second-carousel-offers {
+    width: 60%;
+   }
 }
 
 

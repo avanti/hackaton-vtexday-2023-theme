@@ -25,13 +25,14 @@
     "slider-layout#slider-products-line": {
         "props": {
             "itemsPerPage": {
-                "desktop": 4,
+                "desktop": 5,
                 "tablet": 3,
                 "phone": 2
             },
             "height": 500,
             "infinite": true,
-            "showNavigationArrows": "never",
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 30,
             "fullWidth": false,
             "blockClass": "shelf-product-line"
         }

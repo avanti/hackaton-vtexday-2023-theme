@@ -4,10 +4,8 @@
       "blockClass": [
         "home-first-line-desktop"
       ],
-      // "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
-      // "fullWidth": true
     },
     "children": [
       "flex-layout.col#image-home-first-line-desktop",
@@ -29,10 +27,6 @@
     "props": {
       "src": "assets/img/home-banner.png",
       "blockClass": "home-banner-desktop"
-      // "link": {
-      //   "newTab": true,
-      //   "url": "/"
-      // }
     }
   }
 

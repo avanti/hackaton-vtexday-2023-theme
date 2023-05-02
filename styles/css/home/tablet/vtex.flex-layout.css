@@ -43,7 +43,7 @@
   .flexRowContent--add-to-cart-button-home {
     display: flex;
     justify-content: center;
-    width: 20.41vw;
+    width: 10.89vw;
     height: 2.5rem;
   }
 
@@ -80,26 +80,13 @@
 
   .flexRow--pre-footer {
     margin-top: 3.563rem;
-    padding-left: 9.81vw;
-    padding-right: 9.81vw;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
   }
 
+  .flexRowContent--pre-footer {
+    display: flex;
+    flex-direction: column;
+  } 
+
 }
-
-
-
-/*  
-
-  LAUNCH PRODUCT LINE
-
-
-
-
-  
-
-  SLIDER OFFERS
-
-
-
-
-} */

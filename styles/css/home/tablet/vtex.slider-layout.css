@@ -25,7 +25,6 @@
 
   .sliderLayoutContainer--second-carousel-offers {
     margin-top: 1rem;
-    /* height: 4.652rem; */
     padding: 0 !important;
   }
 
@@ -46,12 +45,6 @@
     width: 100vw;
   }
 
-  /* .sliderTrackContainer--shelf-product-line {
-    height: 31.688rem;
-    width: 100vw;
-    margin-top: 0.813rem;
-  } */
-
   .sliderTrack--shelf-product-line,
   .slideChildrenContainer--shelf-product-line {
     width: 23.24vw;
@@ -69,39 +62,3 @@
 
  }
 
- /*  SLIDER OFFERS
-
-
-
-  .slide--carousel-offers {
-    display: flex;
-    justify-content: center;
-  }
-
-  .slideChildrenContainer--carousel-offers {
-    width: 43.53vw;
-  }
-
-  .sliderLayoutContainer--carousel-offers {
-    padding: 0 !important;
-  }
-
-  .sliderTrackContainer--carousel-offers,
-  .sliderTrack--carousel-offers {
-    min-height: 20.706rem;
-  }
-
-
-
-  LAUNCH PRODUCT LINE
-
-  
-
-  .paginationDotsContainer--shelf-product-line,
-  .paginationDotsContainer--second-carousel-offers {
-    margin-top: 0.625rem;
-  }
-
-
-
-} */

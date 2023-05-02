@@ -1,0 +1,24 @@
+@media screen and (min-width: 64em) {
+  
+  .sellingPrice--summary {
+    display: flex;
+    justify-content: center;
+  }
+
+  .currencyContainer--summary {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font: normal normal bold 18px/20px Nunito Sans;
+    letter-spacing: 0.9px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .sellingPrice--summary::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

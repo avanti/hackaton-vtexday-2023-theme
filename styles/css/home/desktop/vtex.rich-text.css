@@ -58,7 +58,6 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
     opacity: 1;
-    /* padding-left: 2.96vw; */
     height: 17px;
     width: 7.13vw;
     display: flex;
@@ -104,6 +103,11 @@
   }
 
    /* PRE FOOTER */
+
+   .container--pre-footer-title {
+    width: 100vw;
+    justify-content: center;
+  }
 
    .paragraph--pre-footer-title {
     text-align: center;

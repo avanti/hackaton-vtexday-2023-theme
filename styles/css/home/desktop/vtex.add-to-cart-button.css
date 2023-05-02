@@ -1,0 +1,21 @@
+@media screen and (min-width: 64em) {
+
+    /* LAUNCH PRODUCT LINE */
+    /* SHELF */
+
+    .buttonText {
+        display: none;
+
+    }
+
+    .buttonDataContainer::after {
+        content: "comprar";
+        text-align: left;
+        font: normal normal bold 14px/20px Nunito Sans;
+        letter-spacing: 0.7px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        opacity: 1;
+    }
+
+}

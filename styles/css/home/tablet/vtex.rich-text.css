@@ -97,17 +97,11 @@
     opacity: 1;
   }
 
-}
-
-
-
-/* @media screen and (max-width: 40em) {
-
-  PRE FOOTER
+  /* PRE FOOTER */
 
   .container--pre-footer-title {
-    padding-left: 16.58vw;
-    margin-bottom: 1.25rem;
+    width: 100vw;
+    justify-content: center;
   }
 
   .paragraph--pre-footer-title {
@@ -119,16 +113,12 @@
     text-transform: none;
   }
 
-  .container--pre-footer-text::before {
-    margin-top: 1.25rem;
-  }
-
   .container--pre-footer-text {
-    height: 12.188rem;
+    height: 6.5rem;
   }
 
   .wrapper--pre-footer-text, .paragraph--pre-footer-text {
-    height: 12.188rem;
+    height: 6.5rem;
   }
 
   .paragraph--pre-footer-text {
@@ -139,4 +129,5 @@
     color: #000000;
     opacity: 1;
   }
-} */
+
+}
