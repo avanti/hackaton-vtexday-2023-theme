@@ -97,12 +97,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 25rem;
   }
 
 
+  .flexRowContent--banners-sales-second-line-banner-1,
   .flexRowContent--banners-sales-second-line-banner-2 {
-    display: flex;
-    justify-content: flex-end;
+    height: 11.875rem;
   }
 
 
