@@ -12,6 +12,7 @@
   .nameContainer {
     padding: 0;
     padding-top: 1.063rem;
+    justify-content: center;
   }
 
   .productBrand {

@@ -1,4 +1,4 @@
-@media screen and (max-width: 40em) {
+@media screen and (min-width: 64em) {
 
 
   .productHighlightWrapper--collection {
@@ -10,18 +10,16 @@
 
   .productHighlightWrapper--first-wrapper-highlight {
     background-color: #6220C1;
-    width: 15.19vw;
+    width: 3.39vw;
     font-size: 10px;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
-    /* margin-top: 0.563rem; */
     padding: 5px 5px 3px 5px;
   }
 
   .productHighlightWrapper--second-wrapper-highlight {
-    width: 9.58vw;
-    /* margin-top: 2.125rem; */
+    width: 2.14vw;
     margin-top: 1.562rem;
     background-color: #00264E;
     font-size: 10px;

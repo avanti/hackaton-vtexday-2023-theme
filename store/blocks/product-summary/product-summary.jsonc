@@ -53,17 +53,42 @@
     "props": {
       "type": "collection"
     },
-    "children": ["product-highlight-wrapper"]
+    "children": ["product-highlight-wrapper#first-one", "product-highlight-wrapper#second-one"]
   },
-  "product-highlight-wrapper": {
+  "product-highlight-wrapper#first-one": {
     "props": {
-      "blockClass": "collection"
+      "blockClass": ["collection", "first-wrapper-highlight"]
     },
-    "children": ["product-highlight-text"]
+    "children": ["product-highlight-text#first-highlight"]
   },
-  "product-highlight-text": {
+
+  "product-highlight-wrapper#second-one": {
     "props": {
-      "message": "{highlightName}"
+      "blockClass": ["collection", "second-wrapper-highlight"]
+    },
+    "children": ["product-highlight-text#second-highlight"]
+  },
+
+  //"flex-layout.row#shelf-highlights"
+
+  // "flex-layout.row#shelf-highlights": {
+  //   "props": {
+  //     "blockClass": "shelf-highlight"
+  //   },
+  //   "children": ["product-highlight-text#first-highlight", "product-highlight-text#second-highlight"]
+  // },
+
+  "product-highlight-text#first-highlight": {
+    "props": {
+      "message": "CashBack",
+      "blockClass": "product-highlight-text-first-highlight"
+    }
+  },
+
+  "product-highlight-text#second-highlight": {
+    "props": {
+      "message": "Novo",
+      "blockClass": "product-highlight-text-second-highlight"
     }
   },
 
@@ -77,7 +102,8 @@
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass": "product-price-shelf"
     },
     "children": [
       "product-selling-price#summary",

@@ -37,6 +37,20 @@
 
   /* SHELF */
 
+  .flexRowContent--shelf-highlight :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: start;
+ 
+  }
+
+  .flexRowContent--shelf-highlight:first-child {
+    background-color: red;
+ 
+  }
+
+  .flexRowContent--product-price-shelf {
+    justify-content: center;
+  }
+
   .flexRow--add-to-cart-button-home {
     display: flex;
     justify-content: center;
