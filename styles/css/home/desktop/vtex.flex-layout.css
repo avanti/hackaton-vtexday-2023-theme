@@ -65,10 +65,14 @@
   }
 
   .flexRow--add-to-cart-button-home {
+    display: none;
+  }
+
+  /* .flexRow--add-to-cart-button-home {
     display: flex;
     justify-content: center;
     margin-bottom: 0.75rem;
-  }
+  } */
 
   .flexRowContent--add-to-cart-button-home {
     display: flex;
@@ -154,9 +158,14 @@
 @media screen and (max-width: 115em) {
   /* 1840 */
 
-  /* .flexRowContent--banners-sales-line {
-    justify-content: center;
-  } */
+  .flexRowContent--add-to-cart-button-home {
+    width: 13.2vw;
+  }
+
+}
+
+@media screen and (max-width: 87em) {
+  /* 1392 */
 
 }
 

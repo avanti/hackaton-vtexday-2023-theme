@@ -18,25 +18,25 @@
 
   .sliderLayoutContainer--shelf-product-line {
     width: 100vw;
-    padding: 0!important;
-    padding-left: 17.39vw!important;
-    padding-right: 17.39vw!important;
+    padding: 0 !important;
+    padding-left: 17.39vw !important;
+    padding-right: 17.39vw !important;
   }
 
   .sliderTrack--shelf-product-line,
-  .slide--shelf-product-line, 
+  .slide--shelf-product-line,
   .slideChildrenContainer--shelf-product-line {
     width: 12.40vw;
   }
 
-  .slideChildrenContainer--shelf-product-line:hover .flexRow--add-to-cart-button-home {
-     /* {
-      background-color: pink;
-      opacity: 0.5; */
-      /* display: block; */
+  .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) {
+    display: block;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    margin-left: 0.78vw;
   }
 
- 
+
   .slideChildrenContainer--shelf-product-line {
     border: 1px solid #DDDDDD;
     border-radius: 10px;
@@ -64,13 +64,13 @@
   .sliderLayoutContainer--second-carousel-offers {
     margin-top: 1rem;
     padding: 0 !important;
-    padding-left: 17.39vw!important;
-    padding-right: 17.39vw!important;
+    padding-left: 17.39vw !important;
+    padding-right: 17.39vw !important;
   }
 
   .sliderTrackContainer--second-carousel-offers,
   .sliderTrack--second-carousel-offers {
-    height: 5.75rem; 
+    height: 5.75rem;
   }
 
   .caretIcon--second-carousel-offers,
@@ -95,7 +95,7 @@
     margin: 0;
     padding-right: 17.13vw;
   }
-  
+
   .paginationDot--carousel-offers--isActive,
   .paginationDot--shelf-product-line--isActive,
   .paginationDot--second-carousel-offers--isActive {
@@ -125,12 +125,12 @@
   /* SHELF */
 
   .sliderLayoutContainer--shelf-product-line {
-    padding-left: 8.69vw!important;
-    padding-right: 8.69vw!important;
+    padding-left: 8.69vw !important;
+    padding-right: 8.69vw !important;
   }
 
   .sliderTrack--shelf-product-line,
-  .slide--shelf-product-line, 
+  .slide--shelf-product-line,
   .slideChildrenContainer--shelf-product-line {
     width: 14.8vw;
   }
@@ -138,8 +138,8 @@
 
   /* AVANTI OFFERS */
   .sliderLayoutContainer--second-carousel-offers {
-    padding-left: 8.69vw!important;
-    padding-right: 8.69vw!important;
+    padding-left: 8.69vw !important;
+    padding-right: 8.69vw !important;
   }
 
   /* ARROWS */
