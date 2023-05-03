@@ -137,3 +137,16 @@
   }
 
 }
+
+@media screen and (max-width: 87em) {
+  /* 1392 */
+
+  .container--lanch-product-text {
+    padding-left: 8.69vw;
+  }
+
+  .link--lanch-product-see-more {
+    padding-right: 8.69vw;
+  }
+
+}

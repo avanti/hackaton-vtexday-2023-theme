@@ -28,6 +28,14 @@
   .slideChildrenContainer--shelf-product-line {
     width: 12.40vw;
   }
+
+  .slideChildrenContainer--shelf-product-line:hover .flexRow--add-to-cart-button-home {
+     /* {
+      background-color: pink;
+      opacity: 0.5; */
+      /* display: block; */
+  }
+
  
   .slideChildrenContainer--shelf-product-line {
     border: 1px solid #DDDDDD;
@@ -92,6 +100,58 @@
   .paginationDot--shelf-product-line--isActive,
   .paginationDot--second-carousel-offers--isActive {
     background-color: #005CFF;
+  }
+
+
+}
+
+
+@media screen and (max-width: 115em) {
+  /* 1840 */
+
+
+
+}
+
+@media screen and (max-width: 87em) {
+  /* 1392 */
+
+  /* BANNERS OFFERS */
+  .sliderTrackContainer--carousel-offers {
+    padding-left: 8.69vw;
+    padding-right: 8.69vw;
+  }
+
+  /* SHELF */
+
+  .sliderLayoutContainer--shelf-product-line {
+    padding-left: 8.69vw!important;
+    padding-right: 8.69vw!important;
+  }
+
+  .sliderTrack--shelf-product-line,
+  .slide--shelf-product-line, 
+  .slideChildrenContainer--shelf-product-line {
+    width: 14.8vw;
+  }
+
+
+  /* AVANTI OFFERS */
+  .sliderLayoutContainer--second-carousel-offers {
+    padding-left: 8.69vw!important;
+    padding-right: 8.69vw!important;
+  }
+
+  /* ARROWS */
+
+  .sliderLeftArrow--second-carousel-offers,
+  .sliderLeftArrow--shelf-product-line {
+    padding-right: 8.69vw;
+  }
+
+  .sliderRightArrow--second-carousel-offers,
+  .sliderRightArrow--shelf-product-line {
+    padding-right: 8.69vw;
   }
 
 

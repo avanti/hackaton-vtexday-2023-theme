@@ -24,12 +24,13 @@
 .imageElement--big-banner {
   height: 25rem;
   padding-left: 17.39vw;
-  margin-right: 1.04vw;
+  margin-right: 0.52vw;
 }
 
 .imageElement--medium-banner, .imageElement--small-banner {
   height: 12rem;
   padding-right: 17.39vw;
+  margin-left: 0.52vw;
 }
 
 
@@ -40,4 +41,20 @@
    }
 }
 
+@media screen and (max-width: 87em) {
+  /* 1392 */
+
+  .imageElement--big-banner {
+    padding-left: 0vw;
+  }
+  
+  .imageElement--medium-banner, .imageElement--small-banner {
+    padding-right: 0vw;
+  }
+
+  .imageElementLink--second-carousel-offers {
+    width: 50%;
+   }
+
+}
 

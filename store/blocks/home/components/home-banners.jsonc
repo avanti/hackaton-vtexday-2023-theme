@@ -6,7 +6,7 @@
         ],
         "props": {
             "blockClass": "banners-sales-line",
-            "preventHorizontalStretch": true,
+            "preventHorizontalStretch": false,
             "preventVerticalStretch": true
         }
     },
