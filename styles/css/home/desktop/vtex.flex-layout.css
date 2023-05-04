@@ -64,32 +64,32 @@
     margin: 0.438rem;
   }
 
-  .flexRow--add-to-cart-button-home {
-    display: none;
-  }
-
   /* .flexRow--add-to-cart-button-home {
+    display: none;
+  } */
+
+  .flexRow--add-to-cart-button-home {
     display: flex;
     justify-content: center;
     margin-bottom: 0.75rem;
-  } */
+  }
 
   .flexRowContent--add-to-cart-button-home {
     display: flex;
     justify-content: center;
-    width: 10.89vw;
-    height: 2.5rem;
+    /* width: 10.89vw; */
   }
 
   .flexRowContent--add-to-cart-button-home :global(.vtex-button) {
     display: contents;
   }
 
-  .flexRowContent--add-to-cart-button-home :global(.vtex-button__label) {
+  /* .flexRowContent--add-to-cart-button-home :global(.vtex-button__label) {
     background-color: #005CFF;
     height: 2.5rem;
     border-radius: 10px;
-  }
+    height: 2.5rem;
+  } */
 
   /* BANNERS */
 

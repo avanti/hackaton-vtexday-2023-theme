@@ -100,14 +100,14 @@
   "flex-layout.row#selling-price-savings": {
     "props": {
       "colGap": 2,
-      "preserveLayoutOnMobile": true,
+      "preserveLayoutOnMobile": false,
       "preventHorizontalStretch": true,
       "marginBottom": 4,
       "blockClass": "product-price-shelf"
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-selling-price#summary"
+      // "product-price-savings#summary"
     ]
   },
   "product-installments#summary": {

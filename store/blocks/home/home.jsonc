@@ -15,7 +15,7 @@
       "flex-layout.row#banners-sales-line",
       "flex-layout.row#offers-product-line",
       "flex-layout.row#slider-products-line",
-      "flex-layout.row#offers-product-line",
+      "flex-layout.row#brands-product-line",
       "list-context.image-list#second-slider-offers",
       "flex-layout.row#offers-product-line",
       "flex-layout.row#slider-products-line",
@@ -164,6 +164,38 @@
     }
   },
   "rich-text#offers-product-see-more": {
+    "props": {
+      "text": "[Ver mais](/)",
+      "blockClass": [
+        "lanch-product-see-more",
+        "offers-product-see-more"
+      ]
+    }
+  },
+  // BRANDS OFFERS 
+  "flex-layout.row#brands-product-line": {
+    "children": [
+      "rich-text#brands-product",
+      "rich-text#brands-product-see-more"
+    ],
+    "props": {
+      "blockClass": [
+        "lanch-product-line",
+        "offers-product-line"
+      ],
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#brands-product": {
+    "props": {
+      "text": "Compre por marca",
+      "blockClass": [
+        "lanch-product-text",
+        "offers-product-text"
+      ]
+    }
+  },
+  "rich-text#brands-product-see-more": {
     "props": {
       "text": "[Ver mais](/)",
       "blockClass": [

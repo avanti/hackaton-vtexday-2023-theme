@@ -12,6 +12,10 @@
     padding-top: 0.5rem;
   }
 
+  .currencyContainer--summary {
+    justify-content: center;
+  }
+
   /* ------------------------- */
 
   .nameContainer {
