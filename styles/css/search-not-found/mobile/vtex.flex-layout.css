@@ -1,0 +1,29 @@
+@media screen and (max-width: 40em) {
+
+  .flexRow--not-found-row {
+    display: none;
+  }
+
+  .flexRow--new-not-found-row { 
+    margin-top: 4.625rem;
+  }
+
+  .flexRow--not-found-row-col {
+    margin-top: 1.5rem;
+    margin-bottom: 1.337rem;
+  }
+
+  /* MAIN TEXT */
+
+  .flexRowContent--not-found-row-col {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* SECOND COLLUMN */
+
+  .flexColChild--not-found-col-one {
+    width: 39.95vw;
+  }
+
+}

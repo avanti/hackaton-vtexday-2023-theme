@@ -1,0 +1,78 @@
+.searchNotFoundOops,
+.searchNotFoundTerm {
+  display: none;
+}
+
+@media screen and (max-width: 40em) {
+
+  .searchNotFound {
+    margin-top: 4.625rem;
+    margin-bottom: 4.625rem;
+  }
+
+  .searchNotFoundInfo {
+    padding: 0;
+  }
+
+  .searchNotFoundInfo--not-found-block {
+    width: 100vw;
+  }
+
+  .searchNotFoundTextListLine--not-found-block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .searchNotFoundTextListLine,
+  .searchNotFoundWhatDoIDo--not-found-block {
+    font-size: 0;
+  }
+
+  .searchNotFoundTextListLine::after {
+    content: "Nenhum produto foi encontrado.";
+    text-align: center;
+    font: normal normal 600 22px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #005CFF;
+    opacity: 1;
+    /* padding-left: 12.38vw; */
+  }
+
+  .searchNotFoundWhatDoIDo--not-found-block {
+    margin-top: 1.5rem;
+    width: 36.11vw;
+  }
+
+  .searchNotFoundWhatDoIDo--not-found-block::after {
+    content: "O que devo fazer?";
+    text-align: center;
+    font: normal normal 600 18px/28px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+}
+
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}

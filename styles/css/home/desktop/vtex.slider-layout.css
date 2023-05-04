@@ -41,13 +41,17 @@
     box-shadow: 0px 3px 6px #00000029;
   }
 
-  .slideChildrenContainer--shelf-product-line:hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--add-to-cart-button-button-home) {
+  /* .slideChildrenContainer--shelf-product-line:hover :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--add-to-cart-button-button-home) {
     display: block;
     background-color: #005CFF;
     height: 2.5rem;
     border-radius: 10px;
     width: 10.89vw;
     align-items: center;
+  } */
+
+  .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-home) {
+    display: block;
   }
 
 
