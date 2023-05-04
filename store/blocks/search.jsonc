@@ -258,7 +258,7 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#notfound",
       "flex-layout.row#new-not-found",
-      "flex-layout.row#offers-product-line",
+      "flex-layout.row#search-not-found-line",
       "flex-layout.row#slider-products-line"
     ]
   },
