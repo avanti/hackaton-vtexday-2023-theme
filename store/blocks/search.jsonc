@@ -255,7 +255,7 @@
   },
   "search-not-found-layout": {
     "children": [
-      "flex-layout.row#searchbread",
+      // "flex-layout.row#searchbread",
       "flex-layout.row#notfound",
       "flex-layout.row#new-not-found",
       "flex-layout.row#search-not-found-line",

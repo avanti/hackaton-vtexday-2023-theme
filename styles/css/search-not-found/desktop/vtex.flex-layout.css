@@ -1,12 +1,16 @@
-.flexRow--not-found-row {
-  display: none;
-}
-
-@media screen and (max-width: 40em) {
-
+@media screen and (min-width: 64em) {
 
   .flexRow--new-not-found-row { 
     margin-top: 4.625rem;
+  }
+
+  .flexRowContent--new-not-found-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--not-found-row-first-line {
+    width: 100vw;
   }
 
   .flexRow--not-found-row-col {
@@ -24,7 +28,11 @@
   /* SECOND COLLUMN */
 
   .flexColChild--not-found-col-one {
-    width: 39.95vw;
+    width: 46.82vw;
+    justify-content: end;
   }
 
+  .flexColChild--not-found-col-two {
+    width: 53.18vw;
+  }
 }
