@@ -1,0 +1,42 @@
+.flexRow--not-found-row {
+  display: none;
+}
+
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+
+  .flexRow--new-not-found-row { 
+    margin-top: 4.625rem;
+  }
+
+  .flexRowContent--new-not-found-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--not-found-row-first-line {
+    width: 100vw;
+  }
+
+  .flexRow--not-found-row-col {
+    margin-top: 1.5rem;
+    margin-bottom: 1.337rem;
+  }
+
+  /* MAIN TEXT */
+
+  .flexRowContent--not-found-row-col {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* SECOND COLLUMN */
+
+  .flexColChild--not-found-col-one {
+    width: 45vw;
+  }
+
+  .flexColChild--not-found-col-two {
+    width: 55vw;
+  }
+}

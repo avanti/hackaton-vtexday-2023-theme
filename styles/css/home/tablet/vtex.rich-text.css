@@ -77,6 +77,10 @@
 
   /* LAUNCH PRODUCT LNE */
 
+  .container--offers-product-text, .link--offers-product-see-more {
+    padding: 0;
+  }
+
   .paragraph--lanch-product-text {
     color: var(--unnamed-color-000000);
     text-align: left;

@@ -9,19 +9,19 @@
 
 
 
-  .paragraph--not-found-col-one-text {
-    text-transform: none;
-    font: normal normal 600 18px/28px Nunito Sans;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-  }
+.paragraph--not-found-col-one-text {
+  text-transform: none;
+  font: normal normal 600 18px/28px Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
 
-  .container--not-found-col-one-text {
-    justify-content: end;
-  }
+.container--not-found-col-one-text {
+  justify-content: end;
+}
 
-  @media screen and (max-width: 40em) {
+@media screen and (max-width: 40em) {
 
   .container--not-found-col-two-text {
     margin-left: 7.01vw;
