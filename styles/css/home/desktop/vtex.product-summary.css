@@ -1,6 +1,6 @@
 @media screen and (min-width: 64em) {
 
-  /* .container :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) :global(.vtex-button) {
+  .container :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) :global(.vtex-button) {
     display: none;
   }
 
@@ -8,10 +8,11 @@
     display: block;
     background-color: white;
     border: 0;
-  } */
+  }
 
   .container:hover {
     height: 25.188rem;
+    box-shadow: 0px 3px 6px #00000029;
   }
 
   .container {
