@@ -39,17 +39,31 @@
 
   .flexRowContent--shelf-highlight :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     justify-content: start;
- 
+  }
+
+  .flexRow--product-price-shelf {
+    display: flex;
+    justify-content: center;
   }
 
   .flexRowContent--product-price-shelf {
+    display: flex;
     justify-content: center;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .flexRow--product-price-shelf, .flexRowContent--product-price-shelf {
+    height: 1.813rem;
   }
 
   .flexRow--add-to-cart-button-home {
     display: flex;
     justify-content: center;
-    margin-bottom: 0.75rem;
+    align-items: center;
+    height: 4rem;
+    width: 43.46vw;
+    /* margin-bottom: 0.75rem; */
   }
 
   .flexRowContent--add-to-cart-button-home {

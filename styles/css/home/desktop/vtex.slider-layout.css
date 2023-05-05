@@ -27,6 +27,7 @@
   .slide--shelf-product-line,
   .slideChildrenContainer--shelf-product-line {
     width: 12.40vw;
+    /* height: 23.688rem; */
   }
 
   /* .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) {
@@ -50,9 +51,17 @@
     align-items: center;
   } */
 
-  .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-home) {
+  /* .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-home) {
     display: block;
+  } */
+
+  /* .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) :global(.vtex-button) {
+    display: none;
   }
+
+  .slideChildrenContainer--shelf-product-line:hover :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) :global(.vtex-button) {
+    display: block;
+  } */
 
 
   .slideChildrenContainer--shelf-product-line {

@@ -1,0 +1,43 @@
+@media screen and (max-width: 40em) {
+
+  /* FIRST LINE DEPARTMENT  */
+
+  .orderByButton {
+    padding: 0.859rem 0vw 0.766rem 2.57vw;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  .orderByText {
+    visibility: hidden;
+    color: red;
+  }
+
+  .orderByText::after {
+    content: "Ordenar por:";
+    text-align: right;
+    font: normal normal 600 14px/30px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .filterPopupArrowIcon {
+    padding: 0 2.23vw 0 17.10vw;
+  }
+
+  .filterPopupButton {
+    padding: 0.859rem 0vw 0.766rem 2.57vw;
+    background-color: #005CFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  /* .filterPopupTitle {
+    color: white;
+  } */
+
+
+}

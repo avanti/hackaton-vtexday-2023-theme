@@ -11,7 +11,8 @@
 
   .nameContainer {
     padding: 0;
-    padding-top: 1.063rem;
+    /* padding-top: 1.063rem; */
+    height: 3.438rem;
     justify-content: center;
   }
 
@@ -26,4 +27,12 @@
     justify-content: center;
   }
 
+  .currencyContainer--summary-final {
+    font-size: 18px;
+  }
+
+  .containerNormal {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+  }
 }

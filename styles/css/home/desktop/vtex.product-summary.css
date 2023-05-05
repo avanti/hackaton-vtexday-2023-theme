@@ -1,10 +1,28 @@
 @media screen and (min-width: 64em) {
 
+  /* .container :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) :global(.vtex-button) {
+    display: none;
+  }
+
+  .container:hover :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-button-home) :global(.vtex-button) {
+    display: block;
+    background-color: white;
+    border: 0;
+  } */
+
+  .container:hover {
+    height: 25.188rem;
+  }
+
+  .container {
+    height: 23.688rem;
+  }
+
   .element {
     padding: 0;
   }
 
-/* SHELF */
+  /* SHELF */
 
   .imageContainer {
     width: 11.77vw;
@@ -20,8 +38,15 @@
 
   .nameContainer {
     padding: 0;
-    padding-top: 1.063rem;
     justify-content: center;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .productNameContainer {
+    display: flex;
+    align-items: center;
   }
 
   .productBrand {
@@ -33,6 +58,15 @@
     opacity: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
+  .savings--summary {
+    display: none;
+  }
+
+  .containerNormal {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+  }
 }

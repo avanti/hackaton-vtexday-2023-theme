@@ -1,24 +1,48 @@
 @media screen and (min-width: 64em) {
   
-  .sellingPrice--summary {
+  .sellingPrice--summary-final {
     display: flex;
     justify-content: center;
+  }
+
+  .sellingPriceValue {
+    display: flex;
+    align-items: center;
   }
 
   .currencyContainer--summary {
     display: flex;
     align-items: center;
     text-align: center;
-    font: normal normal bold 18px/20px Nunito Sans;
+    font: normal normal bold 12px Nunito Sans;
     letter-spacing: 0.9px;
     color: #000000;
     text-transform: capitalize;
     opacity: 1;
   }
 
-  .sellingPrice--summary::before {
+  .currencyContainer--summary-final {
+    font-size: 22px;
+  }
+
+  .installments--summary {
+    margin-bottom: 0!important;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.438rem;
+  }
+
+  .listPrice--summary {
+    margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .listPriceValue--summary {
+    display: flex;
+    align-items: center;
   }
 }
