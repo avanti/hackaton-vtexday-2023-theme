@@ -1,10 +1,5 @@
 @media screen and (max-width: 40em) {
 
-  .sellingPrice--summary {
-    display: flex;
-    justify-content: center;
-  }
-
   .currencyContainer--summary {
     display: flex;
     align-items: center;
@@ -19,15 +14,15 @@
   .sellingPrice--summary-final {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
 
-  .sellingPriceValue {
+  .sellingPriceValue--summary-final {
     display: flex;
     align-items: center;
   }
 
-  .installments--summary {
+  .installments--summary-10 {
     display: none;
   }
 

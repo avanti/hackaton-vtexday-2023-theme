@@ -23,6 +23,16 @@
     padding-right: 17.39vw !important;
   }
 
+
+  .slide--shelf-product-line {
+    align-items: start;
+  }
+
+  .sliderTrackContainer--shelf-product-line {
+    max-width: 1252px;
+    height: 26.438rem;
+  }
+
   .sliderTrack--shelf-product-line,
   .slide--shelf-product-line,
   .slideChildrenContainer--shelf-product-line {
@@ -33,9 +43,9 @@
     margin-top: 0.649rem;
   }
 
-  .slide--shelf-product-line {
-    display: flex;
-    justify-content: center;
+  .paginationDot--shelf-product-line {
+    height: 0.438rem!important;
+    width: 0.36vw!important;
   }
 
 

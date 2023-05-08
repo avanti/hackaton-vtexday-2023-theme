@@ -41,6 +41,12 @@
     justify-content: start;
   }
 
+  .flexRow--slider-products-line-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+  }
+
   .flexRow--product-price-shelf {
     display: flex;
     justify-content: center;
@@ -48,14 +54,17 @@
 
   .flexRowContent--product-price-shelf {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    width: 43.46vw;
     margin-right: 0;
     margin-bottom: 0;
   }
-
+  
   .flexRow--product-price-shelf, .flexRowContent--product-price-shelf {
     height: 1.813rem;
   }
+
 
   .flexRow--add-to-cart-button-home {
     display: flex;
@@ -63,7 +72,6 @@
     align-items: center;
     height: 4rem;
     width: 43.46vw;
-    /* margin-bottom: 0.75rem; */
   }
 
   .flexRowContent--add-to-cart-button-home {

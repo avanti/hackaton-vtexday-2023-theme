@@ -113,7 +113,9 @@
   },
   "product-installments#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary-10",
+      "installmentsNumber": "10",
+      "message": "Ou em até {installmentsNumber} {installmentValue}"
     }
   },
   "product-selling-price#summary": {

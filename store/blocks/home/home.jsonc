@@ -43,14 +43,14 @@
       "flex-layout.row#home-first-line",
       "list-context.image-list#first-slider-offers",
       "flex-layout.row#lanch-product-line",
-      "flex-layout.row#slider-products-line",
+      "flex-layout.row#slider-products-line-mobile",
       "flex-layout.row#banners-sales-line",
       "flex-layout.row#offers-product-line",
-      "flex-layout.row#slider-products-line",
+      "flex-layout.row#slider-products-line-mobile",
       "flex-layout.row#offers-product-line",
       "list-context.image-list#second-slider-offers",
       "flex-layout.row#offers-product-line",
-      "flex-layout.row#slider-products-line",
+      "flex-layout.row#slider-products-line-mobile",
       "flex-layout.row#pre-footer"
     ]
   },

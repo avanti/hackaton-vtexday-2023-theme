@@ -87,6 +87,12 @@
 }
 
 @font-face {
+    font-family: "Open Sans";
+    src: url("assets/fonts/Open_Sans/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
     font-family: "Heebo";
     src: url("assets/fonts/Heebo/Heebo-Bold.ttf");
     font-weight: 700;

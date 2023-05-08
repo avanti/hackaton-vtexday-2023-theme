@@ -52,8 +52,11 @@
   .flexRowContent--slider-products-line {
     display: flex;
     justify-content: center;
+    align-items: start;
     height: 25.188rem;
+    margin-top: 1.188rem;
     margin-bottom: 2.688rem;
+    height: 26.438rem;
   }
 
   .flexRow--product-price-shelf {
@@ -65,14 +68,11 @@
     justify-content: center;
     width: 9.38vw;
     margin-right: 0;
+    margin-bottom: 0;
   }
   
   .flexRow--product-price-shelf, .flexRowContent--product-price-shelf {
     height: 2.25rem;
-  }
-
-  .flexRowContent--product-price-shelf {
-    margin-bottom: 0;
   }
 
   .flexCol--productRating {
