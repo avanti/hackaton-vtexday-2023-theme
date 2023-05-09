@@ -16,7 +16,12 @@
 
   .nameContainer {
     padding: 0;
-    padding-top: 1.063rem;
+    /* padding-top: 1.063rem; */
+    padding: 0;
+    justify-content: center;
+    height: 3rem;
+    display: flex;
+    align-items: center;
   }
 
   .productBrand {
@@ -28,6 +33,15 @@
     opacity: 1;
     display: flex;
     justify-content: center;
+  }
+
+  .currencyContainer--summary-final {
+    font-size: 18px;
+  }
+
+  .containerNormal {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
   }
 
 }

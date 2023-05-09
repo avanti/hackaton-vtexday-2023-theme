@@ -25,14 +25,29 @@
     height: 25.188rem;
   }
 
-  .flexRowContent--product-price-shelf {
+  .flexRow--product-price-shelf {
+    display: flex;
     justify-content: center;
+  }
+
+  .flexRowContent--product-price-shelf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 43.46vw;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .flexRow--product-price-shelf,
+  .flexRowContent--product-price-shelf {
+    height: 1.813rem;
   }
 
   .flexRowContent--lanch-product-line {
     display: flex;
     justify-content: space-between;
-    }
+  }
 
   .flexCol--productRating {
     margin: 0.438rem;
@@ -70,16 +85,32 @@
     flex-direction: column;
   }
 
-  .flexRowContent--banners-sales-line, .flexRowContent--banners-sales-second-line {
+  .flexRowContent--banners-sales-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 89.6vw;
+  }
+
+  .flexRowContent--banners-sales-second-line {
     display: flex;
     flex-direction: column;
+
   }
 
   .flexRow--banners-sales-first-line,
   .flexRow--banners-sales-second-line-banner-1 {
-    margin-bottom: 0.846rem;
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: end;
   }
-  
+
+  .flexRowContent--banners-sales-second-line-banner-1,
+  .flexRowContent--banners-sales-second-line-banner-2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   /* PRE FOOTER */
 
   .flexRow--pre-footer {
@@ -91,6 +122,24 @@
   .flexRowContent--pre-footer {
     display: flex;
     flex-direction: column;
-  } 
+  }
+
+}
+
+@media screen and (max-width: 50em) {
+
+  .flexRowContent--banners-sales-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+  }
+
+  .flexRowContent--banners-sales-first-line{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
 
 }

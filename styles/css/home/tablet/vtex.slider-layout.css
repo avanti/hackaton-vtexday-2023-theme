@@ -50,15 +50,24 @@
     width: 23.24vw;
   }
 
-  .slideChildrenContainer--shelf-product-line {
+  /* .slideChildrenContainer--shelf-product-line {
     border: 1px solid #DDDDDD;
     border-radius: 10px;
-  }
+  } */
 
   .slide--shelf-product-line {
     display: flex;
     justify-content: center;
+    width: 23.24vw;
   }
 
  }
 
+ @media screen and (max-width: 50em) {
+
+  .sliderTrack--shelf-product-line,
+  .slideChildrenContainer--shelf-product-line {
+    width: 26.24vw;
+  }
+
+ }
