@@ -81,8 +81,11 @@
       "breadcrumb.search"
     ],
     "props": {
+      "blockClass": "breadcrumb-css",
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "showOnMobile": true,
+      "homeIconSize": 30
     }
   },
   "flex-layout.row#searchtitle": {
@@ -185,8 +188,9 @@
   },
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#breadcrumb",
       "flex-layout.row#searchbread",
+      "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
@@ -201,6 +205,20 @@
       "defaultGalleryLayout": "grid"
     }
   },
+
+  "flex-layout.row#breadcrumb": {
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "blockClass": "breadcrum-page",
+      // "preserveLayoutOnMobile": true,
+      // "fullWidth": true,
+      "showOnMobile": true
+    }
+  },
+
+
   "flex-layout.row#contentmobile": {
     "children": [
       "search-content"

@@ -34,10 +34,38 @@
 @media screen and (max-width: 115em) {
   /* 1840 */
 
+  .productHighlightWrapper--first-wrapper-highlight {
+    width: 3.7vw;
+  }
+
+  .productHighlightWrapper--second-wrapper-highlight {
+    width: 2.25vw;
+  }
+
+}
+
+@media screen and (max-width: 104em) {
+  /* 1650 */
+
+  .productHighlightWrapper--first-wrapper-highlight {
+    width: 4vw;
+  }
+
+  .productHighlightWrapper--second-wrapper-highlight {
+    width: 2.5vw;
+  }
 
 }
 
 @media screen and (max-width: 87em) {
   /* 1392 */
+
+  .productHighlightWrapper--first-wrapper-highlight {
+    width: 5vw;
+  }
+
+  .productHighlightWrapper--second-wrapper-highlight {
+    width: 3.1vw;
+  }
 
 }

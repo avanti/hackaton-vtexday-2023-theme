@@ -77,6 +77,10 @@
 
   /* LAUNCH PRODUCT LNE */
 
+  .container--lanch-product-text  {
+    padding-left: 0;
+  }
+
   .container--offers-product-text, .link--offers-product-see-more {
     padding: 0;
   }
@@ -99,6 +103,7 @@
     color: #000000;
     text-transform: capitalize;
     opacity: 1;
+    padding-right: 0;
   }
 
   /* PRE FOOTER */

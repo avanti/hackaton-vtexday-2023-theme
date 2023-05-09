@@ -3,7 +3,8 @@
     .flexRowContent--main-header-mobile {
         background-color: white;
         padding: 0%;
-            }
+        height: 126px;
+    }
 
     .flexRowContent--main-header-mobile-first-line {
         margin-top: 19px;
@@ -16,7 +17,7 @@
         width: 100%;
     }
 
-    .flexRowContent--main-header-search-mobile{
+    .flexRowContent--main-header-search-mobile {
         display: flex;
         justify-content: center;
     }
@@ -32,7 +33,7 @@
     }
 
     .flexRow--inormation-container-footer:global(.vtex-store-components-3-x-container) {
-        padding: 0!important;
+        padding: 0 !important;
     }
 
     .flexRowContent--social-media-network-mobile {
@@ -105,7 +106,7 @@
         height: 50px;
     }
 
-     .flexRowContent--main-header-mobile-first-line {
+    .flexRowContent--main-header-mobile-first-line {
         margin-right: 0;
     }
 

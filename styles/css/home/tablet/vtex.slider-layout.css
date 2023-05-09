@@ -4,11 +4,11 @@
 
   .sliderLayoutContainer--carousel-offers {
     margin-top: 2.399rem;
-    height: 26.625rem;
+    height: 21.625rem;
   }
 
   .sliderTrackContainer--carousel-offers {
-    height: 26.625rem;
+    height: 21.625rem;
   }
 
   .paginationDotsContainer--carousel-offers {
@@ -19,6 +19,12 @@
   .paginationDot--shelf-product-line--isActive,
   .paginationDot--second-carousel-offers--isActive {
     background-color: #005CFF;
+  }
+
+  /* FIRST SLIDER OFFERS */
+
+  .slideChildrenContainer--carousel-offers {
+    width: 20vw;
   }
 
   /* SLIDER OFFERS AVANTI */
@@ -50,10 +56,6 @@
     width: 23.24vw;
   }
 
-  /* .slideChildrenContainer--shelf-product-line {
-    border: 1px solid #DDDDDD;
-    border-radius: 10px;
-  } */
 
   .slide--shelf-product-line {
     display: flex;
