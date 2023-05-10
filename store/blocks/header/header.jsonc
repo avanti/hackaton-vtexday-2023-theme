@@ -88,22 +88,22 @@
     ]
   },
 
-  "search-result-layout.desktop": {
-    "children": [
-      "flex-layout.row#did-you-mean",
-      "flex-layout.row#suggestion",
-      "flex-layout.row#banner-one",
-      "flex-layout.row#result"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true,
-      "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
-      }
-    }
-  },
+  // "search-result-layout.desktop": {
+  //   "children": [
+  //     "flex-layout.row#did-you-mean",
+  //     "flex-layout.row#suggestion",
+  //     "flex-layout.row#banner-one",
+  //     "flex-layout.row#result"
+  //   ],
+  //   "props": {
+  //     "pagination": "show-more",
+  //     "preventRouteChange": true,
+  //     "mobileLayout": {
+  //       "mode1": "small",
+  //       "mode2": "normal"
+  //     }
+  //   }
+  // },
   "flex-layout.row#did-you-mean": {
     "children": [
       "did-you-mean"

@@ -10,12 +10,6 @@
     /* display: flex; */
 }
 
-:global(.vtex-store-components-3-x-logoLink) {
-    display: block!important;
-    transition: none!important;
-    transform: none!important;
-}
-
 .searchBarContainer {
     width: 37.55vw;
     padding-top: 15px;

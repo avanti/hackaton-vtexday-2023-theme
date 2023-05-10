@@ -1,6 +1,45 @@
 @media screen and (max-width: 40em) {
 
+    /* BREADCRUMB */
 
- 
+    .homeIcon {
+        display: none;
+    }
+
+    .homeLink {
+        padding: 0;
+        padding-left: 5.14vw;
+        padding-right: 1.23vw;
+    }
+
+    .homeLink::after {
+        content: "Início";
+        text-align: left;
+        font: normal normal normal 14px/19px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    .caretIcon {
+        color: black;
+        height: 0.438rem;
+        /* width: 1.02vw; */
+    }
+
+    .arrow--1 {
+        padding: 0;
+    }
+
+    .link--1 {
+        padding: 0;
+        text-align: left;
+        font: normal normal 600 14px/19px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        padding-left: 1.49vw;
+    }
+
 
 }
