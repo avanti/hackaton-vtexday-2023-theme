@@ -161,5 +161,28 @@
     display: none;
   }
 
+  /* SIDE BAR */
+
+  .sidebar {
+    width: 100vw;
+  }
+
+  .filterAccordionBreadcrumbs {
+    background-color: #005CFF;
+    padding: 0;
+    height: 3.125rem;
+    justify-content: center;
+  }
+
+  .filterBreadcrumbsContent {
+    padding: 0;
+  }
+
+  .filterBreadcrumbsText {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+  }
 
 }
