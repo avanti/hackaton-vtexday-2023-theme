@@ -290,7 +290,8 @@
 
   "filter-navigator.v3": {
     "props": {
-      "blockClass": "filter-navigator-title"
+      "blockClass": "filter-navigator-title",
+      "fullWidthOnMobile": true
     }
   },
 
