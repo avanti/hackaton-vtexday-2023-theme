@@ -22,6 +22,7 @@
 
   "add-to-cart-button": {
     "props": {
+      "text": "Comprar",
       "blockClass": "add-to-cart-button-button-home"
     }
   },

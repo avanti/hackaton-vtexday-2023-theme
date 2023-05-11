@@ -4,12 +4,6 @@
     /* SHELF */
 
     .buttonText--add-to-cart-button-button-home {
-        display: none;
-
-    }
-
-    .buttonDataContainer::after {
-        content: "comprar";
         text-align: left;
         font: normal normal bold 14px/20px Nunito Sans;
         letter-spacing: 0.7px;
@@ -17,5 +11,6 @@
         text-transform: capitalize;
         opacity: 1;
     }
+
 
 }
