@@ -3,14 +3,48 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      // "flex-layout.col#productRating",
-      // "product-summary-space",
-      // "product-list-price#summary",
+      // "flex-layout.row#selling-price-savings-new",
+      // "product-installments#summary",
+      // "flex-layout.row#add-to-cart-button",
+      "condition-layout.product#availability-product-summary"
+    ]
+  },
+  "condition-layout.product#availability-product-summary": {
+    "title": "Condição Do Produto Shelf",
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-summary-available",
+      "Else": "flex-layout.row#product-summary-unavailable"
+    }
+  },
+
+  "flex-layout.row#product-summary-available": {
+    "children": [
       "flex-layout.row#selling-price-savings-new",
       "product-installments#summary",
       "flex-layout.row#add-to-cart-button"
-
+    ],
+    "props": {
+      "blockClass": "available__shelf",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#product-summary-unavailable": {
+    "children": [
+      "rich-text#product-unavailable"
     ]
+  },
+  "rich-text#product-unavailable": {
+    "title": "Shelf - Produto indisponível",
+    "props": {
+      "blockClass": "unavailable",
+      "text": "Produto indisponível"
+    }
   },
 
   "flex-layout.row#add-to-cart-button": {
@@ -38,7 +72,6 @@
     "children": [
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection"
-     // "modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
 
@@ -108,9 +141,7 @@
     },
     "children": [
       "product-list-price#summary",
-      "product-selling-price#summary"
-      // "product-price-savings#summary"
-    ]
+      "product-selling-price#summary"    ]
   },
   "product-installments#summary": {
     "props": {

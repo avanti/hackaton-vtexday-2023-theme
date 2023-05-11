@@ -68,6 +68,16 @@
     font-weight: bold;
   }
 
+  .container--unavailable {
+    justify-content: center;
+  }
+
+  .paragraph--unavailable {
+    color: black;
+    font: normal normal bold 12px/16px Nunito Sans;
+    font-weight: bold;
+  }
+
   /* LAUNCH PRODUCT LNE */
 
   .paragraph--lanch-product-text {
@@ -119,7 +129,8 @@
     height: 12.188rem;
   }
 
-  .wrapper--pre-footer-text, .paragraph--pre-footer-text {
+  .wrapper--pre-footer-text,
+  .paragraph--pre-footer-text {
     height: 12.188rem;
   }
 
