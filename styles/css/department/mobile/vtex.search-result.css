@@ -59,10 +59,6 @@
     margin: 0;
   }
 
-  .filterPopupButton {
-    justify-content: space-between;
-  }
-
   .filterPopupTitle--filter-navigator-title {
     text-align: center;
     text-transform: none;
@@ -73,10 +69,18 @@
     opacity: 1;
   }
 
-  .filterIcon--filter-navigator-title {
-    color: white;
-    background-color: white;
-    transform: rotate(90deg);
+  .filterPopupArrowIcon--filter-navigator-title {
+    display: none;
+  }
+
+  .filterPopupTitle--filter-navigator-title::before {
+    content: "fill";
+    color: transparent;
+    background-image: url('assets/img/filtro.svg');
+    height: 18px;
+    width: 4.91vw;
+    background-repeat: no-repeat;
+    padding-right: 3.74vw;
   }
 
   /* TOTAL PRODUCTS */
@@ -92,6 +96,33 @@
     padding: 0;
   }
 
+
+  /* SHOW MORE BUTTON */
+
+  .buttonShowMore :global(.vtex-button) {
+    background: #FFFFFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+    width: 80.37vw;
+    height: 2.813rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonShowMore :global(.vtex-button)::after {
+    content: "Carregar mais produtos";
+    text-align: center;
+    font: normal normal bold 14px/22px Titillium Web;
+    letter-spacing: 0px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .buttonShowMore :global(.vtex-button__label) {
+    display: none;    
+  }
 
 
 }

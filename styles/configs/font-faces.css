@@ -97,3 +97,9 @@
     src: url("assets/fonts/Heebo/Heebo-Bold.ttf");
     font-weight: 700;
 }
+
+@font-face {
+    font-family: "Titillium Web";
+    src: url("assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf");
+    font-weight: 700;
+}
