@@ -196,6 +196,8 @@
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
+      "search-products-count-per-page",
+      "search-products-progress-bar",
       "flex-layout.row#fetchmore"
     ],
     "props": {
@@ -229,6 +231,18 @@
       "preserveLayoutOnMobile": true
     }
   },
+
+  "search-products-count-per-page": {
+    "props": {
+      "blockClass": "search-products-count-per-page-plp"
+    }
+  },
+  "search-products-progress-bar": {
+    "props": {
+      "blockClass": "search-products-progress-bar"
+    }
+  },
+
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
