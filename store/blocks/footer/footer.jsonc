@@ -7,37 +7,10 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#pre-footer",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-3-desktop",
       "flex-layout.row#footer-4-desktop"
     ]
-  },
-
-  // PRE FOOTER
-  "flex-layout.row#pre-footer": {
-    "children": [
-      "rich-text#pre-footer-title",
-      "rich-text#pre-footer-text"
-    ],
-    "props": {
-      "blockClass": [
-        "pre-footer"
-      ],
-      "preventHorizontalStretch": true
-    }
-  },
-  "rich-text#pre-footer-title": {
-    "props": {
-      "text": "Lorem Ipsum dolor sit amer",
-      "blockClass": "pre-footer-title"
-    }
-  },
-  "rich-text#pre-footer-text": {
-    "props": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt tempor leo a eleifend. Aenean eget lacus convallis, vehicula nulla non, feugiat elit. Vivamus aliquam, nulla et vestibulum tincidunt, diam tellus aliquam dui, quis consectetur purus risus vitae justo. Duis arcu risus, vulputate sed nisl nec, mollis ultrices risus. Curabitur eget iaculis ante, et lacinia est. Duis ac libero eget enim rhoncus feugiat. Donec auctor odio mauris, in sagittis tortor condimentum condimentum.",
-      "blockClass": "pre-footer-text"
-    }
   },
 
   "flex-layout.row#footer-1-desktop": {
@@ -172,7 +145,6 @@
       "blockClass": "container-footer"
     },
     "children": [
-      "flex-layout.row#pre-footer",
       "flex-layout.row#social-media-mobile",
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#payment-methods-line-mobile",
