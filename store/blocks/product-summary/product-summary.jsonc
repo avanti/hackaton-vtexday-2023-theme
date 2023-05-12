@@ -31,7 +31,8 @@
     "props": {
       "blockClass": "available__shelf",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "horizontalAlign": "CENTER"
     }
   },
   "flex-layout.row#product-summary-unavailable": {

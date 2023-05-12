@@ -108,11 +108,6 @@
     margin-top: 1.938rem;
   }
 
-  .showingProductsCount--search-products-count-per-page-plp::after {
-    content: " produtos";
-    font-weight: normal;
-  }
-
   .progressBar--search-products-progress-bar {
     margin: 0;
     width: 53.50vw;
@@ -123,9 +118,10 @@
     margin-top: 0.563rem;
     padding-left: 23.25vw;
     padding-right: 23.25vw;
-  } 
-  
-  .progressBar--search-products-progress-bar, .progressBarFiller--search-products-progress-bar {
+  }
+
+  .progressBar--search-products-progress-bar,
+  .progressBarFiller--search-products-progress-bar {
     height: 0.188rem;
   }
 
@@ -163,10 +159,6 @@
 
   /* SIDE BAR */
 
-  .sidebar {
-    /* width: 100vw; */
-  }
-
   .filterAccordionBreadcrumbs {
     background-color: #005CFF;
     padding: 0;
@@ -183,6 +175,51 @@
     text-transform: uppercase;
     color: white;
     font-size: 14px;
+  }
+
+  .closeIcon--close-filter-navigator {
+    color: #FFFFFF;
+  }
+
+  .accordionFilterContainer--filter-navigator-title,
+  .filterAccordionItemBox--filter-navigator-title,
+  .accordionFilterContent--filter-navigator-title {
+    padding: 0;
+    height: 3.125rem;
+  }
+
+  .filterAccordionItemBox--filter-navigator-title, .filterAccordionItemBox {
+    min-height: 0 !important;
+  }
+
+  .accordionFilterItemTitle--filter-navigator-title {
+    text-align: left;
+    font: normal normal bold 14px/50px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-left: 5.14vw;
+  }
+
+  .accordionFilterItemTag--filter-navigator-title :global(.vtex-tag) {
+    background-color: #FFFFFF;
+    color: #005CFF;
+    border: 1px solid #005CFF;
+    border-radius: 100px;
+  }
+
+  .caretIcon--filter-navigator-title {
+    padding: 5.14vw 5.14vw 0 0;
+  }
+
+  .accordionFilterOpen--filter-navigator-title {
+    padding: 0;
+  }
+
+  .filterAccordionItemBox {
+    padding: 0;
+    height: 3.125rem;
   }
 
 }
