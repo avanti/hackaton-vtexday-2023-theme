@@ -188,7 +188,8 @@
     height: 3.125rem;
   }
 
-  .filterAccordionItemBox--filter-navigator-title, .filterAccordionItemBox {
+  .filterAccordionItemBox--filter-navigator-title,
+  .filterAccordionItemBox {
     min-height: 0 !important;
   }
 
@@ -220,6 +221,77 @@
   .filterAccordionItemBox {
     padding: 0;
     height: 3.125rem;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__container) {
+    margin-right: 30px;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__inner-container),
+  .filterAccordionItemBox :global(.vtex-checkbox__box-wrapper) {
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    border: solid 1px #000000;
+  }
+
+  .filterAccordionItemBox :global(.vtex__icon-check) {
+    background-color: #005CFF;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
+    text-align: left;
+    font: normal normal normal 14px/50px Nunito Sans;
+    letter-spacing: 0px;
+    color: #2A2A2A;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__line-container) {
+    align-items: center;
+  }
+
+  /* BUTTONS */
+
+  .filterButtonsBox {
+    border-top: 0;
+    height: 3.125rem;
+    margin-bottom: 5.313rem;
+  }
+
+  .filterClearButtonWrapper--filter-navigator-title,
+  .filterApplyButtonWrapper--filter-navigator-title {
+    height: 3.125rem;
+  }
+
+  .filterClearButtonWrapper--filter-navigator-title :global(.vtex-button) {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 3.125rem;
+    width: 43.11vw;
+    color: black;
+    font-weight: bold;
+  }
+
+  .filterApplyButtonWrapper--filter-navigator-title :global(.vtex-button) {
+    background-color: #005CFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    height: 3.125rem!important;
+    width: 43.11vw;
+    color: #FFFFFF;
+  }
+
+
+  /* FILTER TOTAL RODUCTS */
+
+  .filterTotalProducts--filter-navigator-title {
+    display: none;
   }
 
 }

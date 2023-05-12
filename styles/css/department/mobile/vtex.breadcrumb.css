@@ -8,8 +8,8 @@
 
     .homeLink {
         padding: 0;
-        padding-left: 5.14vw;
-        padding-right: 1.23vw;
+        padding-left: 0!important;
+        margin-left: 5.14vw;
     }
 
     .homeLink::after {
@@ -27,11 +27,12 @@
         /* width: 1.02vw; */
     }
 
-    .arrow--1 {
+    .arrow {
+        margin-left: 1.23vw;
         padding: 0;
     }
 
-    .link--1 {
+    .link {
         padding: 0;
         text-align: left;
         font: normal normal 600 14px/19px Nunito Sans;
