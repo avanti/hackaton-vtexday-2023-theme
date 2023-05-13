@@ -128,8 +128,10 @@
     justify-content: center;
 }
 
+
 .flexRowContent--payment-methods {
-    margin-top: 38px;
+    /* margin-top: 37px; */
+    height: 1.542rem;
 }
 
 .flexRowContent--office-hour,
