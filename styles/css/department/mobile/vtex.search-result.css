@@ -207,7 +207,6 @@
     background-color: #FFFFFF;
     color: #005CFF;
     border: 1px solid #005CFF;
-    border-radius: 100px;
   }
 
   .caretIcon--filter-navigator-title {
@@ -238,6 +237,7 @@
 
   .filterAccordionItemBox :global(.vtex__icon-check) {
     background-color: #005CFF;
+    border: 1px solid #005CFF;
     border-radius: 5px;
     height: 20px;
     width: 20px;
