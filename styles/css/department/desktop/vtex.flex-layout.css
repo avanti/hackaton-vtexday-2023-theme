@@ -1,0 +1,43 @@
+@media screen and (min-width: 64em) {
+
+  /* PRODUCTS AND FILTER CONTAINER */
+
+  .flexRow--result-product-container {
+    margin-top: 1.355rem;
+  }
+
+  /* PRODUCTS COL */
+
+  .flexCol--products-col {
+    width: 52.03vw;
+  }
+
+  .flexRow--products-order-by {
+    margin-top: 1.643rem;
+    margin-bottom: 1.616rem;
+    height: 1.813rem;
+  }
+
+  .flexCol--productCountCol {
+    align-items: start;
+  }
+
+  .flexColChild--productCountCol {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  .flexRow--orderByAndSwitcher {
+    padding: 0;
+  }
+
+  /* ORDER AND FILTER */
+
+
+  /* TOTAL PRODUCTS */
+
+  
+
+}

@@ -4,6 +4,7 @@
 
   .searchResultContainer--container-pdp-desktop {
     margin: 0;
+    margin-top: 1.355rem;
     margin-left: 17.40vw;
     margin-right: 17.40vw;
     padding: 0;
@@ -11,29 +12,123 @@
 
   /* TITLE */
 
+  .galleryTitle--layout {
+    text-align: left;
+    font: normal normal bold 22px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+    margin: 0;
+    margin-bottom: 1.438rem;
+  }
 
-  /* ORDER AND FILTER  */
+  /* TOTAL PRODUCTS  AND ORDER BY*/
+
+  .totalProducts--layout {
+    padding: 0;
+    text-align: left;
+    text-transform: lowercase;
+    font: normal normal normal 14px/30px Titillium Web;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .orderByButton--order-by-title {
+    padding: 0;
+  }
+
+  .orderByText--order-by-title {
+    text-align: right;
+    text-transform: lowercase;
+    font: normal normal 600 14px/30px Titillium Web;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .orderByText--order-by-title::first-letter {
+    text-transform: uppercase;
+  }
+
+  .orderByText--order-by-title::after {
+    content: ":";
+  }
+
+  .orderByOptionItem--order-by-title,
+  .orderByOptionItem--order-by-title--selected {
+    text-align: left;
+    font: normal normal normal 14px/21px Titillium Web;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
 
 
-  
-  /* TOTAL PRODUCTS */
+  /* PRODUCTS */
 
-  
-  /* SHOW PRODUCTS PER PAGE */
+  .gallery,
+  .galleryItem--grid {
+    padding: 0;
+  }
+
+  .galleryItem--grid {
+    padding-bottom: 1.25rem;
+  }
+
+
+
+
+/* SHOW PRODUCTS PER PAGE */
+
+.showingProducts--search-products-count-per-page-plp {
+  padding: 0;
+  text-align: center;
+  font: normal normal normal 14px/24px Nunito Sans;
+  letter-spacing: 0px;
+  color: #211E1E;
+  margin-top: 2.313rem;
+}
+
+.progressBar--search-products-progress-bar {
+  margin: 0;
+  width: 11.93vw;
+  background-color: #E2E2E2;
+}
+
+.progressBarContainer--search-products-progress-bar {
+  /* margin-top: 0.563rem;
+  padding-left: 23.25vw;
+  padding-right: 23.25vw; */
+  margin-bottom: 1.438rem;
+  align-items: center;
+}
+
+
+.progressBar--search-products-progress-bar,
+.progressBarFiller--search-products-progress-bar {
+  height: 0.188rem;
+}
+
+.progressBarFiller--search-products-progress-bar {
+  background-color: #4F5350;
+}
+
 
 
 
   /* SHOW MORE BUTTON */
 
-  
+
 
   /* SIDE BAR */
 
-  
+
 
   /* BUTTONS */
 
- 
+
 
 
   /* FILTER TOTAL RODUCTS */
