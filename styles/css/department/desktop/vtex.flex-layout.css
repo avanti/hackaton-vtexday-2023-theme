@@ -6,10 +6,26 @@
     margin-top: 1.355rem;
   }
 
+  .flexRowContent--result-product-container {
+    display: flex;
+    justify-content: space-between!important;
+  }
+
   /* PRODUCTS COL */
+
+  .flexCol--products-col::before {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
 
   .flexCol--products-col {
     width: 52.03vw;
+    margin-left: 4.24vw;
+  }
+
+  .flexCol--filterCol {
+    width: 9.60vw;
   }
 
   .flexRow--products-order-by {
@@ -33,11 +49,13 @@
     padding: 0;
   }
 
-  /* ORDER AND FILTER */
+  /* SHOW MORE BUTTON */
 
-
-  /* TOTAL PRODUCTS */
-
+  .flexRowContent--showMore-button {
+    margin: 0;
+    margin-top: 1.438rem;
+    margin-bottom: 4.813rem;
+  }
   
 
 }
