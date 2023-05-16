@@ -226,11 +226,6 @@
     margin-right: 0.78vw;
   }
 
-  .filterItem--filter-navigator-title :global(.vtex-checkbox__box-wrapper) {
-    /* border: 1px solid #000000; */
-
-  }
-
   .filterItem--filter-navigator-title :global(.vtex__icon-check) {
     background-color: #005CFF;
     border: 2px solid #005CFF;
@@ -351,8 +346,6 @@
     background-color: #FFFFFF;
     border: 1px solid #005CFF;
     border-radius: 10px;
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
   }
 
   .priceRangeInputWrapper--filter-navigator-title :global(.vtex-button__label) {
