@@ -164,7 +164,11 @@
     padding: 0;
     height: 3.125rem;
     justify-content: center;
-  }
+    border-style: none;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+  } 
 
   .filterBreadcrumbsContent {
     padding: 0;
@@ -173,13 +177,19 @@
   .filterBreadcrumbsText {
     color: #FFFFFF;
     text-transform: uppercase;
-    color: white;
     font-size: 14px;
+    margin:auto;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
   }
 
-  .closeIcon--close-filter-navigator {
+  .closeIconButton--close-filter-navigator{
+    width: 12px;
+    height: 12px;
     color: #FFFFFF;
-  }
+    width: max-content;
+    z-index: 10;
+}
 
   .accordionFilterContainer--filter-navigator-title,
   .filterAccordionItemBox--filter-navigator-title,
@@ -215,6 +225,7 @@
 
   .accordionFilterOpen--filter-navigator-title {
     padding: 0;
+    margin-left: -1.5rem!important;
   }
 
   .filterAccordionItemBox {
@@ -232,6 +243,16 @@
     border-radius: 5px;
     height: 20px;
     width: 20px;
+    border: solid 1px #000000;
+  }
+
+  .filterItem--filter-navigator-title :global(.vtex__icon-check) {
+    background-color: #005CFF;
+    border: 2px solid #005CFF;
+    border-radius: 2px;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__inner-container) {
     border: solid 1px #000000;
   }
 
@@ -259,14 +280,18 @@
   /* BUTTONS FILTER */
 
   .filterButtonsBox {
+    background-color: #FFFFFF;
     border-top: 0;
-    height: 3.125rem;
-    margin-bottom: 5.313rem;
+    height: 8.438rem;
+    padding-bottom: 5.313rem;
   }
 
   .filterClearButtonWrapper--filter-navigator-title,
   .filterApplyButtonWrapper--filter-navigator-title {
     height: 3.125rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .filterClearButtonWrapper--filter-navigator-title :global(.vtex-button) {
