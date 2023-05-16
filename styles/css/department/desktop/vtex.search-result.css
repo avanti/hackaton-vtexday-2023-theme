@@ -312,7 +312,7 @@
 
   .priceRangeInput--filter-navigator-title {
     width: 3.21vw;
-    border-bottom: 1px solid #E2E2E2;
+    border-bottom: 2px solid #E2E2E2;
   }
 
   .priceRangeInput--filter-navigator-title :global(.vtex-input__prefix) {
