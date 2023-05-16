@@ -1,0 +1,68 @@
+{
+    "search-not-found-layout": {
+        "children": [
+            "responsive-layout.desktop#not-found",
+            "responsive-layout.tablet#not-found",
+            "responsive-layout.phone#not-found"
+        ],
+        "props": {
+            "blockClass": "search-not-found"
+        }
+    },
+    "responsive-layout.desktop#not-found": {
+        "children": [
+            "flex-layout.row#notfound",
+            "flex-layout.row#search-not-found-line",
+            "flex-layout.row#slider-products-line",
+            "flex-layout.row#spacer-not-found"
+        ]
+    },
+    "responsive-layout.tablet#not-found": {
+        "children": [
+            "flex-layout.row#notfound",
+            "flex-layout.row#slider-products-line"
+        ]
+    },
+    "responsive-layout.phone#not-found": {
+        "children": [
+            "flex-layout.row#notfound",
+            "flex-layout.row#search-not-found-line",
+            "flex-layout.row#slider-products-line-mobile",
+            "flex-layout.row#spacer-not-found"
+        ]
+    },
+    "flex-layout.row#spacer-not-found": {
+        "props": {
+            "width": "grow",
+            "blockClass": [
+                "spacer-not-found",
+                "spacer-not-found-desk"
+            ]
+        }
+    },
+    "flex-layout.row#notfound": {
+        "children": [
+            "not-found"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "row-not-found"
+        }
+    },
+    "not-found": {
+        "props": {
+            "blockClass": "not-found-test"
+        }
+    },
+    "breadcrumb": {
+        "props": {
+            "showOnMobile": true
+        }
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true,
+            "blockClass": "breadcrumb-search"
+        }
+    }
+}

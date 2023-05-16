@@ -1,6 +1,10 @@
 @media screen and (min-width: 64em) {
 
-  .flexRow--new-not-found-row { 
+  .flexRow--spacer-not-found{
+    padding-bottom: 144px;
+    }
+
+  /* .flexRow--new-not-found-row { 
     margin-top: 4.625rem;
   }
 
@@ -16,23 +20,23 @@
   .flexRow--not-found-row-col {
     margin-top: 1.5rem;
     margin-bottom: 1.337rem;
-  }
+  } */
 
   /* MAIN TEXT */
 
-  .flexRowContent--not-found-row-col {
+  /* .flexRowContent--not-found-row-col {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
   /* SECOND COLLUMN */
 
-  .flexColChild--not-found-col-one {
+  /* .flexColChild--not-found-col-one {
     width: 46.82vw;
     justify-content: end;
   }
 
   .flexColChild--not-found-col-two {
     width: 53.18vw;
-  }
+  } */
 }

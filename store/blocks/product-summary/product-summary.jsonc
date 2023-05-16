@@ -52,10 +52,10 @@
     "props": {
       "blockClass": "add-to-cart-button-home"
     },
-    "children": ["add-to-cart-button"]
+    "children": ["add-to-cart-button#home"]
   },
 
-  "add-to-cart-button": {
+  "add-to-cart-button#home": {
     "props": {
       "text": "Comprar",
       "blockClass": "add-to-cart-button-button-home"

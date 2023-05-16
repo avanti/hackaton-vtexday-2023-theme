@@ -1,0 +1,26 @@
+@media screen and (max-width: 40em) {
+    
+    .searchNotFoundWhatToDoDotsContainer--not-found-test {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        font: normal normal normal 12px/22px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000 !important;
+        opacity: 1;
+        max-width: 203px;
+        height: 100px;
+        line-height: 1.8;
+    }
+
+    .searchNotFoundInfo--not-found-test {
+        display: flex;
+        width: 88.5514vw;
+        max-width: 379px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 74px;
+    }
+}
