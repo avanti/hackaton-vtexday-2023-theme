@@ -1,3 +1,62 @@
+.searchNotFoundTextListLine::after {
+    color: #000000;
+    content: 'O que devo fazer?';
+    visibility: visible;
+    display: flex;
+    font: normal normal 600 18px/28px Nunito Sans;
+}
+
+.searchNotFoundTerm--not-found-test {
+    display: none;
+
+}
+
+.searchNotFoundTextListLine:first-child {
+    font-size: 0;
+    visibility: hidden;
+}
+
+.searchNotFoundWhatDoIDo--not-found-test {
+    display: none;
+}
+
+.searchNotFoundWhatToDoDots::marker {
+    content: '- ';
+}
+
+.searchNotFoundWhatDoIDo--not-found-test {
+    color: #000000;
+    margin: 0;
+}
+
+
+
+.searchNotFound :global(.vtex-search-result-3-x-searchNotFoundOops)::before {
+    visibility: visible;
+    content: "Nenhum produto foi encontrado.";
+    color: #005CFF;
+    padding-bottom: 26px;
+    padding-top: 74px;
+    text-align: center;
+    justify-content: center;
+    text-transform: none;
+    display: flex;
+    font: normal normal 600 22px/22px Nunito Sans;
+
+}
+
+.searchNotFoundOops--not-found-test {
+
+    padding: 0;
+    margin: 0;
+}
+
+.searchNotFound :global(.vtex-search-result-3-x-searchNotFoundOops) {
+    visibility: hidden;
+    font-size: 0;
+}
+
+
 @media screen and (min-width: 64em) {
 
     .searchNotFound--not-found-test {

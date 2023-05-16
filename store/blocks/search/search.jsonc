@@ -120,9 +120,9 @@
   },
 
   "filter-navigator.v3#desktop": {
-    "blocks": [
-      "sidebar-close-button"
-    ],
+    // "blocks": [
+    //   "sidebar-close-button"
+    // ],
     "props": {
       "blockClass": "filter-navigator-title",
       "initiallyCollapsed": false,

@@ -3,7 +3,8 @@
     /* BANNER */
 
     .searchBanner--myBanner {
-        justify-content: end;
+        display: flex;
+        justify-content: center;
     }
 
 }  
