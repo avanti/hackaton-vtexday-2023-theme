@@ -144,6 +144,7 @@
             }
         }
     },
+    
     //CATEGORAIS DA BARRA DE SUBMENU
     "menu-item#first-category": {
         "props": {

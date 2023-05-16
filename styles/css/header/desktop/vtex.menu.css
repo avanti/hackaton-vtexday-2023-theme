@@ -6,6 +6,7 @@
 .styledLinkContainer--category-all {
     margin: 0;
 }
+
 .menuContainerNav--space-categories {
     justify-content: space-around;
 }
@@ -22,4 +23,49 @@
 .styledLinkContainer--all-all-categories,
 .styledLinkContainer--category-all-sub {
     margin: 0;
+}
+
+.styledLinkContent--all-all-categories {
+    font-weight: bold;
+}
+
+.submenuWrapper--all-col-category {
+    margin: 0;
+}
+
+.menuItem--category-sub-menu {
+    padding-left: 1.6vw;
+    margin: 0px;
+    height: 1.617rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    vertical-align: top;
+}
+
+.styledLinkContainer--category-sub-menu {
+    padding: 0;
+}
+
+.styledLinkContent--category-sub-menu {
+    font: normal normal normal 13px/40px Nunito Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.submenuWrapper--all-col-category {
+    height: 21.875rem;
+    padding: 0;
+    padding-top: 1.406rem;
+}
+
+.menuItem--category-sub-menu {
+    height: 1.617rem;
+}
+
+.menuContainer--main-col-category {
+    height: 12.938rem;
+    margin-top: 23px;
 }

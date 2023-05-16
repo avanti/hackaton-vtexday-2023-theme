@@ -16,4 +16,8 @@
 .summaryItemContainer {
     color: black;
     font-weight: 600;
-  }
+}
+
+.flexColChild--list-col-categoria {
+    height: 18.625rem;
+}
