@@ -154,7 +154,7 @@
   "search-banner#one-plp": {
     "props": {
       "area": "one",
-      "blockClass": "myBanner",
+      "blockClass": "myBanner-one-plp",
       "horizontalAlignment": "center"
     }
   },
