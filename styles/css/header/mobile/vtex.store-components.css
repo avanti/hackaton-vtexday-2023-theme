@@ -13,6 +13,7 @@
     .searchBarInnerContainer--input-searchbar-mobile--opened :global(.vtex-input) {
         border-radius: 10px 10px 0px 0px !important;
         border-bottom: none!important;
+        width: 89.72vw;
     }
 
     .searchBarContainer:first-child {
