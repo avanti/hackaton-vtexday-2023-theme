@@ -9,7 +9,7 @@
     color: #005CFF;
     text-transform: capitalize;
     opacity: 1;
-    padding-left: 5.14vw;
+    padding-left: 5.2vw;
     margin: 0;
     margin-top: 1.313rem;
     margin-bottom: 1.125rem;
@@ -482,6 +482,13 @@
 
   .filterTotalProducts--filter-navigator-title {
     display: none;
+  }
+
+  /* SHELF */
+
+  .gallery--grid {
+    padding-left: 4.03vw;
+    padding-right: 4.03vw;
   }
 
 }

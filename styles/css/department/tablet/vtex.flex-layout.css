@@ -1,5 +1,6 @@
 @media screen and (min-width: 40em) and (max-width: 64em) {
-
+/* padding-left: 3.125rem;
+    padding-right: 3.125rem; */
 
   /* ORDER AND FILTER */
 
@@ -7,8 +8,8 @@
     height: 2.813rem;
     justify-content: space-between;
     margin-bottom: 1.455rem;
-    padding-left: 5.14vw;
-    padding-right: 5.14vw;
+    padding-left: 5.2vw;
+    padding-right: 5.2vw;
   }
 
   /* TOTAL PRODUCTS */
@@ -22,9 +23,10 @@
     margin: 0;
   }
 
-  .flexRowContent--productCountMobileRow {
-    margin-bottom: 1.983rem;
-    padding-left: 5.14vw;
+  .flexRow--productCountMobileRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.705rem;
   }
 
   /* SHOW MORE BUTTON */
