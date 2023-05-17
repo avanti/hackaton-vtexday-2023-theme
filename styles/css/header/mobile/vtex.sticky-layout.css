@@ -5,7 +5,10 @@
         /* padding-left: 18.75vw;
         padding-right: 18.75vw; */
         height: 126px;
+    }
 
+    .container--main-header-mobile-all {
+        box-shadow: 0px 3px 6px #0000000D
     }
 
     .container {
