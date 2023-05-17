@@ -236,7 +236,8 @@
       "flex-layout.row#contentmobile",
       "search-products-count-per-page",
       "search-products-progress-bar",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#pre-footer"
     ],
     "props": {
       "pagination": "show-more",
