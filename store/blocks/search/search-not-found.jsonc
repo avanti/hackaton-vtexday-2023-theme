@@ -20,6 +20,7 @@
     "responsive-layout.tablet#not-found": {
         "children": [
             "flex-layout.row#notfound",
+            "flex-layout.row#search-not-found-line",
             "flex-layout.row#slider-products-line"
         ]
     },
