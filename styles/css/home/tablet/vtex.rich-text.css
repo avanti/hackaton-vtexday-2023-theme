@@ -75,13 +75,32 @@
     font-weight: bold;
   }
 
+  /* SHELF */
+
+  .container--unavailable {
+    justify-content: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .paragraph--unavailable {
+    text-align: center;
+    font: normal normal bold 14px/22px Titillium Web;
+    letter-spacing: 0px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 0.75rem;
+  }
+
   /* LAUNCH PRODUCT LNE */
 
-  .container--lanch-product-text  {
+  .container--lanch-product-text {
     padding-left: 0;
   }
 
-  .container--offers-product-text, .link--offers-product-see-more {
+  .container--offers-product-text,
+  .link--offers-product-see-more {
     padding: 0;
   }
 
@@ -126,7 +145,8 @@
     height: 6.5rem;
   }
 
-  .wrapper--pre-footer-text, .paragraph--pre-footer-text {
+  .wrapper--pre-footer-text,
+  .paragraph--pre-footer-text {
     height: 6.5rem;
   }
 
