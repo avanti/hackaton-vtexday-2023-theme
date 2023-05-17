@@ -357,4 +357,12 @@
     opacity: 1;
   }
 
+  /* ORDER BY CONTAINER */
+
+  .orderByOptionsContainer,
+  .orderByOptionItem--order-by-title {
+    border-radius: 10px;
+  }
+
+
 }

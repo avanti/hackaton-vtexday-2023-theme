@@ -168,7 +168,7 @@
     position: sticky;
     z-index: 10;
     top: 0;
-  } 
+  }
 
   .filterBreadcrumbsContent {
     padding: 0;
@@ -178,18 +178,18 @@
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: 14px;
-    margin:auto;
+    margin: auto;
     font-family: 'Nunito Sans';
     font-weight: 600;
   }
 
-  .closeIconButton--close-filter-navigator{
+  .closeIconButton--close-filter-navigator {
     width: 12px;
     height: 12px;
     color: #FFFFFF;
     width: max-content;
     z-index: 10;
-}
+  }
 
   .accordionFilterContainer--filter-navigator-title,
   .filterAccordionItemBox--filter-navigator-title,
@@ -245,16 +245,16 @@
   .accordionFilterItemOptions :global(.vtex-checkbox__box-wrapper) {
     width: 20px;
     height: 20px;
-   }
+  }
 
-   .accordionFilterOpen--filter-navigator-title :global(.vtex-checkbox__inner-container) {
+  .accordionFilterOpen--filter-navigator-title :global(.vtex-checkbox__inner-container) {
     border: 1px solid #000000;
     border-radius: 4px;
     width: 20px;
     height: 20px;
-   }
+  }
 
-   .accordionFilterOpen--filter-navigator-title :global(.vtex__icon-check) {
+  .accordionFilterOpen--filter-navigator-title :global(.vtex__icon-check) {
     color: transparent;
     background-image: url('assets/img/checkbox.svg');
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@
     top: 10px;
   }
 
-  
+
   /* BUTTONS FILTER */
 
   .filterButtonsBox {
@@ -333,7 +333,7 @@
     background-color: #005CFF;
     border: 1px solid #005CFF;
     border-radius: 10px;
-    height: 3.125rem!important;
+    height: 3.125rem !important;
     width: 43.11vw;
     color: #FFFFFF;
   }
@@ -348,8 +348,8 @@
   .accordionFilterItemOptions {
     padding: 0;
     background-color: #F6F6F6;
-    margin-left: -3rem!important;
-    padding-left: 5.14vw!important;
+    margin-left: -3rem !important;
+    padding-left: 5.14vw !important;
   }
 
   .filterAvailable--filter-navigator-title {
@@ -380,7 +380,7 @@
     align-items: center;
   }
 
-  .priceRangeInput--filter-navigator-title  {
+  .priceRangeInput--filter-navigator-title {
     display: flex;
     align-items: center;
     margin: 0;
@@ -456,4 +456,8 @@
     display: none;
   }
 
+  .orderByOptionsContainer,
+  .orderByOptionItem--order-by-title {
+    border-radius: 10px;
+  }
 }
