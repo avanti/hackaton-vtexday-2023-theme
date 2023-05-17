@@ -1,14 +1,5 @@
 @media screen and (min-width: 64em) {
 
-  /* BANNER */
-
-  /* .banner-desktop {
-    display: none;
-  } */
-/* 
-  .banner-mobile {
-    display: none!important;
-  } */
 
   /* CONTAINER */
 
@@ -52,7 +43,7 @@
   .orderByText--order-by-title {
     text-align: right;
     text-transform: lowercase;
-    font: normal normal 600 14px/30px Titillium Web;
+    font: normal normal bold 14px/30px Titillium Web;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -170,7 +161,7 @@
   .filterTitleSpan--filter-navigator-title {
     text-transform: none;
     text-align: left;
-    font: normal normal 600 14px/14px Nunito Sans;
+    font: normal normal bold 14px/14px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -192,7 +183,7 @@
 
   .filterMessage--filter-navigator-title {
     text-align: left;
-    font: normal normal 600 14px/14px Nunito Sans;
+    font: normal normal bold 14px/14px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -313,8 +304,7 @@
     line-height: 0.9375rem;
     text-align: center;
     text-transform: initial;
-    font: normal normal 600 14px/30px Nunito Sans;
-    font-weight: bold;
+    font: normal normal bold 14px/30px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
