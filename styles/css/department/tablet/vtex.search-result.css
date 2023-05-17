@@ -36,6 +36,10 @@
     text-transform: uppercase;
   }
 
+  .filterPopupTitle--order-by-title::first-letter {
+    text-transform: uppercase;
+  }
+
   .orderByText--order-by-title::after {
     content: ":";
   }
