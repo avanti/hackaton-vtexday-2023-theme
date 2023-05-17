@@ -17,6 +17,33 @@
 
   /* ORDER AND FILTER  */
 
+  .orderByText--order-by-title {
+    text-align: right;
+    text-transform: lowercase;
+    font: normal normal bold 14px/30px Titillium Web;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .orderByText--order-by-title::first-letter {
+    text-transform: uppercase;
+  }
+
+  .orderByText--order-by-title::after {
+    content: ":";
+  }
+
+  .orderByOptionItem--order-by-title,
+  .orderByOptionItem--order-by-title--selected {
+    text-align: left;
+    font: normal normal normal 14px/21px Titillium Web;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
   .orderByButton--order-by-title {
     border: 1px solid #005CFF;
     border-radius: 10px;
@@ -31,7 +58,7 @@
     padding-left: 2.57vw;
     text-align: right;
     text-transform: none;
-    font: normal normal 600 14px/30px Nunito Sans;
+    font: normal normal bold 14px/30px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -373,8 +400,7 @@
     line-height: 0.9375rem;
     text-align: center;
     text-transform: initial;
-    font: normal normal 600 14px/30px Nunito Sans;
-    font-weight: bold;
+    font: normal normal bold 14px/30px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
