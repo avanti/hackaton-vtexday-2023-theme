@@ -2,6 +2,11 @@
 
     /* BREADCRUMB */
 
+    .container--breadcrumb-search {
+        padding-top: 1.355rem;
+        padding-bottom: 0;
+    }
+
     .homeIcon {
         display: none;
     }
