@@ -1,4 +1,8 @@
 @media screen and (max-width: 40em) {
+
+    .searchNotFound--not-found-test {
+        margin: 0;
+    }
     
     .searchNotFoundWhatToDoDotsContainer--not-found-test {
         padding: 0;
