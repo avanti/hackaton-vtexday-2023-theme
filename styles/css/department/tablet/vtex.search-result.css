@@ -1,0 +1,461 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+  /* TITLE */
+
+  .galleryTitle--layout {
+    text-align: left;
+    font: normal normal bold 22px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-left: 5.14vw;
+    margin: 0;
+    margin-top: 1.313rem;
+    margin-bottom: 1.125rem;
+  }
+
+  /* ORDER AND FILTER  */
+
+  .orderByButton--order-by-title {
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 0;
+    width: 43.46vw;
+    height: 2.813rem;
+    justify-content: space-between;
+  }
+
+  .filterPopupTitle--order-by-title {
+    padding-left: 2.57vw;
+    text-align: right;
+    text-transform: none;
+    font: normal normal 600 14px/30px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .caretIcon--order-by-title {
+    color: #005CFF;
+  }
+
+  .filterPopupButton {
+    background-color: #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 0 !important;
+    height: 2.813rem;
+    width: 43.46vw;
+  }
+
+  .orderByDropdown {
+    padding-top: 0;
+  }
+
+  .filterPopupTitle--filter-navigator-title,
+  .filterPopupArrowIcon--filter-navigator-title {
+    margin: 0;
+  }
+
+  .filterPopupTitle--filter-navigator-title {
+    text-align: center;
+    text-transform: none;
+    font: normal normal bold 14px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .filterPopupArrowIcon--filter-navigator-title {
+    display: none;
+  }
+
+  .filterPopupTitle--filter-navigator-title::before {
+    content: "fill";
+    color: transparent;
+    background-image: url('assets/img/filtro.svg');
+    height: 18px;
+    width: 4.91vw;
+    background-repeat: no-repeat;
+    padding-right: 3.74vw;
+  }
+
+  /* TOTAL PRODUCTS */
+
+  .totalProducts--layout,
+  .totalProductsMessage {
+    text-align: left;
+    text-transform: none;
+    font: normal normal normal 14px/30px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    border-top: 0;
+    padding: 0;
+  }
+
+  /* SHOW PRODUCTS PER PAGE */
+
+  .showingProducts--search-products-count-per-page-plp {
+    padding: 0;
+    text-align: center;
+    font: normal normal normal 14px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #211E1E;
+    margin-top: 1.938rem;
+  }
+
+  .progressBar--search-products-progress-bar {
+    margin: 0;
+    width: 53.50vw;
+    background-color: #E2E2E2;
+  }
+
+  .progressBarContainer--search-products-progress-bar {
+    margin-top: 0.563rem;
+    padding-left: 23.25vw;
+    padding-right: 23.25vw;
+  }
+
+  .progressBar--search-products-progress-bar,
+  .progressBarFiller--search-products-progress-bar {
+    height: 0.188rem;
+  }
+
+  .progressBarFiller--search-products-progress-bar {
+    background-color: #4F5350;
+  }
+
+
+  /* SHOW MORE BUTTON */
+
+  .buttonShowMore :global(.vtex-button) {
+    background: #FFFFFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+    width: 80.37vw;
+    height: 2.813rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonShowMore :global(.vtex-button)::after {
+    content: "Carregar mais produtos";
+    text-align: center;
+    font: normal normal bold 14px/22px Titillium Web;
+    letter-spacing: 0px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .buttonShowMore :global(.vtex-button__label) {
+    display: none;
+  }
+
+  /* SIDE BAR */
+
+  .filterAccordionBreadcrumbs {
+    background-color: #005CFF;
+    padding: 0;
+    height: 3.125rem;
+    justify-content: center;
+    border-style: none;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+  } 
+
+  .filterBreadcrumbsContent {
+    padding: 0;
+  }
+
+  .filterBreadcrumbsText {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin:auto;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+  }
+
+  .closeIconButton--close-filter-navigator{
+    width: 12px;
+    height: 12px;
+    color: #FFFFFF;
+    width: max-content;
+    z-index: 10;
+}
+
+  .accordionFilterContainer--filter-navigator-title,
+  .filterAccordionItemBox--filter-navigator-title,
+  .accordionFilterContent--filter-navigator-title {
+    padding: 0;
+    height: 3.125rem;
+  }
+
+  .filterAccordionItemBox--filter-navigator-title,
+  .filterAccordionItemBox {
+    min-height: 0 !important;
+  }
+
+  .accordionFilterItemTitle--filter-navigator-title {
+    text-align: left;
+    font: normal normal bold 14px/50px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-left: 5.14vw;
+  }
+
+  .accordionFilterItemTag--filter-navigator-title :global(.vtex-tag) {
+    background-color: #FFFFFF;
+    color: #005CFF;
+    border: 1px solid #005CFF;
+    height: 24px;
+    padding: 2.6px 10px 0 10px;
+  }
+
+  .caretIcon--filter-navigator-title {
+    padding: 5.14vw 5.14vw 0 0;
+  }
+
+  /* .accordionFilterOpen--filter-navigator-title {
+    padding: 0;
+    margin-left: -3rem!important;
+    padding-left: 1.5rem!important;
+    background-color: #F6F6F6;
+  } */
+
+  .filterAccordionItemBox {
+    padding: 0;
+    height: 3.125rem;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__container) {
+    margin-right: 30px;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__inner-container),
+  .filterAccordionItemBox :global(.vtex-checkbox__box-wrapper) {
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    border: solid 1px #000000;
+  }
+
+  .filterItem--filter-navigator-title :global(.vtex__icon-check) {
+    background-color: #005CFF;
+    border: 2px solid #005CFF;
+    border-radius: 2px;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__inner-container) {
+    border: solid 1px #000000;
+  }
+
+  .filterAccordionItemBox :global(.vtex__icon-check) {
+    background-color: #005CFF;
+    border: 1px solid #005CFF;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
+    text-align: left;
+    font: normal normal normal 14px/50px Nunito Sans;
+    letter-spacing: 0px;
+    color: #2A2A2A;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__line-container) {
+    align-items: center;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider) {
+    margin-bottom: 0.469rem;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__base) {
+    background-color: #E2E2E2;
+    margin-top: 0.188rem;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__base-internal),
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__selector) {
+    background-color: #005CFF;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__selector) {
+    height: 1.188rem !important;
+    width: 1.188rem !important;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__selector-container) {
+    top: 10px;
+  }
+
+  
+  /* BUTTONS FILTER */
+
+  .filterButtonsBox {
+    background-color: #FFFFFF;
+    border-top: 0;
+    height: 8.438rem;
+    padding-bottom: 5.313rem;
+  }
+
+  .filterClearButtonWrapper--filter-navigator-title,
+  .filterApplyButtonWrapper--filter-navigator-title {
+    height: 3.125rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .filterClearButtonWrapper--filter-navigator-title :global(.vtex-button) {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 3.125rem;
+    width: 43.11vw;
+    color: black;
+    font-weight: bold;
+  }
+
+  .filterApplyButtonWrapper--filter-navigator-title :global(.vtex-button) {
+    background-color: #005CFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    height: 3.125rem!important;
+    width: 43.11vw;
+    color: #FFFFFF;
+  }
+
+  /* PRICE BAR */
+
+  .filterTemplateOverflow--filter-navigator-title {
+    padding-top: 1.375rem;
+    padding-right: 5.14vw;
+  }
+
+  .accordionFilterItemOptions {
+    padding: 0;
+    background-color: #F6F6F6;
+    margin-left: -3rem!important;
+    padding-left: 5.14vw!important;
+  }
+
+  .filterAvailable--filter-navigator-title {
+    display: none;
+  }
+
+  .priceRangeInputWrapper--filter-navigator-title {
+    flex-wrap: wrap;
+    /* margin-top: 1.813rem; */
+    margin-bottom: 1.906rem;
+  }
+
+  .priceRangeInputWrapper :nth-child(2n) {
+    order: 2;
+  }
+
+  .priceRangeInputWrapper::after {
+    content: "até";
+    line-height: 0.9375rem;
+    text-align: center;
+    text-transform: initial;
+    font: normal normal 600 14px/30px Nunito Sans;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .priceRangeInput--filter-navigator-title  {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .priceRangeInput--filter-navigator-title :global(.vtex-input-prefix__group) {
+    border: 0;
+    padding: 0;
+    width: 85px;
+    border-bottom: 2px solid rgb(147, 147, 147);
+    border-radius: 0;
+  }
+
+  .priceRangeInput--filter-navigator-title :global(.vtex-input__prefix) {
+    padding: 0 !important;
+    text-align: left;
+    font: normal normal normal 14px/19px Nunito Sans;
+    letter-spacing: 0px;
+    color: #878888;
+    opacity: 1;
+    background-color: #F6F6F6;
+  }
+
+  .priceRangeInput--filter-navigator-title :global(.vtex-styleguide-9-x-input) {
+    padding: 0 !important;
+    text-align: left;
+    font: normal normal normal 14px/19px Nunito Sans;
+    letter-spacing: 0px;
+    color: #878888;
+    opacity: 1;
+    background-color: #F6F6F6;
+    margin-left: 0.23rem;
+  }
+
+  .priceRangeInputWrapper--filter-navigator-title :global(.vtex-button) {
+    order: 2;
+    width: 35.99vw;
+    height: 3.125rem;
+    background-color: #F6F6F6;
+    border: 1px solid #000000;
+    border-radius: 50px;
+  }
+
+  .priceRangeInputWrapper--filter-navigator-title :global(.vtex-button__label) {
+    text-align: center;
+    font: normal normal bold 14px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__values-container) {
+    justify-content: space-between;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__dash) {
+    display: none;
+  }
+
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__left-value),
+  .filterTemplateOverflow--filter-navigator-title :global(.vtex-slider__right-value) {
+    font: normal normal normal 14px/24px Nunito Sans;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  /* FILTER TOTAL RODUCTS */
+
+  .filterTotalProducts--filter-navigator-title {
+    display: none;
+  }
+
+}
