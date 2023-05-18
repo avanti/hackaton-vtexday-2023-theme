@@ -101,14 +101,14 @@
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
+      "product-identifier.product",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
-      "product-separator",
-      "product-identifier.product",
+      // "product-separator",
       "sku-selector",
       "product-quantity",
-      "product-assembly-options",
+      // "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
@@ -179,6 +179,14 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+
+  "product-identifier.product": {
+    "props": {
+      "label": "custom", //'default' | 'custom' | 'hide'
+      "customLabel": "Cód", // text if label is custom
+      "idField": "productReference" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
     }
   }
 }

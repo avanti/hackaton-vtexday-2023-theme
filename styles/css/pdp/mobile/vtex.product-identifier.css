@@ -1,0 +1,13 @@
+@media screen and (max-width: 40em) {
+
+    .product-identifier--productReference,
+    .product-identifier__separator,
+    .product-identifier__value {
+        text-align: left;
+        font: normal normal normal 11px/15px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+}
