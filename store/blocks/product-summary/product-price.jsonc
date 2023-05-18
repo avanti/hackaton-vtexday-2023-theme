@@ -1,6 +1,7 @@
 {
   "flex-layout.row#selling-price": {
     "props": {
+      "blockclass": "flexRow-price",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
@@ -13,6 +14,7 @@
 
   "flex-layout.row#list-price-savings": {
     "props": {
+      "blockclass": "flexRow-price-savings",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
@@ -21,7 +23,14 @@
     },
     "children": [
       "product-list-price",
-      "product-price-savings"
+      "product-price-savings#pdp"
     ]
+  },
+
+  "product-price-savings#pdp": {
+    "props": {
+      "message": "Você economiza {savingsValue}",
+      "blockClass": "summary-value"
+    }
   }
 }

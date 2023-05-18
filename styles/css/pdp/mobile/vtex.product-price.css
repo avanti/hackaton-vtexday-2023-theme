@@ -1,8 +1,29 @@
 @media screen and (max-width: 40em) {
 
+  .listPrice,
   .installments--summary-pdp {
     padding-left: 5.14vw;
     margin: 0;
+  }
+
+  /* PRICE SAVINGS */
+
+  .listPrice {
+    text-align: left;
+    text-decoration: line-through;
+    font: normal normal normal 12px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .savings {
+    text-align: left;
+    font: normal normal normal 12px/16px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 0.93vw;
   }
 
   /* INSTALLMENTS */
