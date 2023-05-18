@@ -26,7 +26,8 @@
 
   /* TOTAL PRODUCTS  AND ORDER BY*/
 
-  .totalProducts--layout {
+  .totalProducts--layout,
+  .totalProductsMessage {
     padding: 0;
     text-align: left;
     text-transform: lowercase;
@@ -55,6 +56,15 @@
 
   .orderByText--order-by-title::after {
     content: ":";
+  }
+
+  .filterPopupArrowIcon--order-by-title {
+    padding-left: 4.96vw;
+    padding-right: 0;
+  }
+
+  .caretIcon--order-by-title {
+    height: 0.56rem;
   }
 
   .orderByOptionItem--order-by-title,
