@@ -1,0 +1,38 @@
+@media screen and (max-width: 40em) {
+
+
+  /* ORDER AND FILTER */
+
+  .flexRowContent--department-first-line {
+    height: 2.813rem;
+    justify-content: space-between;
+    margin-bottom: 1.455rem;
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+  }
+
+  /* TOTAL PRODUCTS */
+
+  .flexRow--productCountMobileRow {
+    display: flex;
+    justify-content: start;
+  }
+
+  .flexRow--productCountMobileRow :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+  }
+
+  .flexRowContent--productCountMobileRow {
+    margin-bottom: 1.983rem;
+    padding-left: 5.14vw;
+  }
+
+  /* SHOW MORE BUTTON */
+
+  .flexRowContent--showMore-button {
+    margin: 0;
+    margin-top: 1.438rem;
+    margin-bottom: 0.107rem;
+  }
+
+}
