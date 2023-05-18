@@ -1,5 +1,12 @@
 @media screen and (max-width: 40em) {
 
+    .product-identifier--productReference {
+      padding-left: 5.14vw;
+      margin: 0;
+    }  
+
+    /* CODE */
+
     .product-identifier--productReference,
     .product-identifier__separator,
     .product-identifier__value {

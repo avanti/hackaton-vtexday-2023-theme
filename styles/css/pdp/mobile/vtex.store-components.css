@@ -1,5 +1,12 @@
 @media screen and (max-width: 40em) {
 
+  .productNameContainer--quickview,
+  .skuSelectorName,
+  .skuSelectorOptionsList {
+    padding-left: 5.14vw;
+    margin: 0;
+  }
+
   /* PRODUCT BRAND TITLE */
 
   .productBrand--quickview {
@@ -7,6 +14,49 @@
     font: normal normal bold 16px/22px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  /* SIZE AND COLOR */
+
+  .skuSelectorName,
+  .skuSelectorSelectorImageValue {
+    text-align: left;
+    font: normal normal normal 14px/19px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .skuSelectorItem {
+    width: 9.35vw;
+    height: 2.5rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    opacity: 1;
+  }
+
+  .skuSelectorInternalBox {
+    border-radius: 1px;
+  }
+
+  .skuSelectorItem--selected {
+    border: 2px solid #B1B3B3;
+    border-radius: 3px;
+    opacity: 1;
+  }
+
+  .frameAround {
+    display: none;
+  }
+
+  .skuSelectorItemTextValue {
+    padding: 0;
+    text-align: center;
+    font: normal normal normal 12px/16px Nunito Sans;
+    letter-spacing: 0px;
+    color: #25282A;
     text-transform: uppercase;
     opacity: 1;
   }

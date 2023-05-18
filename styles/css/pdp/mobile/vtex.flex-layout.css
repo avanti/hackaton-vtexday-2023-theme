@@ -1,5 +1,32 @@
 @media screen and (max-width: 40em) {
 
+    /* BUY BUTTON */
 
+    .flexRow--add-to-cart-button-pdp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 4rem; */
+        /* width: 43.46vw; */
+        margin-right: 0;
+      }
+    
+      .flexRowContent--add-to-cart-button-pdp {
+        display: flex;
+        justify-content: center;
+        /* width: 39.48vw; */
+        /* height: 2.5rem; */
+      }
+    
+      .flexRowContent--add-to-cart-button-pdp :global(.vtex-button) {
+        display: contents;
+      }
+    
+      .flexRowContent--add-to-cart-button-pdp :global(.vtex-button__label) {
+        background-color: #005CFF;
+        width: 89.49vw;
+        height: 3rem;
+        border-radius: 10px;
+      }
 
 }

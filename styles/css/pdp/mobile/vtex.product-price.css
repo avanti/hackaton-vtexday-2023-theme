@@ -1,0 +1,26 @@
+@media screen and (max-width: 40em) {
+
+  .installments--summary-pdp {
+    padding-left: 5.14vw;
+    margin: 0;
+  }
+
+  /* INSTALLMENTS */
+
+  .installments--summary-pdp {
+    text-align: left;
+    font: normal normal normal 14px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+
+  .installmentsNumber--summary-pdp--12,
+  .installmentValue--summary-pdp {
+    font-weight: bold;
+  }
+
+  .installmentsNumber--summary-pdp--12::after {
+    content: "x";
+  }
+
+}
