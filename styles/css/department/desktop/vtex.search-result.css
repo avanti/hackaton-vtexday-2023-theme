@@ -199,7 +199,8 @@
     opacity: 1;
     margin: 0;
     width: 9.60vw;
-    border-bottom: 1px solid #F6F6F6;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 0.3rem;
     margin-bottom: 2.5rem;
   }
 
@@ -222,17 +223,17 @@
   }
 
   .filterItem--filter-navigator-title :global(.vtex-checkbox__label) {
-    /* height: 1.703rem; */
     text-align: left;
     font: normal normal normal 14px/30px Nunito Sans;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    line-height: 1.6rem;
   }
 
   .filterItem--filter-navigator-title :global(.vtex-checkbox__container) {
     margin: 0;
-    padding-top: 5px;
+    padding-top: 3.5px;
     margin-right: 0.78vw;
   }
 
@@ -252,6 +253,28 @@
     color: #005CFF;
     border: 1px solid #005CFF;
     margin-left: 0.36vw;
+  }
+
+  /* SCROLL */
+
+  /* width */
+  .filterTemplateOverflow--filter-navigator-title::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  /* Track */
+  .filterTemplateOverflow--filter-navigator-title::-webkit-scrollbar-track {
+    background: #FFFFFF;
+  }
+
+  /* Handle */
+  .filterTemplateOverflow--filter-navigator-title::-webkit-scrollbar-thumb {
+    background: #E2E2E2;
+  }
+
+  /* Handle on hover */
+  .filterTemplateOverflow--filter-navigator-title::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 
   /* PRICE */
