@@ -1,5 +1,19 @@
 @media screen and (max-width: 40em) {
 
+    /* BREADCRUMB */
+
+    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink),
+    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--1),
+    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--2) {
+      padding: 0;
+      text-align: left;
+      font: normal normal normal 12px/16px Nunito Sans;
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      padding-left: 1.49vw;
+    }
+
     /* BUY BUTTON */
 
     .flexRow--add-to-cart-button-pdp {
