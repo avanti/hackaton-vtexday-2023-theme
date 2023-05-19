@@ -1,20 +1,20 @@
 {
   "flex-layout.row#selling-price": {
     "props": {
-      "blockclass": "flexRow-price",
+      "blockClass": "flexRow-price",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price"
+      "product-selling-price#pdp"
     ]
   },
 
   "flex-layout.row#list-price-savings": {
     "props": {
-      "blockclass": "flexRow-price-savings",
+      "blockClass": "flexRow-price-savings",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
@@ -31,6 +31,11 @@
     "props": {
       "message": "Você economiza {savingsValue}",
       "blockClass": "summary-value"
+    }
+  },
+  "product-selling-price#pdp": {
+    "props": {
+      "blockClass": "summary-pdp"
     }
   }
 }

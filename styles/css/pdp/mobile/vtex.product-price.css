@@ -1,6 +1,7 @@
 @media screen and (max-width: 40em) {
 
   .listPrice,
+  .sellingPrice--summary-pdp,
   .installments--summary-pdp {
     padding-left: 5.14vw;
     margin: 0;
@@ -15,6 +16,7 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    margin-bottom: 0.625rem;
   }
 
   .savings {
@@ -24,6 +26,28 @@
     color: #000000;
     opacity: 1;
     padding-left: 0.93vw;
+    margin-bottom: 0.625rem;
+  }
+
+  /* PRICE */
+
+  .sellingPrice--summary-pdp {
+    text-align: left;
+    font: normal normal bold 30px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    height: 2.563rem;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+  }
+
+  .sellingPriceValue--summary-pdp  {
+    height: 2.563rem;
+    justify-content: start;
+    align-items: center;
+    display: flex;
   }
 
   /* INSTALLMENTS */

@@ -2,7 +2,7 @@
 
     /* BREADCRUMB */
 
-    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink),
+    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after,
     .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--1),
     .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--2) {
       padding: 0;
@@ -12,6 +12,58 @@
       color: #000000;
       opacity: 1;
       padding-left: 1.49vw;
+    }
+
+    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after {
+      padding-left: 0;
+    }
+
+  /* PRODUCT NAME TITLE */
+
+    .flexRow--product-name {
+      margin-bottom: 0.313rem;
+      height: auto;
+    }
+
+    .flexRowContent--product-name {
+      margin: 0;
+      height: auto;
+    }
+
+    /* PRODUCT MAIN */
+
+    .flexRowContent--product-main-pdp {
+      margin: 0;
+      padding: 0;
+      padding-top: 0.625rem;
+    }
+
+    .flexRowContent--product-main-pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      padding: 0;
+    }
+
+    .flexColChild--stack-layout-pdp {
+      min-height: 257px;
+    }
+
+    /* IMAGE */
+
+    .flexCol--stack-layout-pdp {
+      max-height: 24.063rem;
+    }
+
+    /* PRICE */
+
+    .flexRow--flexRow-price {
+    margin-bottom: 0.375rem;
+    }
+
+    .flexRowContent--flexRow-price {
+      height: 2.563rem;
+      align-items: center;
+      vertical-align: middle;
+      display: flex;
+      margin: 0;
     }
 
     /* BUY BUTTON */
