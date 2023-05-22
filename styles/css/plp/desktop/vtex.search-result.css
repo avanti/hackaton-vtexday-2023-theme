@@ -43,7 +43,7 @@
 
   .orderByButton--order-by-title::after {
     content: "";
-    width: 168.2px;
+    min-width: 170px;
     height: 1px;
     display: flex;
     justify-content: end;
@@ -69,12 +69,28 @@
 
   .orderByText--order-by-title::after {
     content: ":";
+    padding-right: 0.234583333vw;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    color: #000000;
+    opacity: 1;
   }
 
   .filterPopupArrowIcon--order-by-title {
     padding-left: 4.96vw;
     padding-right: 0;
   }
+
+  .filterPopupTitle--order-by-title {
+    text-transform: initial;
+    text-align: left;
+    font: normal normal normal 14px/21px Titillium Web Regular;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    /* padding-bottom: 7.88px; */
+}
 
   .caretIcon--order-by-title {
     height: 0.56rem;
