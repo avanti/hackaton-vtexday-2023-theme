@@ -1,0 +1,14 @@
+@media screen and (max-width: 40em) {
+
+  /* SHIPPING */
+
+  .paragraph--shipping-simulator-text-pdp {
+    text-align: left;
+    font: normal normal bold 12px/17px Open Sans;
+    letter-spacing: 1.2px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+}

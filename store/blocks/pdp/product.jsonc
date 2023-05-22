@@ -120,7 +120,7 @@
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator"
+      "flex-layout.row#shipping-simulator-pdp"
       // "share#default"
     ]
   },
@@ -220,7 +220,22 @@
       "showUnit": true
     }
   },
-  "shipping-simulator": {
+
+  "flex-layout.row#shipping-simulator-pdp": {
+    "props": {
+      "blockClass": "shipping-simulator-row-pdp"
+    },
+    "children": ["rich-text#shipping-simulator-pdp", "shipping-simulator#pdp"]
+  },
+
+  "rich-text#shipping-simulator-pdp": {
+    "props": {
+      "text": "Frete e prazo de entrega:",
+      "blockClass" :"shipping-simulator-text-pdp"  
+    }
+  },
+
+  "shipping-simulator#pdp": {
     "props": {
       "blockClass": "shipping-simulator-pdp"
     }
