@@ -41,6 +41,19 @@
     padding: 0;
   }
 
+  .orderByButton--order-by-title::after {
+    content: "";
+    width: 168.2px;
+    height: 1px;
+    display: flex;
+    justify-content: end;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-transform: none;
+}
+
   .orderByText--order-by-title {
     text-align: right;
     text-transform: lowercase;
