@@ -111,4 +111,70 @@
     border-radius: 10px;
   }
 
+  /* DISCRIPTION */
+
+  .flexRow--description-row-pdp {
+    background-color: #F9F9F9;
+    padding-top: 2.938rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .flexRowContent--description-row-pdp {
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    margin-bottom: 0;
+  }
+
+  /* SPECIFICATION */
+
+  .flexRow--productSpecificationGroupName {
+    padding: 0;
+    background-color: #F9F9F9;
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    padding-bottom: 1.125rem;
+  }
+
+  .flexCol--productSpecificationName,
+  .flexCol--productSpecificationValue {
+    padding: 0;
+  }
+
+  .flexRow--productSpecification {
+    background-color: #F9F9F9;
+    padding-bottom: 0.375rem;
+  }
+
+  .flexRowContent--productSpecification {
+    height: 1.188rem;
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+  }
+
+  .flexCol--productSpecificationName :global(.vtex-product-specifications-1-x-specificationName) {
+    text-align: left;
+    font: normal normal bold 14px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .flexCol--productSpecificationValue :global(.vtex-product-specifications-1-x-specificationValue) {
+    text-align: left;
+    font: normal normal normal 14px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .flexRow--productSpecificationGroup {
+    margin-top: 0!important;
+  }
+
+  .flexRowContent--productSpecificationGroup {
+    padding-bottom: 2.563rem;
+    background-color: #F9F9F9;
+  }
+
 }

@@ -4,11 +4,13 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
+      // "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "flex-layout.row#search-not-found-line",
+      "flex-layout.row#slider-products-line-mobile"
+      // "shelf.relatedProducts",
+      // "product-reviews",
+      // "product-questions-and-answers"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -16,7 +18,8 @@
   },
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "text": "##### Product Specifications",
+      "blockClass": "product-specifications"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -28,9 +31,10 @@
   },
   "flex-layout.row#description": {
     "props": {
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "description-row-pdp"
     },
-    "children": ["product-description"]
+    "children": ["product-description#pdp"]
   },
   "condition-layout.product#availability": {
     "props": {
@@ -239,5 +243,14 @@
     "props": {
       "blockClass": "shipping-simulator-pdp"
     }
+  },
+
+  "product-description#pdp": {
+    "props": {
+      "blockClass": "product-description-pdp",
+      "title": "Descrição"
+    }
   }
+
+  
 }
