@@ -1,98 +1,114 @@
 @media screen and (max-width: 40em) {
 
-    /* BREADCRUMB */
+  /* BREADCRUMB */
 
-    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after,
-    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--1),
-    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--2) {
-      padding: 0;
-      text-align: left;
-      font: normal normal normal 12px/16px Nunito Sans;
-      letter-spacing: 0px;
-      color: #000000;
-      opacity: 1;
-      padding-left: 1.49vw;
-    }
+  .flexRowContent--breadcrumb-pdp {
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    height: 16px;
+  }
 
-    .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after {
-      padding-left: 0;
-    }
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-container) {
+    height: 16px;
+    padding: 0;
+  }
+
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after,
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--1),
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--2) {
+    padding: 0;
+    text-align: left;
+    font: normal normal normal 12px/16px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 1.49vw;
+  }
+
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after,
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink) {
+    padding-left: 0;
+    margin-left: 0;
+  }
 
   /* PRODUCT NAME TITLE */
 
-    .flexRow--product-name {
-      margin-bottom: 0.313rem;
-      height: auto;
-    }
+  .flexRow--product-name {
+    margin-bottom: 0.313rem;
+    height: auto;
+  }
 
-    .flexRowContent--product-name {
-      margin: 0;
-      height: auto;
-    }
+  .flexRowContent--product-name {
+    margin: 0;
+    height: auto;
+  }
 
-    /* PRODUCT MAIN */
+  /* PRODUCT MAIN */
 
-    .flexRowContent--product-main-pdp {
-      margin: 0;
-      padding: 0;
-      padding-top: 0.625rem;
-    }
+  .flexRowContent--product-main-pdp {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.625rem;
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
 
-    .flexRowContent--product-main-pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-      padding: 0;
-    }
+  }
 
-    .flexColChild--stack-layout-pdp {
-      min-height: 257px;
-    }
+  .flexRowContent--product-main-pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding: 0;
+  }
 
-    /* IMAGE */
+  .flexColChild--stack-layout-pdp {
+    min-height: 257px;
+  }
 
-    .flexCol--stack-layout-pdp {
-      max-height: 24.063rem;
-    }
+  /* IMAGE */
 
-    /* PRICE */
+  .flexCol--stack-layout-pdp {
+    max-height: 24.063rem;
+  }
 
-    .flexRow--flexRow-price {
+  /* PRICE */
+
+  .flexRow--flexRow-price {
     margin-bottom: 0.375rem;
-    }
+  }
 
-    .flexRowContent--flexRow-price {
-      height: 2.563rem;
-      align-items: center;
-      vertical-align: middle;
-      display: flex;
-      margin: 0;
-    }
+  .flexRowContent--flexRow-price {
+    height: 2.563rem;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    margin: 0;
+  }
 
-    /* BUY BUTTON */
+  /* BUY BUTTON */
 
-    .flexRow--add-to-cart-button-pdp {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* height: 4rem; */
-        /* width: 43.46vw; */
-        margin-right: 0;
-      }
-    
-      .flexRowContent--add-to-cart-button-pdp {
-        display: flex;
-        justify-content: center;
-        /* width: 39.48vw; */
-        /* height: 2.5rem; */
-      }
-    
-      .flexRowContent--add-to-cart-button-pdp :global(.vtex-button) {
-        display: contents;
-      }
-    
-      .flexRowContent--add-to-cart-button-pdp :global(.vtex-button__label) {
-        background-color: #005CFF;
-        width: 89.49vw;
-        height: 3rem;
-        border-radius: 10px;
-      }
+  .flexRow--add-to-cart-button-pdp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 4rem; */
+    /* width: 43.46vw; */
+    margin-right: 0;
+  }
+
+  .flexRowContent--add-to-cart-button-pdp {
+    display: flex;
+    justify-content: center;
+    /* width: 39.48vw; */
+    /* height: 2.5rem; */
+  }
+
+  .flexRowContent--add-to-cart-button-pdp :global(.vtex-button) {
+    display: contents;
+  }
+
+  .flexRowContent--add-to-cart-button-pdp :global(.vtex-button__label) {
+    background-color: #005CFF;
+    width: 89.49vw;
+    height: 3rem;
+    border-radius: 10px;
+  }
 
 }

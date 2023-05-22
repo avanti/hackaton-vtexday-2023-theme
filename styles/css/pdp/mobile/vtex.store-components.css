@@ -3,7 +3,6 @@
   .productNameContainer--quickview,
   .skuSelectorName,
   .skuSelectorOptionsList {
-    padding-left: 5.14vw;
     margin: 0;
   }
 
@@ -69,19 +68,79 @@
     margin: 0;
   }
 
+  .skuSelectorTextContainer {
+    margin-top: 0.5rem;
+  }
+
   .skuSelectorContainer {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
 
   /* SHIPPING SIMULATOR */
 
+
+  /* .shippingContainer::before {
+    content: "Frete e prazo de entrega";
+  } */
+
   .shippingContainer {
     display: grid;
+    grid-template-columns: 3fr 1fr;
   }
 
-  .shippingContainer :global(.vtex-address-form__postalCode) {
+  .shippingContainer :global(.vtex-input__label) {
+    display: none;
+  }
+
+  .shippingContainer :global(.vtex-input-prefix__group) {
+    width: 65.42vw;
+    height: 2.5rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    opacity: 1;
+    margin-right: 1.17vw;
+  }
+
+  .shippingContainer :global(.vtex-input-prefix__group) {
+    content: "OI";
+  }
+
+  .shippingContainer :global(.vtex-button) {
+    width: 23.13vw;
+    height: 2.5rem;
+    background-color: #FFFFFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  .shippingContainer :global(.vtex-button)::after {
+    content: "Calcular";
+    text-align: left;
+    font: normal normal bold 12px/17px Open Sans;
+    letter-spacing: 1.2px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .shippingContainer :global(.vtex-button__label) {
+    display: none;
+  }
+
+  .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 600 12px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #25282A;
+    opacity: 1;
     padding: 0;
-    display: grid;
+    padding-top: 0.688rem;
+  }
+
+  .shippingContainer :global(.vtex__icon-external-link) {
+    display: none;
   }
 
 }
