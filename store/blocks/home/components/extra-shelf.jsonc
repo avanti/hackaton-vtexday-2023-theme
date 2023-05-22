@@ -1,0 +1,52 @@
+{
+    
+}
+
+// {
+//     "flex-layout.row#whosawit": {
+//         "children": [
+//             "responsive-layout.desktop#whosawit",
+//             "responsive-layout.tablet#whosawit",
+//             "responsive-layout.phone#whosawit"
+//         ],
+//         "props": {
+//             "blockClass": "who-saw-it"
+//         }
+//     },
+//     "responsive-layout.desktop#whosawit": {
+//         "children": [
+//             "flex-layout.row#whosawit-shelf-desktop"
+//         ],
+//         "props": {
+//             "blockClass": "who-saw-it"
+//         }
+//     },
+//     "responsive-layout.tablet#whosawit": {
+//         "children": [
+//             "flex-layout.row#whosawit-shelf-desktop"
+//         ]
+//     },
+//     "responsive-layout.phone#whosawit": {
+//         "children": [
+//             "flex-layout.row#whosawit-shelf-mobile"
+//         ]
+//     },
+//     "flex-layout.row#whosawit-shelf-desktop": {
+//         "props": {
+//             "blockClass": "whosawit-shelf"
+//         },
+//         "children": [
+//             "flex-layout.row#search-not-found-line",
+//             "flex-layout.row#slider-products-line"
+//         ]
+//     },
+//     "flex-layout.row#whosawit-shelf-mobile": {
+//         "props": {
+//             "blockClass": "whosawit-shelf"
+//         },
+//         "children": [
+//             "flex-layout.row#search-not-found-line",
+//             "flex-layout.row#slider-products-line-mobile"
+//         ]
+//     }
+// }
