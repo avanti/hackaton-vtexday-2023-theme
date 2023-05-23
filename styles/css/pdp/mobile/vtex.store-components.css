@@ -17,6 +17,25 @@
     opacity: 1;
   }
 
+  /* IMAGE */
+
+  .productImagesContainer--product-images-pdp {
+    height: 385px;
+    
+  }
+
+  .swiperBullet {
+    height: 0.375rem;
+    width: 1.17vw;
+    background: #25282A 0% 0% no-repeat padding-box;
+    opacity: 0.24;
+  }
+
+  .swiperBullet--active {
+    background: #25282A 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+
   /* SIZE AND COLOR */
 
   .skuSelectorName,
@@ -128,6 +147,12 @@
 
   .shippingContainer :global(.vtex-button__label) {
     display: none;
+  }
+
+  .shippingContainer :global(.vtex-address-form-4-x-input) {
+    background-image: url('assets/img/cep.svg');
+    background-repeat: no-repeat;
+    margin-left: 3.74vw;
   }
 
   .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :first-child {

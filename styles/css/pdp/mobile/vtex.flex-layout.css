@@ -59,14 +59,14 @@
   }
 
   .flexColChild--stack-layout-pdp {
-    min-height: 257px;
+    min-height: 24.063rem;
   }
 
   /* IMAGE */
 
-  .flexCol--stack-layout-pdp {
+  /* .flexCol--stack-layout-pdp {
     max-height: 24.063rem;
-  }
+  } */
 
   /* PRICE */
 

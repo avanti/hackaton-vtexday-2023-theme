@@ -1,0 +1,62 @@
+{
+  "condition-layout.product#availability-mobile": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-main",
+      "Else": "flex-layout.row#product-availability"
+    }
+  },
+  // "flex-layout.row#product-main": {
+  //   "props": {
+  //     "blockClass": "product-main-pdp",
+  //     "colGap": 7,
+  //     "rowGap": 7,
+  //     "marginTop": 4,
+  //     "marginBottom": 7,
+  //     "paddingTop": 7,
+  //     "paddingBottom": 7
+  //   },
+  //   "children": [
+  //     "flex-layout.col#stack",
+  //     "flex-layout.col#right-col"
+  //   ]
+  // },
+  // "flex-layout.col#stack": {
+  //   "children": [
+  //     "stack-layout"
+  //   ],
+  //   "props": {
+  //     "width": "60%",
+  //     "rowGap": 0,
+  //     "blockClass": "stack-layout-pdp"
+  //   }
+  // },
+  // "stack-layout": {
+  //   "props": {
+  //     "blockClass": "product"
+  //   },
+  //   "children": [
+  //     "flex-layout.row#product-image"
+  //   ]
+  // },
+
+  "shelf.relatedProducts#pdp-mobile": {
+    "blocks": ["product-summary.shelf"],
+      "props": {
+        "recommendation": "view",
+        "blockClass": "shelf-related",
+        "hideOutOfStockItems":true,
+        "paginationDotsVisibility": "visible",
+
+        "productList": {
+            "titleText": "Quem viu, viu também:",
+            "itemsPerPage": 5,
+            "minItemsPerPage": 2
+        }
+    }
+  }
+}
