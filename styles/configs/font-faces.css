@@ -74,6 +74,11 @@
     font-family: "Open Sans";
     src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
+@font-face {
+    font-family: "Open Sans";
+    src: url("assets/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+}
 
 @font-face {
     font-family: "Roboto";

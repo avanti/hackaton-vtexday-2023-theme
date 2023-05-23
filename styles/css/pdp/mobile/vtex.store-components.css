@@ -130,7 +130,7 @@
     display: none;
   }
 
-  .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+  .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :first-child {
     text-align: left;
     text-decoration: underline;
     font: normal normal 600 12px/18px Open Sans;
