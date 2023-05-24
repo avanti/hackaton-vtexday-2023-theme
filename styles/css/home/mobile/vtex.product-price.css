@@ -20,6 +20,12 @@
   .sellingPriceValue--summary-final {
     display: flex;
     align-items: center;
+    text-align: center;
+    font: normal normal bold 18px/20px Nunito Sans;
+    letter-spacing: 0.9px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
   }
 
   .installments--summary-10 {
