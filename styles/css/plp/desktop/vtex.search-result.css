@@ -43,7 +43,7 @@
 
   .orderByButton--order-by-title::after {
     content: "";
-    min-width: 170px;
+    min-width: 8.85vw;
     height: 1px;
     display: flex;
     justify-content: end;
@@ -78,7 +78,8 @@
   }
 
   .filterPopupArrowIcon--order-by-title {
-    padding-left: 4.96vw;
+    margin-left: 4.96vw;
+    padding-left: 0;
     padding-right: 0;
   }
 

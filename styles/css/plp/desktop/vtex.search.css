@@ -7,4 +7,8 @@
         justify-content: center;
     }
 
+    .searchBanner--myBanner-one-plp :global(.vtex-search-result-3-x-banner) {
+        min-width: 52.03vw;
+        height: auto;
+    }
 }  
