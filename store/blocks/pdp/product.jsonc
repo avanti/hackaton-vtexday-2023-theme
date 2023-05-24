@@ -15,7 +15,7 @@
     },
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#availability",
+      "condition-layout.product#availability-desktop",
       "flex-layout.row#description",
       // "flex-layout.row#specifications-title",
       "product-specification-group#table",

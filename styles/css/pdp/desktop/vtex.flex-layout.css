@@ -36,15 +36,11 @@
   .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink) {
     padding-left: 0;
     margin-left: 0;
-  } 
+  }
 
   /* PRODUCT MAIN */
 
-  /* .flexCol--stack-layout-pdp {
-    width: 34.84vw!important;
-  } */
-
- .flexRow--product-main-pdp :global(.vtex-store-components-3-x-container) {
+  .flexRow--product-main-pdp :global(.vtex-store-components-3-x-container) {
     margin: 0;
     padding: 0;
     margin-left: 17.39vw;
@@ -69,16 +65,17 @@
 
   /* PRODUCT NAME TITLE */
 
-  /* .flexRow--product-name {
-    margin-bottom: 0.313rem;
-    height: auto;
-  }*/
-
   .flexRowContent--product-name {
     margin: 0;
     margin-bottom: 0.313rem;
-    /* height: auto; */
-  } 
+  }
+
+  /* SAVINGS */
+
+  .flexRowContent--flexRow-price-savings {
+    margin: 0;
+    margin-top: 1.5rem;
+  }
 
 
   /* IMAGE */
@@ -103,34 +100,37 @@
 
   /* BUY BUTTON */
 
-  /* .flexRow--add-to-cart-button-pdp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
+  .flexCol--right-col-add-button {
+    justify-content: end;
   }
-
-  .flexRowContent--add-to-cart-button-pdp {
-    display: flex;
-    justify-content: center;
-  }
-
-  .flexRowContent--add-to-cart-button-pdp :global(.vtex-button) {
-    display: contents;
-  }
-
-  .flexRowContent--add-to-cart-button-pdp :global(.vtex-button__label) {
+  
+  .flexRowContent--quantity-buy-button-pdp :global(.vtex-button) {
     background-color: #005CFF;
-    width: 89.49vw;
-    height: 3rem;
+    border: 0;
     border-radius: 10px;
-  } */
+  }
+
+  .flexRowContent--quantity-buy-button-pdp :first-child {
+    padding: 0;
+  }
+
+  .flexRowContent--quantity-buy-button-pdp :global(.vtex-button__label) {
+    width: 13.02vw;
+    height: 3rem;
+  }
 
   /* SHIPPING */
-/* 
-  .flexRowContent--shipping-simulator-row-pdp :nth-child(2n) {
-    flex-direction: column;
-  } */
+
+  .flexRowContent--shipping-simulator-row-desktop-pdp {
+
+    display: grid;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  
+  .flexRowContent--shipping-simulator-row-desktop-pdp :first-child {
+    padding: 0;
+  }
 
   /* DISCRIPTION */
 

@@ -1,17 +1,108 @@
 {
-    "shelf.relatedProducts#pdp-desktop": {
-        "blocks": ["product-summary.shelf"],
-          "props": {
-            "recommendation": "view",
-            "blockClass": "shelf-related",
-            "hideOutOfStockItems":true,
-            "paginationDotsVisibility": "visible",
-    
-            "productList": {
-                "titleText": "Quem viu, viu também:",
-                "itemsPerPage": 5,
-                "minItemsPerPage": 5
-            }
+  "condition-layout.product#availability-desktop": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
         }
+      ],
+      "Then": "flex-layout.row#product-main-desktop",
+      "Else": "flex-layout.row#product-availability"
+    }
+  },
+  "flex-layout.row#product-main-desktop": {
+    "props": {
+      "blockClass": "product-main-pdp",
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col-desktop"
+    ]
+  },
+  "flex-layout.col#right-col-desktop": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments#pdp",
+      "sku-selector",
+      "product-gifts",
+      "flex-layout.row#quantity-buy-button",
+      "availability-subscriber",
+      "flex-layout.row#shipping-simulator-desktop-pdp"
+    ]
+  },
+  "flex-layout.row#quantity-buy-button": {
+    "props": {
+      "blockClass": "quantity-buy-button-pdp",
+      "marginTop": 4,
+      "marginBottom": 7,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#left-col-quantity",
+      "flex-layout.col#right-col-add-button"
+    ]
+  },
+
+  "flex-layout.col#left-col-quantity": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "left-col-quantity"
+    },
+    "children": [
+      "product-quantity#pdp"
+    ]
+  },
+  "flex-layout.col#right-col-add-button": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "right-col-add-button"
+    },
+    "children": [
+      "add-to-cart-button#pdp"
+    ]
+  },
+
+  "flex-layout.row#shipping-simulator-desktop-pdp": {
+    "props": {
+      "blockClass": "shipping-simulator-row-desktop-pdp",
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "rich-text#shipping-simulator-pdp",
+      "shipping-simulator#pdp"
+    ]
+  },
+
+  "shelf.relatedProducts#pdp-desktop": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "recommendation": "view",
+      "blockClass": "shelf-related",
+      "hideOutOfStockItems": true,
+      "paginationDotsVisibility": "visible",
+      "productList": {
+        "titleText": "Quem viu, viu também:",
+        "itemsPerPage": 5,
+        "minItemsPerPage": 5
       }
+    }
+  }
 }

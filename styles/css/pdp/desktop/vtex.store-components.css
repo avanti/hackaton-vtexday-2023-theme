@@ -32,4 +32,143 @@
     text-transform: uppercase;
     opacity: 1;
   }
+
+  /* SIZE AND COLOR */
+
+  .skuSelectorName,
+  .skuSelectorSelectorImageValue {
+    text-align: left;
+    font: normal normal normal 14px/19px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .skuSelectorItem {
+    width: 2.08vw;
+    height: 2.5rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    opacity: 1;
+    margin: 0;
+    margin-right: 0.41vw;
+  }
+
+  .skuSelectorOptionsList {
+    margin-left: 0;
+  }
+
+  .skuSelectorInternalBox {
+    border-radius: 1px;
+  }
+
+  .skuSelectorItem--selected {
+    border: 2px solid #B1B3B3;
+    border-radius: 3px;
+    opacity: 1;
+  }
+
+  .frameAround {
+    display: none;
+  }
+
+  .skuSelectorItemTextValue {
+    padding: 0;
+    text-align: center;
+    font: normal normal normal 12px/16px Nunito Sans;
+    letter-spacing: 0px;
+    color: #25282A;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .skuSelectorContainer,
+  .skuSelectorSubcontainer--tamanho,
+  .skuSelectorSubcontainer--cor {
+    margin: 0;
+  }
+
+  .skuSelectorTextContainer {
+    margin-top: 0.5rem;
+  }
+
+  .skuSelectorContainer {
+    padding-top: 1rem;
+  }
+
+  /* SHIPPING SIMULATOR */
+
+  .shippingContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .shippingContainer :global(.vtex-input__label) {
+    display: none;
+  }
+
+  .shippingContainer :global(.vtex-input-prefix__group) {
+    width: 21.04vw;
+    height: 2.5rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    opacity: 1;
+    margin-right: 0.36vw;
+  }
+
+  .shippingContainer :global(.vtex-address-form-4-x-input) {
+    margin: auto;
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+  }
+
+  .shippingContainer :global(.vtex-button) {
+    width: 5.16vw;
+    height: 2.5rem;
+    background-color: #FFFFFF;
+    border: 1px solid #005CFF;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  .shippingContainer :global(.vtex-button)::after {
+    content: "Calcular";
+    text-align: left;
+    font: normal normal bold 12px/17px Open Sans;
+    letter-spacing: 1.2px;
+    color: #005CFF;
+    text-transform: capitalize;
+    opacity: 1;
+    display: flex;
+    margin: 10.5px 21px;
+  }
+
+  .shippingContainer :global(.vtex-button__label) {
+    display: none;
+  }
+
+  .shippingContainer :global(.vtex-address-form-4-x-input) {
+    background-image: url('assets/img/cep.svg');
+    background-repeat: no-repeat;
+    margin-left: 0.83vw;
+  }
+
+  .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :first-child {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 600 12px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #25282A;
+    opacity: 1;
+    padding: 0;
+    padding-top: 0.688rem;
+  }
+
+  .shippingContainer :global(.vtex__icon-external-link) {
+    display: none;
+  }
+
 }
