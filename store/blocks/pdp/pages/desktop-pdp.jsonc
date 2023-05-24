@@ -1,0 +1,17 @@
+{
+    "shelf.relatedProducts#pdp-desktop": {
+        "blocks": ["product-summary.shelf"],
+          "props": {
+            "recommendation": "view",
+            "blockClass": "shelf-related",
+            "hideOutOfStockItems":true,
+            "paginationDotsVisibility": "visible",
+    
+            "productList": {
+                "titleText": "Quem viu, viu também:",
+                "itemsPerPage": 5,
+                "minItemsPerPage": 5
+            }
+        }
+      }
+}

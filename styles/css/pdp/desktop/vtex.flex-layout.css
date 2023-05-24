@@ -1,0 +1,212 @@
+@media screen and (min-width: 64em) {
+
+  /* BREADCRUMB */
+
+  .flexRowContent--breadcrumb-pdp {
+    margin: 0;
+    margin-top: 0.98rem;
+  }
+
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-container) {
+    height: 16px;
+    padding: 0;
+  }
+
+  .flexRow--breadcrumb-pdp :global(.vtex-store-components-3-x-container) {
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    margin-left: 17.39vw;
+    margin-right: 17.39vw;
+  }
+
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after,
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--1),
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-link--2) {
+    padding: 0;
+    text-align: left;
+    font: normal normal normal 12px/16px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 0.55vw;
+  }
+
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink)::after,
+  .flexRowContent--breadcrumb-pdp :global(.vtex-breadcrumb-1-x-homeLink) {
+    padding-left: 0;
+    margin-left: 0;
+  } 
+
+  /* PRODUCT MAIN */
+
+  /* .flexCol--stack-layout-pdp {
+    width: 34.84vw!important;
+  } */
+
+ .flexRow--product-main-pdp :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+    padding: 0;
+    margin-left: 17.39vw;
+    margin-right: 17.39vw;
+    padding-top: 1.875rem;
+  }
+
+  .flexRowContent--product-main-pdp {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*
+  .flexRowContent--product-main-pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding: 0;
+  }
+
+  .flexColChild--stack-layout-pdp {
+    min-height: 24.063rem;
+  } */
+
+
+  /* PRODUCT NAME TITLE */
+
+  /* .flexRow--product-name {
+    margin-bottom: 0.313rem;
+    height: auto;
+  }*/
+
+  .flexRowContent--product-name {
+    margin: 0;
+    margin-bottom: 0.313rem;
+    /* height: auto; */
+  } 
+
+
+  /* IMAGE */
+
+  /* .flexCol--stack-layout-pdp {
+    max-height: 24.063rem;
+  } */
+
+  /* PRICE */
+
+  /* .flexRow--flexRow-price {
+    margin-bottom: 0.375rem;
+  }
+
+  .flexRowContent--flexRow-price {
+    height: 2.563rem;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    margin: 0;
+  } */
+
+  /* BUY BUTTON */
+
+  /* .flexRow--add-to-cart-button-pdp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .flexRowContent--add-to-cart-button-pdp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexRowContent--add-to-cart-button-pdp :global(.vtex-button) {
+    display: contents;
+  }
+
+  .flexRowContent--add-to-cart-button-pdp :global(.vtex-button__label) {
+    background-color: #005CFF;
+    width: 89.49vw;
+    height: 3rem;
+    border-radius: 10px;
+  } */
+
+  /* SHIPPING */
+/* 
+  .flexRowContent--shipping-simulator-row-pdp :nth-child(2n) {
+    flex-direction: column;
+  } */
+
+  /* DISCRIPTION */
+
+  /* .flexRow--description-row-pdp {
+    background-color: #F9F9F9;
+    padding-top: 2.938rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .flexRowContent--description-row-pdp {
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    margin-bottom: 0;
+  } */
+
+  /* SPECIFICATION */
+
+  /* .flexRow--productSpecificationGroupName {
+    padding: 0;
+    background-color: #F9F9F9;
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+    padding-bottom: 1.125rem;
+  }
+
+  .flexCol--productSpecificationName,
+  .flexCol--productSpecificationValue {
+    padding: 0;
+  }
+
+  .flexRow--productSpecification {
+    background-color: #F9F9F9;
+    padding-bottom: 0.375rem;
+  }
+
+  .flexRowContent--productSpecification {
+    height: 1.188rem;
+    padding-left: 5.14vw;
+    padding-right: 5.14vw;
+  }
+
+  .flexRowContent--productSpecificationGroupName :global(.vtex-product-specifications-1-x-groupName) {
+    text-align: left;
+    font: normal normal bold 16px/22px Nunito Sans;
+    letter-spacing: 1.6px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .flexCol--productSpecificationValue :global(.vtex-product-specifications-1-x-specificationValue) {
+    text-align: left;
+    font: normal normal normal 14px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .flexColChild--productSpecificationName :global(.vtex-product-specifications-1-x-specificationName) {
+    text-align: left;
+    font: normal normal bold 14px/18px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+
+  .flexRow--productSpecificationGroup {
+    margin-top: 0 !important;
+  }
+
+  .flexRowContent--productSpecificationGroup {
+    padding-bottom: 2.563rem;
+    background-color: #F9F9F9;
+  } */
+
+
+
+}

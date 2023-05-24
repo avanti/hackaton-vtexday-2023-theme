@@ -1,0 +1,35 @@
+@media screen and (min-width: 64em) {
+
+  /* PRODUCT MAIN */
+
+
+  .productImagesContainer--product-images-pdp--carousel {
+    width: 34.84vw;
+  }
+
+  .carouselGaleryThumbs--product-images-pdp,
+  .productImagesThumb--product-images-pdp {
+    width: 4.53vw!important;
+  }
+
+  .carouselGaleryCursor {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* PRODUCT NAME TITLE */
+
+  .productNameContainer--quickview {
+    display: flex;
+    justify-content: start;
+  }
+
+  .productBrand--quickview {
+    text-align: left;
+    font: normal normal bold 16px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+}
