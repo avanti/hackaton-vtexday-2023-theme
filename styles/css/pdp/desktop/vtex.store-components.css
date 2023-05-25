@@ -3,20 +3,37 @@
   /* PRODUCT MAIN */
 
 
-  .productImagesContainer--product-images-pdp--carousel {
+  /* .productImagesContainer--product-images-pdp--carousel {
     width: 34.84vw;
+  } */
+
+  /* .carouselContainer--product-images-pdp {
+    justify-content: flex-start;
+  } */
+
+  .carouselContainer--product-images-pdp,
+  .productImagesContainer--product-images-pdp {
+    max-width: 34.84vw;
   }
 
   .carouselGaleryThumbs--product-images-pdp,
   .productImagesThumb--product-images-pdp {
-    width: 4.53vw!important;
+    width: 4.48vw !important;
   }
 
-  .carouselGaleryCursor {
+  .carouselGaleryCursor,
+  .productImagesGallerySwiperContainer,
+  .productImagesGallerySlide--product-images-pdp {
     margin: 0;
     padding: 0;
+    min-height: 35.188rem;
+    min-width: 29.32vw;
   }
-  
+
+  .productImageTag--product-images-pdp {}
+
+
+
   /* PRODUCT NAME TITLE */
 
   .productNameContainer--quickview {
@@ -169,6 +186,69 @@
 
   .shippingContainer :global(.vtex__icon-external-link) {
     display: none;
+  }
+
+  /* DISCRIPTION */
+
+  .productDescriptionTitle--product-description-pdp {
+    margin-bottom: 1.188rem;
+    text-align: left;
+    font: normal normal bold 18px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .content--product-description-pdp {
+    text-align: left;
+    font: normal normal normal 14px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+
+  /* SHIPPING TABLE */
+
+  .shippingTable {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    padding-bottom: 2.125rem;
+  }
+
+  .shippingTableRadioBtn {
+    display: none;
+  }
+
+  .shippingTableCellDeliveryName {
+    text-align: left;
+    font: normal normal bold 12px/25px Nunito Sans;
+    letter-spacing: 0px;
+    color: #171B34;
+  }
+
+  .shippingTableCellDeliveryEstimate {
+    text-align: right;
+    font: normal normal normal 12px/25px Nunito Sans;
+    letter-spacing: 0px;
+    color: #171B34;
+  }
+
+  .shippingTableCellDeliveryPrice {
+    text-align: right;
+    font: normal normal bold 12px/25px Nunito Sans;
+    letter-spacing: 0px;
+    color: #171B34;
+  }
+
+  .shippingNoMessage {
+    text-align: left;
+    font: normal normal 600 12px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #25282A;
+    opacity: 1;
+    padding-bottom: 2.125rem;
   }
 
 }

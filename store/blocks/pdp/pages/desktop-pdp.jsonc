@@ -13,17 +13,28 @@
   "flex-layout.row#product-main-desktop": {
     "props": {
       "blockClass": "product-main-pdp",
-      "colGap": 7,
-      "rowGap": 7,
-      "marginTop": 4,
-      "marginBottom": 7,
-      "paddingTop": 7,
-      "paddingBottom": 7
+      "preventHorizontalStretch": true
+      // "colGap": 7,
+      // "rowGap": 7,
+      // "marginTop": 4,
+      // "marginBottom": 7,
+      // "paddingTop": 7,
+      // "paddingBottom": 7
     },
     "children": [
-      "flex-layout.col#stack",
+      "flex-layout.col#stack-desktop",
       "flex-layout.col#right-col-desktop"
     ]
+  },
+  "flex-layout.col#stack-desktop": {
+    "children": [
+      "stack-layout#pdp"
+    ],
+    "props": {
+      "width": "50%",
+      "rowGap": 0,
+      "blockClass": "stack-layout-pdp-desktop"
+    }
   },
   "flex-layout.col#right-col-desktop": {
     "props": {
@@ -46,8 +57,6 @@
   "flex-layout.row#quantity-buy-button": {
     "props": {
       "blockClass": "quantity-buy-button-pdp",
-      "marginTop": 4,
-      "marginBottom": 7,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true
     },

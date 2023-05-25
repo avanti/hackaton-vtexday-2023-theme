@@ -24,6 +24,13 @@
         justify-content: center;
     } */
 
+    /* .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper-container) {
+        background-color: #FFFFFF;
+        border: 1px solid #005CFF;
+        border-radius: 10px;
+        height: 48px;
+    } */
+
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__input) {
         text-align: center;
         font: normal normal bold 16px/16px Nunito Sans;
@@ -31,33 +38,36 @@
         color: #212121;
         opacity: 1;
         width: 10.18vw;
-        height: 3rem;
+        height: 2.937rem;
+        border: 0;
+        border: 1px solid #005CFF;
         border-left: 0 !important;
         border-right: 0 !important;
-        border: 1px solid #005CFF;
     }
 
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__plus-button-container),
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__minus-button-container) {
         width: 1.42vw;
-        height: 3rem;
+        height: 2.937rem;
     }
 
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__plus-button) {
-        border-left: 0 !important;
-        border: 1px solid #005CFF;
-        border-radius: 10px;
         width: 1.42vw!important;
-        height: 3rem;
+        height: 2.937rem;
+        border: 0;
+        border: 1px solid #005CFF;
+        border-left: 0;
+        border-radius: 0 10px 10px 0;
     }
 
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__minus-button) {
         background-color: #FFFFFF;
-        border-right: 0 !important;
-        border: 1px solid #005CFF;
-        border-radius: 10px;
         width: 1.42vw!important;
-        height: 3rem;
+        height: 2.937rem;
+        border: 0;
+        border: 1px solid #005CFF;
+        border-right: 0;
+        border-radius: 10px 0 0 10px;
     }
 
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__plus-button__text),
