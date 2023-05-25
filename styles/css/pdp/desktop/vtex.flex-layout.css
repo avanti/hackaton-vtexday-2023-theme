@@ -78,20 +78,6 @@
     margin-top: 1.5rem;
   }
 
-  /* PRICE */
-
-  /* .flexRow--flexRow-price {
-    margin-bottom: 0.375rem;
-  }
-
-  .flexRowContent--flexRow-price {
-    height: 2.563rem;
-    align-items: center;
-    vertical-align: middle;
-    display: flex;
-    margin: 0;
-  } */
-
   /* QUANTITY AND BUY BUTTON */
 
   .flexCol--right-col-add-button {
@@ -205,5 +191,46 @@
     color: #000000;
     opacity: 1;
   }
+
+}
+
+@media screen and (max-width: 87em) {
+
+  .flexRow--breadcrumb-pdp :global(.vtex-store-components-3-x-container) {
+    margin-left: 8.69vw;
+    margin-right: 8.69vw;
+  }
+
+  .flexRow--product-main-pdp :global(.vtex-store-components-3-x-container) {
+    margin-left: 8.69vw;
+    margin-right: 8.69vw;
+  }
+
+  .flexRow--description-row-pdp {
+    padding: 2.813rem 8.69vw 3.125rem 8.69vw;
+  }
+
+  .flexRow--productSpecificationGroup {
+    padding: 0rem 8.69vw2.75rem 8.69vw;
+  }
+
+
+
+  
+
+
+}
+
+@media screen and (max-width: 115em) {
+  /* 1840 */
+
+  .flexRowContent--add-to-cart-button-home {
+    width: 13.2vw;
+  }
+
+}
+
+@media screen and (max-width: 87em) {
+  /* 1392 */
 
 }

@@ -214,7 +214,8 @@
     padding: 0;
     margin: 0;
     border: 0;
-    padding-bottom: 2.125rem;
+    margin-top: 1.7rem;
+    width: 26.35vw!important;
   }
 
   .shippingTableRadioBtn {
