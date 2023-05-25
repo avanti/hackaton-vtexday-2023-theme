@@ -113,6 +113,14 @@
     padding-top: 1rem;
   }
 
+  /* IMAGE */
+
+.caretIcon--product-images-pdp {
+    height: 0.588;
+    width: 0.83vw;
+    color: #25282A;
+  } 
+
   /* SHIPPING SIMULATOR */
 
   .shippingContainer {
