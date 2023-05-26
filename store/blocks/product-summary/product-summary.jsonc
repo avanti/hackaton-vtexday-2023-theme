@@ -7,7 +7,10 @@
       // "product-installments#summary",
       // "flex-layout.row#add-to-cart-button",
       "condition-layout.product#availability-product-summary"
-    ]
+    ],
+    "props": {
+      "blockClass": "wrapper-shelf"
+    }
   },
   "condition-layout.product#availability-product-summary": {
     "title": "Condição Do Produto Shelf",

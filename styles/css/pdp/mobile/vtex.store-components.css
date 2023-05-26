@@ -122,6 +122,13 @@
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
+    background-image: url('assets/img/cep.svg');
+    background-repeat: no-repeat;
+    margin-left: 3.74vw;
+  }
+
+  .shippingContainer :global(.vtex-address-form-4-x-input):focus {
+    background: unset
   }
 
   .shippingContainer :global(.vtex-button) {
@@ -147,12 +154,6 @@
 
   .shippingContainer :global(.vtex-button__label) {
     display: none;
-  }
-
-  .shippingContainer :global(.vtex-address-form-4-x-input) {
-    background-image: url('assets/img/cep.svg');
-    background-repeat: no-repeat;
-    margin-left: 3.74vw;
   }
 
   .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :first-child {

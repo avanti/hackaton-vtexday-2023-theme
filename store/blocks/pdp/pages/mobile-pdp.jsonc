@@ -54,7 +54,7 @@
 
         "productList": {
             "titleText": "Quem viu, viu também:",
-            "itemsPerPage": 5,
+            "itemsPerPage": 6,
             "minItemsPerPage": 2
         }
     }

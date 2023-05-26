@@ -3,14 +3,6 @@
   /* PRODUCT MAIN */
 
 
-  /* .productImagesContainer--product-images-pdp--carousel {
-    width: 34.84vw;
-  } */
-
-  /* .carouselContainer--product-images-pdp {
-    justify-content: flex-start;
-  } */
-
   .carouselContainer--product-images-pdp,
   .productImagesContainer--product-images-pdp {
     max-width: 34.84vw;
@@ -29,10 +21,6 @@
     min-height: 35.188rem;
     min-width: 29.32vw;
   }
-
-  .productImageTag--product-images-pdp {}
-
-
 
   /* PRODUCT NAME TITLE */
 
@@ -148,7 +136,15 @@
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
+    background-image: url('assets/img/cep.svg');
+    background-repeat: no-repeat;
+    margin-left: 0.83vw;
   }
+
+  .shippingContainer :global(.vtex-address-form-4-x-input):focus {
+    background: unset
+  }
+
 
   .shippingContainer :global(.vtex-button) {
     width: 5.16vw;
@@ -173,12 +169,6 @@
 
   .shippingContainer :global(.vtex-button__label) {
     display: none;
-  }
-
-  .shippingContainer :global(.vtex-address-form-4-x-input) {
-    background-image: url('assets/img/cep.svg');
-    background-repeat: no-repeat;
-    margin-left: 0.83vw;
   }
 
   .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :first-child {

@@ -35,6 +35,10 @@
     justify-content: center;
   }
 
+  .container--wrapper-shelf{
+    transition: all ease-in-out 200ms;
+  }
+
   /* ------------------------- */
 
   .nameContainer {

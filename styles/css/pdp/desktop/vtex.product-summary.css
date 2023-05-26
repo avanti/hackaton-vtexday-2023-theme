@@ -2,6 +2,11 @@
 
   /* SHELF RELATED */
 
+  .imageStackContainer {
+    padding: 0;
+    padding-bottom: 0.625rem;
+  }
+
   .containerNormal {
     width: 12.40vw;
   }

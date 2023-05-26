@@ -114,8 +114,8 @@
     padding: 0;
   }
 
-  .galleryItem--grid {
-    padding-bottom: 1.25rem;
+  .galleryItem--normal {
+    min-height: 406px;
   }
 
   /* SHOW PRODUCTS PER PAGE */

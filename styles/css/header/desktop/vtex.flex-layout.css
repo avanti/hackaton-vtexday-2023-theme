@@ -161,7 +161,7 @@
 }
 
 
-@media screen and (max-width: 115em) {
+@media screen and (min-width: 64em) and (min-width: 64em) and (max-width: 115em) {
     .flexRowContent--office-information {
         display: flex;
         flex-direction: column;
@@ -173,7 +173,7 @@
 
 }
 
-@media screen and (max-width: 87em) {
+@media screen and (min-width: 64em) and (max-width: 87em) {
 
     .flexRowContent--main-header {
         padding-left: 8.69vw;
