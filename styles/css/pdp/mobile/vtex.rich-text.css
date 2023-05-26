@@ -1,4 +1,4 @@
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 64em) {
 
   /* SHIPPING */
 
@@ -11,8 +11,4 @@
     opacity: 1;
   }
   
-  .heading--product-specifications {
-    color: red;
-  }
-
 }

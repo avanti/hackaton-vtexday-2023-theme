@@ -3,12 +3,12 @@
     /* LAUNCH PRODUCT LINE */
     /* SHELF */
 
-    .buttonText--add-to-cart-button-button-home {
+    /* .buttonText--add-to-cart-button-button-home {
         display: none;
 
-    }
+    } */
 
-    .buttonDataContainer::after {
+    /* .buttonDataContainer::after {
         content: "comprar";
         text-align: left;
         font: normal normal bold 14px/20px Nunito Sans;
@@ -16,6 +16,6 @@
         color: #FFFFFF;
         text-transform: capitalize;
         opacity: 1;
-    }
+    } */
 
 }
