@@ -1,5 +1,62 @@
 @media screen and (min-width: 64em) {
 
-    .flexRow--rowproduct-availability {}
+    /* IMAGE */
+
+    .flexRow--row-product-availability {
+        margin-left: 17.39vw;
+        margin-right: 17.39vw;
+        margin-top: 1.875rem;
+        min-height: 563px;
+    }
+
+    .flexRow--row-product-availability :global(.vtex-store-components-3-x-container) {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* TITLE */
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-title) {
+        text-align: left;
+        font: normal normal bold 16px/27px Nunito Sans;
+        letter-spacing: -0.16px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-top: 1.875rem;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-notifyLabel) {
+        text-align: left;
+        font: normal normal normal 14px/31px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    /* INPUT */
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-content) {
+        flex-direction: column;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-content) {
+        flex-direction: column;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-input-prefix__group) {
+        border: 1px solid #2A2A2A;
+        opacity: 1;
+        border-radius: 10px;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-styleguide-9-x-input) {
+        text-align: left;
+        font: normal normal normal 13px/13px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        text-transform: capitalize;
+        opacity: 1;
+    }
 
 }

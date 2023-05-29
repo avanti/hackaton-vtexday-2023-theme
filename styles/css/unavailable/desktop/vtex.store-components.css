@@ -1,0 +1,10 @@
+@media screen and (min-width: 64em) {
+
+  /* IMAGE */
+
+  .carouselGaleryThumbs--product-images-pdp {
+    width: 4.48vw;
+    margin-right: 1.04vw;
+  }
+
+}
