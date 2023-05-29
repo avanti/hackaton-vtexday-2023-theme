@@ -30,7 +30,7 @@
       "condition-layout.product#availability-desktop",
       "flex-layout.row#description",
       "product-specification-group#table",
-      "shelf.relatedProducts#pdp-desktop"
+      "shelf.relatedProducts#pdp-mobile"
     ]
   },
   "responsive-layout.phone#pdp": {
