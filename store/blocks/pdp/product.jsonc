@@ -193,10 +193,11 @@
   },
   "flex-layout.row#product-availability": {
     "props": {
-      "colGap": 7,
-      "marginTop": 4,
-      "marginBottom": 7,
-      "paddingTop": 7
+      // "colGap": 7,
+      // "marginTop": 4,
+      // "marginBottom": 7,
+      // "paddingTop": 7
+      "blockClass": "row-product-availability"
     },
     "children": [
       "flex-layout.col#stack",
