@@ -22,6 +22,12 @@
     min-width: 29.32vw;
   }
 
+  /* IMAGE */
+
+  .productImagesThumbCaret--product-images-pdp {
+    background: 0;
+  }
+
   /* PRODUCT NAME TITLE */
 
   .productNameContainer--quickview {

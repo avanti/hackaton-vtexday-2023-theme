@@ -17,17 +17,11 @@
     opacity: 1;
   }
 
-  .productImagesThumbCaret--product-images-pdp {
-  }
-
-  .gradientBaseBottom {
-  }
-
   /* IMAGE */
 
   .productImagesContainer--product-images-pdp {
     height: 385px;
-    
+
   }
 
   .swiperBullet {
