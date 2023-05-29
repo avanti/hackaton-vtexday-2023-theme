@@ -7,8 +7,8 @@
     padding-bottom: 0.625rem;
   }
 
-  .containerNormal {
-    width: 12.40vw;
+  .containerNormal--wrapper-shelf {
+    width: 12.40vw!important;
   }
 
 

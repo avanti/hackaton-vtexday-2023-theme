@@ -13,4 +13,12 @@
         padding-left: 17.39vw;
     }
 
+    .slide--shelf-related {
+        width: 12.40vw;
+    }
+
+    .shelfContentContainer--shelf-related {
+        min-height: 406px;
+    }
+
 }
