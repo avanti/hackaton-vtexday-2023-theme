@@ -1,0 +1,16 @@
+@media screen and (min-width: 40em) and (max-width: 64em) {
+
+    /* SHELF RELATED */
+
+    .title--shelf-related {
+        padding-left: 15.74vw!important;
+    }
+
+}
+
+@media screen and (min-width: 40em) and (max-width: 56em) {
+
+    .title--shelf-related{
+      padding-left: 7.87vw;
+    }
+}

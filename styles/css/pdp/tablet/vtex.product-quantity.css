@@ -23,6 +23,7 @@
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__plus-button) {
         border-left: 0 !important;
         border: 1px solid #005CFF;
+        background-color: #FFFFFF;
         border-radius: 10px;
     }
 

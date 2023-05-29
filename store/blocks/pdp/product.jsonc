@@ -17,11 +17,8 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability-desktop",
       "flex-layout.row#description",
-      // "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "shelf.relatedProducts#pdp-desktop"
-      // "product-reviews",
-      // "product-questions-and-answers"
     ]
   },
   "responsive-layout.tablet#pdp": {
@@ -32,11 +29,8 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability-desktop",
       "flex-layout.row#description",
-      // "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts#pdp-mobile"
-      // "product-reviews",
-      // "product-questions-and-answers"
+      "shelf.relatedProducts#pdp-desktop"
     ]
   },
   "responsive-layout.phone#pdp": {
@@ -47,13 +41,8 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability-mobile",
       "flex-layout.row#description",
-      // "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      // "flex-layout.row#search-not-found-line",
-      // "flex-layout.row#slider-products-line-mobile",
       "shelf.relatedProducts#pdp-mobile"
-      // "product-reviews",
-      // "product-questions-and-answers"
     ]
   },
 
@@ -85,17 +74,7 @@
       "title": "Descrição"
     }
   },
-  // "flex-layout.row#specifications-title": {
-  //   "children": [
-  //     "rich-text#specifications"
-  //   ]
-  // },
-  // "rich-text#specifications": {
-  //   "props": {
-  //     "text": "##### Product Specifications",
-  //     "blockClass": "product-specifications"
-  //   }
-  // },
+
 
 
 
