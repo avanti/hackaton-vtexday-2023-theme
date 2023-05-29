@@ -20,17 +20,6 @@
         margin: 0;
     }
 
-    /* .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper-container) {
-        justify-content: center;
-    } */
-
-    /* .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper-container) {
-        background-color: #FFFFFF;
-        border: 1px solid #005CFF;
-        border-radius: 10px;
-        height: 48px;
-    } */
-
     .quantitySelectorStepper--product-quantity-pdp :global(.vtex-numeric-stepper__input) {
         text-align: center;
         font: normal normal bold 16px/16px Nunito Sans;

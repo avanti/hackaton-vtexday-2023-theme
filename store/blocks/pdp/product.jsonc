@@ -45,7 +45,6 @@
       "shelf.relatedProducts#pdp-mobile"
     ]
   },
-
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4,
@@ -55,10 +54,6 @@
       "breadcrumb"
     ]
   },
-
-
-
-
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7,
@@ -75,16 +70,6 @@
       "collapseContent": false
     }
   },
-
-
-
-
-
-
-
-
-
-
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -193,7 +178,7 @@
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true,
-      "hideImpossibleCombinations":false
+      "hideImpossibleCombinations": false
     }
   },
   "flex-layout.row#buy-button": {
@@ -231,24 +216,31 @@
       "flex-layout.row#availability"
     ]
   },
+  // "flex-layout.row#availability": {
+  //   "props": {
+  //     "blockClass": "message-availability"
+  //   },
+  //   "children": [
+  //     "availability-subscriber"
+  //   ]
+  // },
   "flex-layout.row#availability": {
     "props": {
-      "blockClass": "message-availability"
+      "blockClass": "message-availability",
+      "preventHorizontalStretch": true
     },
     "children": [
-      "availability-subscriber"
+      "availability-notify"
     ]
   },
-  "share#default": {
+  "availability-notify": {
     "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
+      "blockClass": "subcriber-availability",
+      "component": "AvailabilitySubscriber"
     }
   },
+
+  
   "product-identifier.product": {
     "props": {
       "label": "custom", //'default' | 'custom' | 'hide'
