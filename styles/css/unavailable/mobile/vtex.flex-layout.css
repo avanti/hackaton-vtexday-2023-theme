@@ -6,8 +6,16 @@
         margin-left: 5.14vw;
         margin-right: 5.14vw;
         margin-top: 1.125rem;
-        /* width: 89.72vw; */
-        /* min-height: 700px; */
+        width: 89.95vw;
+    }
+    
+    .flexRow--row-product-availability :global(.vtex-store-components-3-x-productImageTag--product-images-pdp) {
+        max-height: 384px!important;
+        max-width: 384px!important;
+    }
+    
+    .flexRow--row-product-availability :global(.vtex-store-components-3-x-carouselContainer--product-images-pdp) {
+        width: 384px;
     }
 
     .flexRow--row-product-availability :global(.vtex-store-components-3-x-container) {
@@ -15,12 +23,32 @@
         margin: 0 !important;
     }
 
-    /* .flexColChild--stack-layout-pdp {
-        height: 1000px;
-    } */
-
     /* TITLE */
 
+    .flexRowContent--message-availability {
+        margin-top: 1.875rem;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-notiferContainer)::before {
+        content: "Estamos sem este produto no momento :(";
+        text-align: left;
+        font: normal normal bold 16px/27px Nunito Sans;
+        letter-spacing: -0.16px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        height: 52px;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-form)::before {
+        content: "Quer ser avisado quando este produto chegar?";
+        text-align: left;
+        font: normal normal normal 14px/31px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+ 
     .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-title) {
         text-align: left;
         font: normal normal bold 16px/27px Nunito Sans;
@@ -28,15 +56,11 @@
         color: #000000;
         text-transform: uppercase;
         opacity: 1;
-        margin-top: 1.875rem;
     }
 
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-title),
     .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-notifyLabel) {
-        text-align: left;
-        font: normal normal normal 14px/31px Nunito Sans;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
+        display: none;
     }
 
     /* INPUT */
@@ -54,6 +78,7 @@
         opacity: 1;
         border-radius: 10px;
         height: 3rem;
+        width: 89.02vw;
     }
 
     .flexRowContent--message-availability :global(.vtex-styleguide-9-x-input) {
@@ -63,11 +88,10 @@
         color: #000000;
         text-transform: capitalize;
         opacity: 1;
-        width: 89.49vw;
+
     }
 
     /* BUTTON */
-
 
     .flexRowContent--message-availability :global(.vtex-button) {
         background: #005CFF 0% 0% no-repeat padding-box;
