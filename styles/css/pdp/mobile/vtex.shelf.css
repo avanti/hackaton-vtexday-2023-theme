@@ -13,4 +13,22 @@
         padding-left: 5.14vw;
     }
 
+    .shelfContentContainer--shelf-related {
+        margin-left: 5.14vw;
+        margin-right: 5.14vw;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .dot--isActive--shelf-related {
+        background: #005CFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .relatedProducts--shelf-related {
+        margin-bottom: 3.563rem;
+    }
+
 }
