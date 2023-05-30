@@ -76,7 +76,7 @@
         font: normal normal normal 13px/13px Nunito Sans;
         letter-spacing: 0px;
         color: #000000;
-        text-transform: capitalize;
+        text-transform: none;
         opacity: 1;
     }
 
