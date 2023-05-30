@@ -21,4 +21,26 @@
         min-height: 406px;
     }
 
+    .shelfContentContainer--shelf-related {
+        margin-left: 17.39vw;
+        margin-right: 17.39vw;
+    }
+
+    .relatedProducts--shelf-related {
+        margin-bottom: 5.5rem;
+    }
+
+    .dot--isActive--shelf-related {
+        background: #005CFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
 }
+
+@media screen and (min-width: 64em) and (max-width: 87em) {
+
+    .shelfContentContainer--shelf-related {
+      margin-left: 8.69vw;
+      margin-right: 8.69vw;
+    }
+}  

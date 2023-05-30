@@ -116,9 +116,9 @@
   },
   "product-identifier.product": {
     "props": {
-      "label": "custom", //'default' | 'custom' | 'hide'
-      "customLabel": "Cód", // text if label is custom
-      "idField": "productReference" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
+      "label": "custom", 
+      "customLabel": "Cód", 
+      "idField": "productReference"
     }
   },
   "add-to-cart-button#pdp": {
