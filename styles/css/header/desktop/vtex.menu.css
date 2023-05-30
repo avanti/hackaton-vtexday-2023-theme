@@ -91,3 +91,7 @@
     opacity: 1;
 }
 
+.styledLinkContainer--menu-item-institutional,
+.styledLinkContainer--menu-item-help-center {
+    margin: 0;
+}
