@@ -16,6 +16,30 @@
 
     /* TITLE */
 
+    .flexRowContent--message-availability {
+        margin-top: 1.875rem;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-notiferContainer)::before {
+        content: "Estamos sem este produto no momento :(";
+        text-align: left;
+        font: normal normal bold 16px/27px Nunito Sans;
+        letter-spacing: -0.16px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        height: 52px;
+    }
+
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-form)::before {
+        content: "Quer ser avisado quando este produto chegar?";
+        text-align: left;
+        font: normal normal normal 14px/31px Nunito Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+ 
     .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-title) {
         text-align: left;
         font: normal normal bold 16px/27px Nunito Sans;
@@ -23,15 +47,11 @@
         color: #000000;
         text-transform: uppercase;
         opacity: 1;
-        margin-top: 1.875rem;
     }
 
+    .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-title),
     .flexRowContent--message-availability :global(.vtex-availability-notify-1-x-notifyLabel) {
-        text-align: left;
-        font: normal normal normal 14px/31px Nunito Sans;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
+        display: none;
     }
 
     /* INPUT */
