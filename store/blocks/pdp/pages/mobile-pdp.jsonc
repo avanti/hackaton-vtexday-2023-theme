@@ -111,7 +111,7 @@
       "paginationDotsVisibility": "visible",
       "productList": {
         "titleText": "Quem viu, viu também:",
-        "itemsPerPage": 6,
+        "itemsPerPage": 3,
         "minItemsPerPage": 2
       }
     }

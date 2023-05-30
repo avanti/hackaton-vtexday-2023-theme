@@ -3,7 +3,18 @@
     /* SHELF RELATED */
 
     .title--shelf-related {
+        text-align: left;
+        font: normal normal bold 18px/22px Nunito Sans;
+        letter-spacing: 0.54px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        justify-content: start;
         padding-left: 15.74vw!important;
+    }
+
+    .slide--shelf-related {
+        width: 23.26vw!important;
     }
 
 }

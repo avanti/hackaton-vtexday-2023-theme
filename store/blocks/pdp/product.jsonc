@@ -174,5 +174,22 @@
       "blockClass": "subcriber-availability",
       "component": "AvailabilitySubscriber"
     }
+  },
+  "shelf.relatedProducts#pdp-tablet": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "recommendation": "view",
+      "gap": "ph5",
+      "blockClass": "shelf-related",
+      "hideOutOfStockItems": true,
+      "paginationDotsVisibility": "visible",
+      "productList": {
+        "titleText": "Quem viu, viu também:",
+        "itemsPerPage": 3,
+        "minItemsPerPage": 3
+      }
+    }
   }
 }
