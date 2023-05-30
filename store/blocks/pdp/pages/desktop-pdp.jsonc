@@ -7,7 +7,7 @@
         }
       ],
       "Then": "flex-layout.row#product-main-desktop",
-      "Else": "flex-layout.row#product-availability"
+      "Else": "flex-layout.row#product-availability-desktop"
     }
   },
   "flex-layout.row#product-main-desktop": {
@@ -59,7 +59,6 @@
       "flex-layout.col#right-col-add-button"
     ]
   },
-
   "flex-layout.col#left-col-quantity": {
     "props": {
       "preventVerticalStretch": true,
@@ -80,7 +79,6 @@
       "add-to-cart-button#pdp"
     ]
   },
-
   "flex-layout.row#shipping-simulator-desktop-pdp": {
     "props": {
       "blockClass": "shipping-simulator-row-desktop-pdp",
@@ -91,7 +89,6 @@
       "shipping-simulator#pdp"
     ]
   },
-
   "shelf.relatedProducts#pdp-desktop": {
     "blocks": [
       "product-summary.shelf"
@@ -107,5 +104,28 @@
         "minItemsPerPage": 5
       }
     }
+  },
+  // UNVAILABLE PRODUCT 
+  "flex-layout.row#product-availability-desktop": {
+    "props": {
+      "blockClass": "row-product-availability"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col-availability-desktop"
+    ]
+  },
+  "flex-layout.col#right-col-availability-desktop": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-availability"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row#availability"
+    ]
   }
 }

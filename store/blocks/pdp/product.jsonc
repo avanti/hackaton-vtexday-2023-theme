@@ -70,32 +70,6 @@
       "collapseContent": false
     }
   },
-  "condition-layout.product#availability": {
-    "props": {
-      "conditions": [
-        {
-          "subject": "isProductAvailable"
-        }
-      ],
-      "Then": "flex-layout.row#product-main",
-      "Else": "flex-layout.row#product-availability"
-    }
-  },
-  "flex-layout.row#product-main": {
-    "props": {
-      "blockClass": "product-main-pdp",
-      "colGap": 7,
-      "rowGap": 7,
-      "marginTop": 4,
-      "marginBottom": 7,
-      "paddingTop": 7,
-      "paddingBottom": 7
-    },
-    "children": [
-      "flex-layout.col#stack",
-      "flex-layout.col#right-col"
-    ]
-  },
   "stack-layout#pdp": {
     "props": {
       "blockClass": "product"
@@ -103,24 +77,6 @@
     "children": [
       "flex-layout.row#product-image"
     ]
-  },
-  "product-specification-badges": {
-    "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
-    }
-  },
-  "flex-layout.col#stack": {
-    "children": [
-      "stack-layout#pdp"
-    ],
-    "props": {
-      "width": "60%",
-      "rowGap": 0,
-      "blockClass": "stack-layout-pdp"
-    }
   },
   "flex-layout.row#product-image": {
     "children": [
@@ -142,29 +98,6 @@
       "showNavigationArrows": false
     }
   },
-  "flex-layout.col#right-col": {
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 0
-    },
-    "children": [
-      "flex-layout.row#product-name",
-      // "product-rating-summary",
-      "product-identifier.product",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "product-installments#pdp",
-      // "product-separator",
-      "sku-selector",
-      "product-quantity#pdp",
-      // "product-assembly-options",
-      "product-gifts",
-      "flex-layout.row#buy-button",
-      "availability-subscriber",
-      "flex-layout.row#shipping-simulator-pdp"
-      // "share#default"
-    ]
-  },
   "flex-layout.row#product-name": {
     "props": {
       "blockClass": "product-name",
@@ -181,56 +114,6 @@
       "hideImpossibleCombinations": false
     }
   },
-  "flex-layout.row#buy-button": {
-    "props": {
-      "marginTop": 4,
-      "marginBottom": 7,
-      "blockClass": "add-to-cart-button-pdp"
-    },
-    "children": [
-      "add-to-cart-button#pdp"
-    ]
-  },
-  "flex-layout.row#product-availability": {
-    "props": {
-      "blockClass": "row-product-availability"
-    },
-    "children": [
-      "flex-layout.col#stack",
-      "flex-layout.col#right-col-availability"
-    ]
-  },
-  "flex-layout.col#right-col-availability": {
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 0,
-      "blockClass": "info-availability"
-    },
-    "children": [
-      "flex-layout.row#product-name",
-      "product-identifier.product",
-      "sku-selector",
-      "flex-layout.row#availability"
-    ]
-  },
-
-  "flex-layout.row#availability": {
-    "props": {
-      "blockClass": "message-availability",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "availability-notify"
-    ]
-  },
-  "availability-notify": {
-    "props": {
-      "blockClass": "subcriber-availability",
-      "component": "AvailabilitySubscriber"
-    }
-  },
-
-  
   "product-identifier.product": {
     "props": {
       "label": "custom", //'default' | 'custom' | 'hide'
@@ -275,6 +158,21 @@
   "shipping-simulator#pdp": {
     "props": {
       "blockClass": "shipping-simulator-pdp"
+    }
+  },
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "availability-notify"
+    ]
+  },
+  "availability-notify": {
+    "props": {
+      "blockClass": "subcriber-availability",
+      "component": "AvailabilitySubscriber"
     }
   }
 }
