@@ -160,6 +160,10 @@
     margin-top: 12px;
 }
 
+.flexCol--subcategory-items {
+    height: 2.303rem;
+}
+
 
 @media screen and (min-width: 64em) and (min-width: 64em) and (max-width: 115em) {
     .flexRowContent--office-information {

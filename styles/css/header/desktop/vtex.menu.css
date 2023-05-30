@@ -31,6 +31,7 @@
 
 .submenuWrapper--all-col-category {
     margin: 0;
+    width: 14.69vw;
 }
 
 .menuItem--category-sub-menu {
@@ -58,7 +59,7 @@
 .submenuWrapper--all-col-category {
     height: 21.875rem;
     padding: 0;
-    padding-top: 1.406rem;
+    margin-top: 1.406rem;
 }
 
 .menuItem--category-sub-menu {
@@ -68,4 +69,25 @@
 .menuContainer--main-col-category {
     height: 12.938rem;
     margin-top: 23px;
+    gap: 13px;
 }
+
+.submenuWrapper--container-submenu {
+    background-color: #F6F6F6;
+    left: 167.5px;
+    top: -23.5px;
+    width: 970px;
+    height: 21.875rem;
+}
+
+.styledLinkContainer--sub-categoria {
+    margin: 0;
+}
+
+.styledLinkContent--sub-categoria {
+    text-align: left;
+    font: normal normal normal 13px/40px Nunito Sans;
+    color: #2A2A2A;
+    opacity: 1;
+}
+
