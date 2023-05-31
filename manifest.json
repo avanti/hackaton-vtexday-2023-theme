@@ -67,7 +67,8 @@
     "vtex.css-handles": "1.x"
   },
   "peerDependencies": {
-    "vtex.availability-notify": "1.x"
+    "vtex.availability-notify": "1.x",
+    "avantivtexio.avanti-vtexio-boilerplate-backend": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
