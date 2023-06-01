@@ -1,0 +1,31 @@
+.flexRow--affiliated-signin {
+  background: linear-gradient(102.08deg, #005CFF -0.76%, rgba(0, 48, 133, 0.85) 98.46%);
+  height: 646px;
+}
+
+.flexRowContent--affiliated-title-row {
+  justify-content: center;
+}
+
+.flexRowContent--affiliated-title-row {
+  gap: 10px;
+}
+
+.flexRow--affiliated-title-row {
+  margin-top: 40px;
+}
+
+.flexRowContent--affiliated-body-row {
+  justify-content: center;
+}
+
+.flexColChild--affiliated-body-col1 {
+  display: flex;
+
+}
+
+.flexCol--affiliated-body-col1 {
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 73px;
+}
