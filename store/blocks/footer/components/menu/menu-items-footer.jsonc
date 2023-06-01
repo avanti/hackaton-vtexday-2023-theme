@@ -47,6 +47,22 @@
             }
         }
     },
+    "menu-item#lp-affiliated": {
+      "props": {
+          "id": "lp-affiliated",
+          "blockClass": "lp-affiliated",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "/affiliated-program",
+              "noFollow": false,
+              "tagTitle": "Cadastro de Afiliados",
+              "text": "Cadastro de Afiliados"
+          }
+      }
+  },
     "menu-item#talk-us": {
         "props": {
             "id": "menu-item-talk-us",

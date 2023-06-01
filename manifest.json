@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "avantivtexio",
   "name": "store-theme",
-  "version": "5.1.0",
+  "version": "140.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -67,7 +67,6 @@
     "vtex.css-handles": "1.x"
   },
   "peerDependencies": {
-    "vtex.availability-notify": "1.x",
     "avantivtexio.avanti-vtexio-boilerplate-backend": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

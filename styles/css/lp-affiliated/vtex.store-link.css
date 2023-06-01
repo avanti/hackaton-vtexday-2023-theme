@@ -1,0 +1,12 @@
+.link--affiliated-sign-in,
+.link--affiliated-sign-up{
+  background-color: black;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 222px;
+  justify-content: center;
+  text-decoration: unset;
+  color: white;
+}

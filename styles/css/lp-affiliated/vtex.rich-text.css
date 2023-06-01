@@ -1,0 +1,35 @@
+.paragraph--affiliated-signin-title{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.strong--affiliated-signin-title {
+  /* padding-left: 10px; */
+}
+
+.container--affiliated-signin-title {
+  align-items: center;
+}
+
+.paragraph--affiliated-body-text {
+  margin: 10px 0;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  max-width: 345px;
+}
+
+.heading-level-3 {
+  margin: 22px 0;
+  color: white;
+  max-width: 390px;
+}

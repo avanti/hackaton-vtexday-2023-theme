@@ -1,0 +1,104 @@
+{
+  "store.custom#affiliated-program": {
+    "blocks": [
+      "flex-layout.row#affiliated-signin"
+    ]
+  },
+  "flex-layout.row#affiliated-signin": {
+    "props": {
+      "blockClass": "affiliated-signin",
+      "preventVerticalStretch": false
+    },
+    "children": [
+      "flex-layout.col#affiliated-page"
+    ]
+  },
+  "flex-layout.col#affiliated-page": {
+    "props": {
+      "blockClass": "affiliated-container",
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.row#affiliated-title-row",
+      "flex-layout.row#affiliated-body-row"
+    ]
+  },
+  "flex-layout.row#affiliated-title-row": {
+    "props": {
+      "blockClass": "affiliated-title-row",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#image-title",
+      "rich-text#affiliated-signin-title"
+    ]
+  },
+  "flex-layout.row#affiliated-body-row": {
+    "props": {
+      "blockClass": "affiliated-body-row",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#affiliated-body-col1",
+      "flex-layout.col#affiliated-body-col2"
+    ]
+  },
+  "flex-layout.col#affiliated-body-col1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "affiliated-body-col1"
+    },
+    "children": [
+      "rich-text#affiliated-body-text",
+      "link#affiliated-sign-in",
+      "link#affiliatedsign-up"
+    ]
+  },
+  "flex-layout.col#affiliated-body-col2": {
+    "props": {
+      "blockClass": "affiliated-body-col2"
+    },
+    "children": [
+      "image#main-image"
+    ]
+  },
+  //components
+  "rich-text#affiliated-signin-title": {
+    "props": {
+      "text": "Programa de **Afiliados**",
+      "blockClass": "affiliated-signin-title"
+    }
+  },
+  "rich-text#affiliated-body-text": {
+    "props": {
+      "text": "### Ganhe renda extra por vendas usando o seu cupom \n Faça parte do programa de afiliados e receba comissões em dinheiro direto para sua conta",
+      "blockClass": "affiliated-body-text"
+    }
+  },
+  "image#image-title": {
+    "props": {
+      "src": "assets/img/affiliated-image-title.svg",
+      "blockClass": "affiliated-image-title"
+    }
+  },
+  "image#main-image": {
+    "props": {
+      "src": "assets/img/affiliated-main-image.png",
+      "blockClass": "affiliated-main-image"
+    }
+  },
+  "link#affiliated-sign-in": {
+    "props": {
+      "blockClass": "affiliated-sign-in",
+      "href": "/hackaton-signin",
+      "label": "Inscreva-se"
+    }
+  },
+  "link#affiliatedsign-up": {
+    "props": {
+      "blockClass": "affiliated-sign-up",
+      "href": "/login",
+      "label": "Faça login"
+    }
+  }
+}

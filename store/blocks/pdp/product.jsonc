@@ -116,8 +116,8 @@
   },
   "product-identifier.product": {
     "props": {
-      "label": "custom", 
-      "customLabel": "Cód", 
+      "label": "custom",
+      "customLabel": "Cód",
       "idField": "productReference"
     }
   },
@@ -166,15 +166,15 @@
       "preventHorizontalStretch": true
     },
     "children": [
-      "availability-notify"
+      // "availability-notify"
     ]
   },
-  "availability-notify": {
-    "props": {
-      "blockClass": "subcriber-availability",
-      "component": "AvailabilitySubscriber"
-    }
-  },
+  // "availability-notify": {
+  //   "props": {
+  //     "blockClass": "subcriber-availability",
+  //     "component": "AvailabilitySubscriber"
+  //   }
+  // },
   "shelf.relatedProducts#pdp-tablet": {
     "blocks": [
       "product-summary.shelf"
