@@ -10,5 +10,8 @@
   },
   "store.custom#affiliated-signin": {
     "path": "/affiliated-signin"
+  },
+  "store.custom#hackaton-signin": {
+    "path": "/hackaton-signin"
   }
 }
