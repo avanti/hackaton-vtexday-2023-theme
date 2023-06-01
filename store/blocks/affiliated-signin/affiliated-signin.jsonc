@@ -90,7 +90,7 @@
   "link#affiliated-sign-in": {
     "props": {
       "blockClass": "affiliated-sign-in",
-      "href": "/login",
+      "href": "/hackaton-signin",
       "label": "Inscreva-se"
     }
   },
