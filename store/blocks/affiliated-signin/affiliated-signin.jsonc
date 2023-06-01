@@ -1,5 +1,5 @@
 {
-  "store.custom#affiliated-signin": {
+  "store.custom#affiliated-program": {
     "blocks": [
       "flex-layout.row#affiliated-signin"
     ]

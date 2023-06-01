@@ -8,8 +8,8 @@
   "store.custom#contact-us": {
     "path": "/contact-us"
   },
-  "store.custom#affiliated-signin": {
-    "path": "/affiliated-signin"
+  "store.custom#affiliated-program": {
+    "path": "/affiliated-program"
   },
   "store.custom#hackaton-signin": {
     "path": "/hackaton-signin"
