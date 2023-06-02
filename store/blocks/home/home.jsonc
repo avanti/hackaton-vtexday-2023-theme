@@ -20,6 +20,7 @@
       "flex-layout.row#offers-product-line",
       "flex-layout.row#slider-products-line",
       "flex-layout.row#pre-footer"
+
     ]
   },
   "responsive-layout.tablet": {
@@ -54,7 +55,7 @@
       "flex-layout.row#pre-footer"
     ]
   },
-  // FIRST BANNER 
+  // FIRST BANNER
   "flex-layout.row#home-first-line": {
     "props": {
       "blockClass": [

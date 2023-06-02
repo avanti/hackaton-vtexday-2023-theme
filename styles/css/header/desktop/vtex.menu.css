@@ -92,7 +92,12 @@
 }
 
 .styledLinkContainer--menu-item-institutional,
+.styledLinkContainer--menu-item-terms-and-conditions,
 .styledLinkContainer--lp-affiliated,
 .styledLinkContainer--menu-item-help-center {
     margin: 0;
+}
+
+.styledLinkContent--menu-item-terms-and-conditions {
+  margin-bottom: 5px;
 }

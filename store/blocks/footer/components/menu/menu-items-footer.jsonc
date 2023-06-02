@@ -34,7 +34,7 @@
     "menu-item#terms-condition": {
         "props": {
             "id": "menu-item-condition",
-            "blockClass": "menu-item-institutional",
+            "blockClass": "menu-item-terms-and-conditions",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -58,8 +58,8 @@
               "type": "internal",
               "href": "/affiliated-program",
               "noFollow": false,
-              "tagTitle": "Cadastro de Afiliados",
-              "text": "Cadastro de Afiliados"
+              "tagTitle": "Área de Afiliados",
+              "text": "Área de Afiliados"
           }
       }
   },
