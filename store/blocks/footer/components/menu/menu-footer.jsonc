@@ -8,8 +8,7 @@
             "rich-text#institutional",
             "menu-item#about-us2",
             "menu-item#privace-security",
-            "menu-item#terms-condition",
-            "menu-item#lp-affiliated"
+            "menu-item#terms-condition"
         ]
     },
     "rich-text#institutional": {

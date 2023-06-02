@@ -83,6 +83,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "search-bar",
+      "affiliated-link",
       "login",
       "minicart.v2"
     ]
@@ -215,7 +216,7 @@
 
   "menu#drawer": {
     "children": [
-      "flex-layout.row#login-mobile", 
+      "flex-layout.row#login-mobile",
       "flex-layout.col#acordion"
     ],
     "props": {
@@ -239,7 +240,7 @@
   "flex-layout.row#menu-mobile-vertical": {
     "children": [
       "flex-layout.row#login-mobile"
-      
+
     ],
     "props": {
       "blockClass": "menu-mobile-vertical-first-line",
