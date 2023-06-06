@@ -1,19 +1,19 @@
 .logoContainer {
-    padding: 0;
-    /* margin-right: 5.90vw; */
+  padding: 0;
+  /* margin-right: 5.90vw; */
 }
 
 .logoImage {
-    height: 100%;
-    width: 7.946vw;
-    margin-right: 5.90vw;
-    /* display: flex; */
+  height: 100%;
+  width: 7.946vw;
+  margin-right: 5.90vw;
+  /* display: flex; */
 }
 
 .searchBarContainer {
-    width: 37.55vw;
-    padding-top: 15px;
-    margin-right: 4.32vw;
+  width: 25.55vw;
+  padding-top: 15px;
+  margin-right: 8px;
 }
 
 /* .noAppearance {
@@ -22,58 +22,58 @@
 } */
 
 .searchBarIcon {
-    color: transparent;
-    background-image: url('assets/img/search.svg');
-    height: 30px;
-    width: 30px;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin-top: 7px;
-    margin-left: 20px;
+  color: transparent;
+  background-image: url('assets/img/search.svg');
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin-top: 7px;
+  margin-left: 20px;
 }
 
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
-    border-radius: 10px;
-    border: 0;
+  border-radius: 10px;
+  border: 0;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
 }
 
 
 .searchBarInnerContainer--input-search-bar-header .autoCompleteOuterContainer {
-    border: 1px solid #000000;
-    border-radius: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 .searchBarInnerContainer--input-search-bar-header--opened .autoCompleteOuterContainer {
-    border-bottom: none !important;
-    border-radius: 10px 10px 0 0 !important;
+  border-bottom: none !important;
+  border-radius: 10px 10px 0 0 !important;
 }
 
 .imageElement--wrapper-cart-icon {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .imageElement--image-media {
-    margin-right: 0.78vw;
-    border-radius: 5px;
+  margin-right: 0.78vw;
+  border-radius: 5px;
 }
 
 .imageElement--image-payment {
-    margin-right: 1.77vw;
+  margin-right: 1.77vw;
 }
 
 .imageElement--brands-footer-image {
-    margin-right: 1.71vw;
+  margin-right: 1.71vw;
 }
 
 .imageElement--subcategoria-image {
-    width: 15.52vw;
-    height: auto;
-    border-radius: 10px;
+  width: 15.52vw;
+  height: auto;
+  border-radius: 10px;
 }
