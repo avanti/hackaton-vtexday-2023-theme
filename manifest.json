@@ -1,7 +1,7 @@
 {
   "vendor": "avantivtexio",
   "name": "store-theme",
-  "version": "140.0.0",
+  "version": "140.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
