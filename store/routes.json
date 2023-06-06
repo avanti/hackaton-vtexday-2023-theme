@@ -13,8 +13,5 @@
   },
   "store.custom#hackaton-signin": {
     "path": "/hackaton-signin"
-  },
-  "store.custom#dashboard": {
-    "path": "/dashboard"
   }
 }
