@@ -64,7 +64,7 @@
     "minicart-checkout-button": {
         "props": {
             "blockClass": "carrinhoButton",
-            "finishShoppingButtonLink": "/checkout/#/orderform"
+            "finishShoppingButtonLink": "/checkout/#/cart"
         }
     },
     "checkout-summary.compact#minicart": {
