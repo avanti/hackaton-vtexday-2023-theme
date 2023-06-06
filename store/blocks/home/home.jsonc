@@ -20,7 +20,6 @@
       "flex-layout.row#offers-product-line",
       "flex-layout.row#slider-products-line",
       "flex-layout.row#pre-footer"
-
     ]
   },
   "responsive-layout.tablet": {
@@ -58,9 +57,7 @@
   // FIRST BANNER
   "flex-layout.row#home-first-line": {
     "props": {
-      "blockClass": [
-        "home-first-line"
-      ],
+      "blockClass": ["home-first-line"],
       "preventHorizontalStretch": false
     },
     "children": [
@@ -70,64 +67,36 @@
   },
   "flex-layout.col#image-home-first-line": {
     "props": {
-      "blockClass": [
-        "image-home-first-line"
-      ]
+      "blockClass": ["image-home-first-line"]
     },
-    "children": [
-      "image#image-banner-home-mobile"
-    ]
+    "children": ["image#image-banner-home-mobile"]
   },
   "flex-layout.col#information-home-first-line": {
     "props": {
-      "blockClass": [
-        "information-home-first-line"
-      ],
+      "blockClass": ["information-home-first-line"],
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": [
-      "rich-text#home-banner-title",
-      "rich-text#home-banner-text",
-      "rich-text#home-banner-button"
-    ]
+    "children": ["rich-text#home-banner-title", "rich-text#home-banner-text"]
   },
   "rich-text#home-banner-title": {
     "props": {
-      "blockClass": [
-        "home-banner-title"
-      ],
+      "blockClass": ["home-banner-title"],
       "text": "Lorem Ipson"
     }
   },
   "rich-text#home-banner-text": {
     "props": {
-      "blockClass": [
-        "home-banner-text"
-      ],
+      "blockClass": ["home-banner-text"],
       "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea."
-    }
-  },
-  "rich-text#home-banner-button": {
-    "props": {
-      "blockClass": [
-        "home-banner-button"
-      ],
-      "text": "[Lorem Ipson](/)",
-      "textColor": "c-on-emphasis"
     }
   },
   // PRE FOOTER
   "flex-layout.row#pre-footer": {
-    "children": [
-      "rich-text#pre-footer-title",
-      "rich-text#pre-footer-text"
-    ],
+    "children": ["rich-text#pre-footer-title", "rich-text#pre-footer-text"],
     "props": {
-      "blockClass": [
-        "pre-footer"
-      ],
+      "blockClass": ["pre-footer"],
       "preventHorizontalStretch": true
     }
   },

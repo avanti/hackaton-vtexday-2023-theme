@@ -1,7 +1,7 @@
 {
   "vendor": "vtexdayhackathon3",
   "name": "store-theme",
-  "version": "140.0.4",
+  "version": "140.0.5",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
